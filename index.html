@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>KillaXBT Trading Dashboard</title>
+<style>
+  :root{--bg:#0b0e14;--panel:#141a24;--line:#222b39;--txt:#e6edf3;--mut:#8b98a8;--grn:#26d07c;--red:#ff5470;--yel:#ffd34e;--blu:#4ea1ff}
+  *{box-sizing:border-box}
+  body{margin:0;font:14px/1.5 -apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--txt)}
+  header{display:flex;align-items:center;gap:14px;padding:14px 20px;border-bottom:1px solid var(--line);background:var(--panel)}
+  header h1{font-size:17px;margin:0}
+  .pill{font-size:12px;padding:3px 9px;border-radius:99px;background:#1d2735;color:var(--mut)}
+  .wrap{display:grid;grid-template-columns:1.3fr 1fr;gap:16px;padding:16px;max-width:1300px;margin:0 auto}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px}
+  .card h2{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--mut);margin:0 0 12px}
+  .price{font-size:34px;font-weight:700}
+  .big-row{display:flex;align-items:baseline;gap:12px}
+  .chg{font-size:15px;font-weight:600}
+  .up{color:var(--grn)} .down{color:var(--red)}
+  .levels{display:flex;flex-direction:column;gap:6px;margin-top:8px}
+  .lvl{display:flex;justify-content:space-between;padding:7px 10px;border-radius:8px;background:#0f1620;border:1px solid var(--line)}
+  .lvl small{color:var(--mut)}
+  .bias{font-size:20px;font-weight:700;padding:10px;border-radius:10px;text-align:center}
+  .tweets{grid-column:1/-1}
+  .tw{padding:11px 0;border-bottom:1px solid var(--line)}
+  .tw:last-child{border:0}
+  .tw .meta{font-size:12px;color:var(--mut);display:flex;gap:10px;margin-bottom:3px}
+  .tw .sig{color:var(--yel);font-weight:700}
+  .tw a{color:var(--blu);text-decoration:none;font-size:12px}
+  .tw .body{white-space:pre-wrap}
+  .stat{display:flex;justify-content:space-between;padding:4px 0;border-bottom:1px dotted var(--line)}
+  .muted{color:var(--mut)}
+  .err{color:var(--red);font-size:13px}
+  @media(max-width:900px){.wrap{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <h1>⚡ KillaXBT Trading Dashboard</h1>
+  <span class="pill" id="tcount">— tweets</span>
+  <span class="pill" id="updated">loading…</span>
+  <span class="pill">SMC / ICT · NFA</span>
+</header>
+
+<div class="wrap">
+  <div class="card">
+    <h2>BTC / USD (live · Coinbase)</h2>
+    <div class="big-row"><span class="price" id="px">—</span><span class="chg" id="chg"></span></div>
+    <div class="levels" id="levels"></div>
+    <p class="muted" style="margin-top:10px;font-size:12px">His most-tweeted battleground levels. Green = below price (support), red = above (resistance).</p>
+  </div>
+
+  <div class="card">
+    <h2>Decoded Bias & Setup</h2>
+    <div class="bias" id="bias">—</div>
+    <div id="stats" style="margin-top:12px"></div>
+  </div>
+
+  <div class="card tweets">
+    <h2>Latest analysis <span class="muted" style="text-transform:none">— 🔔 = trade signal</span></h2>
+    <div id="feed"><span class="muted">Loading tweets.json …</span></div>
+  </div>
+</div>
+
+<script>
+const KEY_LEVELS = [60000,65000,70000,80000];          // his battleground (edit freely)
+const SIGNAL_RE = /\b(long|short|swing|entry|target|leverage|invalidat|stop|bid|accumulat|capitulation|reclaim|sweep)\b/i;
+
+// ---- live BTC price (Coinbase public, no key) ----
+async function loadPrice(){
+  try{
+    const [spot, stats] = await Promise.all([
+      fetch('https://api.coinbase.com/v2/prices/BTC-USD/spot').then(r=>r.json()),
+      fetch('https://api.exchange.coinbase.com/products/BTC-USD/stats').then(r=>r.json())
+    ]);
+    const px = parseFloat(spot.data.amount);
+    const open = parseFloat(stats.open);
+    const chg = ((px-open)/open*100);
+    document.getElementById('px').textContent = '$'+px.toLocaleString(undefined,{maximumFractionDigits:0});
+    const ce = document.getElementById('chg');
+    ce.textContent = (chg>=0?'+':'')+chg.toFixed(2)+'% 24h';
+    ce.className = 'chg '+(chg>=0?'up':'down');
+    renderLevels(px);
+  }catch(e){ document.getElementById('px').innerHTML='<span class="err">price fetch blocked (CORS) — open via local server</span>'; renderLevels(null);}
+}
+function renderLevels(px){
+  const el=document.getElementById('levels'); el.innerHTML='';
+  KEY_LEVELS.sort((a,b)=>b-a).forEach(l=>{
+    const below = px!==null && l<px;
+    const tag = px===null?'level':below?'support':'resistance';
+    const col = px===null?'var(--mut)':below?'var(--grn)':'var(--red)';
+    el.insertAdjacentHTML('beforeend',
+      `<div class="lvl"><span>$${(l/1000)}K</span><small style="color:${col}">${tag}</small></div>`);
+  });
+}
+
+// ---- tweets ----
+async function loadTweets(){
+  try{
+    const tw = await fetch('./tweets.json?_='+Date.now()).then(r=>r.json());
+    document.getElementById('tcount').textContent = tw.length+' tweets';
+    document.getElementById('updated').textContent = 'newest: '+ (tw[0]?.createdAt?.slice(0,16) || '—');
+    renderBias(tw);
+    renderStats(tw);
+    renderFeed(tw.slice(0,40));
+  }catch(e){
+    document.getElementById('feed').innerHTML='<span class="err">Could not load ./tweets.json — data syncing from the tracker.</span>';
+  }
+}
+function renderBias(tw){
+  const recent = tw.filter(t=>!t.isReply).slice(0,25).map(t=>t.text.toLowerCase()).join(' ');
+  const bull=(recent.match(/\b(long|bullish|bought|accumulat|bid|bottom|relief)\b/g)||[]).length;
+  const bear=(recent.match(/\b(short|bearish|sold|capitulation|breakdown|lose)\b/g)||[]).length;
+  const el=document.getElementById('bias');
+  if(bull>bear){el.textContent='BIAS: BULLISH ▲ (recent tone)';el.style.background='rgba(38,208,124,.15)';el.style.color='var(--grn)';}
+  else if(bear>bull){el.textContent='BIAS: BEARISH ▼ (recent tone)';el.style.background='rgba(255,84,112,.15)';el.style.color='var(--red)';}
+  else{el.textContent='BIAS: MIXED / NEUTRAL';el.style.background='rgba(139,152,168,.15)';el.style.color='var(--mut)';}
+}
+function renderStats(tw){
+  const sig = tw.filter(t=>SIGNAL_RE.test(t.text)).length;
+  const last7 = tw.filter(t=>Date.now()-new Date(t.createdAt).getTime() < 7*864e5).length;
+  document.getElementById('stats').innerHTML =
+    `<div class="stat"><span class="muted">Signal tweets (corpus)</span><b>${sig}</b></div>`+
+    `<div class="stat"><span class="muted">Tweets last 7d</span><b>${last7}</b></div>`+
+    `<div class="stat"><span class="muted">Total loaded</span><b>${tw.length}</b></div>`+
+    `<div class="stat" style="border:0"><span class="muted">Method</span><b>Sweep → Reclaim → MSS</b></div>`;
+}
+function renderFeed(tw){
+  document.getElementById('feed').innerHTML = tw.map(t=>{
+    const sig = SIGNAL_RE.test(t.text);
+    const body = t.text.replace(/https?:\/\/t\.co\/\w+/g,'').trim();
+    return `<div class="tw">
+      <div class="meta">${sig?'<span class="sig">🔔 SIGNAL</span>':''}<span>${t.createdAt?.slice(0,16)||''}</span>
+      <span>👁 ${(t.views||0).toLocaleString()}</span><a href="${t.url}" target="_blank">open ↗</a></div>
+      <div class="body">${body.replace(/</g,'&lt;')}</div></div>`;
+  }).join('');
+}
+
+loadPrice(); loadTweets();
+setInterval(loadPrice, 30000);
+setInterval(loadTweets, 120000);
+</script>
+</body>
+</html>
