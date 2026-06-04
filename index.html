@@ -57,11 +57,18 @@
     <div id="stats" style="margin-top:12px"></div>
   </div>
 
+  <div class="card" style="grid-column:1/-1">
+    <h2>BTC chart <span class="muted" style="text-transform:none">— click a tweet to jump the chart to that moment</span></h2>
+    <div id="chartHint" class="muted" style="font-size:12px;margin-bottom:6px">Daily candles · his $ levels drawn · click any tweet below ↓</div>
+    <div id="chart" style="height:340px;width:100%"></div>
+  </div>
+
   <div class="card tweets">
-    <h2>Latest analysis <span class="muted" style="text-transform:none">— 🔔 = trade signal</span></h2>
+    <h2>Latest analysis <span class="muted" style="text-transform:none">— 🔔 = trade signal · click to chart</span></h2>
     <div id="feed"><span class="muted">Loading tweets.json …</span></div>
   </div>
 </div>
+<script src="https://unpkg.com/lightweight-charts@4.1.3/dist/lightweight-charts.standalone.production.js"></script>
 
 <script>
 const KEY_LEVELS = [60000,65000,70000,80000];          // his battleground (edit freely)
@@ -127,17 +134,68 @@ function renderStats(tw){
     `<div class="stat" style="border:0"><span class="muted">Method</span><b>Sweep → Reclaim → MSS</b></div>`;
 }
 function renderFeed(tw){
-  document.getElementById('feed').innerHTML = tw.map(t=>{
+  document.getElementById('feed').innerHTML = tw.map((t,i)=>{
     const sig = SIGNAL_RE.test(t.text);
     const body = t.text.replace(/https?:\/\/t\.co\/\w+/g,'').trim();
-    return `<div class="tw">
+    const ts = Math.floor(new Date(t.createdAt).getTime()/1000);
+    return `<div class="tw" data-ts="${ts}" data-dir="${guessDir(t.text)}" style="cursor:pointer" title="Click to chart this moment">
       <div class="meta">${sig?'<span class="sig">🔔 SIGNAL</span>':''}<span>${t.createdAt?.slice(0,16)||''}</span>
-      <span>👁 ${(t.views||0).toLocaleString()}</span><a href="${t.url}" target="_blank">open ↗</a></div>
+      <span>👁 ${(t.views||0).toLocaleString()}</span><a href="${t.url}" target="_blank" onclick="event.stopPropagation()">open ↗</a></div>
       <div class="body">${body.replace(/</g,'&lt;')}</div></div>`;
   }).join('');
+  document.querySelectorAll('#feed .tw').forEach(el=>{
+    el.addEventListener('click', ()=> chartJumpTo(+el.dataset.ts, el.dataset.dir));
+  });
+}
+function guessDir(txt){
+  const l=(txt.match(/\b(long|bought|bid|accumulat|bottom|bounce|reclaim)\b/gi)||[]).length;
+  const s=(txt.match(/\b(short|sold|sell|breakdown|capitulation|dump)\b/gi)||[]).length;
+  return l>s?'long':s>l?'short':'neutral';
 }
 
-loadPrice(); loadTweets();
+// ---- Lightweight Charts: tweet -> price at exact moment ----
+const KEY = [60000,65000,70000,80000];
+let chart, candleSeries, ohlc=[];
+function initChart(){
+  if(chart || !window.LightweightCharts) return;
+  chart = LightweightCharts.createChart(document.getElementById('chart'), {
+    layout:{background:{color:'#141a24'},textColor:'#8b98a8'},
+    grid:{vertLines:{color:'#1d2735'},horzLines:{color:'#1d2735'}},
+    timeScale:{timeVisible:true,borderColor:'#222b39'},
+    rightPriceScale:{borderColor:'#222b39'},
+    crosshair:{mode:0}
+  });
+  candleSeries = chart.addCandlestickSeries({
+    upColor:'#26d07c',downColor:'#ff5470',borderVisible:false,
+    wickUpColor:'#26d07c',wickDownColor:'#ff5470'
+  });
+}
+async function loadChart(){
+  try{
+    ohlc = await fetch('./btc_ohlc_1d.json?_='+Date.now()).then(r=>r.json());
+    initChart();
+    candleSeries.setData(ohlc.map(c=>({time:c.time,open:c.open,high:c.high,low:c.low,close:c.close})));
+    // draw his key levels as horizontal price lines
+    KEY.forEach(p=> candleSeries.createPriceLine({price:p,color:'#ffd34e',lineWidth:1,lineStyle:2,axisLabelVisible:true,title:'$'+(p/1000)+'K'}));
+    chart.timeScale().fitContent();
+  }catch(e){ document.getElementById('chartHint').innerHTML='<span class="err">Chart data not found — run: the tracker job</span>'; }
+}
+function chartJumpTo(ts, dir){
+  if(!chart||!ohlc.length) return;
+  // center the visible range ~30 days around the tweet
+  const span=18*86400;
+  chart.timeScale().setVisibleRange({from:ts-span, to:ts+span});
+  // marker on the candle nearest the tweet
+  let near=ohlc[0]; for(const c of ohlc){ if(Math.abs(c.time-ts)<Math.abs(near.time-ts)) near=c; }
+  const color = dir==='long'?'#26d07c':dir==='short'?'#ff5470':'#8b98a8';
+  const shape = dir==='long'?'arrowUp':dir==='short'?'arrowDown':'circle';
+  candleSeries.setMarkers([{time:near.time,position:dir==='short'?'aboveBar':'belowBar',color,shape,text:'tweet'}]);
+  document.getElementById('chartHint').innerHTML =
+    `Showing <b>${new Date(ts*1000).toISOString().slice(0,16).replace('T',' ')}</b> · classified <b style="color:${color}">${dir}</b> · BTC was ~$${Math.round(near.close).toLocaleString()}`;
+  document.getElementById('chart').scrollIntoView({behavior:'smooth',block:'center'});
+}
+
+loadPrice(); loadTweets(); loadChart();
 setInterval(loadPrice, 30000);
 setInterval(loadTweets, 120000);
 </script>
