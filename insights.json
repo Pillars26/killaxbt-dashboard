@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-05T18:23:37.145861+00:00",
-  "last_price": 60366.91,
+  "generated": "2026-06-05T20:23:17.588029+00:00",
+  "last_price": 60848.01,
   "last_price_time": 1780617600,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2062297654772498715",
       "text": "I am currently long on $BTC \n\nI\u2019m expecting some relief after June 5th.\n\nIf we lose the 62K-65K region, we likely see capitulation far below",
-      "pnl_pct": 0.61,
-      "pnl_leveraged_pct": 0.61,
+      "pnl_pct": 1.41,
+      "pnl_leveraged_pct": 1.41,
       "stale": false
     }
   ],
@@ -237,68 +237,68 @@
     {
       "time": 1780393541,
       "date": "Tue Jun 02 09:45",
-      "equity": 0.9601,
+      "equity": 0.9678,
       "dir": "long",
-      "ret_pct": -9.44
+      "ret_pct": -8.72
     },
     {
       "time": 1780525051,
       "date": "Wed Jun 03 22:17",
-      "equity": 0.905,
+      "equity": 0.9195,
       "dir": "long",
-      "ret_pct": -5.74
+      "ret_pct": -4.98
     }
   ],
   "levels": [
     {
       "level": 84000,
       "mentions": 9,
-      "dist_pct": 39.1,
+      "dist_pct": 38.0,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 13,
-      "dist_pct": 32.5,
+      "dist_pct": 31.5,
       "side": "resistance"
     },
     {
       "level": 79000,
       "mentions": 13,
-      "dist_pct": 30.9,
+      "dist_pct": 29.8,
       "side": "resistance"
     },
     {
       "level": 76300,
       "mentions": 8,
-      "dist_pct": 26.4,
+      "dist_pct": 25.4,
       "side": "resistance"
     },
     {
       "level": 76000,
       "mentions": 17,
-      "dist_pct": 25.9,
+      "dist_pct": 24.9,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 17,
-      "dist_pct": 22.6,
+      "dist_pct": 21.6,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 12,
-      "dist_pct": 16.0,
+      "dist_pct": 15.0,
       "side": "resistance"
     },
     {
       "level": 60000,
       "mentions": 22,
-      "dist_pct": -0.6,
+      "dist_pct": -1.4,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (16 bullish / 2 bearish of last 25). He appears long from $60,000 (+0.6% vs entry). Key levels he's citing: $84K, $80K, $79K, $76K. Latest: \"Binance plunge protection team is back.   Usually, when large $BTC bids start trailing just below price, MMs and algos tend to front run them temporarily. https\"",
+  "stance": "Recent tone is bullish (16 bullish / 2 bearish of last 25). He appears long from $60,000 (+1.4% vs entry). Key levels he's citing: $84K, $80K, $79K, $76K. Latest: \"The maniplation phase $BTC   The stage of the cycle where traders continuously lower their price target.  There's nothing wrong with being early on an asset tha\"",
   "high_conviction_count": 60
 }
