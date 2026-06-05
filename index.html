@@ -58,9 +58,15 @@
   </div>
 
   <div class="card" style="grid-column:1/-1">
-    <h2>BTC chart <span class="muted" style="text-transform:none">— click a tweet to jump the chart to that moment</span></h2>
-    <div id="chartHint" class="muted" style="font-size:12px;margin-bottom:6px">Daily candles · his $ levels drawn · click any tweet below ↓</div>
-    <div id="chart" style="height:340px;width:100%"></div>
+    <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px">
+      <h2 style="margin:0">BTC / USD <span class="muted" style="text-transform:none">— click a tweet to jump here (times in Sydney)</span></h2>
+      <div id="tfbar" style="display:flex;gap:4px"></div>
+    </div>
+    <div id="chartHint" class="muted" style="font-size:12px;margin:6px 0">His $ levels drawn · scroll to zoom · drag to pan · drag bottom edge to resize</div>
+    <div id="chartWrap" style="position:relative;height:380px;width:100%;min-height:200px;resize:vertical;overflow:hidden;border:1px solid var(--line);border-radius:8px">
+      <div id="chart" style="height:100%;width:100%"></div>
+    </div>
+    <div id="tweetPanel" style="margin-top:12px"></div>
   </div>
 
   <div class="card tweets">
@@ -73,6 +79,7 @@
 <script>
 const KEY_LEVELS = [60000,65000,70000,80000];          // his battleground (edit freely)
 const SIGNAL_RE = /\b(long|short|swing|entry|target|leverage|invalidat|stop|bid|accumulat|capitulation|reclaim|sweep)\b/i;
+let ALL_TWEETS = [];  // populated by loadTweets, used by the chart tweet-panel
 
 // ---- live BTC price (Coinbase public, no key) ----
 async function loadPrice(){
@@ -106,6 +113,7 @@ function renderLevels(px){
 async function loadTweets(){
   try{
     const tw = await fetch('./tweets.json?_='+Date.now()).then(r=>r.json());
+    ALL_TWEETS = tw;
     document.getElementById('tcount').textContent = tw.length+' tweets';
     document.getElementById('updated').textContent = 'newest: '+ (tw[0]?.createdAt?.slice(0,16) || '—');
     renderBias(tw);
@@ -153,51 +161,116 @@ function guessDir(txt){
   return l>s?'long':s>l?'short':'neutral';
 }
 
-// ---- Lightweight Charts: tweet -> price at exact moment ----
+// ---- Lightweight Charts: multi-timeframe, Sydney time, tweet -> moment ----
 const KEY = [60000,65000,70000,80000];
-let chart, candleSeries, ohlc=[];
+const SYD = 'Australia/Sydney';
+const TIMEFRAMES = {  // label -> {file, secondsPerBar, defaultSpanSec}
+  '1D': {file:'btc_ohlc_1d.json', span: 30*86400},
+  '6H': {file:'btc_ohlc_6h.json', span: 12*86400},
+  '1H': {file:'btc_ohlc_1h.json', span: 4*86400},
+};
+let chart, candleSeries, ohlcCache={}, curTF='1D', curOhlc=[], lastJump=null, priceLines=[];
+
+// format a unix-sec time in Sydney for the axis + tooltips
+function sydFmt(ts, withTime){
+  const d=new Date(ts*1000);
+  const o={timeZone:SYD, year:'numeric',month:'short',day:'2-digit'};
+  if(withTime){o.hour='2-digit';o.minute='2-digit';o.hour12=false;}
+  return d.toLocaleString('en-AU', o);
+}
 function initChart(){
   if(chart || !window.LightweightCharts) return;
   chart = LightweightCharts.createChart(document.getElementById('chart'), {
-    layout:{background:{color:'#141a24'},textColor:'#8b98a8'},
+    layout:{background:{color:'#141a24'},textColor:'#8b98a8',fontSize:11},
     grid:{vertLines:{color:'#1d2735'},horzLines:{color:'#1d2735'}},
-    timeScale:{timeVisible:true,borderColor:'#222b39'},
     rightPriceScale:{borderColor:'#222b39'},
-    crosshair:{mode:0}
+    crosshair:{mode:0},
+    timeScale:{
+      timeVisible:true, secondsVisible:false, borderColor:'#222b39',
+      // render axis labels in Sydney time
+      tickMarkFormatter:(t)=> sydFmt(t, curTF!=='1D'),
+    },
+    localization:{ timeFormatter:(t)=> sydFmt(t, true) },  // crosshair tooltip in Sydney
+    handleScroll:true, handleScale:true,
   });
   candleSeries = chart.addCandlestickSeries({
     upColor:'#26d07c',downColor:'#ff5470',borderVisible:false,
     wickUpColor:'#26d07c',wickDownColor:'#ff5470'
   });
+  // resize chart when the wrapper is dragged/resized
+  const wrap=document.getElementById('chartWrap');
+  new ResizeObserver(()=>{ if(chart) chart.applyOptions({width:wrap.clientWidth,height:wrap.clientHeight}); }).observe(wrap);
+  // timeframe buttons
+  const bar=document.getElementById('tfbar');
+  bar.innerHTML=Object.keys(TIMEFRAMES).map(tf=>
+    `<button data-tf="${tf}" style="background:${tf===curTF?'#2b6cb0':'#1d2735'};color:#e6edf3;border:1px solid #222b39;border-radius:6px;padding:4px 10px;cursor:pointer;font-size:12px">${tf}</button>`).join('');
+  bar.querySelectorAll('button').forEach(b=> b.addEventListener('click',()=>setTF(b.dataset.tf)));
+}
+async function loadTF(tf){
+  if(ohlcCache[tf]) return ohlcCache[tf];
+  const data=await fetch('./'+TIMEFRAMES[tf].file+'?_='+Date.now()).then(r=>r.json());
+  ohlcCache[tf]=data; return data;
+}
+async function setTF(tf){
+  curTF=tf;
+  document.querySelectorAll('#tfbar button').forEach(b=> b.style.background = b.dataset.tf===tf?'#2b6cb0':'#1d2735');
+  curOhlc=await loadTF(tf);
+  candleSeries.setData(curOhlc.map(c=>({time:c.time,open:c.open,high:c.high,low:c.low,close:c.close})));
+  drawLevels();
+  if(lastJump) applyJump(lastJump.ts,lastJump.dir,false); else chart.timeScale().fitContent();
+}
+function drawLevels(){
+  priceLines.forEach(l=>candleSeries.removePriceLine(l)); priceLines=[];
+  KEY.forEach(p=> priceLines.push(candleSeries.createPriceLine({price:p,color:'#ffd34e',lineWidth:1,lineStyle:2,axisLabelVisible:true,title:'$'+(p/1000)+'K'})));
 }
 async function loadChart(){
   try{
-    ohlc = await fetch('./btc_ohlc_1d.json?_='+Date.now()).then(r=>r.json());
     initChart();
-    candleSeries.setData(ohlc.map(c=>({time:c.time,open:c.open,high:c.high,low:c.low,close:c.close})));
-    // draw his key levels as horizontal price lines
-    KEY.forEach(p=> candleSeries.createPriceLine({price:p,color:'#ffd34e',lineWidth:1,lineStyle:2,axisLabelVisible:true,title:'$'+(p/1000)+'K'}));
-    chart.timeScale().fitContent();
+    await setTF(curTF);
   }catch(e){ document.getElementById('chartHint').innerHTML='<span class="err">Chart data not found — run: the tracker job</span>'; }
 }
-function chartJumpTo(ts, dir){
-  if(!chart||!ohlc.length) return;
-  // center the visible range ~30 days around the tweet
-  const span=18*86400;
+function chartJumpTo(ts, dir){ lastJump={ts,dir}; applyJump(ts,dir,true); }
+function applyJump(ts, dir, scroll){
+  if(!chart||!curOhlc.length) return;
+  const span=TIMEFRAMES[curTF].span;
   chart.timeScale().setVisibleRange({from:ts-span, to:ts+span});
-  // marker on the candle nearest the tweet
-  let near=ohlc[0]; for(const c of ohlc){ if(Math.abs(c.time-ts)<Math.abs(near.time-ts)) near=c; }
+  let near=curOhlc[0]; for(const c of curOhlc){ if(Math.abs(c.time-ts)<Math.abs(near.time-ts)) near=c; }
   const color = dir==='long'?'#26d07c':dir==='short'?'#ff5470':'#8b98a8';
   const shape = dir==='long'?'arrowUp':dir==='short'?'arrowDown':'circle';
-  candleSeries.setMarkers([{time:near.time,position:dir==='short'?'aboveBar':'belowBar',color,shape,text:'tweet'}]);
+  candleSeries.setMarkers([{time:near.time,position:dir==='short'?'aboveBar':'belowBar',color,shape,text:'KillaXBT'}]);
   document.getElementById('chartHint').innerHTML =
-    `Showing <b>${new Date(ts*1000).toISOString().slice(0,16).replace('T',' ')}</b> · classified <b style="color:${color}">${dir}</b> · BTC was ~$${Math.round(near.close).toLocaleString()}`;
-  document.getElementById('chart').scrollIntoView({behavior:'smooth',block:'center'});
+    `📍 <b>${sydFmt(ts,true)}</b> (Sydney) · classified <b style="color:${color}">${dir}</b> · BTC ≈ $${Math.round(near.close).toLocaleString()}`;
+  renderTweetPanel(ts);
+  if(scroll) document.getElementById('chartWrap').scrollIntoView({behavior:'smooth',block:'center'});
+}
+
+// ---- full tweet under the chart: try real X embed, fall back to text panel ----
+function renderTweetPanel(ts){
+  const t = ALL_TWEETS.find(x=> Math.floor(new Date(x.createdAt).getTime()/1000)===ts);
+  const p=document.getElementById('tweetPanel');
+  if(!t){ p.innerHTML=''; return; }
+  const sig = SIGNAL_RE.test(t.text);
+  const sydTime = sydFmt(ts,true);
+  // text fallback (always works, even behind Umbrella)
+  const fallback = `<div class="card" style="background:#0f1620">
+      <div class="meta" style="margin-bottom:6px">${sig?'<span class="sig">🔔 SIGNAL</span> ':''}<b>@KillaXBT</b> · ${sydTime} (Sydney) · 👁 ${(t.views||0).toLocaleString()}</div>
+      <div class="body" style="white-space:pre-wrap;font-size:15px">${t.text.replace(/</g,'&lt;')}</div>
+      <a href="${t.url}" target="_blank" style="font-size:12px">open on X ↗</a></div>`;
+  p.innerHTML = `<div id="xembed"></div>${fallback}`;
+  // try the real embed; if blocked/unavailable, the fallback already shows
+  if(window.twttr && twttr.widgets && t.url){
+    const id=(t.url.match(/status\/(\d+)/)||[])[1];
+    if(id){
+      twttr.widgets.createTweet(id, document.getElementById('xembed'),
+        {theme:'dark',width:550}).then(elc=>{ if(elc){ document.querySelector('#tweetPanel .card').style.display='none'; }});
+    }
+  }
 }
 
 loadPrice(); loadTweets(); loadChart();
 setInterval(loadPrice, 30000);
 setInterval(loadTweets, 120000);
 </script>
+<script async src="https://platform.twitter.com/widgets.js"></script>
 </body>
 </html>
