@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-05T21:55:43.372333+00:00",
-  "last_price": 61720.34,
+  "generated": "2026-06-05T23:03:25.447572+00:00",
+  "last_price": 61472.45,
   "last_price_time": 1780617600,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2062297654772498715",
       "text": "I am currently long on $BTC \n\nI\u2019m expecting some relief after June 5th.\n\nIf we lose the 62K-65K region, we likely see capitulation far below",
-      "pnl_pct": 2.87,
-      "pnl_leveraged_pct": 2.87,
+      "pnl_pct": 2.45,
+      "pnl_leveraged_pct": 2.45,
       "stale": false
     }
   ],
@@ -237,68 +237,68 @@
     {
       "time": 1780393541,
       "date": "Tue Jun 02 09:45",
-      "equity": 0.9816,
+      "equity": 0.9777,
       "dir": "long",
-      "ret_pct": -7.41
+      "ret_pct": -7.78
     },
     {
       "time": 1780525051,
       "date": "Wed Jun 03 22:17",
-      "equity": 0.9461,
+      "equity": 0.9385,
       "dir": "long",
-      "ret_pct": -3.62
+      "ret_pct": -4.01
     }
   ],
   "levels": [
     {
       "level": 84000,
       "mentions": 9,
-      "dist_pct": 36.1,
+      "dist_pct": 36.6,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 13,
-      "dist_pct": 29.6,
+      "dist_pct": 30.1,
       "side": "resistance"
     },
     {
       "level": 79000,
       "mentions": 13,
-      "dist_pct": 28.0,
+      "dist_pct": 28.5,
       "side": "resistance"
     },
     {
       "level": 76300,
       "mentions": 8,
-      "dist_pct": 23.6,
+      "dist_pct": 24.1,
       "side": "resistance"
     },
     {
       "level": 76000,
       "mentions": 17,
-      "dist_pct": 23.1,
+      "dist_pct": 23.6,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 17,
-      "dist_pct": 19.9,
+      "dist_pct": 20.4,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 12,
-      "dist_pct": 13.4,
+      "dist_pct": 13.9,
       "side": "resistance"
     },
     {
       "level": 60000,
       "mentions": 23,
-      "dist_pct": -2.8,
+      "dist_pct": -2.4,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (18 bullish / 1 bearish of last 25). He appears long from $60,000 (+2.9% vs entry). Key levels he's citing: $84K, $80K, $79K, $76K. Latest: \"This is coming from the guy who publicly shorted and sold the top.  I am buying as much $BTC as I possibly can. https://t.co/06lNe0Hx1b\"",
+  "stance": "Recent tone is bullish (18 bullish / 1 bearish of last 25). He appears long from $60,000 (+2.5% vs entry). Key levels he's citing: $84K, $80K, $79K, $76K. Latest: \"This is coming from the guy who publicly shorted and sold the top.  I am buying as much $BTC as I possibly can. https://t.co/06lNe0Hx1b\"",
   "high_conviction_count": 60
 }
