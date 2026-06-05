@@ -3,273 +3,355 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>KillaXBT Trading Dashboard</title>
+<title>KillaXBT Trading Terminal</title>
 <style>
-  :root{--bg:#0b0e14;--panel:#141a24;--line:#222b39;--txt:#e6edf3;--mut:#8b98a8;--grn:#26d07c;--red:#ff5470;--yel:#ffd34e;--blu:#4ea1ff}
+  :root{--bg:#0b0e14;--panel:#141a24;--panel2:#0f1620;--line:#222b39;--txt:#e6edf3;--mut:#8b98a8;--grn:#26d07c;--red:#ff5470;--yel:#ffd34e;--blu:#4ea1ff}
   *{box-sizing:border-box}
   body{margin:0;font:14px/1.5 -apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--txt)}
-  header{display:flex;align-items:center;gap:14px;padding:14px 20px;border-bottom:1px solid var(--line);background:var(--panel)}
-  header h1{font-size:17px;margin:0}
+  header{display:flex;align-items:center;gap:14px;padding:12px 20px;border-bottom:1px solid var(--line);background:var(--panel);flex-wrap:wrap}
+  header h1{font-size:16px;margin:0}
   .pill{font-size:12px;padding:3px 9px;border-radius:99px;background:#1d2735;color:var(--mut)}
-  .wrap{display:grid;grid-template-columns:1.3fr 1fr;gap:16px;padding:16px;max-width:1300px;margin:0 auto}
+  nav{display:flex;gap:4px;padding:10px 20px;border-bottom:1px solid var(--line);background:var(--panel);position:sticky;top:0;z-index:20;overflow-x:auto}
+  nav button{background:#1d2735;color:var(--mut);border:1px solid var(--line);border-radius:8px;padding:7px 16px;cursor:pointer;font-size:13px;white-space:nowrap}
+  nav button.active{background:#2b6cb0;color:#fff;border-color:#2b6cb0}
+  main{max-width:1280px;margin:0 auto;padding:16px}
+  .tab{display:none}.tab.active{display:block}
+  .grid{display:grid;gap:14px}
+  .g2{grid-template-columns:1.3fr 1fr}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}
+  @media(max-width:900px){.g2,.g3,.g4{grid-template-columns:1fr}}
   .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px}
-  .card h2{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--mut);margin:0 0 12px}
-  .price{font-size:34px;font-weight:700}
-  .big-row{display:flex;align-items:baseline;gap:12px}
-  .chg{font-size:15px;font-weight:600}
-  .up{color:var(--grn)} .down{color:var(--red)}
-  .levels{display:flex;flex-direction:column;gap:6px;margin-top:8px}
-  .lvl{display:flex;justify-content:space-between;padding:7px 10px;border-radius:8px;background:#0f1620;border:1px solid var(--line)}
-  .lvl small{color:var(--mut)}
-  .bias{font-size:20px;font-weight:700;padding:10px;border-radius:10px;text-align:center}
-  .tweets{grid-column:1/-1}
-  .tw{padding:11px 0;border-bottom:1px solid var(--line)}
-  .tw:last-child{border:0}
-  .tw .meta{font-size:12px;color:var(--mut);display:flex;gap:10px;margin-bottom:3px}
-  .tw .sig{color:var(--yel);font-weight:700}
-  .tw a{color:var(--blu);text-decoration:none;font-size:12px}
-  .tw .body{white-space:pre-wrap}
-  .stat{display:flex;justify-content:space-between;padding:4px 0;border-bottom:1px dotted var(--line)}
-  .muted{color:var(--mut)}
-  .err{color:var(--red);font-size:13px}
-  @media(max-width:900px){.wrap{grid-template-columns:1fr}}
+  .card h2{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--mut);margin:0 0 12px}
+  .price{font-size:32px;font-weight:700}.big-row{display:flex;align-items:baseline;gap:12px}
+  .chg{font-size:15px;font-weight:600}.up{color:var(--grn)}.down{color:var(--red)}
+  .kpi{font-size:26px;font-weight:700}.kpi-l{font-size:11px;color:var(--mut);text-transform:uppercase;letter-spacing:.05em}
+  .levels{display:flex;flex-direction:column;gap:6px}
+  .lvl{display:flex;justify-content:space-between;padding:7px 10px;border-radius:8px;background:var(--panel2);border:1px solid var(--line)}
+  .bias{font-size:18px;font-weight:700;padding:10px;border-radius:10px;text-align:center}
+  .stat{display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px dotted var(--line)}
+  .muted{color:var(--mut)} .err{color:var(--red);font-size:13px}
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  th,td{text-align:left;padding:7px 8px;border-bottom:1px solid var(--line)}
+  th{color:var(--mut);font-weight:600;cursor:pointer;user-select:none}
+  tr:hover td{background:var(--panel2)}
+  .tag{font-size:11px;padding:2px 7px;border-radius:6px;font-weight:600}
+  .t-bull{background:rgba(38,208,124,.18);color:var(--grn)}.t-bear{background:rgba(255,84,112,.18);color:var(--red)}.t-neu{background:rgba(139,152,168,.18);color:var(--mut)}
+  .t-signal{background:rgba(255,211,78,.18);color:var(--yel)}.t-entry{background:rgba(78,161,255,.18);color:var(--blu)}.t-exit{background:rgba(255,140,80,.18);color:#ff9c5b}
+  .tw{padding:11px 0;border-bottom:1px solid var(--line);cursor:pointer}.tw:last-child{border:0}
+  .tw .meta{font-size:12px;color:var(--mut);display:flex;gap:8px;align-items:center;margin-bottom:3px;flex-wrap:wrap}
+  .tw a{color:var(--blu);text-decoration:none;font-size:12px}.tw .body{white-space:pre-wrap}
+  .filters{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+  .filters button{background:#1d2735;color:var(--mut);border:1px solid var(--line);border-radius:99px;padding:5px 12px;cursor:pointer;font-size:12px}
+  .filters button.on{background:#2b6cb0;color:#fff;border-color:#2b6cb0}
+  #tfbar button{background:#1d2735;color:var(--txt);border:1px solid var(--line);border-radius:6px;padding:4px 10px;cursor:pointer;font-size:12px}
 </style>
 </head>
 <body>
 <header>
-  <h1>⚡ KillaXBT Trading Dashboard</h1>
+  <h1>⚡ KillaXBT Trading Terminal</h1>
   <span class="pill" id="tcount">— tweets</span>
   <span class="pill" id="updated">loading…</span>
-  <span class="pill">SMC / ICT · NFA</span>
+  <span class="pill">Sydney time · SMC/ICT · NFA</span>
 </header>
 
-<div class="wrap">
-  <div class="card">
-    <h2>BTC / USD (live · Coinbase)</h2>
-    <div class="big-row"><span class="price" id="px">—</span><span class="chg" id="chg"></span></div>
-    <div class="levels" id="levels"></div>
-    <p class="muted" style="margin-top:10px;font-size:12px">His most-tweeted battleground levels. Green = below price (support), red = above (resistance).</p>
-  </div>
+<nav id="nav">
+  <button data-tab="overview" class="active">Overview</button>
+  <button data-tab="chart">Chart</button>
+  <button data-tab="calls">Calls</button>
+  <button data-tab="analytics">Analytics</button>
+  <button data-tab="feed">Feed</button>
+</nav>
 
-  <div class="card">
-    <h2>Decoded Bias & Setup</h2>
-    <div class="bias" id="bias">—</div>
-    <div id="stats" style="margin-top:12px"></div>
-  </div>
-
-  <div class="card" style="grid-column:1/-1">
-    <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px">
-      <h2 style="margin:0">BTC / USD <span class="muted" style="text-transform:none">— click a tweet to jump here (times in Sydney)</span></h2>
-      <div id="tfbar" style="display:flex;gap:4px"></div>
+<main>
+  <!-- OVERVIEW -->
+  <section class="tab active" id="tab-overview">
+    <div class="grid g2">
+      <div class="card">
+        <h2>BTC / USD (live · Coinbase)</h2>
+        <div class="big-row"><span class="price" id="px">—</span><span class="chg" id="chg"></span></div>
+        <div class="levels" id="levels" style="margin-top:10px"></div>
+      </div>
+      <div class="card">
+        <h2>Decoded Bias & Setup</h2>
+        <div class="bias" id="bias">—</div>
+        <div id="ovstats" style="margin-top:12px"></div>
+      </div>
     </div>
-    <div id="chartHint" class="muted" style="font-size:12px;margin:6px 0">His $ levels drawn · scroll to zoom · drag to pan · drag bottom edge to resize</div>
-    <div id="chartWrap" style="position:relative;height:380px;width:100%;min-height:200px;resize:vertical;overflow:hidden;border:1px solid var(--line);border-radius:8px">
-      <div id="chart" style="height:100%;width:100%"></div>
+    <div class="grid g4" style="margin-top:14px" id="kpis"></div>
+    <div class="card" style="margin-top:14px">
+      <h2>His current narrative (latest signals)</h2>
+      <div id="narrative"><span class="muted">loading…</span></div>
     </div>
-    <div id="tweetPanel" style="margin-top:12px"></div>
-  </div>
+  </section>
 
-  <div class="card tweets">
-    <h2>Latest analysis <span class="muted" style="text-transform:none">— 🔔 = trade signal · click to chart</span></h2>
-    <div id="feed"><span class="muted">Loading tweets.json …</span></div>
-  </div>
-</div>
+  <!-- CHART -->
+  <section class="tab" id="tab-chart">
+    <div class="card">
+      <h2>TradingView — full chart (drawings, indicators, all timeframes)</h2>
+      <div id="tvwidget" style="height:480px"></div>
+    </div>
+    <div class="card" style="margin-top:14px">
+      <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px">
+        <h2 style="margin:0">Tweet-linked chart <span class="muted" style="text-transform:none">— click a Feed/Calls row to jump here</span></h2>
+        <div id="tfbar" style="display:flex;gap:4px"></div>
+      </div>
+      <div id="chartHint" class="muted" style="font-size:12px;margin:6px 0">His $ levels drawn · scroll zoom · drag pan · drag bottom edge to resize · Sydney time</div>
+      <div id="chartWrap" style="position:relative;height:360px;width:100%;min-height:200px;resize:vertical;overflow:hidden;border:1px solid var(--line);border-radius:8px">
+        <div id="chart" style="height:100%;width:100%"></div>
+      </div>
+      <div id="tweetPanel" style="margin-top:12px"></div>
+    </div>
+  </section>
+
+  <!-- CALLS -->
+  <section class="tab" id="tab-calls">
+    <div class="card">
+      <h2>Structured calls & how they played out <span class="muted" style="text-transform:none">— click a row to chart it</span></h2>
+      <div class="filters" id="callFilters"></div>
+      <div style="overflow-x:auto"><table id="callsTable"><thead><tr>
+        <th data-k="sydney">Date (Syd) ↕</th><th data-k="type">Type</th><th data-k="dir">Dir</th>
+        <th data-k="entry">Entry</th><th data-k="target">Target</th><th data-k="leverage">Lev</th>
+        <th data-k="ret7">7d %</th><th data-k="ret30">30d %</th><th>Tweet</th>
+      </tr></thead><tbody id="callsBody"></tbody></table></div>
+    </div>
+  </section>
+
+  <!-- ANALYTICS -->
+  <section class="tab" id="tab-analytics">
+    <div class="grid g3" id="analyticsKpis"></div>
+    <div class="grid g2" style="margin-top:14px">
+      <div class="card"><h2>Accuracy by direction (price moved his way?)</h2><div id="accTable"></div></div>
+      <div class="card"><h2>Sentiment over time (last 60 signals)</h2><canvas id="sentChart" height="160"></canvas></div>
+    </div>
+    <div class="grid g2" style="margin-top:14px">
+      <div class="card"><h2>Most-mentioned levels</h2><div id="levelHeat"></div></div>
+      <div class="card"><h2>Tweet activity (last 30 days)</h2><canvas id="volChart" height="160"></canvas></div>
+    </div>
+  </section>
+
+  <!-- FEED -->
+  <section class="tab" id="tab-feed">
+    <div class="card">
+      <h2>Latest analysis</h2>
+      <div class="filters" id="feedFilters"></div>
+      <div id="feed"><span class="muted">loading…</span></div>
+    </div>
+  </section>
+</main>
+
 <script src="https://unpkg.com/lightweight-charts@4.1.3/dist/lightweight-charts.standalone.production.js"></script>
-
 <script>
-const KEY_LEVELS = [60000,65000,70000,80000];          // his battleground (edit freely)
-const SIGNAL_RE = /\b(long|short|swing|entry|target|leverage|invalidat|stop|bid|accumulat|capitulation|reclaim|sweep)\b/i;
-let ALL_TWEETS = [];  // populated by loadTweets, used by the chart tweet-panel
+// ============ data + helpers ============
+const KEY=[60000,65000,70000,80000];
+const SYD='Australia/Sydney';
+const TYPE_TAGS={signal:'t-signal',entry:'t-entry',exit:'t-exit',outcome:'t-bull',opinion:'t-neu',accumulation:'t-bull',educational:'t-neu'};
+const SENT_TAGS={bullish:'t-bull',bearish:'t-bear',neutral:'t-neu'};
+let TWEETS=[], CALLS=[], BT=null;
 
-// ---- live BTC price (Coinbase public, no key) ----
+const $=id=>document.getElementById(id);
+function tsOf(t){ return Math.floor(new Date(t.createdAt).getTime()/1000); }
+function sydFmt(ts,withTime){const d=new Date(ts*1000);const o={timeZone:SYD,year:'numeric',month:'short',day:'2-digit'};if(withTime){o.hour='2-digit';o.minute='2-digit';o.hour12=false;}return d.toLocaleString('en-AU',o);}
+
+// ============ tabs ============
+$('nav').querySelectorAll('button').forEach(b=> b.addEventListener('click',()=>{
+  $('nav').querySelectorAll('button').forEach(x=>x.classList.remove('active'));
+  document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+  b.classList.add('active'); $('tab-'+b.dataset.tab).classList.add('active');
+  if(b.dataset.tab==='chart'){ initTV(); loadChart(); }
+  if(b.dataset.tab==='analytics') renderAnalytics();
+}));
+
+// ============ live price ============
 async function loadPrice(){
   try{
-    const [spot, stats] = await Promise.all([
+    const [spot,stats]=await Promise.all([
       fetch('https://api.coinbase.com/v2/prices/BTC-USD/spot').then(r=>r.json()),
-      fetch('https://api.exchange.coinbase.com/products/BTC-USD/stats').then(r=>r.json())
-    ]);
-    const px = parseFloat(spot.data.amount);
-    const open = parseFloat(stats.open);
-    const chg = ((px-open)/open*100);
-    document.getElementById('px').textContent = '$'+px.toLocaleString(undefined,{maximumFractionDigits:0});
-    const ce = document.getElementById('chg');
-    ce.textContent = (chg>=0?'+':'')+chg.toFixed(2)+'% 24h';
-    ce.className = 'chg '+(chg>=0?'up':'down');
+      fetch('https://api.exchange.coinbase.com/products/BTC-USD/stats').then(r=>r.json())]);
+    const px=parseFloat(spot.data.amount), open=parseFloat(stats.open), chg=(px-open)/open*100;
+    $('px').textContent='$'+px.toLocaleString(undefined,{maximumFractionDigits:0});
+    const ce=$('chg'); ce.textContent=(chg>=0?'+':'')+chg.toFixed(2)+'% 24h'; ce.className='chg '+(chg>=0?'up':'down');
     renderLevels(px);
-  }catch(e){ document.getElementById('px').innerHTML='<span class="err">price fetch blocked (CORS) — open via local server</span>'; renderLevels(null);}
+  }catch(e){ $('px').innerHTML='<span class="err">price blocked (CORS/network)</span>'; renderLevels(null); }
 }
 function renderLevels(px){
-  const el=document.getElementById('levels'); el.innerHTML='';
-  KEY_LEVELS.sort((a,b)=>b-a).forEach(l=>{
-    const below = px!==null && l<px;
-    const tag = px===null?'level':below?'support':'resistance';
-    const col = px===null?'var(--mut)':below?'var(--grn)':'var(--red)';
-    el.insertAdjacentHTML('beforeend',
-      `<div class="lvl"><span>$${(l/1000)}K</span><small style="color:${col}">${tag}</small></div>`);
-  });
+  $('levels').innerHTML=KEY.slice().sort((a,b)=>b-a).map(l=>{
+    const below=px!==null&&l<px, tag=px===null?'level':below?'support':'resistance';
+    const col=px===null?'var(--mut)':below?'var(--grn)':'var(--red)';
+    return `<div class="lvl"><span>$${l/1000}K</span><small style="color:${col}">${tag}</small></div>`;
+  }).join('');
 }
 
-// ---- tweets ----
-async function loadTweets(){
+// ============ load enriched tweets ============
+async function loadData(){
   try{
-    const tw = await fetch('./tweets.json?_='+Date.now()).then(r=>r.json());
-    ALL_TWEETS = tw;
-    document.getElementById('tcount').textContent = tw.length+' tweets';
-    document.getElementById('updated').textContent = 'newest: '+ (tw[0]?.createdAt?.slice(0,16) || '—');
-    renderBias(tw);
-    renderStats(tw);
-    renderFeed(tw.slice(0,40));
-  }catch(e){
-    document.getElementById('feed').innerHTML='<span class="err">Could not load ./tweets.json — data syncing from the tracker.</span>';
-  }
+    TWEETS=await fetch('./tweets_enriched.json?_='+Date.now()).then(r=>r.json());
+  }catch(e){ try{ TWEETS=await fetch('./tweets.json?_='+Date.now()).then(r=>r.json()); }catch(_){ $('feed').innerHTML='<span class="err">no tweet data</span>'; return; } }
+  try{ CALLS=await fetch('./calls.json?_='+Date.now()).then(r=>r.json()); }catch(e){}
+  try{ BT=await fetch('./backtest.json?_='+Date.now()).then(r=>r.json()); }catch(e){}
+  $('tcount').textContent=TWEETS.length+' tweets';
+  $('updated').textContent='newest: '+(TWEETS[0]?.sydney||sydFmt(tsOf(TWEETS[0]),true));
+  renderOverview(); renderFeed(); renderCalls();
 }
-function renderBias(tw){
-  const recent = tw.filter(t=>!t.isReply).slice(0,25).map(t=>t.text.toLowerCase()).join(' ');
-  const bull=(recent.match(/\b(long|bullish|bought|accumulat|bid|bottom|relief)\b/g)||[]).length;
-  const bear=(recent.match(/\b(short|bearish|sold|capitulation|breakdown|lose)\b/g)||[]).length;
-  const el=document.getElementById('bias');
+
+// ============ OVERVIEW ============
+function renderOverview(){
+  const recent=TWEETS.filter(t=>!t.isReply).slice(0,30);
+  const bull=recent.filter(t=>t.sentiment==='bullish').length, bear=recent.filter(t=>t.sentiment==='bearish').length;
+  const el=$('bias');
   if(bull>bear){el.textContent='BIAS: BULLISH ▲ (recent tone)';el.style.background='rgba(38,208,124,.15)';el.style.color='var(--grn)';}
   else if(bear>bull){el.textContent='BIAS: BEARISH ▼ (recent tone)';el.style.background='rgba(255,84,112,.15)';el.style.color='var(--red)';}
-  else{el.textContent='BIAS: MIXED / NEUTRAL';el.style.background='rgba(139,152,168,.15)';el.style.color='var(--mut)';}
-}
-function renderStats(tw){
-  const sig = tw.filter(t=>SIGNAL_RE.test(t.text)).length;
-  const last7 = tw.filter(t=>Date.now()-new Date(t.createdAt).getTime() < 7*864e5).length;
-  document.getElementById('stats').innerHTML =
-    `<div class="stat"><span class="muted">Signal tweets (corpus)</span><b>${sig}</b></div>`+
+  else{el.textContent='BIAS: MIXED';el.style.background='rgba(139,152,168,.15)';el.style.color='var(--mut)';}
+  const sig=TWEETS.filter(t=>t.type==='signal').length, last7=TWEETS.filter(t=>Date.now()-new Date(t.createdAt)<7*864e5).length;
+  $('ovstats').innerHTML=
+    `<div class="stat"><span class="muted">Signals (corpus)</span><b>${sig}</b></div>`+
     `<div class="stat"><span class="muted">Tweets last 7d</span><b>${last7}</b></div>`+
-    `<div class="stat"><span class="muted">Total loaded</span><b>${tw.length}</b></div>`+
-    `<div class="stat" style="border:0"><span class="muted">Method</span><b>Sweep → Reclaim → MSS</b></div>`;
-}
-function renderFeed(tw){
-  document.getElementById('feed').innerHTML = tw.map((t,i)=>{
-    const sig = SIGNAL_RE.test(t.text);
-    const body = t.text.replace(/https?:\/\/t\.co\/\w+/g,'').trim();
-    const ts = Math.floor(new Date(t.createdAt).getTime()/1000);
-    return `<div class="tw" data-ts="${ts}" data-dir="${guessDir(t.text)}" style="cursor:pointer" title="Click to chart this moment">
-      <div class="meta">${sig?'<span class="sig">🔔 SIGNAL</span>':''}<span>${t.createdAt?.slice(0,16)||''}</span>
-      <span>👁 ${(t.views||0).toLocaleString()}</span><a href="${t.url}" target="_blank" onclick="event.stopPropagation()">open ↗</a></div>
-      <div class="body">${body.replace(/</g,'&lt;')}</div></div>`;
-  }).join('');
-  document.querySelectorAll('#feed .tw').forEach(el=>{
-    el.addEventListener('click', ()=> chartJumpTo(+el.dataset.ts, el.dataset.dir));
-  });
-}
-function guessDir(txt){
-  const l=(txt.match(/\b(long|bought|bid|accumulat|bottom|bounce|reclaim)\b/gi)||[]).length;
-  const s=(txt.match(/\b(short|sold|sell|breakdown|capitulation|dump)\b/gi)||[]).length;
-  return l>s?'long':s>l?'short':'neutral';
+    `<div class="stat" style="border:0"><span class="muted">Method</span><b>Sweep→Reclaim→MSS</b></div>`;
+  // KPIs from backtest
+  const lev=BT?.summary?.by_kind||{}, dir=BT?.summary?.by_direction||{}, sr=BT?.summary?.self_reported||{right:'—',wrong:'—'};
+  const kpis=[
+    ['Self-reported',`${sr.right}/${sr.right+sr.wrong||'—'}`,'right calls'],
+    ['Short 30d acc', (dir.short?.['30']??'—')+'%','his shorts'],
+    ['Long 30d acc', (dir.long?.['30']??'—')+'%','his longs'],
+    ['Scored calls', BT?.summary?.total_scored||'—','vs price'],
+  ];
+  $('kpis').innerHTML=kpis.map(k=>`<div class="card"><div class="kpi-l">${k[0]}</div><div class="kpi">${k[1]}</div><div class="muted" style="font-size:11px">${k[2]}</div></div>`).join('');
+  $('narrative').innerHTML=TWEETS.filter(t=>t.type==='signal'||t.type==='entry'||t.type==='outcome').slice(0,6).map(t=>
+    `<div class="tw" data-ts="${tsOf(t)}"><div class="meta"><span class="tag ${SENT_TAGS[t.sentiment]}">${t.sentiment}</span><span class="tag ${TYPE_TAGS[t.type]}">${t.type}</span><span>${t.sydney}</span></div><div class="body">${esc(t.text)}</div></div>`).join('');
+  wireRowClicks('narrative');
 }
 
-// ---- Lightweight Charts: multi-timeframe, Sydney time, tweet -> moment ----
-const KEY = [60000,65000,70000,80000];
-const SYD = 'Australia/Sydney';
-const TIMEFRAMES = {  // label -> {file, secondsPerBar, defaultSpanSec}
-  '1D': {file:'btc_ohlc_1d.json', span: 30*86400},
-  '6H': {file:'btc_ohlc_6h.json', span: 12*86400},
-  '1H': {file:'btc_ohlc_1h.json', span: 4*86400},
-};
-let chart, candleSeries, ohlcCache={}, curTF='1D', curOhlc=[], lastJump=null, priceLines=[];
-
-// format a unix-sec time in Sydney for the axis + tooltips
-function sydFmt(ts, withTime){
-  const d=new Date(ts*1000);
-  const o={timeZone:SYD, year:'numeric',month:'short',day:'2-digit'};
-  if(withTime){o.hour='2-digit';o.minute='2-digit';o.hour12=false;}
-  return d.toLocaleString('en-AU', o);
+// ============ FEED + filters ============
+let feedFilter='all';
+const FEED_FILTERS=['all','signal','entry','exit','outcome','opinion','bullish','bearish'];
+function renderFeedFilters(){
+  $('feedFilters').innerHTML=FEED_FILTERS.map(f=>`<button class="${f===feedFilter?'on':''}" data-f="${f}">${f}</button>`).join('');
+  $('feedFilters').querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{feedFilter=b.dataset.f;renderFeed();}));
 }
+function renderFeed(){
+  renderFeedFilters();
+  let list=TWEETS.filter(t=>!t.isReply);
+  if(['bullish','bearish'].includes(feedFilter)) list=list.filter(t=>t.sentiment===feedFilter);
+  else if(feedFilter!=='all') list=list.filter(t=>t.type===feedFilter);
+  $('feed').innerHTML=list.slice(0,60).map(t=>
+    `<div class="tw" data-ts="${tsOf(t)}"><div class="meta">
+      <span class="tag ${SENT_TAGS[t.sentiment]||'t-neu'}">${t.sentiment||'—'}</span>
+      <span class="tag ${TYPE_TAGS[t.type]||'t-neu'}">${t.type||'—'}</span>
+      <span>${t.sydney||sydFmt(tsOf(t),true)}</span><span>👁 ${(t.views||0).toLocaleString()}</span>
+      <a href="${t.url}" target="_blank" onclick="event.stopPropagation()">open ↗</a></div>
+      <div class="body">${esc(t.text)}</div></div>`).join('') || '<span class="muted">no tweets match</span>';
+  wireRowClicks('feed');
+}
+function esc(s){return (s||'').replace(/https?:\/\/t\.co\/\w+/g,'').trim().replace(/</g,'&lt;');}
+function wireRowClicks(id){ $(id).querySelectorAll('.tw,[data-ts]').forEach(el=>{ if(el.dataset.ts) el.addEventListener('click',()=>{ goChart(+el.dataset.ts); }); }); }
+function goChart(ts){ $('nav').querySelector('[data-tab="chart"]').click(); setTimeout(()=>{initTV();loadChart().then(()=>chartJumpTo(ts));},120); }
+
+// ============ CALLS table ============
+let callFilter='all', callSort={k:'sydney',dir:-1};
+const CALL_FILTERS=['all','entry','exit','signal','outcome','long','short'];
+function scoreCall(c){ // attach 7d/30d returns from daily ohlc if loaded
+  return c;
+}
+function renderCalls(){
+  $('callFilters').innerHTML=CALL_FILTERS.map(f=>`<button class="${f===callFilter?'on':''}" data-f="${f}">${f}</button>`).join('');
+  $('callFilters').querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{callFilter=b.dataset.f;renderCalls();}));
+  let rows=CALLS.filter(c=>c.kind!=='bias'||c.levels.length);
+  if(['long','short'].includes(callFilter)) rows=rows.filter(c=>c.direction===callFilter);
+  else if(callFilter!=='all') rows=rows.filter(c=>c.kind===callFilter);
+  // merge backtest returns
+  const btById={}; (BT?.results||[]).forEach(r=>btById[r.id]=r);
+  rows=rows.map(c=>{const b=btById[c.id]; return {...c, sydney:sydFmtFromUnix(c.time), ret7:b?.moves?.['7']?.ret_pct, ret30:b?.moves?.['30']?.ret_pct};});
+  rows.sort((a,b)=>{const k=callSort.k;let x=a[k],y=b[k];if(x==null)x=-1e9;if(y==null)y=-1e9;return (x>y?1:x<y?-1:0)*callSort.dir;});
+  $('callsBody').innerHTML=rows.slice(0,200).map(c=>{
+    const r7=c.ret7==null?'—':`<span class="${c.ret7>=0?'up':'down'}">${c.ret7}%</span>`;
+    const r30=c.ret30==null?'—':`<span class="${c.ret30>=0?'up':'down'}">${c.ret30}%</span>`;
+    return `<tr data-ts="${c.time}"><td>${c.sydney}</td><td><span class="tag ${TYPE_TAGS[c.kind]||'t-neu'}">${c.kind}</span></td>
+      <td><span class="tag ${c.direction==='long'?'t-bull':c.direction==='short'?'t-bear':'t-neu'}">${c.direction}</span></td>
+      <td>${c.entry?'$'+c.entry.toLocaleString():'—'}</td><td>${c.target?'$'+c.target.toLocaleString():'—'}</td>
+      <td>${c.leverage?c.leverage+'x':'—'}</td><td>${r7}</td><td>${r30}</td>
+      <td><a href="${c.url}" target="_blank" onclick="event.stopPropagation()">↗</a></td></tr>`;
+  }).join('') || '<tr><td colspan="9" class="muted">no calls match</td></tr>';
+  $('callsBody').querySelectorAll('tr[data-ts]').forEach(tr=>tr.addEventListener('click',()=>goChart(+tr.dataset.ts)));
+  document.querySelectorAll('#callsTable th[data-k]').forEach(th=>th.onclick=()=>{const k=th.dataset.k;callSort={k,dir:callSort.k===k?-callSort.dir:-1};renderCalls();});
+}
+function sydFmtFromUnix(t){return sydFmt(t,true);}
+
+// ============ ANALYTICS ============
+function renderAnalytics(){
+  const dir=BT?.summary?.by_direction||{};
+  $('analyticsKpis').innerHTML=[
+    ['Total scored',BT?.summary?.total_scored||'—'],
+    ['Short edge 30d',(dir.short?.['30']??'—')+'%'],
+    ['Long edge 30d',(dir.long?.['30']??'—')+'%'],
+  ].map(k=>`<div class="card"><div class="kpi-l">${k[0]}</div><div class="kpi">${k[1]}</div></div>`).join('');
+  const H=['1','3','7','14','30'];
+  $('accTable').innerHTML='<table><thead><tr><th>Horizon</th><th>Long</th><th>Short</th></tr></thead><tbody>'+
+    H.map(h=>`<tr><td>${h}d</td><td>${dir.long?.[h]??'—'}%</td><td>${dir.short?.[h]??'—'}%</td></tr>`).join('')+'</tbody></table>';
+  // level heatmap
+  const lc={}; CALLS.forEach(c=>(c.levels||[]).forEach(l=>{const k=Math.round(l/1000);lc[k]=(lc[k]||0)+1;}));
+  const top=Object.entries(lc).sort((a,b)=>b[1]-a[1]).slice(0,10), max=Math.max(...top.map(t=>t[1]),1);
+  $('levelHeat').innerHTML=top.map(([k,v])=>`<div style="display:flex;align-items:center;gap:8px;margin:3px 0"><span style="width:54px">$${k}K</span><div style="height:14px;width:${v/max*100}%;background:var(--yel);border-radius:3px;opacity:.8"></div><span class="muted">${v}</span></div>`).join('');
+  drawSentChart(); drawVolChart();
+}
+function drawSentChart(){
+  const c=$('sentChart'),x=c.getContext('2d');x.clearRect(0,0,c.width,c.height);
+  const sigs=TWEETS.filter(t=>t.type==='signal'||t.type==='entry').slice(0,60).reverse();
+  const W=c.width=c.clientWidth,H=c.height; const n=sigs.length||1;
+  sigs.forEach((t,i)=>{const val=t.sent_score||0;const y=H/2-(val*H/2*0.9);x.fillStyle=val>0.1?'#26d07c':val<-0.1?'#ff5470':'#8b98a8';x.fillRect(i*W/n, Math.min(H/2,y),Math.max(2,W/n-1),Math.abs(H/2-y)||2);});
+  x.strokeStyle='#222b39';x.beginPath();x.moveTo(0,H/2);x.lineTo(W,H/2);x.stroke();
+}
+function drawVolChart(){
+  const c=$('volChart'),x=c.getContext('2d');x.clearRect(0,0,c.width,c.height);
+  const days={};const now=Date.now();
+  TWEETS.forEach(t=>{const d=Math.floor((now-new Date(t.createdAt))/864e5);if(d<30&&d>=0)days[d]=(days[d]||0)+1;});
+  const W=c.width=c.clientWidth,H=c.height;const max=Math.max(...Object.values(days),1);
+  for(let d=29;d>=0;d--){const v=days[d]||0;const h=v/max*(H-10);x.fillStyle='#4ea1ff';x.fillRect((29-d)*W/30,H-h,Math.max(2,W/30-1),h);}
+}
+
+// ============ TradingView widget ============
+let tvLoaded=false;
+function initTV(){
+  if(tvLoaded) return; tvLoaded=true;
+  const s=document.createElement('script');s.src='https://s3.tradingview.com/tv.js';
+  s.onload=()=>{ new TradingView.widget({container_id:'tvwidget',symbol:'COINBASE:BTCUSD',interval:'D',theme:'dark',style:'1',timezone:'Australia/Sydney',autosize:true,studies:[],hide_side_toolbar:false}); };
+  s.onerror=()=>{ $('tvwidget').innerHTML='<span class="err">TradingView widget blocked on this network — works on phone / GitHub Pages.</span>'; };
+  document.body.appendChild(s);
+}
+
+// ============ Lightweight tweet-chart (from earlier, multi-tf + Sydney) ============
+const TF={'1D':{file:'btc_ohlc_1d.json',span:30*86400},'6H':{file:'btc_ohlc_6h.json',span:12*86400},'1H':{file:'btc_ohlc_1h.json',span:4*86400}};
+let chart,series,ohlcCache={},curTF='1D',curOhlc=[],lastJump=null,pLines=[];
 function initChart(){
-  if(chart || !window.LightweightCharts) return;
-  chart = LightweightCharts.createChart(document.getElementById('chart'), {
-    layout:{background:{color:'#141a24'},textColor:'#8b98a8',fontSize:11},
-    grid:{vertLines:{color:'#1d2735'},horzLines:{color:'#1d2735'}},
-    rightPriceScale:{borderColor:'#222b39'},
-    crosshair:{mode:0},
-    timeScale:{
-      timeVisible:true, secondsVisible:false, borderColor:'#222b39',
-      // render axis labels in Sydney time
-      tickMarkFormatter:(t)=> sydFmt(t, curTF!=='1D'),
-    },
-    localization:{ timeFormatter:(t)=> sydFmt(t, true) },  // crosshair tooltip in Sydney
-    handleScroll:true, handleScale:true,
-  });
-  candleSeries = chart.addCandlestickSeries({
-    upColor:'#26d07c',downColor:'#ff5470',borderVisible:false,
-    wickUpColor:'#26d07c',wickDownColor:'#ff5470'
-  });
-  // resize chart when the wrapper is dragged/resized
-  const wrap=document.getElementById('chartWrap');
-  new ResizeObserver(()=>{ if(chart) chart.applyOptions({width:wrap.clientWidth,height:wrap.clientHeight}); }).observe(wrap);
-  // timeframe buttons
-  const bar=document.getElementById('tfbar');
-  bar.innerHTML=Object.keys(TIMEFRAMES).map(tf=>
-    `<button data-tf="${tf}" style="background:${tf===curTF?'#2b6cb0':'#1d2735'};color:#e6edf3;border:1px solid #222b39;border-radius:6px;padding:4px 10px;cursor:pointer;font-size:12px">${tf}</button>`).join('');
-  bar.querySelectorAll('button').forEach(b=> b.addEventListener('click',()=>setTF(b.dataset.tf)));
+  if(chart||!window.LightweightCharts) return;
+  chart=LightweightCharts.createChart($('chart'),{layout:{background:{color:'#141a24'},textColor:'#8b98a8',fontSize:11},grid:{vertLines:{color:'#1d2735'},horzLines:{color:'#1d2735'}},rightPriceScale:{borderColor:'#222b39'},crosshair:{mode:0},timeScale:{timeVisible:true,secondsVisible:false,borderColor:'#222b39',tickMarkFormatter:t=>sydFmt(t,curTF!=='1D')},localization:{timeFormatter:t=>sydFmt(t,true)}});
+  series=chart.addCandlestickSeries({upColor:'#26d07c',downColor:'#ff5470',borderVisible:false,wickUpColor:'#26d07c',wickDownColor:'#ff5470'});
+  new ResizeObserver(()=>{if(chart)chart.applyOptions({width:$('chartWrap').clientWidth,height:$('chartWrap').clientHeight});}).observe($('chartWrap'));
+  $('tfbar').innerHTML=Object.keys(TF).map(tf=>`<button data-tf="${tf}">${tf}</button>`).join('');
+  $('tfbar').querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>setTF(b.dataset.tf)));
 }
-async function loadTF(tf){
-  if(ohlcCache[tf]) return ohlcCache[tf];
-  const data=await fetch('./'+TIMEFRAMES[tf].file+'?_='+Date.now()).then(r=>r.json());
-  ohlcCache[tf]=data; return data;
-}
-async function setTF(tf){
-  curTF=tf;
-  document.querySelectorAll('#tfbar button').forEach(b=> b.style.background = b.dataset.tf===tf?'#2b6cb0':'#1d2735');
-  curOhlc=await loadTF(tf);
-  candleSeries.setData(curOhlc.map(c=>({time:c.time,open:c.open,high:c.high,low:c.low,close:c.close})));
-  drawLevels();
-  if(lastJump) applyJump(lastJump.ts,lastJump.dir,false); else chart.timeScale().fitContent();
-}
-function drawLevels(){
-  priceLines.forEach(l=>candleSeries.removePriceLine(l)); priceLines=[];
-  KEY.forEach(p=> priceLines.push(candleSeries.createPriceLine({price:p,color:'#ffd34e',lineWidth:1,lineStyle:2,axisLabelVisible:true,title:'$'+(p/1000)+'K'})));
-}
-async function loadChart(){
-  try{
-    initChart();
-    await setTF(curTF);
-  }catch(e){ document.getElementById('chartHint').innerHTML='<span class="err">Chart data not found — run: the tracker job</span>'; }
-}
-function chartJumpTo(ts, dir){ lastJump={ts,dir}; applyJump(ts,dir,true); }
-function applyJump(ts, dir, scroll){
-  if(!chart||!curOhlc.length) return;
-  const span=TIMEFRAMES[curTF].span;
-  chart.timeScale().setVisibleRange({from:ts-span, to:ts+span});
-  let near=curOhlc[0]; for(const c of curOhlc){ if(Math.abs(c.time-ts)<Math.abs(near.time-ts)) near=c; }
-  const color = dir==='long'?'#26d07c':dir==='short'?'#ff5470':'#8b98a8';
-  const shape = dir==='long'?'arrowUp':dir==='short'?'arrowDown':'circle';
-  candleSeries.setMarkers([{time:near.time,position:dir==='short'?'aboveBar':'belowBar',color,shape,text:'KillaXBT'}]);
-  document.getElementById('chartHint').innerHTML =
-    `📍 <b>${sydFmt(ts,true)}</b> (Sydney) · classified <b style="color:${color}">${dir}</b> · BTC ≈ $${Math.round(near.close).toLocaleString()}`;
+async function loadTFdata(tf){ if(ohlcCache[tf])return ohlcCache[tf]; const d=await fetch('./'+TF[tf].file+'?_='+Date.now()).then(r=>r.json()); ohlcCache[tf]=d; return d; }
+async function setTF(tf){curTF=tf;$('tfbar').querySelectorAll('button').forEach(b=>b.style.background=b.dataset.tf===tf?'#2b6cb0':'#1d2735');curOhlc=await loadTFdata(tf);series.setData(curOhlc.map(c=>({time:c.time,open:c.open,high:c.high,low:c.low,close:c.close})));pLines.forEach(l=>series.removePriceLine(l));pLines=KEY.map(p=>series.createPriceLine({price:p,color:'#ffd34e',lineWidth:1,lineStyle:2,axisLabelVisible:true,title:'$'+p/1000+'K'}));if(lastJump)applyJump(lastJump.ts,false);else chart.timeScale().fitContent();}
+async function loadChart(){ try{initChart();if(!curOhlc.length)await setTF(curTF);}catch(e){$('chartHint').innerHTML='<span class="err">chart data missing — run fetch_ohlc.py</span>';} }
+function chartJumpTo(ts){lastJump={ts};applyJump(ts,true);}
+function applyJump(ts,scroll){
+  if(!chart||!curOhlc.length)return;
+  const span=TF[curTF].span;chart.timeScale().setVisibleRange({from:ts-span,to:ts+span});
+  let near=curOhlc[0];for(const c of curOhlc)if(Math.abs(c.time-ts)<Math.abs(near.time-ts))near=c;
+  const tw=TWEETS.find(t=>tsOf(t)===ts); const dir=tw?.dir||'neutral';
+  const color=dir==='long'?'#26d07c':dir==='short'?'#ff5470':'#8b98a8';
+  series.setMarkers([{time:near.time,position:dir==='short'?'aboveBar':'belowBar',color,shape:dir==='long'?'arrowUp':dir==='short'?'arrowDown':'circle',text:'KillaXBT'}]);
+  $('chartHint').innerHTML=`📍 <b>${sydFmt(ts,true)}</b> (Sydney) · <b style="color:${color}">${dir}</b> · BTC ≈ $${Math.round(near.close).toLocaleString()}`;
   renderTweetPanel(ts);
-  if(scroll) document.getElementById('chartWrap').scrollIntoView({behavior:'smooth',block:'center'});
+  if(scroll)$('chartWrap').scrollIntoView({behavior:'smooth',block:'center'});
 }
-
-// ---- full tweet under the chart: try real X embed, fall back to text panel ----
 function renderTweetPanel(ts){
-  const t = ALL_TWEETS.find(x=> Math.floor(new Date(x.createdAt).getTime()/1000)===ts);
-  const p=document.getElementById('tweetPanel');
-  if(!t){ p.innerHTML=''; return; }
-  const sig = SIGNAL_RE.test(t.text);
-  const sydTime = sydFmt(ts,true);
-  // text fallback (always works, even behind Umbrella)
-  const fallback = `<div class="card" style="background:#0f1620">
-      <div class="meta" style="margin-bottom:6px">${sig?'<span class="sig">🔔 SIGNAL</span> ':''}<b>@KillaXBT</b> · ${sydTime} (Sydney) · 👁 ${(t.views||0).toLocaleString()}</div>
-      <div class="body" style="white-space:pre-wrap;font-size:15px">${t.text.replace(/</g,'&lt;')}</div>
-      <a href="${t.url}" target="_blank" style="font-size:12px">open on X ↗</a></div>`;
-  p.innerHTML = `<div id="xembed"></div>${fallback}`;
-  // try the real embed; if blocked/unavailable, the fallback already shows
-  if(window.twttr && twttr.widgets && t.url){
-    const id=(t.url.match(/status\/(\d+)/)||[])[1];
-    if(id){
-      twttr.widgets.createTweet(id, document.getElementById('xembed'),
-        {theme:'dark',width:550}).then(elc=>{ if(elc){ document.querySelector('#tweetPanel .card').style.display='none'; }});
-    }
-  }
+  const t=TWEETS.find(x=>tsOf(x)===ts); const p=$('tweetPanel'); if(!t){p.innerHTML='';return;}
+  const fb=`<div class="card" style="background:var(--panel2)"><div class="meta" style="font-size:12px;color:var(--mut);margin-bottom:6px"><span class="tag ${SENT_TAGS[t.sentiment]||'t-neu'}">${t.sentiment||'—'}</span> <span class="tag ${TYPE_TAGS[t.type]||'t-neu'}">${t.type||'—'}</span> <b>@KillaXBT</b> · ${t.sydney||sydFmt(ts,true)} (Sydney) · 👁 ${(t.views||0).toLocaleString()}</div><div class="body" style="white-space:pre-wrap;font-size:15px">${(t.text||'').replace(/</g,'&lt;')}</div><a href="${t.url}" target="_blank" style="font-size:12px;color:var(--blu)">open on X ↗</a></div>`;
+  p.innerHTML=`<div id="xembed"></div>${fb}`;
+  if(window.twttr&&twttr.widgets&&t.url){const id=(t.url.match(/status\/(\d+)/)||[])[1];if(id)twttr.widgets.createTweet(id,$('xembed'),{theme:'dark',width:550}).then(el=>{if(el){const c=p.querySelector('.card');if(c)c.style.display='none';}});}
 }
 
-loadPrice(); loadTweets(); loadChart();
-setInterval(loadPrice, 30000);
-setInterval(loadTweets, 120000);
+loadPrice(); loadData();
+setInterval(loadPrice,30000);
+setInterval(loadData,120000);
 </script>
 <script async src="https://platform.twitter.com/widgets.js"></script>
 </body>
