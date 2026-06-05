@@ -1,0 +1,304 @@
+{
+  "generated": "2026-06-05T04:41:48.978751+00:00",
+  "last_price": 63741.92,
+  "last_price_time": 1780617600,
+  "positions": [
+    {
+      "dir": "long",
+      "entry": 60000,
+      "time": 1780525051,
+      "date": "Wed Jun 03 22:17",
+      "leverage": null,
+      "url": "https://x.com/KillaXBT/status/2062297654772498715",
+      "text": "I am currently long on $BTC \n\nI\u2019m expecting some relief after June 5th.\n\nIf we lose the 62K-65K region, we likely see capitulation far below",
+      "pnl_pct": 6.24,
+      "pnl_leveraged_pct": 6.24,
+      "stale": false
+    }
+  ],
+  "equity_curve": [
+    {
+      "time": 1756811763,
+      "date": "Tue Sep 02 11:16",
+      "equity": 1.0027,
+      "dir": "long",
+      "ret_pct": 0.27
+    },
+    {
+      "time": 1759799740,
+      "date": "Tue Oct 07 01:15",
+      "equity": 1.0715,
+      "dir": "short",
+      "ret_pct": 6.86
+    },
+    {
+      "time": 1759966338,
+      "date": "Wed Oct 08 23:32",
+      "equity": 1.1804,
+      "dir": "short",
+      "ret_pct": 10.17
+    },
+    {
+      "time": 1760389064,
+      "date": "Mon Oct 13 20:57",
+      "equity": 1.2286,
+      "dir": "short",
+      "ret_pct": 4.08
+    },
+    {
+      "time": 1761827005,
+      "date": "Thu Oct 30 12:23",
+      "equity": 1.149,
+      "dir": "long",
+      "ret_pct": -6.48
+    },
+    {
+      "time": 1763134525,
+      "date": "Fri Nov 14 15:35",
+      "equity": 1.0343,
+      "dir": "long",
+      "ret_pct": -9.98
+    },
+    {
+      "time": 1763398312,
+      "date": "Mon Nov 17 16:51",
+      "equity": 0.9912,
+      "dir": "long",
+      "ret_pct": -4.16
+    },
+    {
+      "time": 1763468080,
+      "date": "Tue Nov 18 12:14",
+      "equity": 1.0508,
+      "dir": "short",
+      "ret_pct": 6.02
+    },
+    {
+      "time": 1763713501,
+      "date": "Fri Nov 21 08:25",
+      "equity": 1.1229,
+      "dir": "long",
+      "ret_pct": 6.86
+    },
+    {
+      "time": 1765371148,
+      "date": "Wed Dec 10 12:52",
+      "equity": 1.194,
+      "dir": "short",
+      "ret_pct": 6.33
+    },
+    {
+      "time": 1765397867,
+      "date": "Wed Dec 10 20:17",
+      "equity": 1.2696,
+      "dir": "short",
+      "ret_pct": 6.33
+    },
+    {
+      "time": 1765820780,
+      "date": "Mon Dec 15 17:46",
+      "equity": 1.301,
+      "dir": "long",
+      "ret_pct": 2.48
+    },
+    {
+      "time": 1765913441,
+      "date": "Tue Dec 16 19:30",
+      "equity": 1.3073,
+      "dir": "short",
+      "ret_pct": 0.48
+    },
+    {
+      "time": 1766930495,
+      "date": "Sun Dec 28 14:01",
+      "equity": 1.2535,
+      "dir": "short",
+      "ret_pct": -4.12
+    },
+    {
+      "time": 1767629803,
+      "date": "Mon Jan 05 16:16",
+      "equity": 1.2893,
+      "dir": "short",
+      "ret_pct": 2.86
+    },
+    {
+      "time": 1767799497,
+      "date": "Wed Jan 07 15:24",
+      "equity": 1.2091,
+      "dir": "short",
+      "ret_pct": -6.22
+    },
+    {
+      "time": 1769032775,
+      "date": "Wed Jan 21 21:59",
+      "equity": 1.2064,
+      "dir": "long",
+      "ret_pct": -0.23
+    },
+    {
+      "time": 1769440819,
+      "date": "Mon Jan 26 15:20",
+      "equity": 1.0754,
+      "dir": "long",
+      "ret_pct": -10.86
+    },
+    {
+      "time": 1769535359,
+      "date": "Tue Jan 27 17:35",
+      "equity": 1.2378,
+      "dir": "short",
+      "ret_pct": 15.1
+    },
+    {
+      "time": 1770040272,
+      "date": "Mon Feb 02 13:51",
+      "equity": 1.3726,
+      "dir": "short",
+      "ret_pct": 10.89
+    },
+    {
+      "time": 1770162344,
+      "date": "Tue Feb 03 23:45",
+      "equity": 1.2481,
+      "dir": "long",
+      "ret_pct": -9.06
+    },
+    {
+      "time": 1770256932,
+      "date": "Thu Feb 05 02:02",
+      "equity": 1.3161,
+      "dir": "long",
+      "ret_pct": 5.44
+    },
+    {
+      "time": 1770419147,
+      "date": "Fri Feb 06 23:05",
+      "equity": 1.2841,
+      "dir": "long",
+      "ret_pct": -2.43
+    },
+    {
+      "time": 1770592990,
+      "date": "Sun Feb 08 23:23",
+      "equity": 1.2569,
+      "dir": "long",
+      "ret_pct": -2.12
+    },
+    {
+      "time": 1772999783,
+      "date": "Sun Mar 08 19:56",
+      "equity": 1.1262,
+      "dir": "short",
+      "ret_pct": -10.4
+    },
+    {
+      "time": 1773797739,
+      "date": "Wed Mar 18 01:35",
+      "equity": 1.1271,
+      "dir": "long",
+      "ret_pct": 0.08
+    },
+    {
+      "time": 1775397362,
+      "date": "Sun Apr 05 13:56",
+      "equity": 1.1557,
+      "dir": "long",
+      "ret_pct": 2.54
+    },
+    {
+      "time": 1775423079,
+      "date": "Sun Apr 05 21:04",
+      "equity": 1.185,
+      "dir": "long",
+      "ret_pct": 2.54
+    },
+    {
+      "time": 1776704063,
+      "date": "Mon Apr 20 16:54",
+      "equity": 1.1616,
+      "dir": "short",
+      "ret_pct": -1.98
+    },
+    {
+      "time": 1777552397,
+      "date": "Thu Apr 30 12:33",
+      "equity": 1.1052,
+      "dir": "short",
+      "ret_pct": -4.85
+    },
+    {
+      "time": 1779301986,
+      "date": "Wed May 20 18:33",
+      "equity": 1.0602,
+      "dir": "long",
+      "ret_pct": -4.08
+    },
+    {
+      "time": 1780393541,
+      "date": "Tue Jun 02 09:45",
+      "equity": 1.0138,
+      "dir": "long",
+      "ret_pct": -4.38
+    },
+    {
+      "time": 1780525051,
+      "date": "Wed Jun 03 22:17",
+      "equity": 1.0091,
+      "dir": "long",
+      "ret_pct": -0.47
+    }
+  ],
+  "levels": [
+    {
+      "level": 84000,
+      "mentions": 9,
+      "dist_pct": 31.8,
+      "side": "resistance"
+    },
+    {
+      "level": 80000,
+      "mentions": 13,
+      "dist_pct": 25.5,
+      "side": "resistance"
+    },
+    {
+      "level": 79000,
+      "mentions": 13,
+      "dist_pct": 23.9,
+      "side": "resistance"
+    },
+    {
+      "level": 76300,
+      "mentions": 8,
+      "dist_pct": 19.7,
+      "side": "resistance"
+    },
+    {
+      "level": 76000,
+      "mentions": 17,
+      "dist_pct": 19.2,
+      "side": "resistance"
+    },
+    {
+      "level": 74000,
+      "mentions": 17,
+      "dist_pct": 16.1,
+      "side": "resistance"
+    },
+    {
+      "level": 70000,
+      "mentions": 12,
+      "dist_pct": 9.8,
+      "side": "resistance"
+    },
+    {
+      "level": 60000,
+      "mentions": 22,
+      "dist_pct": -5.9,
+      "side": "support"
+    }
+  ],
+  "stance": "Recent tone is bullish (9 bullish / 2 bearish of last 25). He appears long from $60,000 (+6.2% vs entry). Key levels he's citing: $84K, $80K, $79K, $76K. Latest: \"Crazy how people load up X just to hate on someone's trade or market analysis.  Like bro, why do you even care? \ud83e\udd23  Says a lot about how little some people have \"",
+  "high_conviction_count": 60
+}

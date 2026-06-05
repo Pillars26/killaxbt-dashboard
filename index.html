@@ -78,6 +78,20 @@
     </div>
     <div class="grid g4" style="margin-top:14px" id="kpis"></div>
     <div class="card" style="margin-top:14px">
+      <h2>📋 What KillaXBT thinks right now</h2>
+      <div id="stance" style="font-size:15px;line-height:1.6"><span class="muted">loading…</span></div>
+    </div>
+    <div class="grid g2" style="margin-top:14px">
+      <div class="card">
+        <h2>🎯 Inferred open positions <span class="muted" style="text-transform:none">— entry posted, not yet closed</span></h2>
+        <div id="positions"><span class="muted">loading…</span></div>
+      </div>
+      <div class="card">
+        <h2>📐 Key levels he's citing (auto, last 45d)</h2>
+        <div id="autolevels"><span class="muted">loading…</span></div>
+      </div>
+    </div>
+    <div class="card" style="margin-top:14px">
       <h2>His current narrative (latest signals)</h2>
       <div id="narrative"><span class="muted">loading…</span></div>
     </div>
@@ -108,7 +122,7 @@
       <h2>Structured calls & how they played out <span class="muted" style="text-transform:none">— click a row to chart it</span></h2>
       <div class="filters" id="callFilters"></div>
       <div style="overflow-x:auto"><table id="callsTable"><thead><tr>
-        <th data-k="sydney">Date (Syd) ↕</th><th data-k="type">Type</th><th data-k="dir">Dir</th>
+        <th data-k="sydney">Date (Syd) ↕</th><th data-k="conviction">★</th><th data-k="kind">Type</th><th data-k="direction">Dir</th>
         <th data-k="entry">Entry</th><th data-k="target">Target</th><th data-k="leverage">Lev</th>
         <th data-k="ret7">7d %</th><th data-k="ret30">30d %</th><th>Tweet</th>
       </tr></thead><tbody id="callsBody"></tbody></table></div>
@@ -118,6 +132,11 @@
   <!-- ANALYTICS -->
   <section class="tab" id="tab-analytics">
     <div class="grid g3" id="analyticsKpis"></div>
+    <div class="card" style="margin-top:14px">
+      <h2>📈 Equity curve — following his high-conviction calls (7d holds)</h2>
+      <canvas id="eqChart" height="180"></canvas>
+      <div class="muted" style="font-size:11px;margin-top:4px">Hypothetical cumulative return if you took each ★★+ directional call and held 7 days. Not compounded leverage. NFA.</div>
+    </div>
     <div class="grid g2" style="margin-top:14px">
       <div class="card"><h2>Accuracy by direction (price moved his way?)</h2><div id="accTable"></div></div>
       <div class="card"><h2>Sentiment over time (last 60 signals)</h2><canvas id="sentChart" height="160"></canvas></div>
@@ -145,7 +164,7 @@ const KEY=[60000,65000,70000,80000];
 const SYD='Australia/Sydney';
 const TYPE_TAGS={signal:'t-signal',entry:'t-entry',exit:'t-exit',outcome:'t-bull',opinion:'t-neu',accumulation:'t-bull',educational:'t-neu'};
 const SENT_TAGS={bullish:'t-bull',bearish:'t-bear',neutral:'t-neu'};
-let TWEETS=[], CALLS=[], BT=null;
+let TWEETS=[], CALLS=[], BT=null, INS=null;
 
 const $=id=>document.getElementById(id);
 function tsOf(t){ return Math.floor(new Date(t.createdAt).getTime()/1000); }
@@ -187,6 +206,7 @@ async function loadData(){
   }catch(e){ try{ TWEETS=await fetch('./tweets.json?_='+Date.now()).then(r=>r.json()); }catch(_){ $('feed').innerHTML='<span class="err">no tweet data</span>'; return; } }
   try{ CALLS=await fetch('./calls.json?_='+Date.now()).then(r=>r.json()); }catch(e){}
   try{ BT=await fetch('./backtest.json?_='+Date.now()).then(r=>r.json()); }catch(e){}
+  try{ INS=await fetch('./insights.json?_='+Date.now()).then(r=>r.json()); }catch(e){}
   $('tcount').textContent=TWEETS.length+' tweets';
   $('updated').textContent='newest: '+(TWEETS[0]?.sydney||sydFmt(tsOf(TWEETS[0]),true));
   renderOverview(); renderFeed(); renderCalls();
@@ -217,6 +237,34 @@ function renderOverview(){
   $('narrative').innerHTML=TWEETS.filter(t=>t.type==='signal'||t.type==='entry'||t.type==='outcome').slice(0,6).map(t=>
     `<div class="tw" data-ts="${tsOf(t)}"><div class="meta"><span class="tag ${SENT_TAGS[t.sentiment]}">${t.sentiment}</span><span class="tag ${TYPE_TAGS[t.type]}">${t.type}</span><span>${t.sydney}</span></div><div class="body">${esc(t.text)}</div></div>`).join('');
   wireRowClicks('narrative');
+  renderStance(); renderPositions(); renderAutoLevels();
+}
+function renderStance(){
+  $('stance').innerHTML = INS?.stance ? esc(INS.stance) : '<span class="muted">run build_insights.py</span>';
+}
+function renderPositions(){
+  const ps=INS?.positions||[];
+  if(!ps.length){ $('positions').innerHTML='<span class="muted">No open positions detected (all entries appear closed).</span>'; return; }
+  $('positions').innerHTML=ps.map(p=>{
+    const pnl=p.pnl_pct, lev=p.pnl_leveraged_pct;
+    const col=pnl>=0?'var(--grn)':'var(--red)';
+    return `<div class="lvl" style="flex-direction:column;align-items:stretch;gap:4px;margin-bottom:8px${p.stale?';opacity:.55':''}">
+      <div style="display:flex;justify-content:space-between">
+        <span><span class="tag ${p.dir==='long'?'t-bull':'t-bear'}">${p.dir.toUpperCase()}</span> from <b>$${p.entry.toLocaleString()}</b>${p.leverage?' · '+p.leverage+'x':''}${p.stale?' <span class="muted">(stale?)</span>':''}</span>
+        <span style="color:${col};font-weight:700">${pnl>=0?'+':''}${pnl}%${p.leverage?` (${lev>=0?'+':''}${lev}% lev)`:''}</span>
+      </div>
+      <div class="muted" style="font-size:12px">${p.date} · ${esc(p.text)}</div></div>`;
+  }).join('') + `<div class="muted" style="font-size:11px;margin-top:4px">P&L vs latest close $${(INS?.last_price||0).toLocaleString()}. Inferred from tweets — heuristic, verify on X.</div>`;
+}
+function renderAutoLevels(){
+  const lv=INS?.levels||[];
+  if(!lv.length){ $('autolevels').innerHTML='<span class="muted">—</span>'; return; }
+  $('autolevels').innerHTML=lv.map(l=>{
+    const col=l.side==='support'?'var(--grn)':'var(--red)';
+    const near=Math.abs(l.dist_pct)<2;
+    return `<div class="lvl"><span>$${(l.level/1000)}K <span class="muted" style="font-size:11px">×${l.mentions}</span></span>
+      <span style="color:${col}">${l.side} · ${l.dist_pct>=0?'+':''}${l.dist_pct}%${near?' 🔔':''}</span></div>`;
+  }).join('');
 }
 
 // ============ FEED + filters ============
@@ -245,25 +293,41 @@ function wireRowClicks(id){ $(id).querySelectorAll('.tw,[data-ts]').forEach(el=>
 function goChart(ts){ $('nav').querySelector('[data-tab="chart"]').click(); setTimeout(()=>{initTV();loadChart().then(()=>chartJumpTo(ts));},120); }
 
 // ============ CALLS table ============
-let callFilter='all', callSort={k:'sydney',dir:-1};
-const CALL_FILTERS=['all','entry','exit','signal','outcome','long','short'];
+let callFilter='real', callSort={k:'sydney',dir:-1};
+const CALL_FILTERS=['real','all','entry','exit','outcome','long','short'];
 function scoreCall(c){ // attach 7d/30d returns from daily ohlc if loaded
   return c;
 }
 function renderCalls(){
   $('callFilters').innerHTML=CALL_FILTERS.map(f=>`<button class="${f===callFilter?'on':''}" data-f="${f}">${f}</button>`).join('');
   $('callFilters').querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{callFilter=b.dataset.f;renderCalls();}));
-  let rows=CALLS.filter(c=>c.kind!=='bias'||c.levels.length);
-  if(['long','short'].includes(callFilter)) rows=rows.filter(c=>c.direction===callFilter);
-  else if(callFilter!=='all') rows=rows.filter(c=>c.kind===callFilter);
+  let rows;
+  if(callFilter==='real'){
+    // high-conviction only: priced/leveraged/directional entry-exit-outcome
+    rows=CALLS.filter(c=> (c.conviction||0)>=4 || (c.entry) || (c.kind==='entry'||c.kind==='exit'||c.kind==='outcome') && c.direction!=='neutral');
+  } else if(callFilter==='all'){
+    rows=CALLS.filter(c=>c.kind!=='bias'||c.levels.length);
+  } else if(['long','short'].includes(callFilter)){
+    rows=CALLS.filter(c=>c.direction===callFilter);
+  } else {
+    rows=CALLS.filter(c=>c.kind===callFilter);
+  }
   // merge backtest returns
   const btById={}; (BT?.results||[]).forEach(r=>btById[r.id]=r);
   rows=rows.map(c=>{const b=btById[c.id]; return {...c, sydney:sydFmtFromUnix(c.time), ret7:b?.moves?.['7']?.ret_pct, ret30:b?.moves?.['30']?.ret_pct};});
-  rows.sort((a,b)=>{const k=callSort.k;let x=a[k],y=b[k];if(x==null)x=-1e9;if(y==null)y=-1e9;return (x>y?1:x<y?-1:0)*callSort.dir;});
+  rows.sort((a,b)=>{
+    let k=callSort.k;
+    // date column must sort by the underlying unix time, not the formatted string
+    if(k==='sydney') k='time';
+    let x=a[k],y=b[k];
+    if(x==null)x=-1e9; if(y==null)y=-1e9;
+    return (x>y?1:x<y?-1:0)*callSort.dir;
+  });
   $('callsBody').innerHTML=rows.slice(0,200).map(c=>{
     const r7=c.ret7==null?'—':`<span class="${c.ret7>=0?'up':'down'}">${c.ret7}%</span>`;
     const r30=c.ret30==null?'—':`<span class="${c.ret30>=0?'up':'down'}">${c.ret30}%</span>`;
-    return `<tr data-ts="${c.time}"><td>${c.sydney}</td><td><span class="tag ${TYPE_TAGS[c.kind]||'t-neu'}">${c.kind}</span></td>
+    const stars='★'.repeat(Math.min(5,Math.round((c.conviction||0)/2)))||'·';
+    return `<tr data-ts="${c.time}"><td>${c.sydney}</td><td title="conviction ${c.conviction||0}" style="color:var(--yel)">${stars}</td><td><span class="tag ${TYPE_TAGS[c.kind]||'t-neu'}">${c.kind}</span></td>
       <td><span class="tag ${c.direction==='long'?'t-bull':c.direction==='short'?'t-bear':'t-neu'}">${c.direction}</span></td>
       <td>${c.entry?'$'+c.entry.toLocaleString():'—'}</td><td>${c.target?'$'+c.target.toLocaleString():'—'}</td>
       <td>${c.leverage?c.leverage+'x':'—'}</td><td>${r7}</td><td>${r30}</td>
@@ -289,7 +353,21 @@ function renderAnalytics(){
   const lc={}; CALLS.forEach(c=>(c.levels||[]).forEach(l=>{const k=Math.round(l/1000);lc[k]=(lc[k]||0)+1;}));
   const top=Object.entries(lc).sort((a,b)=>b[1]-a[1]).slice(0,10), max=Math.max(...top.map(t=>t[1]),1);
   $('levelHeat').innerHTML=top.map(([k,v])=>`<div style="display:flex;align-items:center;gap:8px;margin:3px 0"><span style="width:54px">$${k}K</span><div style="height:14px;width:${v/max*100}%;background:var(--yel);border-radius:3px;opacity:.8"></div><span class="muted">${v}</span></div>`).join('');
-  drawSentChart(); drawVolChart();
+  drawSentChart(); drawVolChart(); drawEqChart();
+}
+function drawEqChart(){
+  const c=$('eqChart'); if(!c) return; const x=c.getContext('2d');
+  const W=c.width=c.clientWidth, H=c.height; x.clearRect(0,0,W,H);
+  const pts=INS?.equity_curve||[]; if(!pts.length){x.fillStyle='#8b98a8';x.fillText('no data',10,20);return;}
+  const eqs=pts.map(p=>p.equity), min=Math.min(1,...eqs), max=Math.max(1,...eqs), rng=(max-min)||1;
+  const Y=v=>H-8-((v-min)/rng)*(H-20);
+  // baseline at 1.0
+  x.strokeStyle='#222b39';x.beginPath();x.moveTo(0,Y(1));x.lineTo(W,Y(1));x.stroke();
+  x.strokeStyle=eqs[eqs.length-1]>=1?'#26d07c':'#ff5470';x.lineWidth=2;x.beginPath();
+  pts.forEach((p,i)=>{const px=i*W/(pts.length-1||1),py=Y(p.equity);i?x.lineTo(px,py):x.moveTo(px,py);});
+  x.stroke();
+  x.fillStyle='#e6edf3';x.font='12px sans-serif';
+  x.fillText(`${((eqs[eqs.length-1]-1)*100).toFixed(1)}% cumulative · ${pts.length} calls`,8,16);
 }
 function drawSentChart(){
   const c=$('sentChart'),x=c.getContext('2d');x.clearRect(0,0,c.width,c.height);
