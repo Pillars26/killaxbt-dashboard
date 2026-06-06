@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-06T07:37:03.739157+00:00",
-  "last_price": 60944.42,
+  "generated": "2026-06-06T09:47:49.525328+00:00",
+  "last_price": 60965.98,
   "last_price_time": 1780704000,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2062297654772498715",
       "text": "I am currently long on $BTC \n\nI\u2019m expecting some relief after June 5th.\n\nIf we lose the 62K-65K region, we likely see capitulation far below",
-      "pnl_pct": 1.57,
-      "pnl_leveraged_pct": 1.57,
+      "pnl_pct": 1.61,
+      "pnl_leveraged_pct": 1.61,
       "stale": false
     }
   ],
@@ -237,16 +237,16 @@
     {
       "time": 1780393541,
       "date": "Tue Jun 02 09:45",
-      "equity": 0.9693,
+      "equity": 0.9696,
       "dir": "long",
-      "ret_pct": -8.57
+      "ret_pct": -8.54
     },
     {
       "time": 1780525051,
       "date": "Wed Jun 03 22:17",
-      "equity": 0.9224,
+      "equity": 0.9231,
       "dir": "long",
-      "ret_pct": -4.83
+      "ret_pct": -4.8
     }
   ],
   "levels": [
@@ -259,7 +259,7 @@
     {
       "level": 80000,
       "mentions": 13,
-      "dist_pct": 31.3,
+      "dist_pct": 31.2,
       "side": "resistance"
     },
     {
@@ -289,13 +289,13 @@
     {
       "level": 70000,
       "mentions": 11,
-      "dist_pct": 14.9,
+      "dist_pct": 14.8,
       "side": "resistance"
     },
     {
       "level": 60000,
       "mentions": 23,
-      "dist_pct": -1.5,
+      "dist_pct": -1.6,
       "side": "support"
     }
   ],
