@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-07T18:57:01.085161+00:00",
-  "last_price": 62079.78,
+  "generated": "2026-06-07T20:11:25.148489+00:00",
+  "last_price": 61609.65,
   "last_price_time": 1780790400,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2063276484639269225",
       "text": "The targets keep getting lower, and lower, and lower.\n\nLast cycle, $BTC never retested the first candle FVG. \n\nThis cycle, it's at 44.9K.\n\nI",
-      "pnl_pct": -38.26,
-      "pnl_leveraged_pct": -38.26,
+      "pnl_pct": -37.22,
+      "pnl_leveraged_pct": -37.22,
       "stale": false
     }
   ],
@@ -237,75 +237,75 @@
     {
       "time": 1780393541,
       "date": "Tue Jun 02 09:45",
-      "equity": 0.9873,
+      "equity": 0.9799,
       "dir": "long",
-      "ret_pct": -6.87
+      "ret_pct": -7.57
     },
     {
       "time": 1780525051,
       "date": "Wed Jun 03 22:17",
-      "equity": 0.9571,
+      "equity": 0.9427,
       "dir": "long",
-      "ret_pct": -3.06
+      "ret_pct": -3.8
     },
     {
       "time": 1780758422,
       "date": "Sat Jun 06 15:07",
-      "equity": 0.9378,
+      "equity": 0.9309,
       "dir": "short",
-      "ret_pct": -2.02
+      "ret_pct": -1.25
     }
   ],
   "levels": [
     {
       "level": 84000,
       "mentions": 9,
-      "dist_pct": 35.3,
+      "dist_pct": 36.3,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 12,
-      "dist_pct": 28.9,
+      "dist_pct": 29.8,
       "side": "resistance"
     },
     {
       "level": 79000,
       "mentions": 13,
-      "dist_pct": 27.3,
+      "dist_pct": 28.2,
       "side": "resistance"
     },
     {
       "level": 76300,
       "mentions": 8,
-      "dist_pct": 22.9,
+      "dist_pct": 23.8,
       "side": "resistance"
     },
     {
       "level": 76000,
       "mentions": 17,
-      "dist_pct": 22.4,
+      "dist_pct": 23.4,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 18,
-      "dist_pct": 19.2,
+      "dist_pct": 20.1,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 11,
-      "dist_pct": 12.8,
+      "dist_pct": 13.6,
       "side": "resistance"
     },
     {
       "level": 60000,
       "mentions": 21,
-      "dist_pct": -3.4,
+      "dist_pct": -2.6,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (20 bullish / 1 bearish of last 25). He appears short from $44,900 (-38.3% vs entry). Key levels he's citing: $84K, $80K, $79K, $76K. Latest: \"For all of them $SOL degenerates,   Its time to start bidding.   I don't see SOL dropping below $40. That said, I'm not much of an altcoin guy, as you can proba\"",
+  "stance": "Recent tone is bullish (20 bullish / 1 bearish of last 25). He appears short from $44,900 (-37.2% vs entry). Key levels he's citing: $84K, $80K, $79K, $76K. Latest: \"$BTC   Bids are still placed.  Honestly, I think it would be pretty wild for BTC to push into these levels so soon. We\u2019ll probably see some more chop for now.  \"",
   "high_conviction_count": 61
 }
