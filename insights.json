@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-07T13:00:01.662896+00:00",
-  "last_price": 61868.09,
+  "generated": "2026-06-07T14:56:37.613545+00:00",
+  "last_price": 61884.92,
   "last_price_time": 1780790400,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2062297654772498715",
       "text": "I am currently long on $BTC \n\nI\u2019m expecting some relief after June 5th.\n\nIf we lose the 62K-65K region, we likely see capitulation far below",
-      "pnl_pct": 3.11,
-      "pnl_leveraged_pct": 3.11,
+      "pnl_pct": 3.14,
+      "pnl_leveraged_pct": 3.14,
       "stale": false
     },
     {
@@ -23,8 +23,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2063276484639269225",
       "text": "The targets keep getting lower, and lower, and lower.\n\nLast cycle, $BTC never retested the first candle FVG. \n\nThis cycle, it's at 44.9K.\n\nI",
-      "pnl_pct": -37.79,
-      "pnl_leveraged_pct": -37.79,
+      "pnl_pct": -37.83,
+      "pnl_leveraged_pct": -37.83,
       "stale": false
     }
   ],
@@ -249,30 +249,30 @@
     {
       "time": 1780393541,
       "date": "Tue Jun 02 09:45",
-      "equity": 0.984,
+      "equity": 0.9842,
       "dir": "long",
-      "ret_pct": -7.19
+      "ret_pct": -7.16
     },
     {
       "time": 1780525051,
       "date": "Wed Jun 03 22:17",
-      "equity": 0.9506,
+      "equity": 0.9511,
       "dir": "long",
-      "ret_pct": -3.39
+      "ret_pct": -3.37
     },
     {
       "time": 1780758422,
       "date": "Sat Jun 06 15:07",
-      "equity": 0.9347,
+      "equity": 0.935,
       "dir": "short",
-      "ret_pct": -1.67
+      "ret_pct": -1.7
     }
   ],
   "levels": [
     {
       "level": 84000,
       "mentions": 9,
-      "dist_pct": 35.8,
+      "dist_pct": 35.7,
       "side": "resistance"
     },
     {
@@ -318,6 +318,6 @@
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (19 bullish / 1 bearish of last 25). He appears long from $60,000 (+3.1% vs entry). Key levels he's citing: $84K, $80K, $79K, $76K. Latest: \"I say $BTC pumps into the 14th &amp; then reverses back down. https://t.co/FIGEVhE2KY\"",
+  "stance": "Recent tone is bullish (19 bullish / 1 bearish of last 25). He appears long from $60,000 (+3.1% vs entry). Key levels he's citing: $84K, $80K, $79K, $76K. Latest: \"Since the start of the year, I've stuck to a simple plan.  Accumulate as much $BTC spot possible.   DCAing after a 50% drop is how you outperform everyone tryin\"",
   "high_conviction_count": 61
 }
