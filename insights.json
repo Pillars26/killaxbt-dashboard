@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-08T16:46:13.144740+00:00",
-  "last_price": 63624.01,
+  "generated": "2026-06-08T19:18:30.266972+00:00",
+  "last_price": 63374.21,
   "last_price_time": 1780876800,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2063276484639269225",
       "text": "The targets keep getting lower, and lower, and lower.\n\nLast cycle, $BTC never retested the first candle FVG. \n\nThis cycle, it's at 44.9K.\n\nI",
-      "pnl_pct": -41.7,
-      "pnl_leveraged_pct": -41.7,
+      "pnl_pct": -41.15,
+      "pnl_leveraged_pct": -41.15,
       "stale": false
     }
   ],
@@ -237,75 +237,75 @@
     {
       "time": 1780393541,
       "date": "Tue Jun 02 09:45",
-      "equity": 1.0119,
+      "equity": 1.0079,
       "dir": "long",
-      "ret_pct": -4.55
+      "ret_pct": -4.93
     },
     {
       "time": 1780525051,
       "date": "Wed Jun 03 22:17",
-      "equity": 1.0053,
+      "equity": 0.9975,
       "dir": "long",
-      "ret_pct": -0.65
+      "ret_pct": -1.04
     },
     {
       "time": 1780758422,
       "date": "Sat Jun 06 15:07",
-      "equity": 0.9595,
+      "equity": 0.9561,
       "dir": "short",
-      "ret_pct": -4.56
+      "ret_pct": -4.15
     }
   ],
   "levels": [
     {
       "level": 84000,
       "mentions": 9,
-      "dist_pct": 32.0,
+      "dist_pct": 32.5,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 12,
-      "dist_pct": 25.7,
+      "dist_pct": 26.2,
       "side": "resistance"
     },
     {
       "level": 79000,
-      "mentions": 13,
-      "dist_pct": 24.2,
+      "mentions": 12,
+      "dist_pct": 24.7,
       "side": "resistance"
     },
     {
       "level": 76300,
       "mentions": 8,
-      "dist_pct": 19.9,
+      "dist_pct": 20.4,
       "side": "resistance"
     },
     {
       "level": 76000,
       "mentions": 17,
-      "dist_pct": 19.5,
+      "dist_pct": 19.9,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 18,
-      "dist_pct": 16.3,
+      "dist_pct": 16.8,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 11,
-      "dist_pct": 10.0,
+      "dist_pct": 10.5,
       "side": "resistance"
     },
     {
       "level": 60000,
-      "mentions": 18,
-      "dist_pct": -5.7,
+      "mentions": 17,
+      "dist_pct": -5.3,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (18 bullish / 2 bearish of last 25). He appears short from $44,900 (-41.7% vs entry). Key levels he's citing: $84K, $80K, $79K, $76K. Latest: \"I think the most likely scenario is that BTC chops sideways for the next few months.  As much as I'd love to see $BTC V-shape recover, that's not something we'v\"",
+  "stance": "Recent tone is bullish (19 bullish / 2 bearish of last 25). He appears short from $44,900 (-41.1% vs entry). Key levels he's citing: $84K, $80K, $79K, $76K. Latest: \"$BTC   Once again, price reacted at the 5th Pivot, resulting in a 6% upside bounce afterwards.   Timing is everything in trading. \u2705 https://t.co/axgFi7EmrF\"",
   "high_conviction_count": 61
 }
