@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-09T21:10:49.858127+00:00",
-  "last_price": 62077.81,
+  "generated": "2026-06-09T22:49:08.927854+00:00",
+  "last_price": 61791.16,
   "last_price_time": 1780963200,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2063276484639269225",
       "text": "The targets keep getting lower, and lower, and lower.\n\nLast cycle, $BTC never retested the first candle FVG. \n\nThis cycle, it's at 44.9K.\n\nI",
-      "pnl_pct": -38.26,
-      "pnl_leveraged_pct": -38.26,
+      "pnl_pct": -37.62,
+      "pnl_leveraged_pct": -37.62,
       "stale": false
     }
   ],
@@ -237,75 +237,75 @@
     {
       "time": 1780393541,
       "date": "Tue Jun 02 09:45",
-      "equity": 0.9873,
+      "equity": 0.9828,
       "dir": "long",
-      "ret_pct": -6.87
+      "ret_pct": -7.3
     },
     {
       "time": 1780525051,
       "date": "Wed Jun 03 22:17",
-      "equity": 0.9571,
+      "equity": 0.9482,
       "dir": "long",
-      "ret_pct": -3.06
+      "ret_pct": -3.51
     },
     {
       "time": 1780758422,
       "date": "Sat Jun 06 15:07",
-      "equity": 0.9378,
+      "equity": 0.9336,
       "dir": "short",
-      "ret_pct": -2.02
+      "ret_pct": -1.55
     }
   ],
   "levels": [
     {
       "level": 84000,
       "mentions": 9,
-      "dist_pct": 35.3,
+      "dist_pct": 35.9,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 12,
-      "dist_pct": 28.9,
+      "dist_pct": 29.5,
       "side": "resistance"
     },
     {
       "level": 79000,
       "mentions": 12,
-      "dist_pct": 27.3,
+      "dist_pct": 27.9,
       "side": "resistance"
     },
     {
       "level": 76300,
       "mentions": 8,
-      "dist_pct": 22.9,
+      "dist_pct": 23.5,
       "side": "resistance"
     },
     {
       "level": 76000,
       "mentions": 17,
-      "dist_pct": 22.4,
+      "dist_pct": 23.0,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 18,
-      "dist_pct": 19.2,
+      "dist_pct": 19.8,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 11,
-      "dist_pct": 12.8,
+      "dist_pct": 13.3,
       "side": "resistance"
     },
     {
       "level": 60000,
       "mentions": 17,
-      "dist_pct": -3.3,
+      "dist_pct": -2.9,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (18 bullish / 3 bearish of last 25). He appears short from $44,900 (-38.3% vs entry). Key levels he's citing: $84K, $80K, $79K, $76K. Latest: \"I am all in on $BTC.   Maximum risk. Maximum exposure.  Maximum uncertainty.  Buy when there's blood in the streets, even if the blood is your own.\"",
+  "stance": "Recent tone is bullish (17 bullish / 4 bearish of last 25). He appears short from $44,900 (-37.6% vs entry). Key levels he's citing: $84K, $80K, $79K, $76K. Latest: \"Let\u2019s be completely objective.  $BTC below the quarterly open is bearish.  If the quarterly low holds, a move back to the quarterly open remains possible.  Howe\"",
   "high_conviction_count": 61
 }
