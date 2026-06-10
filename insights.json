@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-10T18:43:41.441058+00:00",
-  "last_price": 61726.9,
+  "generated": "2026-06-10T21:16:09.447636+00:00",
+  "last_price": 61544.34,
   "last_price_time": 1781049600,
   "positions": [],
   "equity_curve": [
@@ -231,68 +231,68 @@
     {
       "time": 1780525051,
       "date": "Wed Jun 03 22:17",
-      "equity": 0.9456,
+      "equity": 0.9428,
       "dir": "long",
-      "ret_pct": -3.61
+      "ret_pct": -3.9
     },
     {
       "time": 1780758422,
       "date": "Sat Jun 06 15:07",
-      "equity": 0.932,
+      "equity": 0.9321,
       "dir": "short",
-      "ret_pct": -1.44
+      "ret_pct": -1.14
     }
   ],
   "levels": [
     {
       "level": 84000,
       "mentions": 9,
-      "dist_pct": 36.1,
+      "dist_pct": 36.5,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 12,
-      "dist_pct": 29.6,
+      "dist_pct": 30.0,
       "side": "resistance"
     },
     {
       "level": 79000,
       "mentions": 12,
-      "dist_pct": 28.0,
+      "dist_pct": 28.4,
       "side": "resistance"
     },
     {
       "level": 76300,
       "mentions": 8,
-      "dist_pct": 23.6,
+      "dist_pct": 24.0,
       "side": "resistance"
     },
     {
       "level": 76000,
       "mentions": 17,
-      "dist_pct": 23.1,
+      "dist_pct": 23.5,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 18,
-      "dist_pct": 19.9,
+      "dist_pct": 20.2,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 11,
-      "dist_pct": 13.4,
+      "dist_pct": 13.7,
       "side": "resistance"
     },
     {
       "level": 60000,
       "mentions": 16,
-      "dist_pct": -2.8,
+      "dist_pct": -2.5,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (17 bullish / 4 bearish of last 25). Key levels he's citing: $84K, $80K, $79K, $76K. Latest: \"Might be time to start building a small $MSTR position.  I\u2019m not exactly a fan of @saylor\u2019s aggressive approach, but the RR is attractive.  If you buy $BTC spot\"",
+  "stance": "Recent tone is bullish (17 bullish / 4 bearish of last 25). Key levels he's citing: $84K, $80K, $79K, $76K. Latest: \"I'm not betting against a chart like this.  I'm sticking with my 2x long position and accepting the risk.   Either we see a 50% drop and my position is liquidat\"",
   "high_conviction_count": 61
 }
