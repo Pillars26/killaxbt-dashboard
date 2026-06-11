@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-11T20:35:32.629870+00:00",
-  "last_price": 63321.44,
+  "generated": "2026-06-11T22:28:29.324842+00:00",
+  "last_price": 63499.66,
   "last_price_time": 1781136000,
   "positions": [],
   "equity_curve": [
@@ -238,68 +238,68 @@
     {
       "time": 1780758422,
       "date": "Sat Jun 06 15:07",
-      "equity": 0.9032,
+      "equity": 0.9004,
       "dir": "short",
-      "ret_pct": -4.06
+      "ret_pct": -4.35
     },
     {
       "time": 1781121991,
       "date": "Wed Jun 10 20:06",
-      "equity": 0.9307,
+      "equity": 0.9305,
       "dir": "long",
-      "ret_pct": 3.05
+      "ret_pct": 3.34
     }
   ],
   "levels": [
     {
       "level": 84000,
       "mentions": 9,
-      "dist_pct": 32.7,
+      "dist_pct": 32.3,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 12,
-      "dist_pct": 26.3,
+      "dist_pct": 26.0,
       "side": "resistance"
     },
     {
       "level": 79000,
       "mentions": 12,
-      "dist_pct": 24.8,
+      "dist_pct": 24.4,
       "side": "resistance"
     },
     {
       "level": 76000,
       "mentions": 17,
-      "dist_pct": 20.0,
+      "dist_pct": 19.7,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 18,
-      "dist_pct": 16.9,
+      "dist_pct": 16.5,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 11,
-      "dist_pct": 10.5,
+      "dist_pct": 10.2,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 8,
-      "dist_pct": 2.7,
+      "dist_pct": 2.4,
       "side": "resistance"
     },
     {
       "level": 60000,
       "mentions": 16,
-      "dist_pct": -5.2,
+      "dist_pct": -5.5,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (13 bullish / 6 bearish of last 25). Key levels he's citing: $84K, $80K, $79K, $76K. Latest: \"$BTC vs $SP500   Still the main idea.  Legacy markets likely correct at some point this year and mark the final pivot low for Bitcoin.  This has been the case f\"",
+  "stance": "Recent tone is bullish (14 bullish / 6 bearish of last 25). Key levels he's citing: $84K, $80K, $79K, $76K. Latest: \"You literally have miners capitulating, a signal that has historically marked the perfect time to accumulate.  There isn't a clearer sign to start accumulating \"",
   "high_conviction_count": 62
 }
