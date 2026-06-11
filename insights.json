@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-11T11:08:26.981463+00:00",
-  "last_price": 62987.11,
+  "generated": "2026-06-11T14:54:20.371616+00:00",
+  "last_price": 62865.96,
   "last_price_time": 1781136000,
   "positions": [],
   "equity_curve": [
@@ -238,68 +238,68 @@
     {
       "time": 1780758422,
       "date": "Sat Jun 06 15:07",
-      "equity": 0.9083,
+      "equity": 0.9102,
       "dir": "short",
-      "ret_pct": -3.51
+      "ret_pct": -3.31
     },
     {
       "time": 1781121991,
       "date": "Wed Jun 10 20:06",
-      "equity": 0.9311,
+      "equity": 0.9312,
       "dir": "long",
-      "ret_pct": 2.5
+      "ret_pct": 2.31
     }
   ],
   "levels": [
     {
       "level": 84000,
       "mentions": 9,
-      "dist_pct": 33.4,
+      "dist_pct": 33.6,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 12,
-      "dist_pct": 27.0,
+      "dist_pct": 27.3,
       "side": "resistance"
     },
     {
       "level": 79000,
       "mentions": 12,
-      "dist_pct": 25.4,
-      "side": "resistance"
-    },
-    {
-      "level": 76300,
-      "mentions": 8,
-      "dist_pct": 21.1,
+      "dist_pct": 25.7,
       "side": "resistance"
     },
     {
       "level": 76000,
       "mentions": 17,
-      "dist_pct": 20.7,
+      "dist_pct": 20.9,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 18,
-      "dist_pct": 17.5,
+      "dist_pct": 17.7,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 11,
-      "dist_pct": 11.1,
+      "dist_pct": 11.3,
+      "side": "resistance"
+    },
+    {
+      "level": 65000,
+      "mentions": 8,
+      "dist_pct": 3.4,
       "side": "resistance"
     },
     {
       "level": 60000,
       "mentions": 16,
-      "dist_pct": -4.7,
+      "dist_pct": -4.6,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (16 bullish / 4 bearish of last 25). Key levels he's citing: $84K, $80K, $79K, $76K. Latest: \"$BTC   With the 14th approaching, paying close attention to the narrative will be crucial in assessing what is likely to unfold over the remainder of this month\"",
+  "stance": "Recent tone is bullish (14 bullish / 5 bearish of last 25). Key levels he's citing: $84K, $80K, $79K, $76K. Latest: \"$BTC  We\u2019ve got a big stack of low leverage shorts sitting in the $64K\u2013$66K range.  Keep in mind that during impulsive/corrective trends, liquidity can be front\"",
   "high_conviction_count": 62
 }
