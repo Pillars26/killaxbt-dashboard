@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-12T20:25:41.735011+00:00",
-  "last_price": 63491.03,
+  "generated": "2026-06-12T22:05:33.198874+00:00",
+  "last_price": 63496.28,
   "last_price_time": 1781222400,
   "positions": [
     {
@@ -253,14 +253,14 @@
       "date": "Sat Jun 06 15:07",
       "equity": 0.9005,
       "dir": "short",
-      "ret_pct": -4.34
+      "ret_pct": -4.35
     },
     {
       "time": 1781121991,
       "date": "Wed Jun 10 20:06",
       "equity": 0.9305,
       "dir": "long",
-      "ret_pct": 3.32
+      "ret_pct": 3.33
     },
     {
       "time": 1781280650,
@@ -298,13 +298,13 @@
     {
       "level": 74000,
       "mentions": 18,
-      "dist_pct": 16.6,
+      "dist_pct": 16.5,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 12,
-      "dist_pct": 10.3,
+      "dist_pct": 10.2,
       "side": "resistance"
     },
     {
@@ -320,6 +320,6 @@
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (13 bullish / 6 bearish of last 25). He appears long from $126,000 (-49.6% vs entry). Key levels he's citing: $84K, $80K, $79K, $76K. Latest: \"The 14th could be a pivotal date for $BTC.  10/11 times, Bitcoin saw a negative reaction following this date, with an average drop of 5-8% within the next 2 wee\"",
+  "stance": "Recent tone is bullish (12 bullish / 7 bearish of last 25). He appears long from $126,000 (-49.6% vs entry). Key levels he's citing: $84K, $80K, $79K, $76K. Latest: \"If it wasn't obvious already, I have a position in $SPCX.  Yes, it's overvalued. Yes, it's massively inflated. Yes, the hype is insane.  And yes, everyone seems\"",
   "high_conviction_count": 63
 }
