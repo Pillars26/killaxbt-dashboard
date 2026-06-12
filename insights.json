@@ -1,8 +1,21 @@
 {
-  "generated": "2026-06-12T15:54:42.634380+00:00",
-  "last_price": 63819.12,
+  "generated": "2026-06-12T18:02:52.879915+00:00",
+  "last_price": 63848.03,
   "last_price_time": 1781222400,
-  "positions": [],
+  "positions": [
+    {
+      "dir": "long",
+      "entry": 126000,
+      "time": 1781280650,
+      "date": "Fri Jun 12 16:10",
+      "leverage": null,
+      "url": "https://x.com/KillaXBT/status/2065466867385266287",
+      "text": "Most people will forget about my $BTC swing long over the next 1-2 years.\n\nI won\u2019t.\n\nWhen BTC is trading at 126K, I'll post the exact entry,",
+      "pnl_pct": -49.33,
+      "pnl_leveraged_pct": -49.33,
+      "stale": false
+    }
+  ],
   "equity_curve": [
     {
       "time": 1756811763,
@@ -238,16 +251,16 @@
     {
       "time": 1780758422,
       "date": "Sat Jun 06 15:07",
-      "equity": 0.8955,
+      "equity": 0.895,
       "dir": "short",
-      "ret_pct": -4.88
+      "ret_pct": -4.93
     },
     {
       "time": 1781121991,
       "date": "Wed Jun 10 20:06",
       "equity": 0.93,
       "dir": "long",
-      "ret_pct": 3.86
+      "ret_pct": 3.9
     }
   ],
   "levels": [
@@ -260,37 +273,37 @@
     {
       "level": 80000,
       "mentions": 12,
-      "dist_pct": 25.4,
+      "dist_pct": 25.3,
       "side": "resistance"
     },
     {
       "level": 79000,
       "mentions": 12,
-      "dist_pct": 23.8,
+      "dist_pct": 23.7,
       "side": "resistance"
     },
     {
       "level": 76000,
       "mentions": 17,
-      "dist_pct": 19.1,
+      "dist_pct": 19.0,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 18,
-      "dist_pct": 16.0,
+      "dist_pct": 15.9,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 12,
-      "dist_pct": 9.7,
+      "dist_pct": 9.6,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 9,
-      "dist_pct": 1.9,
+      "dist_pct": 1.8,
       "side": "resistance"
     },
     {
@@ -300,6 +313,6 @@
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (13 bullish / 6 bearish of last 25). Key levels he's citing: $84K, $80K, $79K, $76K. Latest: \"Hindsight is a b*tch... $BTC  $50K... $60K... $70K... It doesn't matter.  We're going to $160K, and there's absolutely nothing you can do about it. https://t.co\"",
+  "stance": "Recent tone is bullish (13 bullish / 6 bearish of last 25). He appears long from $126,000 (-49.3% vs entry). Key levels he's citing: $84K, $80K, $79K, $76K. Latest: \"The 14th could be a pivotal date for $BTC.  10/11 times, Bitcoin saw a negative reaction following this date, with an average drop of 5-8% within the next 2 wee\"",
   "high_conviction_count": 62
 }
