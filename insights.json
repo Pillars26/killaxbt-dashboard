@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-13T11:51:35.869856+00:00",
-  "last_price": 63871.86,
+  "generated": "2026-06-13T13:48:26.036521+00:00",
+  "last_price": 64054.46,
   "last_price_time": 1781308800,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2065466867385266287",
       "text": "Most people will forget about my $BTC swing long over the next 1-2 years.\n\nI won\u2019t.\n\nWhen BTC is trading at 126K, I'll post the exact entry,",
-      "pnl_pct": -49.31,
-      "pnl_leveraged_pct": -49.31,
+      "pnl_pct": -49.16,
+      "pnl_leveraged_pct": -49.16,
       "stale": false
     }
   ],
@@ -251,75 +251,75 @@
     {
       "time": 1780758422,
       "date": "Sat Jun 06 15:07",
-      "equity": 0.8947,
+      "equity": 0.8918,
       "dir": "short",
-      "ret_pct": -4.97
+      "ret_pct": -5.27
     },
     {
       "time": 1781121991,
       "date": "Wed Jun 10 20:06",
-      "equity": 0.9299,
+      "equity": 0.9296,
       "dir": "long",
-      "ret_pct": 3.94
+      "ret_pct": 4.24
     },
     {
       "time": 1781280650,
       "date": "Fri Jun 12 16:10",
-      "equity": 0.9348,
+      "equity": 0.9372,
       "dir": "long",
-      "ret_pct": 0.52
+      "ret_pct": 0.81
     }
   ],
   "levels": [
     {
       "level": 84000,
       "mentions": 9,
-      "dist_pct": 31.5,
+      "dist_pct": 31.1,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 12,
-      "dist_pct": 25.3,
+      "dist_pct": 24.9,
       "side": "resistance"
     },
     {
       "level": 79000,
       "mentions": 12,
-      "dist_pct": 23.7,
+      "dist_pct": 23.3,
       "side": "resistance"
     },
     {
       "level": 76000,
       "mentions": 17,
-      "dist_pct": 19.0,
+      "dist_pct": 18.6,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 18,
-      "dist_pct": 15.9,
+      "dist_pct": 15.5,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 12,
-      "dist_pct": 9.6,
+      "dist_pct": 9.3,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 9,
-      "dist_pct": 1.8,
+      "dist_pct": 1.5,
       "side": "resistance"
     },
     {
       "level": 60000,
       "mentions": 17,
-      "dist_pct": -6.1,
+      "dist_pct": -6.3,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (12 bullish / 7 bearish of last 25). He appears long from $126,000 (-49.3% vs entry). Key levels he's citing: $84K, $80K, $79K, $76K. Latest: \"If it wasn't obvious already, I have a position in $SPCX.  Yes, it's overvalued. Yes, it's massively inflated. Yes, the hype is insane.  And yes, everyone seems\"",
+  "stance": "Recent tone is bullish (12 bullish / 7 bearish of last 25). He appears long from $126,000 (-49.2% vs entry). Key levels he's citing: $84K, $80K, $79K, $76K. Latest: \"$BTC   Based on every previous cycle, once the capitulation candle forms (the major cycle low), the sweep of that low has historically marked the bottom.  We've\"",
   "high_conviction_count": 63
 }
