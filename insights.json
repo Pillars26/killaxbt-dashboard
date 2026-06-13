@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-13T22:18:20.200521+00:00",
-  "last_price": 64356,
+  "generated": "2026-06-13T23:38:53.025423+00:00",
+  "last_price": 64450.59,
   "last_price_time": 1781308800,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2065466867385266287",
       "text": "Most people will forget about my $BTC swing long over the next 1-2 years.\n\nI won\u2019t.\n\nWhen BTC is trading at 126K, I'll post the exact entry,",
-      "pnl_pct": -48.92,
-      "pnl_leveraged_pct": -48.92,
+      "pnl_pct": -48.85,
+      "pnl_leveraged_pct": -48.85,
       "stale": false
     }
   ],
@@ -251,72 +251,72 @@
     {
       "time": 1780758422,
       "date": "Sat Jun 06 15:07",
-      "equity": 0.8872,
+      "equity": 0.8857,
       "dir": "short",
-      "ret_pct": -5.76
+      "ret_pct": -5.92
     },
     {
       "time": 1781121991,
       "date": "Wed Jun 10 20:06",
-      "equity": 0.9291,
+      "equity": 0.929,
       "dir": "long",
-      "ret_pct": 4.73
+      "ret_pct": 4.88
     },
     {
       "time": 1781280650,
       "date": "Fri Jun 12 16:10",
-      "equity": 0.9411,
+      "equity": 0.9423,
       "dir": "long",
-      "ret_pct": 1.29
+      "ret_pct": 1.44
     }
   ],
   "levels": [
     {
       "level": 84000,
       "mentions": 9,
-      "dist_pct": 30.5,
+      "dist_pct": 30.3,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 12,
-      "dist_pct": 24.3,
+      "dist_pct": 24.1,
       "side": "resistance"
     },
     {
       "level": 79000,
       "mentions": 12,
-      "dist_pct": 22.8,
+      "dist_pct": 22.6,
       "side": "resistance"
     },
     {
       "level": 76000,
       "mentions": 17,
-      "dist_pct": 18.1,
+      "dist_pct": 17.9,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 18,
-      "dist_pct": 15.0,
+      "dist_pct": 14.8,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 12,
-      "dist_pct": 8.8,
+      "dist_pct": 8.6,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 9,
-      "dist_pct": 1.0,
+      "dist_pct": 0.9,
       "side": "resistance"
     },
     {
       "level": 60000,
       "mentions": 16,
-      "dist_pct": -6.8,
+      "dist_pct": -6.9,
       "side": "support"
     }
   ],
