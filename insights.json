@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-15T18:16:25.035547+00:00",
-  "last_price": 66800.34,
+  "generated": "2026-06-15T21:30:09.233952+00:00",
+  "last_price": 66376.8,
   "last_price_time": 1781481600,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2065466867385266287",
       "text": "Most people will forget about my $BTC swing long over the next 1-2 years.\n\nI won\u2019t.\n\nWhen BTC is trading at 126K, I'll post the exact entry,",
-      "pnl_pct": -46.98,
-      "pnl_leveraged_pct": -46.98,
+      "pnl_pct": -47.32,
+      "pnl_leveraged_pct": -47.32,
       "stale": false
     }
   ],
@@ -258,68 +258,68 @@
     {
       "time": 1781121991,
       "date": "Wed Jun 10 20:06",
-      "equity": 0.9632,
+      "equity": 0.9571,
       "dir": "long",
-      "ret_pct": 8.71
+      "ret_pct": 8.02
     },
     {
       "time": 1781280650,
       "date": "Fri Jun 12 16:10",
-      "equity": 1.0126,
+      "equity": 0.9998,
       "dir": "long",
-      "ret_pct": 5.13
+      "ret_pct": 4.47
     }
   ],
   "levels": [
     {
       "level": 84000,
       "mentions": 9,
-      "dist_pct": 25.7,
+      "dist_pct": 26.6,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 12,
-      "dist_pct": 19.8,
+      "dist_pct": 20.5,
       "side": "resistance"
     },
     {
       "level": 79000,
       "mentions": 12,
-      "dist_pct": 18.3,
+      "dist_pct": 19.0,
       "side": "resistance"
     },
     {
       "level": 76000,
       "mentions": 16,
-      "dist_pct": 13.8,
+      "dist_pct": 14.5,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 18,
-      "dist_pct": 10.8,
+      "dist_pct": 11.5,
       "side": "resistance"
     },
     {
       "level": 70000,
-      "mentions": 13,
-      "dist_pct": 4.8,
+      "mentions": 14,
+      "dist_pct": 5.5,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 10,
-      "dist_pct": -2.7,
+      "dist_pct": -2.1,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 17,
-      "dist_pct": -10.2,
+      "dist_pct": -9.6,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (10 bullish / 6 bearish of last 25). He appears long from $126,000 (-47.0% vs entry). Key levels he's citing: $84K, $80K, $79K, $76K. Latest: \"67.4-67.5K is the area to observe for $BTC   Flip that level and 70.3K comes into play.  We also need to take into consideration that FOMC is approaching &amp; \"",
+  "stance": "Recent tone is bullish (10 bullish / 5 bearish of last 25). He appears long from $126,000 (-47.3% vs entry). Key levels he's citing: $84K, $80K, $79K, $76K. Latest: \"$BTC  I don't think we're going to nuke before FOMC. More likely we just range from here.    We've hit our first major barrier, so now it's time to sit back and\"",
   "high_conviction_count": 63
 }
