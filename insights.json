@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-15T21:30:09.233952+00:00",
-  "last_price": 66376.8,
+  "generated": "2026-06-15T23:20:24.630202+00:00",
+  "last_price": 66152.71,
   "last_price_time": 1781481600,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2065466867385266287",
       "text": "Most people will forget about my $BTC swing long over the next 1-2 years.\n\nI won\u2019t.\n\nWhen BTC is trading at 126K, I'll post the exact entry,",
-      "pnl_pct": -47.32,
-      "pnl_leveraged_pct": -47.32,
+      "pnl_pct": -47.5,
+      "pnl_leveraged_pct": -47.5,
       "stale": false
     }
   ],
@@ -258,68 +258,68 @@
     {
       "time": 1781121991,
       "date": "Wed Jun 10 20:06",
-      "equity": 0.9571,
+      "equity": 0.9538,
       "dir": "long",
-      "ret_pct": 8.02
+      "ret_pct": 7.65
     },
     {
       "time": 1781280650,
       "date": "Fri Jun 12 16:10",
-      "equity": 0.9998,
+      "equity": 0.9931,
       "dir": "long",
-      "ret_pct": 4.47
+      "ret_pct": 4.11
     }
   ],
   "levels": [
     {
       "level": 84000,
       "mentions": 9,
-      "dist_pct": 26.6,
+      "dist_pct": 27.0,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 12,
-      "dist_pct": 20.5,
+      "dist_pct": 20.9,
       "side": "resistance"
     },
     {
       "level": 79000,
       "mentions": 12,
-      "dist_pct": 19.0,
+      "dist_pct": 19.4,
       "side": "resistance"
     },
     {
       "level": 76000,
       "mentions": 16,
-      "dist_pct": 14.5,
+      "dist_pct": 14.9,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 18,
-      "dist_pct": 11.5,
+      "dist_pct": 11.9,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 14,
-      "dist_pct": 5.5,
+      "dist_pct": 5.8,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 10,
-      "dist_pct": -2.1,
+      "dist_pct": -1.7,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 17,
-      "dist_pct": -9.6,
+      "dist_pct": -9.3,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (10 bullish / 5 bearish of last 25). He appears long from $126,000 (-47.3% vs entry). Key levels he's citing: $84K, $80K, $79K, $76K. Latest: \"$BTC  I don't think we're going to nuke before FOMC. More likely we just range from here.    We've hit our first major barrier, so now it's time to sit back and\"",
+  "stance": "Recent tone is bullish (9 bullish / 5 bearish of last 25). He appears long from $126,000 (-47.5% vs entry). Key levels he's citing: $84K, $80K, $79K, $76K. Latest: \"I rarely share TradFi, but $SPCX was a unique setup.  The biggest IPO. The most hyped asset. The most talked about name in the market.   I shared my thoughts be\"",
   "high_conviction_count": 63
 }
