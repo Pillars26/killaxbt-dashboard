@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-16T02:06:25.998194+00:00",
-  "last_price": 66288.63,
+  "generated": "2026-06-16T07:42:35.686890+00:00",
+  "last_price": 66314.02,
   "last_price_time": 1781568000,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2065466867385266287",
       "text": "Most people will forget about my $BTC swing long over the next 1-2 years.\n\nI won\u2019t.\n\nWhen BTC is trading at 126K, I'll post the exact entry,",
-      "pnl_pct": -47.39,
-      "pnl_leveraged_pct": -47.39,
+      "pnl_pct": -47.37,
+      "pnl_leveraged_pct": -47.37,
       "stale": false
     }
   ],
@@ -258,16 +258,16 @@
     {
       "time": 1781121991,
       "date": "Wed Jun 10 20:06",
-      "equity": 0.9558,
+      "equity": 0.9562,
       "dir": "long",
-      "ret_pct": 7.88
+      "ret_pct": 7.92
     },
     {
       "time": 1781280650,
       "date": "Fri Jun 12 16:10",
-      "equity": 0.9972,
+      "equity": 0.9979,
       "dir": "long",
-      "ret_pct": 4.33
+      "ret_pct": 4.37
     }
   ],
   "levels": [
@@ -280,19 +280,19 @@
     {
       "level": 80000,
       "mentions": 12,
-      "dist_pct": 20.7,
+      "dist_pct": 20.6,
       "side": "resistance"
     },
     {
       "level": 79000,
       "mentions": 12,
-      "dist_pct": 19.2,
+      "dist_pct": 19.1,
       "side": "resistance"
     },
     {
       "level": 76000,
       "mentions": 16,
-      "dist_pct": 14.7,
+      "dist_pct": 14.6,
       "side": "resistance"
     },
     {
@@ -310,7 +310,7 @@
     {
       "level": 65000,
       "mentions": 10,
-      "dist_pct": -1.9,
+      "dist_pct": -2.0,
       "side": "support"
     },
     {
