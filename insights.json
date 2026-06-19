@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-19T12:30:11.519724+00:00",
-  "last_price": 62498.61,
+  "generated": "2026-06-19T15:50:36.808488+00:00",
+  "last_price": 63153.04,
   "last_price_time": 1781827200,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2067904584035479749",
       "text": "At some point, $BTC is going to front run major HTF liquidity.\n\nJust like the market front ran the 140K liquidity above, it can do the exact",
-      "pnl_pct": 4.16,
-      "pnl_leveraged_pct": 4.16,
+      "pnl_pct": 5.26,
+      "pnl_leveraged_pct": 5.26,
       "stale": false
     }
   ],
@@ -265,14 +265,14 @@
     {
       "time": 1781280650,
       "date": "Fri Jun 12 16:10",
-      "equity": 0.914,
+      "equity": 0.9236,
       "dir": "long",
-      "ret_pct": -1.64
+      "ret_pct": -0.61
     },
     {
       "time": 1781861847,
       "date": "Fri Jun 19 09:37",
-      "equity": 0.914,
+      "equity": 0.9236,
       "dir": "long",
       "ret_pct": 0.0
     }
@@ -281,52 +281,52 @@
     {
       "level": 80000,
       "mentions": 12,
-      "dist_pct": 28.0,
+      "dist_pct": 26.7,
       "side": "resistance"
     },
     {
       "level": 79000,
       "mentions": 12,
-      "dist_pct": 26.4,
+      "dist_pct": 25.1,
       "side": "resistance"
     },
     {
       "level": 76000,
       "mentions": 14,
-      "dist_pct": 21.6,
+      "dist_pct": 20.3,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 18,
-      "dist_pct": 18.4,
+      "dist_pct": 17.2,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 14,
-      "dist_pct": 12.0,
+      "dist_pct": 10.8,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 10,
-      "dist_pct": 4.0,
+      "dist_pct": 2.9,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 10,
-      "dist_pct": 2.4,
+      "dist_pct": 1.3,
       "side": "resistance"
     },
     {
       "level": 60000,
       "mentions": 25,
-      "dist_pct": -4.0,
+      "dist_pct": -5.0,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (8 bullish / 4 bearish of last 25). He appears long from $60,000 (+4.2% vs entry). Key levels he's citing: $80K, $79K, $76K, $74K. Latest: \"Stacking $IBIT  BlackRocks $BTC ETF is about to reach its opening price. Will easily be one of the best performing ETFs over the next 1\u20132 years.  Without a doub\"",
+  "stance": "Recent tone is bullish (8 bullish / 5 bearish of last 25). He appears long from $60,000 (+5.3% vs entry). Key levels he's citing: $80K, $79K, $76K, $74K. Latest: \"I simply refuse to be bearish on $BTC from a HTF perspective. https://t.co/1FDE1sbSmu\"",
   "high_conviction_count": 64
 }
