@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-20T01:29:16.574886+00:00",
-  "last_price": 63421.85,
+  "generated": "2026-06-20T05:56:17.469959+00:00",
+  "last_price": 63598.04,
   "last_price_time": 1781913600,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2067904584035479749",
       "text": "At some point, $BTC is going to front run major HTF liquidity.\n\nJust like the market front ran the 140K liquidity above, it can do the exact",
-      "pnl_pct": 5.7,
-      "pnl_leveraged_pct": 5.7,
+      "pnl_pct": 6.0,
+      "pnl_leveraged_pct": 6.0,
       "stale": false
     }
   ],
@@ -272,61 +272,61 @@
     {
       "time": 1781861847,
       "date": "Fri Jun 19 09:37",
-      "equity": 0.9275,
+      "equity": 0.9301,
       "dir": "long",
-      "ret_pct": -0.08
+      "ret_pct": 0.19
     }
   ],
   "levels": [
     {
       "level": 80000,
       "mentions": 12,
-      "dist_pct": 26.1,
+      "dist_pct": 25.8,
       "side": "resistance"
     },
     {
       "level": 79000,
       "mentions": 12,
-      "dist_pct": 24.6,
+      "dist_pct": 24.2,
       "side": "resistance"
     },
     {
       "level": 76000,
       "mentions": 13,
-      "dist_pct": 19.8,
+      "dist_pct": 19.5,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 18,
-      "dist_pct": 16.7,
+      "dist_pct": 16.4,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 14,
-      "dist_pct": 10.4,
+      "dist_pct": 10.1,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 10,
-      "dist_pct": 2.5,
+      "dist_pct": 2.2,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 10,
-      "dist_pct": 0.9,
+      "dist_pct": 0.6,
       "side": "resistance"
     },
     {
       "level": 60000,
       "mentions": 25,
-      "dist_pct": -5.4,
+      "dist_pct": -5.7,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (8 bullish / 5 bearish of last 25). He appears long from $60,000 (+5.7% vs entry). Key levels he's citing: $80K, $79K, $76K, $74K. Latest: \"$BTC  As always, the pattern didn't change.  FOMC was priced in. We saw a bullish narrative form into the news, then a -5% dump afterwards.  Textbook reaction. \"",
+  "stance": "Recent tone is bullish (8 bullish / 5 bearish of last 25). He appears long from $60,000 (+6.0% vs entry). Key levels he's citing: $80K, $79K, $76K, $74K. Latest: \"$BTC  As always, the pattern didn't change.  FOMC was priced in. We saw a bullish narrative form into the news, then a -5% dump afterwards.  Textbook reaction. \"",
   "high_conviction_count": 64
 }
