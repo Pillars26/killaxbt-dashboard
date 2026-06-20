@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-20T11:12:49.300922+00:00",
-  "last_price": 63593.11,
+  "generated": "2026-06-20T12:59:36.872652+00:00",
+  "last_price": 63588.47,
   "last_price_time": 1781913600,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2067904584035479749",
       "text": "At some point, $BTC is going to front run major HTF liquidity.\n\nJust like the market front ran the 140K liquidity above, it can do the exact",
-      "pnl_pct": 5.99,
-      "pnl_leveraged_pct": 5.99,
+      "pnl_pct": 5.98,
+      "pnl_leveraged_pct": 5.98,
       "stale": false
     }
   ],
@@ -274,7 +274,7 @@
       "date": "Fri Jun 19 09:37",
       "equity": 0.93,
       "dir": "long",
-      "ret_pct": 0.19
+      "ret_pct": 0.18
     }
   ],
   "levels": [
@@ -323,7 +323,7 @@
     {
       "level": 60000,
       "mentions": 26,
-      "dist_pct": -5.7,
+      "dist_pct": -5.6,
       "side": "support"
     }
   ],
