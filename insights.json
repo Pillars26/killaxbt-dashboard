@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-20T08:50:50.637236+00:00",
-  "last_price": 63354.79,
+  "generated": "2026-06-20T11:12:49.300922+00:00",
+  "last_price": 63593.11,
   "last_price_time": 1781913600,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2067904584035479749",
       "text": "At some point, $BTC is going to front run major HTF liquidity.\n\nJust like the market front ran the 140K liquidity above, it can do the exact",
-      "pnl_pct": 5.59,
-      "pnl_leveraged_pct": 5.59,
+      "pnl_pct": 5.99,
+      "pnl_leveraged_pct": 5.99,
       "stale": false
     }
   ],
@@ -272,61 +272,61 @@
     {
       "time": 1781861847,
       "date": "Fri Jun 19 09:37",
-      "equity": 0.9265,
+      "equity": 0.93,
       "dir": "long",
-      "ret_pct": -0.19
+      "ret_pct": 0.19
     }
   ],
   "levels": [
     {
       "level": 80000,
       "mentions": 12,
-      "dist_pct": 26.3,
+      "dist_pct": 25.8,
       "side": "resistance"
     },
     {
       "level": 79000,
       "mentions": 12,
-      "dist_pct": 24.7,
+      "dist_pct": 24.2,
       "side": "resistance"
     },
     {
       "level": 76000,
       "mentions": 13,
-      "dist_pct": 20.0,
+      "dist_pct": 19.5,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 18,
-      "dist_pct": 16.8,
+      "dist_pct": 16.4,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 15,
-      "dist_pct": 10.5,
+      "dist_pct": 10.1,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 10,
-      "dist_pct": 2.6,
+      "dist_pct": 2.2,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 10,
-      "dist_pct": 1.0,
+      "dist_pct": 0.6,
       "side": "resistance"
     },
     {
       "level": 60000,
       "mentions": 26,
-      "dist_pct": -5.3,
+      "dist_pct": -5.7,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (8 bullish / 5 bearish of last 25). He appears long from $60,000 (+5.6% vs entry). Key levels he's citing: $80K, $79K, $76K, $74K. Latest: \"Everyone is obsessed with catching the exact bottom.    In reality, the people who make the most money are the ones who buy significant drops while everyone els\"",
+  "stance": "Recent tone is bullish (7 bullish / 6 bearish of last 25). He appears long from $60,000 (+6.0% vs entry). Key levels he's citing: $80K, $79K, $76K, $74K. Latest: \"$BTC  Volatility is compressing. The cycle extremes are gradually becoming less severe.  So why should we automatically assume we'll see the same level of capit\"",
   "high_conviction_count": 64
 }
