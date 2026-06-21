@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-21T15:23:05.161874+00:00",
-  "last_price": 64116.01,
+  "generated": "2026-06-21T17:02:16.673937+00:00",
+  "last_price": 64045.42,
   "last_price_time": 1782000000,
   "positions": [],
   "equity_curve": [
@@ -259,61 +259,61 @@
     {
       "time": 1781861847,
       "date": "Fri Jun 19 09:37",
-      "equity": 0.9377,
+      "equity": 0.9366,
       "dir": "long",
-      "ret_pct": 1.01
+      "ret_pct": 0.9
     }
   ],
   "levels": [
     {
       "level": 80000,
       "mentions": 13,
-      "dist_pct": 24.8,
+      "dist_pct": 24.9,
       "side": "resistance"
     },
     {
       "level": 79000,
       "mentions": 12,
-      "dist_pct": 23.2,
+      "dist_pct": 23.3,
       "side": "resistance"
     },
     {
       "level": 76000,
       "mentions": 13,
-      "dist_pct": 18.5,
+      "dist_pct": 18.7,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 18,
-      "dist_pct": 15.4,
+      "dist_pct": 15.5,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 15,
-      "dist_pct": 9.2,
+      "dist_pct": 9.3,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 10,
-      "dist_pct": 1.4,
+      "dist_pct": 1.5,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 10,
-      "dist_pct": -0.2,
+      "dist_pct": -0.1,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 30,
-      "dist_pct": -6.4,
+      "dist_pct": -6.3,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (8 bullish / 6 bearish of last 25). Key levels he's citing: $80K, $79K, $76K, $74K. Latest: \"$BTC  Based on historical performance, July has typically delivered average returns of around 7\u20138%.  If these seasonal patterns continue, July could see more gr\"",
+  "stance": "Recent tone is bullish (8 bullish / 6 bearish of last 25). Key levels he's citing: $80K, $79K, $76K, $74K. Latest: \"We never reached the extended red zone this cycle.  So what makes anyone certain we'll hit the lower blue boundary?  The reality is that cycle metrics are evolv\"",
   "high_conviction_count": 64
 }
