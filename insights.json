@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-21T13:22:43.063062+00:00",
-  "last_price": 64083.99,
+  "generated": "2026-06-21T15:23:05.161874+00:00",
+  "last_price": 64116.01,
   "last_price_time": 1782000000,
   "positions": [],
   "equity_curve": [
@@ -259,9 +259,9 @@
     {
       "time": 1781861847,
       "date": "Fri Jun 19 09:37",
-      "equity": 0.9372,
+      "equity": 0.9377,
       "dir": "long",
-      "ret_pct": 0.96
+      "ret_pct": 1.01
     }
   ],
   "levels": [
@@ -274,19 +274,19 @@
     {
       "level": 79000,
       "mentions": 12,
-      "dist_pct": 23.3,
+      "dist_pct": 23.2,
       "side": "resistance"
     },
     {
       "level": 76000,
       "mentions": 13,
-      "dist_pct": 18.6,
+      "dist_pct": 18.5,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 18,
-      "dist_pct": 15.5,
+      "dist_pct": 15.4,
       "side": "resistance"
     },
     {
@@ -304,7 +304,7 @@
     {
       "level": 64000,
       "mentions": 10,
-      "dist_pct": -0.1,
+      "dist_pct": -0.2,
       "side": "support"
     },
     {
@@ -314,6 +314,6 @@
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (8 bullish / 5 bearish of last 25). Key levels he's citing: $80K, $79K, $76K, $74K. Latest: \"They can see all your bids below $60K, which is exactly why $BTC keeps front-running them.  We're likely to see more hunts to the upside, squeezing shorts and m\"",
+  "stance": "Recent tone is bullish (8 bullish / 6 bearish of last 25). Key levels he's citing: $80K, $79K, $76K, $74K. Latest: \"$BTC  Based on historical performance, July has typically delivered average returns of around 7\u20138%.  If these seasonal patterns continue, July could see more gr\"",
   "high_conviction_count": 64
 }
