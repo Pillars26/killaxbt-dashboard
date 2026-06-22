@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-22T16:10:33.112393+00:00",
-  "last_price": 64590.77,
+  "generated": "2026-06-22T19:47:03.703194+00:00",
+  "last_price": 64223.99,
   "last_price_time": 1782086400,
   "positions": [],
   "equity_curve": [
@@ -259,61 +259,61 @@
     {
       "time": 1781861847,
       "date": "Fri Jun 19 09:37",
-      "equity": 0.9446,
+      "equity": 0.9393,
       "dir": "long",
-      "ret_pct": 1.76
+      "ret_pct": 1.18
     }
   ],
   "levels": [
     {
       "level": 80000,
       "mentions": 13,
-      "dist_pct": 23.9,
+      "dist_pct": 24.6,
       "side": "resistance"
     },
     {
       "level": 79000,
       "mentions": 12,
-      "dist_pct": 22.3,
+      "dist_pct": 23.0,
       "side": "resistance"
     },
     {
       "level": 76000,
       "mentions": 12,
-      "dist_pct": 17.7,
+      "dist_pct": 18.3,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 18,
-      "dist_pct": 14.6,
+      "dist_pct": 15.2,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 15,
-      "dist_pct": 8.4,
+      "dist_pct": 9.0,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 10,
-      "dist_pct": 0.6,
+      "dist_pct": 1.2,
       "side": "resistance"
     },
     {
       "level": 64000,
-      "mentions": 10,
-      "dist_pct": -0.9,
+      "mentions": 11,
+      "dist_pct": -0.3,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 30,
-      "dist_pct": -7.1,
+      "dist_pct": -6.6,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (9 bullish / 7 bearish of last 25). Key levels he's citing: $80K, $79K, $76K, $74K. Latest: \"$BTC  I\u2019m bullish on the HTF and there are plenty of macro bottom signals flashing...  But there\u2019s absolutely no chance we\u2019re seeing $100K this year.  Bottoms t\"",
+  "stance": "Recent tone is bullish (9 bullish / 6 bearish of last 25). Key levels he's citing: $80K, $79K, $76K, $74K. Latest: \"$BTC  By no surprise,   7/7 Mondays have marked a local pivot high during NY.   63.6-64K is the area to hold for bulls. Lose that &amp; we head to 61K.\"",
   "high_conviction_count": 64
 }
