@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-23T08:48:45.150534+00:00",
-  "last_price": 62260.84,
+  "generated": "2026-06-23T11:56:44.778506+00:00",
+  "last_price": 62420.21,
   "last_price_time": 1782172800,
   "positions": [],
   "equity_curve": [
@@ -259,61 +259,61 @@
     {
       "time": 1781861847,
       "date": "Fri Jun 19 09:37",
-      "equity": 0.9105,
+      "equity": 0.9129,
       "dir": "long",
-      "ret_pct": -1.91
+      "ret_pct": -1.66
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 9,
-      "dist_pct": 60.6,
+      "dist_pct": 60.2,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 13,
-      "dist_pct": 28.5,
+      "dist_pct": 28.2,
       "side": "resistance"
     },
     {
       "level": 79000,
       "mentions": 12,
-      "dist_pct": 26.9,
+      "dist_pct": 26.6,
       "side": "resistance"
     },
     {
       "level": 76000,
       "mentions": 11,
-      "dist_pct": 22.1,
+      "dist_pct": 21.8,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 18,
-      "dist_pct": 18.9,
+      "dist_pct": 18.6,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 15,
-      "dist_pct": 12.4,
+      "dist_pct": 12.1,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 11,
-      "dist_pct": 2.8,
+      "dist_pct": 2.5,
       "side": "resistance"
     },
     {
       "level": 60000,
       "mentions": 30,
-      "dist_pct": -3.6,
+      "dist_pct": -3.9,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (9 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $80K, $79K, $76K. Latest: \"$BTC  By no surprise,   7/7 Mondays have marked a local pivot high during NY.   63.6-64K is the area to hold for bulls. Lose that &amp; we head to 61K.\"",
+  "stance": "Recent tone is bullish (8 bullish / 7 bearish of last 25). Key levels he's citing: $100K, $80K, $79K, $76K. Latest: \"Literally same sh*t different week.   We dropped 5% from the pivot high formed during NY, marking the 7th consecutive time $BTC has sold off from this window. h\"",
   "high_conviction_count": 64
 }
