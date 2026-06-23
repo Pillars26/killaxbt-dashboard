@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-23T19:19:13.118496+00:00",
-  "last_price": 62242.93,
+  "generated": "2026-06-23T21:13:53.034521+00:00",
+  "last_price": 62408.44,
   "last_price_time": 1782172800,
   "positions": [],
   "equity_curve": [
@@ -259,61 +259,61 @@
     {
       "time": 1781861847,
       "date": "Fri Jun 19 09:37",
-      "equity": 0.9103,
+      "equity": 0.9127,
       "dir": "long",
-      "ret_pct": -1.94
+      "ret_pct": -1.68
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 9,
-      "dist_pct": 60.7,
+      "dist_pct": 60.2,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 12,
-      "dist_pct": 28.5,
+      "dist_pct": 28.2,
       "side": "resistance"
     },
     {
       "level": 79000,
       "mentions": 12,
-      "dist_pct": 26.9,
+      "dist_pct": 26.6,
       "side": "resistance"
     },
     {
       "level": 76000,
       "mentions": 11,
-      "dist_pct": 22.1,
+      "dist_pct": 21.8,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 17,
-      "dist_pct": 18.9,
+      "dist_pct": 18.6,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 14,
-      "dist_pct": 12.5,
+      "dist_pct": 12.2,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 11,
-      "dist_pct": 2.8,
+      "dist_pct": 2.6,
       "side": "resistance"
     },
     {
       "level": 60000,
       "mentions": 30,
-      "dist_pct": -3.6,
+      "dist_pct": -3.9,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (9 bullish / 7 bearish of last 25). Key levels he's citing: $100K, $80K, $79K, $76K. Latest: \"$BTC is in the process of forming its macro bottom...  The most important phase to capitalize on.  Very important video: https://t.co/mKs4OmOjPj https://t.co/WP\"",
+  "stance": "Recent tone is bullish (10 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $80K, $79K, $76K. Latest: \"$BTC  It has never been a bad time to buy during dark blue.   We can already see bull cycles failing to reach the same levels of parabolic volatility to the ups\"",
   "high_conviction_count": 64
 }
