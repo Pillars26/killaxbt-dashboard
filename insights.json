@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-24T11:48:44.224069+00:00",
-  "last_price": 62680.19,
+  "generated": "2026-06-24T14:16:16.784333+00:00",
+  "last_price": 61073.94,
   "last_price_time": 1782259200,
   "positions": [],
   "equity_curve": [
@@ -259,61 +259,61 @@
     {
       "time": 1781861847,
       "date": "Fri Jun 19 09:37",
-      "equity": 0.9167,
+      "equity": 0.8932,
       "dir": "long",
-      "ret_pct": -1.25
+      "ret_pct": -3.78
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 9,
-      "dist_pct": 59.5,
+      "dist_pct": 63.7,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 12,
-      "dist_pct": 27.6,
+      "dist_pct": 31.0,
       "side": "resistance"
     },
     {
       "level": 79000,
       "mentions": 12,
-      "dist_pct": 26.0,
+      "dist_pct": 29.4,
       "side": "resistance"
     },
     {
       "level": 76000,
       "mentions": 11,
-      "dist_pct": 21.3,
+      "dist_pct": 24.4,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 17,
-      "dist_pct": 18.1,
+      "dist_pct": 21.2,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 14,
-      "dist_pct": 11.7,
+      "dist_pct": 14.6,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 11,
-      "dist_pct": 2.1,
+      "dist_pct": 4.8,
       "side": "resistance"
     },
     {
       "level": 60000,
       "mentions": 30,
-      "dist_pct": -4.3,
+      "dist_pct": -1.8,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (10 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $80K, $79K, $76K. Latest: \"For those who don't understand this post:  This is the quarterly chart (3M).  So far, $BTC has printed a Doji, and we saw the exact same pattern form in 2022. A\"",
+  "stance": "Recent tone is bullish (9 bullish / 5 bearish of last 25). Key levels he's citing: $100K, $80K, $79K, $76K. Latest: \"You simply aren't ready.... $BTC https://t.co/dFeMIZBRC6\"",
   "high_conviction_count": 64
 }
