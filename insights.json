@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-24T21:53:06.483965+00:00",
-  "last_price": 60947.87,
+  "generated": "2026-06-24T23:01:16.651347+00:00",
+  "last_price": 60727.98,
   "last_price_time": 1782259200,
   "positions": [],
   "equity_curve": [
@@ -259,61 +259,61 @@
     {
       "time": 1781861847,
       "date": "Fri Jun 19 09:37",
-      "equity": 0.8913,
+      "equity": 0.8881,
       "dir": "long",
-      "ret_pct": -3.98
+      "ret_pct": -4.33
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 9,
-      "dist_pct": 64.1,
+      "dist_pct": 64.7,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 12,
-      "dist_pct": 31.3,
+      "dist_pct": 31.7,
       "side": "resistance"
     },
     {
       "level": 79000,
       "mentions": 12,
-      "dist_pct": 29.6,
+      "dist_pct": 30.1,
       "side": "resistance"
     },
     {
       "level": 76000,
       "mentions": 11,
-      "dist_pct": 24.7,
+      "dist_pct": 25.1,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 17,
-      "dist_pct": 21.4,
+      "dist_pct": 21.9,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 14,
-      "dist_pct": 14.9,
+      "dist_pct": 15.3,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 11,
-      "dist_pct": 5.0,
+      "dist_pct": 5.4,
       "side": "resistance"
     },
     {
       "level": 60000,
       "mentions": 29,
-      "dist_pct": -1.6,
+      "dist_pct": -1.2,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (9 bullish / 4 bearish of last 25). Key levels he's citing: $100K, $80K, $79K, $76K. Latest: \"Doesn't change the fact that I'm swing long on $BTC.  When the narrative becomes overwhelmingly one sided, it's usually a good indication of how the crowd is po\"",
+  "stance": "Recent tone is bullish (9 bullish / 2 bearish of last 25). Key levels he's citing: $100K, $80K, $79K, $76K. Latest: \"Getting some 2022 PTSD right now on $BTC.   I don't even think this will play out, if I'm honest. Very low chance.  Just an interesting pattern I thought was wo\"",
   "high_conviction_count": 64
 }
