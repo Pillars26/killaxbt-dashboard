@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-25T22:06:03.665539+00:00",
-  "last_price": 60030.53,
+  "generated": "2026-06-25T23:44:08.548830+00:00",
+  "last_price": 59900.06,
   "last_price_time": 1782345600,
   "positions": [],
   "equity_curve": [
@@ -259,59 +259,59 @@
     {
       "time": 1781861847,
       "date": "Fri Jun 19 09:37",
-      "equity": 0.8779,
+      "equity": 0.876,
       "dir": "long",
-      "ret_pct": -5.43
+      "ret_pct": -5.63
     }
   ],
   "levels": [
     {
       "level": 80000,
       "mentions": 9,
-      "dist_pct": 33.3,
+      "dist_pct": 33.6,
       "side": "resistance"
     },
     {
       "level": 79000,
       "mentions": 12,
-      "dist_pct": 31.6,
+      "dist_pct": 31.9,
       "side": "resistance"
     },
     {
       "level": 76000,
       "mentions": 11,
-      "dist_pct": 26.6,
+      "dist_pct": 26.9,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 17,
-      "dist_pct": 23.3,
+      "dist_pct": 23.5,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 14,
-      "dist_pct": 16.6,
+      "dist_pct": 16.9,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 9,
-      "dist_pct": 8.3,
+      "dist_pct": 8.5,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 10,
-      "dist_pct": 6.6,
+      "dist_pct": 6.8,
       "side": "resistance"
     },
     {
       "level": 60000,
       "mentions": 31,
-      "dist_pct": -0.1,
-      "side": "support"
+      "dist_pct": 0.2,
+      "side": "resistance"
     }
   ],
   "stance": "Recent tone is bullish (5 bullish / 4 bearish of last 25). Key levels he's citing: $80K, $79K, $76K, $74K. Latest: \"The reason most people lose money is because they become fixated on LTF price action. They overleverage their positions in an attempt to capture outsized short \"",
