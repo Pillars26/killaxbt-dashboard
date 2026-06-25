@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-25T15:59:58.963806+00:00",
-  "last_price": 59503.15,
+  "generated": "2026-06-25T18:19:02.058826+00:00",
+  "last_price": 59395.28,
   "last_price_time": 1782345600,
   "positions": [],
   "equity_curve": [
@@ -259,61 +259,61 @@
     {
       "time": 1781861847,
       "date": "Fri Jun 19 09:37",
-      "equity": 0.8702,
+      "equity": 0.8686,
       "dir": "long",
-      "ret_pct": -6.26
+      "ret_pct": -6.43
     }
   ],
   "levels": [
     {
       "level": 80000,
       "mentions": 12,
-      "dist_pct": 34.4,
+      "dist_pct": 34.7,
       "side": "resistance"
     },
     {
       "level": 79000,
       "mentions": 12,
-      "dist_pct": 32.8,
+      "dist_pct": 33.0,
       "side": "resistance"
     },
     {
       "level": 76000,
       "mentions": 11,
-      "dist_pct": 27.7,
+      "dist_pct": 28.0,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 17,
-      "dist_pct": 24.4,
+      "dist_pct": 24.6,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 14,
-      "dist_pct": 17.6,
+      "dist_pct": 17.9,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 9,
-      "dist_pct": 9.2,
+      "dist_pct": 9.4,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 11,
-      "dist_pct": 7.6,
+      "dist_pct": 7.8,
       "side": "resistance"
     },
     {
       "level": 60000,
       "mentions": 31,
-      "dist_pct": 0.8,
+      "dist_pct": 1.0,
       "side": "resistance"
     }
   ],
-  "stance": "Recent tone is bullish (6 bullish / 3 bearish of last 25). Key levels he's citing: $80K, $79K, $76K, $74K. Latest: \"$BTC   50% of new holders are sitting in a loss.   We're reaching the same levels seen in 2018 and 2022.  If you know... you know. \ud83d\udc4c https://t.co/2kwxsqDjDe\"",
+  "stance": "Recent tone is bullish (6 bullish / 3 bearish of last 25). Key levels he's citing: $80K, $79K, $76K, $74K. Latest: \"I am following my $BTC spot plan from 2025.   My average notional entry is $65,897.  Will see you in a few years. https://t.co/Jf5R0e1pfY\"",
   "high_conviction_count": 64
 }
