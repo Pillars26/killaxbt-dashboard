@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-25T08:04:58.203588+00:00",
-  "last_price": 61763.32,
+  "generated": "2026-06-25T11:08:15.402328+00:00",
+  "last_price": 61025.7,
   "last_price_time": 1782345600,
   "positions": [],
   "equity_curve": [
@@ -259,61 +259,61 @@
     {
       "time": 1781861847,
       "date": "Fri Jun 19 09:37",
-      "equity": 0.9033,
+      "equity": 0.8925,
       "dir": "long",
-      "ret_pct": -2.7
+      "ret_pct": -3.86
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 9,
-      "dist_pct": 61.9,
+      "dist_pct": 63.9,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 12,
-      "dist_pct": 29.5,
+      "dist_pct": 31.1,
       "side": "resistance"
     },
     {
       "level": 79000,
       "mentions": 12,
-      "dist_pct": 27.9,
+      "dist_pct": 29.5,
       "side": "resistance"
     },
     {
       "level": 76000,
       "mentions": 11,
-      "dist_pct": 23.1,
+      "dist_pct": 24.5,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 17,
-      "dist_pct": 19.8,
+      "dist_pct": 21.3,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 14,
-      "dist_pct": 13.3,
+      "dist_pct": 14.7,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 11,
-      "dist_pct": 3.6,
+      "dist_pct": 4.9,
       "side": "resistance"
     },
     {
       "level": 60000,
-      "mentions": 29,
-      "dist_pct": -2.9,
+      "mentions": 31,
+      "dist_pct": -1.7,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (9 bullish / 2 bearish of last 25). Key levels he's citing: $100K, $80K, $79K, $76K. Latest: \"Getting some 2022 PTSD right now on $BTC.   I don't even think this will play out, if I'm honest. Very low chance.  Just an interesting pattern I thought was wo\"",
+  "stance": "Recent tone is bullish (8 bullish / 3 bearish of last 25). Key levels he's citing: $100K, $80K, $79K, $76K. Latest: \"$BTC   Kinda funny how nearly this entire move upwards is shorts covering &amp; closing positions.   People keep shorting into the lows every single time.   It \"",
   "high_conviction_count": 64
 }
