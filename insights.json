@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-27T18:17:55.751752+00:00",
-  "last_price": 60459.48,
+  "generated": "2026-06-27T19:51:52.194165+00:00",
+  "last_price": 60097,
   "last_price_time": 1782518400,
   "positions": [],
   "equity_curve": [
@@ -268,52 +268,52 @@
     {
       "level": 100000,
       "mentions": 9,
-      "dist_pct": 65.4,
+      "dist_pct": 66.4,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 9,
-      "dist_pct": 32.3,
+      "dist_pct": 33.1,
       "side": "resistance"
     },
     {
       "level": 79000,
       "mentions": 12,
-      "dist_pct": 30.7,
+      "dist_pct": 31.5,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 17,
-      "dist_pct": 22.4,
+      "dist_pct": 23.1,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 14,
-      "dist_pct": 15.8,
+      "dist_pct": 16.5,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 9,
-      "dist_pct": 7.5,
+      "dist_pct": 8.2,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 10,
-      "dist_pct": 5.9,
+      "dist_pct": 6.5,
       "side": "resistance"
     },
     {
       "level": 60000,
       "mentions": 29,
-      "dist_pct": -0.8,
+      "dist_pct": -0.2,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (6 bullish / 5 bearish of last 25). Key levels he's citing: $100K, $80K, $79K, $74K. Latest: \"For the past 6 weeks, $BTC has formed a pivot high every Monday before moving lower.   If that pattern repeats again, it would suggest BTC could make new lows o\"",
+  "stance": "Recent tone is bearish (5 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $80K, $79K, $74K. Latest: \"Dumb bulls will always outperform smart bears.  The oldest lesson in markets, and one that\u2019s held true for decades.  Inflation isn\u2019t going away. Money printing \"",
   "high_conviction_count": 65
 }
