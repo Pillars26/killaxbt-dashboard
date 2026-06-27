@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-27T17:04:59.103755+00:00",
-  "last_price": 60387.6,
+  "generated": "2026-06-27T18:17:55.751752+00:00",
+  "last_price": 60459.48,
   "last_price_time": 1782518400,
   "positions": [],
   "equity_curve": [
@@ -268,52 +268,52 @@
     {
       "level": 100000,
       "mentions": 9,
-      "dist_pct": 65.6,
+      "dist_pct": 65.4,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 9,
-      "dist_pct": 32.5,
+      "dist_pct": 32.3,
       "side": "resistance"
     },
     {
       "level": 79000,
       "mentions": 12,
-      "dist_pct": 30.8,
-      "side": "resistance"
-    },
-    {
-      "level": 76000,
-      "mentions": 10,
-      "dist_pct": 25.9,
+      "dist_pct": 30.7,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 17,
-      "dist_pct": 22.5,
+      "dist_pct": 22.4,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 14,
-      "dist_pct": 15.9,
+      "dist_pct": 15.8,
+      "side": "resistance"
+    },
+    {
+      "level": 65000,
+      "mentions": 9,
+      "dist_pct": 7.5,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 10,
-      "dist_pct": 6.0,
+      "dist_pct": 5.9,
       "side": "resistance"
     },
     {
       "level": 60000,
       "mentions": 29,
-      "dist_pct": -0.6,
+      "dist_pct": -0.8,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (6 bullish / 4 bearish of last 25). Key levels he's citing: $100K, $80K, $79K, $76K. Latest: \"$BTC  This is the kind of PA you see when the goal is to shake out longs and lure frustrated people into opening shorts.  Chop.hunt.squeeze.exe https://t.co/CjW\"",
+  "stance": "Recent tone is bullish (6 bullish / 5 bearish of last 25). Key levels he's citing: $100K, $80K, $79K, $74K. Latest: \"For the past 6 weeks, $BTC has formed a pivot high every Monday before moving lower.   If that pattern repeats again, it would suggest BTC could make new lows o\"",
   "high_conviction_count": 65
 }
