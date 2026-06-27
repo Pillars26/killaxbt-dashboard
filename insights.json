@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-27T11:25:00.169464+00:00",
-  "last_price": 60240.09,
+  "generated": "2026-06-27T12:51:00.502854+00:00",
+  "last_price": 60248.33,
   "last_price_time": 1782518400,
   "positions": [],
   "equity_curve": [
@@ -286,7 +286,7 @@
     {
       "level": 76000,
       "mentions": 10,
-      "dist_pct": 26.2,
+      "dist_pct": 26.1,
       "side": "resistance"
     },
     {
@@ -314,6 +314,6 @@
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (6 bullish / 4 bearish of last 25). Key levels he's citing: $100K, $80K, $79K, $76K. Latest: \"Quant told me that if you ain\u2019t buying $BTC at these prices,   You\u2019re a fool. https://t.co/LhiDw8szK4\"",
+  "stance": "Recent tone is bullish (6 bullish / 4 bearish of last 25). Key levels he's citing: $100K, $80K, $79K, $76K. Latest: \"Not sure about you guys,  But this is a range until proven otherwise.   As long as $BTC holds above the PWL, we could easily see more retests of the mid-$60Ks. \"",
   "high_conviction_count": 65
 }
