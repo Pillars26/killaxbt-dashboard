@@ -1,7 +1,7 @@
 {
-  "generated": "2026-06-26T23:01:52.371277+00:00",
-  "last_price": 59967.42,
-  "last_price_time": 1782432000,
+  "generated": "2026-06-27T00:19:59.450016+00:00",
+  "last_price": 60003.54,
+  "last_price_time": 1782518400,
   "positions": [],
   "equity_curve": [
     {
@@ -259,22 +259,22 @@
     {
       "time": 1781861847,
       "date": "Fri Jun 19 09:37",
-      "equity": 0.877,
+      "equity": 0.8775,
       "dir": "long",
-      "ret_pct": -5.53
+      "ret_pct": -5.47
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 9,
-      "dist_pct": 66.8,
+      "dist_pct": 66.7,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 9,
-      "dist_pct": 33.4,
+      "dist_pct": 33.3,
       "side": "resistance"
     },
     {
@@ -292,7 +292,7 @@
     {
       "level": 74000,
       "mentions": 17,
-      "dist_pct": 23.4,
+      "dist_pct": 23.3,
       "side": "resistance"
     },
     {
@@ -310,8 +310,8 @@
     {
       "level": 60000,
       "mentions": 32,
-      "dist_pct": 0.1,
-      "side": "resistance"
+      "dist_pct": -0.0,
+      "side": "support"
     }
   ],
   "stance": "Recent tone is bullish (6 bullish / 4 bearish of last 25). Key levels he's citing: $100K, $80K, $79K, $76K. Latest: \"Bitcoin will create a ATH between next year October &amp; February 2028.  Do as you wish with that information.\"",
