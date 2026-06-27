@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-27T22:01:06.878185+00:00",
-  "last_price": 60021.9,
+  "generated": "2026-06-27T23:16:12.621011+00:00",
+  "last_price": 59994.09,
   "last_price_time": 1782518400,
   "positions": [],
   "equity_curve": [
@@ -268,7 +268,7 @@
     {
       "level": 100000,
       "mentions": 9,
-      "dist_pct": 66.6,
+      "dist_pct": 66.7,
       "side": "resistance"
     },
     {
@@ -280,7 +280,7 @@
     {
       "level": 79000,
       "mentions": 12,
-      "dist_pct": 31.6,
+      "dist_pct": 31.7,
       "side": "resistance"
     },
     {
@@ -292,7 +292,7 @@
     {
       "level": 70000,
       "mentions": 14,
-      "dist_pct": 16.6,
+      "dist_pct": 16.7,
       "side": "resistance"
     },
     {
@@ -304,14 +304,14 @@
     {
       "level": 64000,
       "mentions": 10,
-      "dist_pct": 6.6,
+      "dist_pct": 6.7,
       "side": "resistance"
     },
     {
       "level": 60000,
       "mentions": 29,
-      "dist_pct": -0.0,
-      "side": "support"
+      "dist_pct": 0.0,
+      "side": "resistance"
     }
   ],
   "stance": "Recent tone is bearish (5 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $80K, $79K, $74K. Latest: \"Dumb bulls will always outperform smart bears.  The oldest lesson in markets, and one that\u2019s held true for decades.  Inflation isn\u2019t going away. Money printing \"",
