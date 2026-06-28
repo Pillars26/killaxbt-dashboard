@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-28T09:31:49.806152+00:00",
-  "last_price": 60231.22,
+  "generated": "2026-06-28T11:24:22.674110+00:00",
+  "last_price": 60209,
   "last_price_time": 1782604800,
   "positions": [],
   "equity_curve": [
@@ -268,13 +268,13 @@
     {
       "level": 100000,
       "mentions": 9,
-      "dist_pct": 66.0,
+      "dist_pct": 66.1,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 9,
-      "dist_pct": 32.8,
+      "dist_pct": 32.9,
       "side": "resistance"
     },
     {
@@ -292,13 +292,13 @@
     {
       "level": 70000,
       "mentions": 14,
-      "dist_pct": 16.2,
+      "dist_pct": 16.3,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 9,
-      "dist_pct": 7.9,
+      "dist_pct": 8.0,
       "side": "resistance"
     },
     {
@@ -310,10 +310,10 @@
     {
       "level": 60000,
       "mentions": 29,
-      "dist_pct": -0.4,
+      "dist_pct": -0.3,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bearish (5 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $80K, $79K, $74K. Latest: \"Dumb bulls will always outperform smart bears.  The oldest lesson in markets, and one that\u2019s held true for decades.  Inflation isn\u2019t going away. Money printing \"",
+  "stance": "Recent tone is bearish (5 bullish / 7 bearish of last 25). Key levels he's citing: $100K, $80K, $79K, $74K. Latest: \"One thing you will absolutely never see me do is release a shitcoin to dump on my followers \u270c\ufe0f  They all go to 0 &amp; someone is left bag holding in the end.\"",
   "high_conviction_count": 65
 }
