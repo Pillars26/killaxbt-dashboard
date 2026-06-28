@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-28T06:02:11.891129+00:00",
-  "last_price": 59915.91,
+  "generated": "2026-06-28T09:31:49.806152+00:00",
+  "last_price": 60231.22,
   "last_price_time": 1782604800,
   "positions": [],
   "equity_curve": [
@@ -268,50 +268,50 @@
     {
       "level": 100000,
       "mentions": 9,
-      "dist_pct": 66.9,
+      "dist_pct": 66.0,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 9,
-      "dist_pct": 33.5,
+      "dist_pct": 32.8,
       "side": "resistance"
     },
     {
       "level": 79000,
       "mentions": 12,
-      "dist_pct": 31.9,
+      "dist_pct": 31.2,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 17,
-      "dist_pct": 23.5,
+      "dist_pct": 22.9,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 14,
-      "dist_pct": 16.8,
+      "dist_pct": 16.2,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 9,
-      "dist_pct": 8.5,
+      "dist_pct": 7.9,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 10,
-      "dist_pct": 6.8,
+      "dist_pct": 6.3,
       "side": "resistance"
     },
     {
       "level": 60000,
       "mentions": 29,
-      "dist_pct": 0.1,
-      "side": "resistance"
+      "dist_pct": -0.4,
+      "side": "support"
     }
   ],
   "stance": "Recent tone is bearish (5 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $80K, $79K, $74K. Latest: \"Dumb bulls will always outperform smart bears.  The oldest lesson in markets, and one that\u2019s held true for decades.  Inflation isn\u2019t going away. Money printing \"",
