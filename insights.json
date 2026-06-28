@@ -1,8 +1,21 @@
 {
-  "generated": "2026-06-28T12:53:12.615203+00:00",
-  "last_price": 60199.46,
+  "generated": "2026-06-28T14:45:49.128578+00:00",
+  "last_price": 60000.48,
   "last_price_time": 1782604800,
-  "positions": [],
+  "positions": [
+    {
+      "dir": "long",
+      "entry": 10000,
+      "time": 1782656446,
+      "date": "Sun Jun 28 14:20",
+      "leverage": null,
+      "url": "https://x.com/KillaXBT/status/2071237376404267237",
+      "text": "2026 Bottom vs. 2022 Bottom\n\nWe\u2019re either still in the pre-capitulation phase, meaning we see one final capitulation wick into the 54K\u201344K z",
+      "pnl_pct": 500.0,
+      "pnl_leveraged_pct": 500.0,
+      "stale": false
+    }
+  ],
   "equity_curve": [
     {
       "time": 1756811763,
@@ -268,52 +281,52 @@
     {
       "level": 100000,
       "mentions": 9,
-      "dist_pct": 66.1,
+      "dist_pct": 66.7,
       "side": "resistance"
     },
     {
       "level": 80000,
-      "mentions": 9,
-      "dist_pct": 32.9,
+      "mentions": 8,
+      "dist_pct": 33.3,
       "side": "resistance"
     },
     {
       "level": 79000,
       "mentions": 12,
-      "dist_pct": 31.2,
+      "dist_pct": 31.7,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 17,
-      "dist_pct": 22.9,
+      "dist_pct": 23.3,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 14,
-      "dist_pct": 16.3,
+      "dist_pct": 16.7,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 9,
-      "dist_pct": 8.0,
+      "dist_pct": 8.3,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 10,
-      "dist_pct": 6.3,
+      "dist_pct": 6.7,
       "side": "resistance"
     },
     {
       "level": 60000,
       "mentions": 29,
-      "dist_pct": -0.3,
+      "dist_pct": -0.0,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bearish (5 bullish / 7 bearish of last 25). Key levels he's citing: $100K, $80K, $79K, $74K. Latest: \"One thing you will absolutely never see me do is release a shitcoin to dump on my followers \u270c\ufe0f  They all go to 0 &amp; someone is left bag holding in the end.\"",
+  "stance": "Recent tone is bearish (5 bullish / 8 bearish of last 25). He appears long from $10,000 (+500.0% vs entry). Key levels he's citing: $100K, $80K, $79K, $74K. Latest: \"2026 Bottom vs. 2022 Bottom  We\u2019re either still in the pre-capitulation phase, meaning we see one final capitulation wick into the 54K\u201344K zone.  Or  If we're a\"",
   "high_conviction_count": 65
 }
