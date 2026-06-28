@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-28T14:45:49.128578+00:00",
-  "last_price": 60000.48,
+  "generated": "2026-06-28T16:06:45.117327+00:00",
+  "last_price": 59798.54,
   "last_price_time": 1782604800,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2071237376404267237",
       "text": "2026 Bottom vs. 2022 Bottom\n\nWe\u2019re either still in the pre-capitulation phase, meaning we see one final capitulation wick into the 54K\u201344K z",
-      "pnl_pct": 500.0,
-      "pnl_leveraged_pct": 500.0,
+      "pnl_pct": 497.99,
+      "pnl_leveraged_pct": 497.99,
       "stale": false
     }
   ],
@@ -275,58 +275,65 @@
       "equity": 0.8775,
       "dir": "long",
       "ret_pct": -5.47
+    },
+    {
+      "time": 1782656446,
+      "date": "Sun Jun 28 14:20",
+      "equity": 0.8775,
+      "dir": "long",
+      "ret_pct": 0.0
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 9,
-      "dist_pct": 66.7,
-      "side": "resistance"
-    },
-    {
-      "level": 80000,
-      "mentions": 8,
-      "dist_pct": 33.3,
+      "dist_pct": 67.2,
       "side": "resistance"
     },
     {
       "level": 79000,
       "mentions": 12,
-      "dist_pct": 31.7,
+      "dist_pct": 32.1,
+      "side": "resistance"
+    },
+    {
+      "level": 76000,
+      "mentions": 8,
+      "dist_pct": 27.1,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 17,
-      "dist_pct": 23.3,
+      "dist_pct": 23.7,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 14,
-      "dist_pct": 16.7,
+      "dist_pct": 17.1,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 9,
-      "dist_pct": 8.3,
+      "dist_pct": 8.7,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 10,
-      "dist_pct": 6.7,
+      "dist_pct": 7.0,
       "side": "resistance"
     },
     {
       "level": 60000,
       "mentions": 29,
-      "dist_pct": -0.0,
-      "side": "support"
+      "dist_pct": 0.3,
+      "side": "resistance"
     }
   ],
-  "stance": "Recent tone is bearish (5 bullish / 8 bearish of last 25). He appears long from $10,000 (+500.0% vs entry). Key levels he's citing: $100K, $80K, $79K, $74K. Latest: \"2026 Bottom vs. 2022 Bottom  We\u2019re either still in the pre-capitulation phase, meaning we see one final capitulation wick into the 54K\u201344K zone.  Or  If we're a\"",
-  "high_conviction_count": 65
+  "stance": "Recent tone is bearish (5 bullish / 8 bearish of last 25). He appears long from $10,000 (+498.0% vs entry). Key levels he's citing: $100K, $79K, $76K, $74K. Latest: \"2026 Bottom vs. 2022 Bottom  We\u2019re either still in the pre-capitulation phase, meaning we see one final capitulation wick into the 54K\u201344K zone.  Or  If we're a\"",
+  "high_conviction_count": 66
 }
