@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-28T17:34:55.301313+00:00",
-  "last_price": 59509.01,
+  "generated": "2026-06-28T18:49:28.987457+00:00",
+  "last_price": 59471.11,
   "last_price_time": 1782604800,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2071237376404267237",
       "text": "2026 Bottom vs. 2022 Bottom\n\nWe\u2019re either still in the pre-capitulation phase, meaning we see one final capitulation wick into the 54K\u201344K z",
-      "pnl_pct": 495.09,
-      "pnl_leveraged_pct": 495.09,
+      "pnl_pct": 494.71,
+      "pnl_leveraged_pct": 494.71,
       "stale": false
     }
   ],
@@ -288,7 +288,7 @@
     {
       "level": 100000,
       "mentions": 9,
-      "dist_pct": 68.0,
+      "dist_pct": 68.1,
       "side": "resistance"
     },
     {
@@ -300,7 +300,7 @@
     {
       "level": 76000,
       "mentions": 8,
-      "dist_pct": 27.7,
+      "dist_pct": 27.8,
       "side": "resistance"
     },
     {
@@ -312,28 +312,28 @@
     {
       "level": 70000,
       "mentions": 14,
-      "dist_pct": 17.6,
+      "dist_pct": 17.7,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 9,
-      "dist_pct": 9.2,
+      "dist_pct": 9.3,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 10,
-      "dist_pct": 7.5,
+      "dist_pct": 7.6,
       "side": "resistance"
     },
     {
       "level": 60000,
       "mentions": 29,
-      "dist_pct": 0.8,
+      "dist_pct": 0.9,
       "side": "resistance"
     }
   ],
-  "stance": "Recent tone is bearish (5 bullish / 8 bearish of last 25). He appears long from $10,000 (+495.1% vs entry). Key levels he's citing: $100K, $79K, $76K, $74K. Latest: \"Looks like $BTC has flushed out a lot of low leverage longs, while low leverage short liquidations are now appearing between $63K\u2013$67K.  Wouldn't be surprised t\"",
+  "stance": "Recent tone is bearish (5 bullish / 8 bearish of last 25). He appears long from $10,000 (+494.7% vs entry). Key levels he's citing: $100K, $79K, $76K, $74K. Latest: \"Looks like $BTC has flushed out a lot of low leverage longs, while low leverage short liquidations are now appearing between $63K\u2013$67K.  Wouldn't be surprised t\"",
   "high_conviction_count": 66
 }
