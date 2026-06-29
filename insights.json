@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-29T20:26:01.477469+00:00",
-  "last_price": 60351.78,
+  "generated": "2026-06-29T21:51:17.771557+00:00",
+  "last_price": 60394.12,
   "last_price_time": 1782691200,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2071237376404267237",
       "text": "2026 Bottom vs. 2022 Bottom\n\nWe\u2019re either still in the pre-capitulation phase, meaning we see one final capitulation wick into the 54K\u201344K z",
-      "pnl_pct": 503.52,
-      "pnl_leveraged_pct": 503.52,
+      "pnl_pct": 503.94,
+      "pnl_leveraged_pct": 503.94,
       "stale": false
     }
   ],
@@ -279,46 +279,46 @@
     {
       "time": 1782656446,
       "date": "Sun Jun 28 14:20",
-      "equity": 0.8905,
+      "equity": 0.8911,
       "dir": "long",
-      "ret_pct": 1.48
+      "ret_pct": 1.55
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 8,
-      "dist_pct": 65.7,
+      "dist_pct": 65.6,
       "side": "resistance"
     },
     {
       "level": 79000,
       "mentions": 12,
-      "dist_pct": 30.9,
+      "dist_pct": 30.8,
       "side": "resistance"
     },
     {
       "level": 76000,
       "mentions": 8,
-      "dist_pct": 25.9,
+      "dist_pct": 25.8,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 16,
-      "dist_pct": 22.6,
+      "dist_pct": 22.5,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 14,
-      "dist_pct": 16.0,
+      "dist_pct": 15.9,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 9,
-      "dist_pct": 7.7,
+      "dist_pct": 7.6,
       "side": "resistance"
     },
     {
@@ -330,10 +330,10 @@
     {
       "level": 60000,
       "mentions": 29,
-      "dist_pct": -0.6,
+      "dist_pct": -0.7,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bearish (6 bullish / 9 bearish of last 25). He appears long from $10,000 (+503.5% vs entry). Key levels he's citing: $100K, $79K, $76K, $74K. Latest: \"They will call you lucky in 2-3 years but have no clue what you had to endure.   Just wait for when $BTC is trading above 150K.\"",
+  "stance": "Recent tone is bearish (7 bullish / 9 bearish of last 25). He appears long from $10,000 (+503.9% vs entry). Key levels he's citing: $100K, $79K, $76K, $74K. Latest: \"I'm sorry, but this level of confidence is actually insane.  I'm not saying $BTC can't see $50K, but when 76% of people are convinced it's going to happen, that\"",
   "high_conviction_count": 66
 }
