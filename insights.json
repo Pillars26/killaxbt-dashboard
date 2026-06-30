@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-30T16:01:15.175211+00:00",
-  "last_price": 58291.99,
+  "generated": "2026-06-30T18:13:46.477474+00:00",
+  "last_price": 58380.01,
   "last_price_time": 1782777600,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2071237376404267237",
       "text": "2026 Bottom vs. 2022 Bottom\n\nWe\u2019re either still in the pre-capitulation phase, meaning we see one final capitulation wick into the 54K\u201344K z",
-      "pnl_pct": 482.92,
-      "pnl_leveraged_pct": 482.92,
+      "pnl_pct": 483.8,
+      "pnl_leveraged_pct": 483.8,
       "stale": false
     }
   ],
@@ -279,61 +279,61 @@
     {
       "time": 1782656446,
       "date": "Sun Jun 28 14:20",
-      "equity": 0.8601,
+      "equity": 0.8614,
       "dir": "long",
-      "ret_pct": -1.99
+      "ret_pct": -1.84
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 8,
-      "dist_pct": 71.6,
+      "dist_pct": 71.3,
       "side": "resistance"
     },
     {
       "level": 79000,
-      "mentions": 12,
-      "dist_pct": 35.5,
+      "mentions": 11,
+      "dist_pct": 35.3,
       "side": "resistance"
     },
     {
       "level": 76000,
       "mentions": 8,
-      "dist_pct": 30.4,
+      "dist_pct": 30.2,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 16,
-      "dist_pct": 26.9,
+      "dist_pct": 26.8,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 14,
-      "dist_pct": 20.1,
+      "dist_pct": 19.9,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 10,
-      "dist_pct": 11.5,
+      "dist_pct": 11.3,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 10,
-      "dist_pct": 9.8,
+      "dist_pct": 9.6,
       "side": "resistance"
     },
     {
       "level": 60000,
       "mentions": 29,
-      "dist_pct": 2.9,
+      "dist_pct": 2.8,
       "side": "resistance"
     }
   ],
-  "stance": "Recent tone is bearish (7 bullish / 9 bearish of last 25). He appears long from $10,000 (+482.9% vs entry). Key levels he's citing: $100K, $79K, $76K, $74K. Latest: \"$148,500-$162,000.   $BTC will never reach $30,000.  Highest probable range is between $40,000-$58,000.\"",
+  "stance": "Recent tone is bearish (7 bullish / 9 bearish of last 25). He appears long from $10,000 (+483.8% vs entry). Key levels he's citing: $100K, $79K, $76K, $74K. Latest: \"The 6 month candle closes in just a few hours.  Over the past 2 cycles, $BTC has never printed more than 2 consecutive red 6 month candles.  Another interesting\"",
   "high_conviction_count": 66
 }
