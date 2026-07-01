@@ -1,7 +1,7 @@
 {
-  "generated": "2026-06-30T23:06:32.519802+00:00",
-  "last_price": 58497.15,
-  "last_price_time": 1782777600,
+  "generated": "2026-07-01T00:21:09.206722+00:00",
+  "last_price": 58456,
+  "last_price_time": 1782864000,
   "positions": [
     {
       "dir": "long",
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2071237376404267237",
       "text": "2026 Bottom vs. 2022 Bottom\n\nWe\u2019re either still in the pre-capitulation phase, meaning we see one final capitulation wick into the 54K\u201344K z",
-      "pnl_pct": 484.97,
-      "pnl_leveraged_pct": 484.97,
+      "pnl_pct": 484.56,
+      "pnl_leveraged_pct": 484.56,
       "stale": false
     }
   ],
@@ -279,34 +279,34 @@
     {
       "time": 1782656446,
       "date": "Sun Jun 28 14:20",
-      "equity": 0.8631,
+      "equity": 0.8625,
       "dir": "long",
-      "ret_pct": -1.64
+      "ret_pct": -1.71
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 8,
-      "dist_pct": 70.9,
+      "dist_pct": 71.1,
       "side": "resistance"
     },
     {
       "level": 79000,
       "mentions": 11,
-      "dist_pct": 35.0,
+      "dist_pct": 35.1,
       "side": "resistance"
     },
     {
       "level": 76000,
       "mentions": 8,
-      "dist_pct": 29.9,
+      "dist_pct": 30.0,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 16,
-      "dist_pct": 26.5,
+      "dist_pct": 26.6,
       "side": "resistance"
     },
     {
@@ -318,13 +318,13 @@
     {
       "level": 65000,
       "mentions": 10,
-      "dist_pct": 11.1,
+      "dist_pct": 11.2,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 10,
-      "dist_pct": 9.4,
+      "dist_pct": 9.5,
       "side": "resistance"
     },
     {
@@ -334,6 +334,6 @@
       "side": "resistance"
     }
   ],
-  "stance": "Recent tone is mixed (8 bullish / 8 bearish of last 25). He appears long from $10,000 (+485.0% vs entry). Key levels he's citing: $100K, $79K, $76K, $74K. Latest: \"Get ready for volatility as the next 3 month candle opens.   This is the quarter $BTC forms a macro bottom in.\"",
+  "stance": "Recent tone is mixed (8 bullish / 8 bearish of last 25). He appears long from $10,000 (+484.6% vs entry). Key levels he's citing: $100K, $79K, $76K, $74K. Latest: \"Get ready for volatility as the next 3 month candle opens.   This is the quarter $BTC forms a macro bottom in.\"",
   "high_conviction_count": 66
 }
