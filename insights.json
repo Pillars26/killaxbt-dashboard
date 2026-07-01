@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-01T19:00:23.068031+00:00",
-  "last_price": 60104.77,
+  "generated": "2026-07-01T20:50:57.776464+00:00",
+  "last_price": 60077.61,
   "last_price_time": 1782864000,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2071237376404267237",
       "text": "2026 Bottom vs. 2022 Bottom\n\nWe\u2019re either still in the pre-capitulation phase, meaning we see one final capitulation wick into the 54K\u201344K z",
-      "pnl_pct": 501.05,
-      "pnl_leveraged_pct": 501.05,
+      "pnl_pct": 500.78,
+      "pnl_leveraged_pct": 500.78,
       "stale": false
     }
   ],
@@ -279,14 +279,14 @@
     {
       "time": 1782656446,
       "date": "Sun Jun 28 14:20",
-      "equity": 0.8868,
+      "equity": 0.8864,
       "dir": "long",
-      "ret_pct": 1.06
+      "ret_pct": 1.01
     },
     {
       "time": 1782912720,
       "date": "Wed Jul 01 13:32",
-      "equity": 0.8868,
+      "equity": 0.8864,
       "dir": "short",
       "ret_pct": -0.0
     }
@@ -295,25 +295,25 @@
     {
       "level": 100000,
       "mentions": 9,
-      "dist_pct": 66.4,
+      "dist_pct": 66.5,
       "side": "resistance"
     },
     {
       "level": 79000,
       "mentions": 11,
-      "dist_pct": 31.4,
+      "dist_pct": 31.5,
       "side": "resistance"
     },
     {
       "level": 76000,
       "mentions": 8,
-      "dist_pct": 26.4,
+      "dist_pct": 26.5,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 17,
-      "dist_pct": 23.1,
+      "dist_pct": 23.2,
       "side": "resistance"
     },
     {
@@ -325,7 +325,7 @@
     {
       "level": 65000,
       "mentions": 11,
-      "dist_pct": 8.1,
+      "dist_pct": 8.2,
       "side": "resistance"
     },
     {
@@ -337,10 +337,10 @@
     {
       "level": 60000,
       "mentions": 29,
-      "dist_pct": -0.2,
+      "dist_pct": -0.1,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (15 bullish / 7 bearish of last 25). He appears long from $10,000 (+501.1% vs entry). Key levels he's citing: $100K, $79K, $76K, $74K. Latest: \"55.2% of the $BTC supply is in profit.  That's almost identical to the previous 2 bear market lows.  2018: 53.84% 2022: 54.63%  A 1% difference... keep convinci\"",
+  "stance": "Recent tone is bullish (16 bullish / 7 bearish of last 25). He appears long from $10,000 (+500.8% vs entry). Key levels he's citing: $100K, $79K, $76K, $74K. Latest: \"In a bull market, everyone wants significantly higher prices.   In a bear market, everyone wants significantly lower prices.  Grow a pair and pull the trigger.\"",
   "high_conviction_count": 67
 }
