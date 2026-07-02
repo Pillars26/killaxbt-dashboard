@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-02T16:19:53.567670+00:00",
-  "last_price": 61453.92,
+  "generated": "2026-07-02T18:11:34.662776+00:00",
+  "last_price": 61738.64,
   "last_price_time": 1782950400,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2071237376404267237",
       "text": "2026 Bottom vs. 2022 Bottom\n\nWe\u2019re either still in the pre-capitulation phase, meaning we see one final capitulation wick into the 54K\u201344K z",
-      "pnl_pct": 514.54,
-      "pnl_leveraged_pct": 514.54,
+      "pnl_pct": 517.39,
+      "pnl_leveraged_pct": 517.39,
       "stale": false
     }
   ],
@@ -279,68 +279,68 @@
     {
       "time": 1782656446,
       "date": "Sun Jun 28 14:20",
-      "equity": 0.9067,
+      "equity": 0.9109,
       "dir": "long",
-      "ret_pct": 3.33
+      "ret_pct": 3.81
     },
     {
       "time": 1782912720,
       "date": "Wed Jul 01 13:32",
-      "equity": 0.8842,
+      "equity": 0.8839,
       "dir": "short",
-      "ret_pct": -2.49
+      "ret_pct": -2.96
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 9,
-      "dist_pct": 62.7,
+      "dist_pct": 62.0,
       "side": "resistance"
     },
     {
       "level": 79000,
       "mentions": 10,
-      "dist_pct": 28.6,
+      "dist_pct": 28.0,
       "side": "resistance"
     },
     {
       "level": 76000,
       "mentions": 8,
-      "dist_pct": 23.7,
+      "dist_pct": 23.1,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 16,
-      "dist_pct": 20.4,
+      "dist_pct": 19.9,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 13,
-      "dist_pct": 13.9,
+      "dist_pct": 13.4,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 11,
-      "dist_pct": 5.8,
+      "dist_pct": 5.3,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 10,
-      "dist_pct": 4.1,
+      "dist_pct": 3.7,
       "side": "resistance"
     },
     {
       "level": 60000,
       "mentions": 29,
-      "dist_pct": -2.4,
+      "dist_pct": -2.8,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (15 bullish / 7 bearish of last 25). He appears long from $10,000 (+514.5% vs entry). Key levels he's citing: $100K, $79K, $76K, $74K. Latest: \"Appreciate you all tuning in. We peaked at 1,110 viewers.   In a few months, when the $BTC bull market begins, I'll be streaming much more often, with a facecam\"",
+  "stance": "Recent tone is bullish (15 bullish / 7 bearish of last 25). He appears long from $10,000 (+517.4% vs entry). Key levels he's citing: $100K, $79K, $76K, $74K. Latest: \"$SOL   First &amp; second bids have been filled.   I still expect prolonged chop. But in the next 6-8 months I expect something like this to play out.   We like\"",
   "high_conviction_count": 67
 }
