@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-03T22:08:05.412817+00:00",
-  "last_price": 62583.46,
+  "generated": "2026-07-03T23:18:09.029667+00:00",
+  "last_price": 62561.55,
   "last_price_time": 1783036800,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2071237376404267237",
       "text": "2026 Bottom vs. 2022 Bottom\n\nWe\u2019re either still in the pre-capitulation phase, meaning we see one final capitulation wick into the 54K\u201344K z",
-      "pnl_pct": 525.83,
-      "pnl_leveraged_pct": 525.83,
+      "pnl_pct": 525.62,
+      "pnl_leveraged_pct": 525.62,
       "stale": false
     }
   ],
@@ -279,16 +279,16 @@
     {
       "time": 1782656446,
       "date": "Sun Jun 28 14:20",
-      "equity": 0.9234,
+      "equity": 0.9231,
       "dir": "long",
-      "ret_pct": 5.23
+      "ret_pct": 5.19
     },
     {
       "time": 1782912720,
       "date": "Wed Jul 01 13:32",
       "equity": 0.883,
       "dir": "short",
-      "ret_pct": -4.37
+      "ret_pct": -4.34
     }
   ],
   "levels": [
@@ -301,19 +301,19 @@
     {
       "level": 80000,
       "mentions": 8,
-      "dist_pct": 27.8,
+      "dist_pct": 27.9,
       "side": "resistance"
     },
     {
       "level": 79000,
       "mentions": 10,
-      "dist_pct": 26.2,
+      "dist_pct": 26.3,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 16,
-      "dist_pct": 18.2,
+      "dist_pct": 18.3,
       "side": "resistance"
     },
     {
@@ -341,6 +341,6 @@
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (16 bullish / 6 bearish of last 25). He appears long from $10,000 (+525.8% vs entry). Key levels he's citing: $100K, $80K, $79K, $74K. Latest: \"Bounced from the monthly open \u2705  As expected, we formed a bearish narrative heading into the MO and the quarterly close, and, as a result, bitcoin:native moved \"",
+  "stance": "Recent tone is bullish (16 bullish / 6 bearish of last 25). He appears long from $10,000 (+525.6% vs entry). Key levels he's citing: $100K, $80K, $79K, $74K. Latest: \"Bounced from the monthly open \u2705  As expected, we formed a bearish narrative heading into the MO and the quarterly close, and, as a result, bitcoin:native moved \"",
   "high_conviction_count": 67
 }
