@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-04T09:52:08.765696+00:00",
-  "last_price": 62427.88,
+  "generated": "2026-07-04T11:22:43.955495+00:00",
+  "last_price": 62447,
   "last_price_time": 1783123200,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2071237376404267237",
       "text": "2026 Bottom vs. 2022 Bottom\n\nWe\u2019re either still in the pre-capitulation phase, meaning we see one final capitulation wick into the 54K\u201344K z",
-      "pnl_pct": 524.28,
-      "pnl_leveraged_pct": 524.28,
+      "pnl_pct": 524.47,
+      "pnl_leveraged_pct": 524.47,
       "stale": false
     }
   ],
@@ -279,23 +279,23 @@
     {
       "time": 1782656446,
       "date": "Sun Jun 28 14:20",
-      "equity": 0.9211,
+      "equity": 0.9214,
       "dir": "long",
-      "ret_pct": 4.97
+      "ret_pct": 5.0
     },
     {
       "time": 1782912720,
       "date": "Wed Jul 01 13:32",
       "equity": 0.8832,
       "dir": "short",
-      "ret_pct": -4.11
+      "ret_pct": -4.15
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 10,
-      "dist_pct": 60.2,
+      "dist_pct": 60.1,
       "side": "resistance"
     },
     {
@@ -341,6 +341,6 @@
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (16 bullish / 6 bearish of last 25). He appears long from $10,000 (+524.3% vs entry). Key levels he's citing: $100K, $80K, $79K, $74K. Latest: \"Bounced from the monthly open \u2705  As expected, we formed a bearish narrative heading into the MO and the quarterly close, and, as a result, bitcoin:native moved \"",
+  "stance": "Recent tone is bullish (16 bullish / 6 bearish of last 25). He appears long from $10,000 (+524.5% vs entry). Key levels he's citing: $100K, $80K, $79K, $74K. Latest: \"GM \ud83c\udf24\ufe0f  2-3 months till the bear market is over.\"",
   "high_conviction_count": 67
 }
