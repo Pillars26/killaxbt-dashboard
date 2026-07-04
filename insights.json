@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-04T19:55:04.470512+00:00",
-  "last_price": 63235.48,
+  "generated": "2026-07-04T20:50:05.592311+00:00",
+  "last_price": 63267.42,
   "last_price_time": 1783123200,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2071237376404267237",
       "text": "2026 Bottom vs. 2022 Bottom\n\nWe\u2019re either still in the pre-capitulation phase, meaning we see one final capitulation wick into the 54K\u201344K z",
-      "pnl_pct": 532.35,
-      "pnl_leveraged_pct": 532.35,
+      "pnl_pct": 532.67,
+      "pnl_leveraged_pct": 532.67,
       "stale": false
     }
   ],
@@ -279,16 +279,16 @@
     {
       "time": 1782656446,
       "date": "Sun Jun 28 14:20",
-      "equity": 0.933,
+      "equity": 0.9335,
       "dir": "long",
-      "ret_pct": 6.32
+      "ret_pct": 6.38
     },
     {
       "time": 1782912720,
       "date": "Wed Jul 01 13:32",
-      "equity": 0.8821,
+      "equity": 0.882,
       "dir": "short",
-      "ret_pct": -5.46
+      "ret_pct": -5.51
     }
   ],
   "levels": [
@@ -301,7 +301,7 @@
     {
       "level": 80000,
       "mentions": 8,
-      "dist_pct": 26.5,
+      "dist_pct": 26.4,
       "side": "resistance"
     },
     {
@@ -319,13 +319,13 @@
     {
       "level": 70000,
       "mentions": 12,
-      "dist_pct": 10.7,
+      "dist_pct": 10.6,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 11,
-      "dist_pct": 2.8,
+      "dist_pct": 2.7,
       "side": "resistance"
     },
     {
@@ -337,10 +337,10 @@
     {
       "level": 60000,
       "mentions": 29,
-      "dist_pct": -5.1,
+      "dist_pct": -5.2,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (18 bullish / 4 bearish of last 25). He appears long from $10,000 (+532.4% vs entry). Key levels he's citing: $100K, $80K, $79K, $74K. Latest: \"All you have to do to outperform most people...  Buy in the red. Sell in the green.  It really is that simple.  Yet people keep fxcking it up for one reason. Gr\"",
+  "stance": "Recent tone is bullish (18 bullish / 4 bearish of last 25). He appears long from $10,000 (+532.7% vs entry). Key levels he's citing: $100K, $80K, $79K, $74K. Latest: \"All you have to do to outperform most people...  Buy in the red. Sell in the green.  It really is that simple.  Yet people keep fxcking it up for one reason. Gr\"",
   "high_conviction_count": 67
 }
