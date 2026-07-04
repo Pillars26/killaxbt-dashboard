@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-04T17:44:20.380320+00:00",
-  "last_price": 63087.64,
+  "generated": "2026-07-04T18:42:44.059893+00:00",
+  "last_price": 63089.69,
   "last_price_time": 1783123200,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2071237376404267237",
       "text": "2026 Bottom vs. 2022 Bottom\n\nWe\u2019re either still in the pre-capitulation phase, meaning we see one final capitulation wick into the 54K\u201344K z",
-      "pnl_pct": 530.88,
-      "pnl_leveraged_pct": 530.88,
+      "pnl_pct": 530.9,
+      "pnl_leveraged_pct": 530.9,
       "stale": false
     }
   ],
@@ -279,7 +279,7 @@
     {
       "time": 1782656446,
       "date": "Sun Jun 28 14:20",
-      "equity": 0.9308,
+      "equity": 0.9309,
       "dir": "long",
       "ret_pct": 6.08
     },
@@ -288,7 +288,7 @@
       "date": "Wed Jul 01 13:32",
       "equity": 0.8823,
       "dir": "short",
-      "ret_pct": -5.21
+      "ret_pct": -5.22
     }
   ],
   "levels": [
@@ -306,7 +306,7 @@
     },
     {
       "level": 79000,
-      "mentions": 10,
+      "mentions": 9,
       "dist_pct": 25.2,
       "side": "resistance"
     },
