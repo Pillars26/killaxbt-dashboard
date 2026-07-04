@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-04T11:22:43.955495+00:00",
-  "last_price": 62447,
+  "generated": "2026-07-04T12:41:41.150755+00:00",
+  "last_price": 62552.69,
   "last_price_time": 1783123200,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2071237376404267237",
       "text": "2026 Bottom vs. 2022 Bottom\n\nWe\u2019re either still in the pre-capitulation phase, meaning we see one final capitulation wick into the 54K\u201344K z",
-      "pnl_pct": 524.47,
-      "pnl_leveraged_pct": 524.47,
+      "pnl_pct": 525.53,
+      "pnl_leveraged_pct": 525.53,
       "stale": false
     }
   ],
@@ -279,68 +279,68 @@
     {
       "time": 1782656446,
       "date": "Sun Jun 28 14:20",
-      "equity": 0.9214,
+      "equity": 0.9229,
       "dir": "long",
-      "ret_pct": 5.0
+      "ret_pct": 5.18
     },
     {
       "time": 1782912720,
       "date": "Wed Jul 01 13:32",
-      "equity": 0.8832,
+      "equity": 0.8831,
       "dir": "short",
-      "ret_pct": -4.15
+      "ret_pct": -4.32
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 10,
-      "dist_pct": 60.1,
+      "dist_pct": 59.9,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 8,
-      "dist_pct": 28.1,
+      "dist_pct": 27.9,
       "side": "resistance"
     },
     {
       "level": 79000,
       "mentions": 10,
-      "dist_pct": 26.5,
+      "dist_pct": 26.3,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 16,
-      "dist_pct": 18.5,
+      "dist_pct": 18.3,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 13,
-      "dist_pct": 12.1,
+      "dist_pct": 11.9,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 11,
-      "dist_pct": 4.1,
+      "dist_pct": 3.9,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 11,
-      "dist_pct": 2.5,
+      "dist_pct": 2.3,
       "side": "resistance"
     },
     {
       "level": 60000,
       "mentions": 29,
-      "dist_pct": -3.9,
+      "dist_pct": -4.1,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (16 bullish / 6 bearish of last 25). He appears long from $10,000 (+524.5% vs entry). Key levels he's citing: $100K, $80K, $79K, $74K. Latest: \"GM \ud83c\udf24\ufe0f  2-3 months till the bear market is over.\"",
+  "stance": "Recent tone is bullish (16 bullish / 6 bearish of last 25). He appears long from $10,000 (+525.5% vs entry). Key levels he's citing: $100K, $80K, $79K, $74K. Latest: \"GM \ud83c\udf24\ufe0f  2-3 months till the bear market is over.\"",
   "high_conviction_count": 67
 }
