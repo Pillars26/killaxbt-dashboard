@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-05T09:39:14.139986+00:00",
-  "last_price": 62617.79,
+  "generated": "2026-07-05T11:19:47.920801+00:00",
+  "last_price": 62605,
   "last_price_time": 1783209600,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2071237376404267237",
       "text": "2026 Bottom vs. 2022 Bottom\n\nWe\u2019re either still in the pre-capitulation phase, meaning we see one final capitulation wick into the 54K\u201344K z",
-      "pnl_pct": 526.18,
-      "pnl_leveraged_pct": 526.18,
+      "pnl_pct": 526.05,
+      "pnl_leveraged_pct": 526.05,
       "stale": false
     }
   ],
@@ -279,16 +279,16 @@
     {
       "time": 1782656446,
       "date": "Sun Jun 28 14:20",
-      "equity": 0.9239,
+      "equity": 0.9237,
       "dir": "long",
-      "ret_pct": 5.29
+      "ret_pct": 5.26
     },
     {
       "time": 1782912720,
       "date": "Wed Jul 01 13:32",
       "equity": 0.883,
       "dir": "short",
-      "ret_pct": -4.43
+      "ret_pct": -4.41
     }
   ],
   "levels": [
@@ -341,6 +341,6 @@
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (17 bullish / 4 bearish of last 25). He appears long from $10,000 (+526.2% vs entry). Key levels he's citing: $100K, $80K, $79K, $74K. Latest: \"No comment. $BTC https://t.co/NXuaqasZku\"",
+  "stance": "Recent tone is bullish (16 bullish / 4 bearish of last 25). He appears long from $10,000 (+526.0% vs entry). Key levels he's citing: $100K, $80K, $79K, $74K. Latest: \"$BTC  It is the 5th.  We're pumping into Monday awell, which means we could see an inverse narrative play out and a move back  down on the LTF.   It's time to s\"",
   "high_conviction_count": 67
 }
