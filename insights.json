@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-05T14:27:52.457589+00:00",
-  "last_price": 62652.81,
+  "generated": "2026-07-05T15:47:19.584215+00:00",
+  "last_price": 62671.82,
   "last_price_time": 1783209600,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2071237376404267237",
       "text": "2026 Bottom vs. 2022 Bottom\n\nWe\u2019re either still in the pre-capitulation phase, meaning we see one final capitulation wick into the 54K\u201344K z",
-      "pnl_pct": 526.53,
-      "pnl_leveraged_pct": 526.53,
+      "pnl_pct": 526.72,
+      "pnl_leveraged_pct": 526.72,
       "stale": false
     }
   ],
@@ -279,16 +279,16 @@
     {
       "time": 1782656446,
       "date": "Sun Jun 28 14:20",
-      "equity": 0.9244,
+      "equity": 0.9247,
       "dir": "long",
-      "ret_pct": 5.34
+      "ret_pct": 5.38
     },
     {
       "time": 1782912720,
       "date": "Wed Jul 01 13:32",
       "equity": 0.8829,
       "dir": "short",
-      "ret_pct": -4.49
+      "ret_pct": -4.52
     }
   ],
   "levels": [
@@ -301,7 +301,7 @@
     {
       "level": 80000,
       "mentions": 8,
-      "dist_pct": 27.7,
+      "dist_pct": 27.6,
       "side": "resistance"
     },
     {
@@ -331,16 +331,16 @@
     {
       "level": 64000,
       "mentions": 11,
-      "dist_pct": 2.2,
+      "dist_pct": 2.1,
       "side": "resistance"
     },
     {
       "level": 60000,
       "mentions": 29,
-      "dist_pct": -4.2,
+      "dist_pct": -4.3,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (15 bullish / 4 bearish of last 25). He appears long from $10,000 (+526.5% vs entry). Key levels he's citing: $100K, $80K, $79K, $74K. Latest: \"They hate you for bull posting in a bear market.   They hate you for bear posting in a bull market.   Pinnacle of CT. \ud83e\udd23\"",
+  "stance": "Recent tone is bullish (14 bullish / 4 bearish of last 25). He appears long from $10,000 (+526.7% vs entry). Key levels he's citing: $100K, $80K, $79K, $74K. Latest: \"7/7 Mondays have been absolutely terrible for $BTC.   Will we repeat the exact same pattern next week?   Time to f*ck around and find out. If BTC keeps pushing \"",
   "high_conviction_count": 67
 }
