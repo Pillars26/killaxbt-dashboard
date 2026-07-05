@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-05T19:43:41.225732+00:00",
-  "last_price": 62720.59,
+  "generated": "2026-07-05T20:41:28.094501+00:00",
+  "last_price": 62683.58,
   "last_price_time": 1783209600,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2071237376404267237",
       "text": "2026 Bottom vs. 2022 Bottom\n\nWe\u2019re either still in the pre-capitulation phase, meaning we see one final capitulation wick into the 54K\u201344K z",
-      "pnl_pct": 527.21,
-      "pnl_leveraged_pct": 527.21,
+      "pnl_pct": 526.84,
+      "pnl_leveraged_pct": 526.84,
       "stale": false
     }
   ],
@@ -279,29 +279,29 @@
     {
       "time": 1782656446,
       "date": "Sun Jun 28 14:20",
-      "equity": 0.9254,
+      "equity": 0.9249,
       "dir": "long",
-      "ret_pct": 5.46
+      "ret_pct": 5.4
     },
     {
       "time": 1782912720,
       "date": "Wed Jul 01 13:32",
-      "equity": 0.8828,
+      "equity": 0.8829,
       "dir": "short",
-      "ret_pct": -4.6
+      "ret_pct": -4.54
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 9,
-      "dist_pct": 59.4,
+      "dist_pct": 59.5,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 8,
-      "dist_pct": 27.5,
+      "dist_pct": 27.6,
       "side": "resistance"
     },
     {
@@ -313,25 +313,25 @@
     {
       "level": 74000,
       "mentions": 15,
-      "dist_pct": 18.0,
+      "dist_pct": 18.1,
       "side": "resistance"
     },
     {
       "level": 70000,
-      "mentions": 12,
-      "dist_pct": 11.6,
+      "mentions": 11,
+      "dist_pct": 11.7,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 11,
-      "dist_pct": 3.6,
+      "dist_pct": 3.7,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 11,
-      "dist_pct": 2.0,
+      "dist_pct": 2.1,
       "side": "resistance"
     },
     {
@@ -341,6 +341,6 @@
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (15 bullish / 3 bearish of last 25). He appears long from $10,000 (+527.2% vs entry). Key levels he's citing: $100K, $80K, $79K, $74K. Latest: \"Most important area for $BTC is the 60.9-60.4K area.  If we cannot hold this price region on a revisit, I'm afraid we are going to trend directly to the lows ag\"",
+  "stance": "Recent tone is bullish (15 bullish / 3 bearish of last 25). He appears long from $10,000 (+526.8% vs entry). Key levels he's citing: $100K, $80K, $79K, $74K. Latest: \"Most important area for $BTC is the 60.9-60.4K area.  If we cannot hold this price region on a revisit, I'm afraid we are going to trend directly to the lows ag\"",
   "high_conviction_count": 67
 }
