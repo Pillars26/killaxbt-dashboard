@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-07T05:31:54.241941+00:00",
-  "last_price": 63006.09,
+  "generated": "2026-07-07T08:54:08.383286+00:00",
+  "last_price": 63000.24,
   "last_price_time": 1783382400,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2071237376404267237",
       "text": "2026 Bottom vs. 2022 Bottom\n\nWe\u2019re either still in the pre-capitulation phase, meaning we see one final capitulation wick into the 54K\u201344K z",
-      "pnl_pct": 530.06,
-      "pnl_leveraged_pct": 530.06,
+      "pnl_pct": 530.0,
+      "pnl_leveraged_pct": 530.0,
       "stale": false
     }
   ],
@@ -286,9 +286,9 @@
     {
       "time": 1782912720,
       "date": "Wed Jul 01 13:32",
-      "equity": 0.8905,
+      "equity": 0.8906,
       "dir": "short",
-      "ret_pct": -5.08
+      "ret_pct": -5.07
     }
   ],
   "levels": [
@@ -313,7 +313,7 @@
     {
       "level": 74000,
       "mentions": 14,
-      "dist_pct": 17.4,
+      "dist_pct": 17.5,
       "side": "resistance"
     },
     {
@@ -341,6 +341,6 @@
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (13 bullish / 4 bearish of last 25). He appears long from $10,000 (+530.1% vs entry). Key levels he's citing: $100K, $80K, $76K, $74K. Latest: \"Let's keep it simple.  If $BTC can hold above the previous weekly close, the next target is a test of 65.6K.  What you don't want to see is a deviation above th\"",
+  "stance": "Recent tone is bullish (13 bullish / 4 bearish of last 25). He appears long from $10,000 (+530.0% vs entry). Key levels he's citing: $100K, $80K, $76K, $74K. Latest: \"Let's keep it simple.  If $BTC can hold above the previous weekly close, the next target is a test of 65.6K.  What you don't want to see is a deviation above th\"",
   "high_conviction_count": 67
 }
