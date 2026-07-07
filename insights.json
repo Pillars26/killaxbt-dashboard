@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-07T08:54:08.383286+00:00",
-  "last_price": 63000.24,
+  "generated": "2026-07-07T11:43:12.431394+00:00",
+  "last_price": 63126.43,
   "last_price_time": 1783382400,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2071237376404267237",
       "text": "2026 Bottom vs. 2022 Bottom\n\nWe\u2019re either still in the pre-capitulation phase, meaning we see one final capitulation wick into the 54K\u201344K z",
-      "pnl_pct": 530.0,
-      "pnl_leveraged_pct": 530.0,
+      "pnl_pct": 531.26,
+      "pnl_leveraged_pct": 531.26,
       "stale": false
     }
   ],
@@ -286,61 +286,61 @@
     {
       "time": 1782912720,
       "date": "Wed Jul 01 13:32",
-      "equity": 0.8906,
+      "equity": 0.8886,
       "dir": "short",
-      "ret_pct": -5.07
+      "ret_pct": -5.28
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 10,
-      "dist_pct": 58.7,
+      "dist_pct": 58.4,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 8,
-      "dist_pct": 27.0,
+      "dist_pct": 26.7,
       "side": "resistance"
     },
     {
       "level": 76000,
       "mentions": 8,
-      "dist_pct": 20.6,
+      "dist_pct": 20.4,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 14,
-      "dist_pct": 17.5,
+      "dist_pct": 17.2,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 11,
-      "dist_pct": 11.1,
+      "dist_pct": 10.9,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 11,
-      "dist_pct": 3.2,
+      "dist_pct": 3.0,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 11,
-      "dist_pct": 1.6,
+      "dist_pct": 1.4,
       "side": "resistance"
     },
     {
       "level": 60000,
       "mentions": 29,
-      "dist_pct": -4.8,
+      "dist_pct": -5.0,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (13 bullish / 4 bearish of last 25). He appears long from $10,000 (+530.0% vs entry). Key levels he's citing: $100K, $80K, $76K, $74K. Latest: \"Let's keep it simple.  If $BTC can hold above the previous weekly close, the next target is a test of 65.6K.  What you don't want to see is a deviation above th\"",
+  "stance": "Recent tone is bullish (13 bullish / 4 bearish of last 25). He appears long from $10,000 (+531.3% vs entry). Key levels he's citing: $100K, $80K, $76K, $74K. Latest: \"I can tell you for a fact...   The moment $BTC flips 83K, go long on everything.  That\u2019s the real structural confirmation that the trend has shifted. https://t.\"",
   "high_conviction_count": 67
 }
