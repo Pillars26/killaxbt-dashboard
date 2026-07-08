@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-08T02:09:35.523109+00:00",
-  "last_price": 62832.19,
+  "generated": "2026-07-08T05:31:05.021560+00:00",
+  "last_price": 62709.55,
   "last_price_time": 1783468800,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2071237376404267237",
       "text": "2026 Bottom vs. 2022 Bottom\n\nWe\u2019re either still in the pre-capitulation phase, meaning we see one final capitulation wick into the 54K\u201344K z",
-      "pnl_pct": 528.32,
-      "pnl_leveraged_pct": 528.32,
+      "pnl_pct": 527.1,
+      "pnl_leveraged_pct": 527.1,
       "stale": false
     }
   ],
@@ -286,61 +286,61 @@
     {
       "time": 1782912720,
       "date": "Wed Jul 01 13:32",
-      "equity": 0.8932,
+      "equity": 0.8951,
       "dir": "short",
-      "ret_pct": -4.79
+      "ret_pct": -4.58
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 10,
-      "dist_pct": 59.2,
+      "dist_pct": 59.5,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 7,
-      "dist_pct": 27.3,
+      "dist_pct": 27.6,
       "side": "resistance"
     },
     {
       "level": 76000,
       "mentions": 7,
-      "dist_pct": 21.0,
+      "dist_pct": 21.2,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 13,
-      "dist_pct": 17.8,
+      "dist_pct": 18.0,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 10,
-      "dist_pct": 11.4,
+      "dist_pct": 11.6,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 11,
-      "dist_pct": 3.5,
+      "dist_pct": 3.7,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 11,
-      "dist_pct": 1.9,
+      "dist_pct": 2.1,
       "side": "resistance"
     },
     {
       "level": 60000,
       "mentions": 29,
-      "dist_pct": -4.5,
+      "dist_pct": -4.3,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (13 bullish / 3 bearish of last 25). He appears long from $10,000 (+528.3% vs entry). Key levels he's citing: $100K, $80K, $76K, $74K. Latest: \"Life\u2019s short, go long.\"",
+  "stance": "Recent tone is bullish (13 bullish / 3 bearish of last 25). He appears long from $10,000 (+527.1% vs entry). Key levels he's citing: $100K, $80K, $76K, $74K. Latest: \"Life\u2019s short, go long.\"",
   "high_conviction_count": 67
 }
