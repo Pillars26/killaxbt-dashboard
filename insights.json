@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-08T19:25:44.270238+00:00",
-  "last_price": 62153.67,
+  "generated": "2026-07-08T20:42:51.477701+00:00",
+  "last_price": 62158.47,
   "last_price_time": 1783468800,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2071237376404267237",
       "text": "2026 Bottom vs. 2022 Bottom\n\nWe\u2019re either still in the pre-capitulation phase, meaning we see one final capitulation wick into the 54K\u201344K z",
-      "pnl_pct": 521.54,
-      "pnl_leveraged_pct": 521.54,
+      "pnl_pct": 521.58,
+      "pnl_leveraged_pct": 521.58,
       "stale": false
     }
   ],
@@ -286,7 +286,7 @@
     {
       "time": 1782912720,
       "date": "Wed Jul 01 13:32",
-      "equity": 0.9038,
+      "equity": 0.9037,
       "dir": "short",
       "ret_pct": -3.66
     }
@@ -341,6 +341,6 @@
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (10 bullish / 3 bearish of last 25). He appears long from $10,000 (+521.5% vs entry). Key levels he's citing: $100K, $80K, $74K, $74K. Latest: \"I\u2019m actually quite surprised it\u2019s this evenly balanced.  As I\u2019ve said before, bears have roughly two months to push $BTC as low as possible if it\u2019s going to ali\"",
+  "stance": "Recent tone is bullish (10 bullish / 3 bearish of last 25). He appears long from $10,000 (+521.6% vs entry). Key levels he's citing: $100K, $80K, $74K, $74K. Latest: \"I\u2019m actually quite surprised it\u2019s this evenly balanced.  As I\u2019ve said before, bears have roughly two months to push $BTC as low as possible if it\u2019s going to ali\"",
   "high_conviction_count": 67
 }
