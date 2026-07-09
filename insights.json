@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-09T11:17:31.265780+00:00",
-  "last_price": 62656.73,
+  "generated": "2026-07-09T14:02:45.237548+00:00",
+  "last_price": 62992.98,
   "last_price_time": 1783555200,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2071237376404267237",
       "text": "2026 Bottom vs. 2022 Bottom\n\nWe\u2019re either still in the pre-capitulation phase, meaning we see one final capitulation wick into the 54K\u201344K z",
-      "pnl_pct": 526.57,
-      "pnl_leveraged_pct": 526.57,
+      "pnl_pct": 529.93,
+      "pnl_leveraged_pct": 529.93,
       "stale": false
     }
   ],
@@ -295,52 +295,52 @@
     {
       "level": 100000,
       "mentions": 10,
-      "dist_pct": 59.6,
-      "side": "resistance"
-    },
-    {
-      "level": 80000,
-      "mentions": 7,
-      "dist_pct": 27.7,
+      "dist_pct": 58.7,
       "side": "resistance"
     },
     {
       "level": 74200,
       "mentions": 7,
-      "dist_pct": 18.4,
+      "dist_pct": 17.8,
       "side": "resistance"
     },
     {
       "level": 74000,
-      "mentions": 13,
-      "dist_pct": 18.1,
+      "mentions": 12,
+      "dist_pct": 17.5,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 10,
-      "dist_pct": 11.7,
+      "dist_pct": 11.1,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 11,
-      "dist_pct": 3.7,
+      "dist_pct": 3.2,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 11,
-      "dist_pct": 2.1,
+      "dist_pct": 1.6,
       "side": "resistance"
     },
     {
       "level": 60000,
       "mentions": 30,
-      "dist_pct": -4.2,
+      "dist_pct": -4.8,
+      "side": "support"
+    },
+    {
+      "level": 50000,
+      "mentions": 6,
+      "dist_pct": -20.6,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (10 bullish / 3 bearish of last 25). He appears long from $10,000 (+526.6% vs entry). Key levels he's citing: $100K, $80K, $74K, $74K. Latest: \"We didn\u2019t see a significant extension into the green last cycle.  So who\u2019s to say that $BTC will extend further into the red this time?  Cycles are changing, wh\"",
+  "stance": "Recent tone is bullish (10 bullish / 3 bearish of last 25). He appears long from $10,000 (+529.9% vs entry). Key levels he's citing: $100K, $74K, $74K, $70K. Latest: \"After 3 months, I'm finally opening the doors to my $BTC pivot strategies, indicators, and trading methodology.  Pivots I intentionally keep behind closed doors\"",
   "high_conviction_count": 67
 }
