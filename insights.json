@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-10T21:41:50.804489+00:00",
-  "last_price": 63995.11,
+  "generated": "2026-07-10T22:40:34.113932+00:00",
+  "last_price": 64087.82,
   "last_price_time": 1783641600,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2071237376404267237",
       "text": "2026 Bottom vs. 2022 Bottom\n\nWe\u2019re either still in the pre-capitulation phase, meaning we see one final capitulation wick into the 54K\u201344K z",
-      "pnl_pct": 539.95,
-      "pnl_leveraged_pct": 539.95,
+      "pnl_pct": 540.88,
+      "pnl_leveraged_pct": 540.88,
       "stale": false
     },
     {
@@ -23,8 +23,8 @@
       "leverage": 3.0,
       "url": "https://x.com/KillaXBT/status/2075604367571345422",
       "text": "$BTC \n\nPay attention to what happens when I start opening low leverage positions.\n\nThe last time I opened a 2\u20133x position was my swing short",
-      "pnl_pct": -47.97,
-      "pnl_leveraged_pct": -143.91,
+      "pnl_pct": -47.9,
+      "pnl_leveraged_pct": -143.69,
       "stale": false
     }
   ],
@@ -314,52 +314,52 @@
     {
       "level": 100000,
       "mentions": 10,
-      "dist_pct": 56.3,
+      "dist_pct": 56.0,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 7,
-      "dist_pct": 25.0,
+      "dist_pct": 24.8,
       "side": "resistance"
     },
     {
       "level": 74200,
       "mentions": 7,
-      "dist_pct": 15.9,
+      "dist_pct": 15.8,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 10,
-      "dist_pct": 15.6,
+      "dist_pct": 15.5,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 11,
-      "dist_pct": 9.4,
+      "dist_pct": 9.2,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 11,
-      "dist_pct": 1.6,
+      "dist_pct": 1.4,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 12,
-      "dist_pct": 0.0,
-      "side": "resistance"
+      "dist_pct": -0.1,
+      "side": "support"
     },
     {
       "level": 60000,
-      "mentions": 29,
-      "dist_pct": -6.2,
+      "mentions": 28,
+      "dist_pct": -6.4,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (14 bullish / 1 bearish of last 25). He appears long from $10,000 (+540.0% vs entry). Key levels he's citing: $100K, $80K, $74K, $74K. Latest: \"Very interesting.....   Long term $BTC holders are actually selling aggressively at these levels.  We usually see this kind of aggressive selling during strong \"",
+  "stance": "Recent tone is bullish (14 bullish / 1 bearish of last 25). He appears long from $10,000 (+540.9% vs entry). Key levels he's citing: $100K, $80K, $74K, $74K. Latest: \"Very interesting.....   Long term $BTC holders are actually selling aggressively at these levels.  We usually see this kind of aggressive selling during strong \"",
   "high_conviction_count": 68
 }
