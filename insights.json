@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-10T11:18:01.988122+00:00",
-  "last_price": 64413.22,
+  "generated": "2026-07-10T13:24:27.921998+00:00",
+  "last_price": 64195.93,
   "last_price_time": 1783641600,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2071237376404267237",
       "text": "2026 Bottom vs. 2022 Bottom\n\nWe\u2019re either still in the pre-capitulation phase, meaning we see one final capitulation wick into the 54K\u201344K z",
-      "pnl_pct": 544.13,
-      "pnl_leveraged_pct": 544.13,
+      "pnl_pct": 541.96,
+      "pnl_leveraged_pct": 541.96,
       "stale": false
     }
   ],
@@ -295,52 +295,52 @@
     {
       "level": 100000,
       "mentions": 10,
-      "dist_pct": 55.2,
+      "dist_pct": 55.8,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 7,
-      "dist_pct": 24.2,
+      "dist_pct": 24.6,
       "side": "resistance"
     },
     {
       "level": 74200,
       "mentions": 7,
-      "dist_pct": 15.2,
+      "dist_pct": 15.6,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 11,
-      "dist_pct": 14.9,
+      "dist_pct": 15.3,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 11,
-      "dist_pct": 8.7,
+      "dist_pct": 9.0,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 11,
-      "dist_pct": 0.9,
+      "dist_pct": 1.3,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 11,
-      "dist_pct": -0.6,
+      "dist_pct": -0.3,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 29,
-      "dist_pct": -6.9,
+      "dist_pct": -6.5,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (13 bullish / 2 bearish of last 25). He appears long from $10,000 (+544.1% vs entry). Key levels he's citing: $100K, $80K, $74K, $74K. Latest: \"Currently, $BTC is showing a more impulsive structure than a corrective one, having established HL around 61.5K.  Based on the current PA, a break and reclaim o\"",
+  "stance": "Recent tone is bullish (14 bullish / 2 bearish of last 25). He appears long from $10,000 (+542.0% vs entry). Key levels he's citing: $100K, $80K, $74K, $74K. Latest: \"$BTC   So far so good. We are following the script into the 14th.   If this continues to play out, it would suggest that BTC forms a pivot high between Monday a\"",
   "high_conviction_count": 67
 }
