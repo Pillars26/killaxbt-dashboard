@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-11T09:57:59.666020+00:00",
-  "last_price": 64113.23,
+  "generated": "2026-07-11T11:06:39.158575+00:00",
+  "last_price": 64133.15,
   "last_price_time": 1783728000,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2071237376404267237",
       "text": "2026 Bottom vs. 2022 Bottom\n\nWe\u2019re either still in the pre-capitulation phase, meaning we see one final capitulation wick into the 54K\u201344K z",
-      "pnl_pct": 541.13,
-      "pnl_leveraged_pct": 541.13,
+      "pnl_pct": 541.33,
+      "pnl_leveraged_pct": 541.33,
       "stale": false
     },
     {
@@ -23,8 +23,8 @@
       "leverage": 3.0,
       "url": "https://x.com/KillaXBT/status/2075604367571345422",
       "text": "$BTC \n\nPay attention to what happens when I start opening low leverage positions.\n\nThe last time I opened a 2\u20133x position was my swing short",
-      "pnl_pct": -47.88,
-      "pnl_leveraged_pct": -143.63,
+      "pnl_pct": -47.86,
+      "pnl_leveraged_pct": -143.58,
       "stale": false
     }
   ],
@@ -305,22 +305,22 @@
     {
       "time": 1783697618,
       "date": "Fri Jul 10 15:33",
-      "equity": 0.9023,
+      "equity": 0.9026,
       "dir": "long",
-      "ret_pct": -0.02
+      "ret_pct": 0.01
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 10,
-      "dist_pct": 56.0,
+      "dist_pct": 55.9,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 7,
-      "dist_pct": 24.8,
+      "dist_pct": 24.7,
       "side": "resistance"
     },
     {
@@ -338,7 +338,7 @@
     {
       "level": 70000,
       "mentions": 11,
-      "dist_pct": 9.2,
+      "dist_pct": 9.1,
       "side": "resistance"
     },
     {
@@ -360,6 +360,6 @@
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (14 bullish / 1 bearish of last 25). He appears long from $10,000 (+541.1% vs entry). Key levels he's citing: $100K, $80K, $74K, $74K. Latest: \"You know how CME futures went 24/7 for $BTC ...  What\u2019s interesting is that since then, the last 5 so called \u201cCME gaps\u201d have all acted like magnets, even when t\"",
+  "stance": "Recent tone is bullish (14 bullish / 1 bearish of last 25). He appears long from $10,000 (+541.3% vs entry). Key levels he's citing: $100K, $80K, $74K, $74K. Latest: \"Due to the overwhelming number of DMs, I'm officially closing KillaLabs in 12 hours.  This is your final opportunity to get access to my private $BTC trading st\"",
   "high_conviction_count": 68
 }
