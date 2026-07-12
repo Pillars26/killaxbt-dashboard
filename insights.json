@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-12T12:36:31.928545+00:00",
-  "last_price": 63991.2,
+  "generated": "2026-07-12T14:13:28.339290+00:00",
+  "last_price": 63969.98,
   "last_price_time": 1783814400,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2071237376404267237",
       "text": "2026 Bottom vs. 2022 Bottom\n\nWe\u2019re either still in the pre-capitulation phase, meaning we see one final capitulation wick into the 54K\u201344K z",
-      "pnl_pct": 539.91,
-      "pnl_leveraged_pct": 539.91,
+      "pnl_pct": 539.7,
+      "pnl_leveraged_pct": 539.7,
       "stale": false
     },
     {
@@ -23,8 +23,8 @@
       "leverage": 3.0,
       "url": "https://x.com/KillaXBT/status/2075604367571345422",
       "text": "$BTC \n\nPay attention to what happens when I start opening low leverage positions.\n\nThe last time I opened a 2\u20133x position was my swing short",
-      "pnl_pct": -47.97,
-      "pnl_leveraged_pct": -143.92,
+      "pnl_pct": -47.99,
+      "pnl_leveraged_pct": -143.98,
       "stale": false
     }
   ],
@@ -305,9 +305,9 @@
     {
       "time": 1783697618,
       "date": "Fri Jul 10 15:33",
-      "equity": 0.9006,
+      "equity": 0.9003,
       "dir": "long",
-      "ret_pct": -0.21
+      "ret_pct": -0.25
     }
   ],
   "levels": [
@@ -320,7 +320,7 @@
     {
       "level": 80000,
       "mentions": 7,
-      "dist_pct": 25.0,
+      "dist_pct": 25.1,
       "side": "resistance"
     },
     {
@@ -332,7 +332,7 @@
     {
       "level": 74000,
       "mentions": 9,
-      "dist_pct": 15.6,
+      "dist_pct": 15.7,
       "side": "resistance"
     },
     {
@@ -360,6 +360,6 @@
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (14 bullish / 2 bearish of last 25). He appears long from $10,000 (+539.9% vs entry). Key levels he's citing: $100K, $80K, $74K, $74K. Latest: \"Gonna be sharing more LTF analysis while $BTC remains range bound.  It will be a while before we break out of it anyways.\"",
+  "stance": "Recent tone is bullish (15 bullish / 2 bearish of last 25). He appears long from $10,000 (+539.7% vs entry). Key levels he's citing: $100K, $80K, $74K, $74K. Latest: \"$BTC   Currently we have quite alot of long liquidations sitting at the 49-56K region.   This is a combination of 3x, 5x &amp; 10x leverage positions.   If we g\"",
   "high_conviction_count": 68
 }
