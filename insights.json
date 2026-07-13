@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-13T11:29:06.150423+00:00",
-  "last_price": 62972.41,
+  "generated": "2026-07-13T13:41:58.166259+00:00",
+  "last_price": 62414.96,
   "last_price_time": 1783900800,
   "positions": [
     {
@@ -11,20 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2071237376404267237",
       "text": "2026 Bottom vs. 2022 Bottom\n\nWe\u2019re either still in the pre-capitulation phase, meaning we see one final capitulation wick into the 54K\u201344K z",
-      "pnl_pct": 529.72,
-      "pnl_leveraged_pct": 529.72,
-      "stale": false
-    },
-    {
-      "dir": "long",
-      "entry": 123000,
-      "time": 1783697618,
-      "date": "Fri Jul 10 15:33",
-      "leverage": 3.0,
-      "url": "https://x.com/KillaXBT/status/2075604367571345422",
-      "text": "$BTC \n\nPay attention to what happens when I start opening low leverage positions.\n\nThe last time I opened a 2\u20133x position was my swing short",
-      "pnl_pct": -48.8,
-      "pnl_leveraged_pct": -146.41,
+      "pnl_pct": 524.15,
+      "pnl_leveraged_pct": 524.15,
       "stale": false
     }
   ],
@@ -305,68 +293,68 @@
     {
       "time": 1783697618,
       "date": "Fri Jul 10 15:33",
-      "equity": 0.8862,
+      "equity": 0.8784,
       "dir": "long",
-      "ret_pct": -1.8
+      "ret_pct": -2.67
     },
     {
       "time": 1783865276,
       "date": "Sun Jul 12 14:07",
-      "equity": 0.8755,
+      "equity": 0.8601,
       "dir": "long",
-      "ret_pct": -1.2
+      "ret_pct": -2.08
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 10,
-      "dist_pct": 58.8,
+      "dist_pct": 60.2,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 7,
-      "dist_pct": 27.0,
+      "dist_pct": 28.2,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 9,
-      "dist_pct": 17.5,
+      "dist_pct": 18.6,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 11,
-      "dist_pct": 11.2,
+      "dist_pct": 12.2,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 12,
-      "dist_pct": 3.2,
+      "dist_pct": 4.1,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 12,
-      "dist_pct": 1.6,
+      "dist_pct": 2.5,
       "side": "resistance"
     },
     {
       "level": 60000,
-      "mentions": 28,
-      "dist_pct": -4.7,
+      "mentions": 29,
+      "dist_pct": -3.9,
       "side": "support"
     },
     {
       "level": 54000,
-      "mentions": 6,
-      "dist_pct": -14.2,
+      "mentions": 8,
+      "dist_pct": -13.5,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (15 bullish / 3 bearish of last 25). He appears long from $10,000 (+529.7% vs entry). Key levels he's citing: $100K, $80K, $74K, $70K. Latest: \"$BTC   It is the 14th tomorrow.   I'm looking for a setup like this. We usually start to see bearish reactions after the 14th, but the RR for taking shorts isn'\"",
+  "stance": "Recent tone is bullish (15 bullish / 3 bearish of last 25). He appears long from $10,000 (+524.1% vs entry). Key levels he's citing: $100K, $80K, $74K, $70K. Latest: \"If $BTC loses the 60K region, I think we're likely heading toward 54K.   I don't need to mention that I am still, in my 2x long from 62.6K & absolutely nothing \"",
   "high_conviction_count": 69
 }
