@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-13T16:13:00.880255+00:00",
-  "last_price": 62498.23,
+  "generated": "2026-07-13T18:08:06.705421+00:00",
+  "last_price": 61930.96,
   "last_price_time": 1783900800,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2071237376404267237",
       "text": "2026 Bottom vs. 2022 Bottom\n\nWe\u2019re either still in the pre-capitulation phase, meaning we see one final capitulation wick into the 54K\u201344K z",
-      "pnl_pct": 524.98,
-      "pnl_leveraged_pct": 524.98,
+      "pnl_pct": 519.31,
+      "pnl_leveraged_pct": 519.31,
       "stale": false
     }
   ],
@@ -293,21 +293,21 @@
     {
       "time": 1783697618,
       "date": "Fri Jul 10 15:33",
-      "equity": 0.8795,
+      "equity": 0.8716,
       "dir": "long",
-      "ret_pct": -2.54
+      "ret_pct": -3.43
     },
     {
       "time": 1783865276,
       "date": "Sun Jul 12 14:07",
-      "equity": 0.8624,
+      "equity": 0.8468,
       "dir": "long",
-      "ret_pct": -1.95
+      "ret_pct": -2.84
     },
     {
       "time": 1783947189,
       "date": "Mon Jul 13 12:53",
-      "equity": 0.8624,
+      "equity": 0.8468,
       "dir": "long",
       "ret_pct": 0.0
     }
@@ -316,52 +316,52 @@
     {
       "level": 100000,
       "mentions": 10,
-      "dist_pct": 60.0,
+      "dist_pct": 61.5,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 7,
-      "dist_pct": 28.0,
+      "dist_pct": 29.2,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 9,
-      "dist_pct": 18.4,
+      "dist_pct": 19.5,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 11,
-      "dist_pct": 12.0,
+      "dist_pct": 13.0,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 13,
-      "dist_pct": 4.0,
+      "dist_pct": 5.0,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 12,
-      "dist_pct": 2.4,
+      "dist_pct": 3.3,
       "side": "resistance"
     },
     {
       "level": 60000,
       "mentions": 29,
-      "dist_pct": -4.0,
+      "dist_pct": -3.1,
       "side": "support"
     },
     {
       "level": 54000,
       "mentions": 8,
-      "dist_pct": -13.6,
+      "dist_pct": -12.8,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (15 bullish / 4 bearish of last 25). He appears long from $10,000 (+525.0% vs entry). Key levels he's citing: $100K, $80K, $74K, $70K. Latest: \"$BTC   Unfortunately we didn't see that sweep above the 65K range &amp; Monday dropped 3% before hand.   Same script, different week. 10/10 times  \"On the other\"",
+  "stance": "Recent tone is bullish (15 bullish / 4 bearish of last 25). He appears long from $10,000 (+519.3% vs entry). Key levels he's citing: $100K, $80K, $74K, $70K. Latest: \"$BTC  All you really have to do is wait for the STS to flip.  Historically, every time it's flipped significantly, it's been followed by a strong impulse.  So i\"",
   "high_conviction_count": 70
 }
