@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-14T14:27:58.827910+00:00",
-  "last_price": 63801.28,
+  "generated": "2026-07-14T15:57:12.427314+00:00",
+  "last_price": 64578.01,
   "last_price_time": 1783987200,
   "positions": [],
   "equity_curve": [
@@ -280,75 +280,75 @@
     {
       "time": 1783697618,
       "date": "Fri Jul 10 15:33",
-      "equity": 0.8979,
+      "equity": 0.9088,
       "dir": "long",
-      "ret_pct": -0.51
+      "ret_pct": 0.7
     },
     {
       "time": 1783865276,
       "date": "Sun Jul 12 14:07",
-      "equity": 0.8987,
+      "equity": 0.9208,
       "dir": "long",
-      "ret_pct": 0.1
+      "ret_pct": 1.31
     },
     {
       "time": 1783947189,
       "date": "Mon Jul 13 12:53",
-      "equity": 0.9209,
+      "equity": 0.955,
       "dir": "long",
-      "ret_pct": 2.47
+      "ret_pct": 3.71
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 10,
-      "dist_pct": 56.7,
+      "dist_pct": 54.9,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 9,
-      "dist_pct": 16.0,
+      "dist_pct": 14.6,
       "side": "resistance"
     },
     {
       "level": 70000,
-      "mentions": 11,
-      "dist_pct": 9.7,
+      "mentions": 10,
+      "dist_pct": 8.4,
       "side": "resistance"
     },
     {
       "level": 65000,
-      "mentions": 14,
-      "dist_pct": 1.9,
+      "mentions": 15,
+      "dist_pct": 0.7,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 12,
-      "dist_pct": 0.3,
-      "side": "resistance"
+      "dist_pct": -0.9,
+      "side": "support"
     },
     {
       "level": 60000,
       "mentions": 30,
-      "dist_pct": -6.0,
+      "dist_pct": -7.1,
       "side": "support"
     },
     {
       "level": 54000,
       "mentions": 8,
-      "dist_pct": -15.4,
+      "dist_pct": -16.4,
       "side": "support"
     },
     {
       "level": 50000,
       "mentions": 7,
-      "dist_pct": -21.6,
+      "dist_pct": -22.6,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (15 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $74K, $70K, $65K. Latest: \"If $BTC manages to sweep above the current highs, I'll be watching closely for signs of exhaustion.  There's still a liquidity pool sitting above 64.8K, but rig\"",
+  "stance": "Recent tone is bullish (15 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $74K, $70K, $65K. Latest: \"$BTC   Checkmate. Easy \u2705 https://t.co/3g6Hjkg9go\"",
   "high_conviction_count": 70
 }
