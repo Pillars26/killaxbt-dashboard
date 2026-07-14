@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-14T17:13:39.513211+00:00",
-  "last_price": 64494.3,
+  "generated": "2026-07-14T18:17:18.613603+00:00",
+  "last_price": 64491.02,
   "last_price_time": 1783987200,
   "positions": [],
   "equity_curve": [
@@ -287,14 +287,14 @@
     {
       "time": 1783865276,
       "date": "Sun Jul 12 14:07",
-      "equity": 0.9184,
+      "equity": 0.9183,
       "dir": "long",
       "ret_pct": 1.18
     },
     {
       "time": 1783947189,
       "date": "Mon Jul 13 12:53",
-      "equity": 0.9513,
+      "equity": 0.9511,
       "dir": "long",
       "ret_pct": 3.58
     }
@@ -349,6 +349,6 @@
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (15 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $74K, $70K, $65K. Latest: \"$BTC   Checkmate. Easy \u2705 https://t.co/3g6Hjkg9go\"",
+  "stance": "Recent tone is bullish (16 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $74K, $70K, $65K. Latest: \"$BTC  The number of people about to get brutally front run this cycle is insane.  49K isn\u2019t even unrealistic, but if we hit it, the same crowd will scream for $\"",
   "high_conviction_count": 70
 }
