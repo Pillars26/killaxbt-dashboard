@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-15T16:01:27.763982+00:00",
-  "last_price": 65342.02,
+  "generated": "2026-07-15T17:37:41.551242+00:00",
+  "last_price": 64956.57,
   "last_price_time": 1784073600,
   "positions": [],
   "equity_curve": [
@@ -280,75 +280,75 @@
     {
       "time": 1783697618,
       "date": "Fri Jul 10 15:33",
-      "equity": 0.9196,
+      "equity": 0.9141,
       "dir": "long",
-      "ret_pct": 1.89
+      "ret_pct": 1.29
     },
     {
       "time": 1783865276,
       "date": "Sun Jul 12 14:07",
-      "equity": 0.9427,
+      "equity": 0.9316,
       "dir": "long",
-      "ret_pct": 2.51
+      "ret_pct": 1.91
     },
     {
       "time": 1783947189,
       "date": "Mon Jul 13 12:53",
-      "equity": 0.9893,
+      "equity": 0.9719,
       "dir": "long",
-      "ret_pct": 4.94
+      "ret_pct": 4.32
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 10,
-      "dist_pct": 53.0,
+      "dist_pct": 53.9,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 9,
-      "dist_pct": 13.3,
+      "dist_pct": 13.9,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 9,
-      "dist_pct": 7.1,
+      "dist_pct": 7.8,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 14,
-      "dist_pct": -0.5,
-      "side": "support"
+      "dist_pct": 0.1,
+      "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 12,
-      "dist_pct": -2.1,
+      "dist_pct": -1.5,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 30,
-      "dist_pct": -8.2,
+      "dist_pct": -7.6,
       "side": "support"
     },
     {
       "level": 54000,
       "mentions": 8,
-      "dist_pct": -17.4,
+      "dist_pct": -16.9,
       "side": "support"
     },
     {
       "level": 50000,
       "mentions": 7,
-      "dist_pct": -23.5,
+      "dist_pct": -23.0,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (15 bullish / 8 bearish of last 25). Key levels he's citing: $100K, $74K, $70K, $65K. Latest: \"$BTC \u2705 https://t.co/gnlhc71xLg\"",
+  "stance": "Recent tone is bullish (16 bullish / 8 bearish of last 25). Key levels he's citing: $100K, $74K, $70K, $65K. Latest: \"\"Killa, your pivots don't work.\"  $BTC ... hold my \ud83c\udf7a https://t.co/CbyZgJI8f5\"",
   "high_conviction_count": 70
 }
