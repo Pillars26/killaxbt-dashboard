@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-15T12:41:35.682988+00:00",
-  "last_price": 64738.01,
+  "generated": "2026-07-15T14:26:46.023779+00:00",
+  "last_price": 65092.25,
   "last_price_time": 1784073600,
   "positions": [],
   "equity_curve": [
@@ -280,75 +280,75 @@
     {
       "time": 1783697618,
       "date": "Fri Jul 10 15:33",
-      "equity": 0.9111,
+      "equity": 0.9161,
       "dir": "long",
-      "ret_pct": 0.95
+      "ret_pct": 1.5
     },
     {
       "time": 1783865276,
       "date": "Sun Jul 12 14:07",
-      "equity": 0.9253,
+      "equity": 0.9355,
       "dir": "long",
-      "ret_pct": 1.57
+      "ret_pct": 2.12
     },
     {
       "time": 1783947189,
       "date": "Mon Jul 13 12:53",
-      "equity": 0.9621,
+      "equity": 0.978,
       "dir": "long",
-      "ret_pct": 3.97
+      "ret_pct": 4.54
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 10,
-      "dist_pct": 54.5,
+      "dist_pct": 53.6,
       "side": "resistance"
     },
     {
       "level": 74000,
       "mentions": 9,
-      "dist_pct": 14.3,
+      "dist_pct": 13.7,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 10,
-      "dist_pct": 8.1,
+      "dist_pct": 7.5,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 15,
-      "dist_pct": 0.4,
-      "side": "resistance"
+      "dist_pct": -0.1,
+      "side": "support"
     },
     {
       "level": 64000,
       "mentions": 12,
-      "dist_pct": -1.1,
+      "dist_pct": -1.7,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 30,
-      "dist_pct": -7.3,
+      "dist_pct": -7.8,
       "side": "support"
     },
     {
       "level": 54000,
       "mentions": 8,
-      "dist_pct": -16.6,
+      "dist_pct": -17.0,
       "side": "support"
     },
     {
       "level": 50000,
       "mentions": 7,
-      "dist_pct": -22.8,
+      "dist_pct": -23.2,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (16 bullish / 7 bearish of last 25). Key levels he's citing: $100K, $74K, $70K, $65K. Latest: \"$BTC   Since August last year, every extended positive Delta period in BTC has ended in distribution.   We're seeing the same setup again now, Delta stretched p\"",
+  "stance": "Recent tone is bullish (15 bullish / 8 bearish of last 25). Key levels he's citing: $100K, $74K, $70K, $65K. Latest: \"$BTC  If we follow the same statistical pattern seen over the past 12 months, BTC would likely derisk for the remainder of the month and push back down.  This i\"",
   "high_conviction_count": 70
 }
