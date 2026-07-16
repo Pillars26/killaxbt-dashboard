@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-16T09:49:00.537123+00:00",
-  "last_price": 64069.9,
+  "generated": "2026-07-16T11:29:18.549874+00:00",
+  "last_price": 64146,
   "last_price_time": 1784160000,
   "positions": [],
   "equity_curve": [
@@ -280,75 +280,75 @@
     {
       "time": 1783697618,
       "date": "Fri Jul 10 15:33",
-      "equity": 0.9017,
+      "equity": 0.9027,
       "dir": "long",
-      "ret_pct": -0.09
+      "ret_pct": 0.03
     },
     {
       "time": 1783865276,
       "date": "Sun Jul 12 14:07",
-      "equity": 0.9063,
+      "equity": 0.9085,
       "dir": "long",
-      "ret_pct": 0.52
+      "ret_pct": 0.64
     },
     {
       "time": 1783947189,
       "date": "Mon Jul 13 12:53",
-      "equity": 0.9326,
+      "equity": 0.9359,
       "dir": "long",
-      "ret_pct": 2.9
+      "ret_pct": 3.02
     }
   ],
   "levels": [
     {
       "level": 100000,
-      "mentions": 10,
-      "dist_pct": 56.1,
+      "mentions": 9,
+      "dist_pct": 55.9,
       "side": "resistance"
     },
     {
-      "level": 74000,
-      "mentions": 8,
-      "dist_pct": 15.5,
+      "level": 80000,
+      "mentions": 6,
+      "dist_pct": 24.7,
       "side": "resistance"
     },
     {
       "level": 70000,
-      "mentions": 9,
-      "dist_pct": 9.3,
+      "mentions": 8,
+      "dist_pct": 9.1,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 14,
-      "dist_pct": 1.5,
+      "dist_pct": 1.3,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 12,
-      "dist_pct": -0.1,
+      "dist_pct": -0.2,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 31,
-      "dist_pct": -6.4,
+      "dist_pct": -6.5,
       "side": "support"
     },
     {
       "level": 54000,
       "mentions": 8,
-      "dist_pct": -15.7,
+      "dist_pct": -15.8,
       "side": "support"
     },
     {
       "level": 50000,
       "mentions": 7,
-      "dist_pct": -22.0,
+      "dist_pct": -22.1,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (17 bullish / 7 bearish of last 25). Key levels he's citing: $100K, $74K, $70K, $65K. Latest: \"$BTC   Momentum is already shifting away from aggressive selling.   We saw the capitulation wick at $60K (aggressive red selling), and now the market is forming\"",
+  "stance": "Recent tone is bullish (17 bullish / 7 bearish of last 25). Key levels he's citing: $100K, $80K, $70K, $65K. Latest: \"$BTC   Momentum is already shifting away from aggressive selling.   We saw the capitulation wick at $60K (aggressive red selling), and now the market is forming\"",
   "high_conviction_count": 70
 }
