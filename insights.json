@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-16T13:01:56.670570+00:00",
-  "last_price": 63959.57,
+  "generated": "2026-07-16T15:12:52.835307+00:00",
+  "last_price": 64361.68,
   "last_price_time": 1784160000,
   "positions": [],
   "equity_curve": [
@@ -280,75 +280,75 @@
     {
       "time": 1783697618,
       "date": "Fri Jul 10 15:33",
-      "equity": 0.9001,
+      "equity": 0.9058,
       "dir": "long",
-      "ret_pct": -0.26
+      "ret_pct": 0.36
     },
     {
       "time": 1783865276,
       "date": "Sun Jul 12 14:07",
-      "equity": 0.9032,
+      "equity": 0.9146,
       "dir": "long",
-      "ret_pct": 0.34
+      "ret_pct": 0.97
     },
     {
       "time": 1783947189,
       "date": "Mon Jul 13 12:53",
-      "equity": 0.9278,
+      "equity": 0.9454,
       "dir": "long",
-      "ret_pct": 2.72
+      "ret_pct": 3.37
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 9,
-      "dist_pct": 56.3,
+      "dist_pct": 55.4,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 6,
-      "dist_pct": 25.1,
+      "dist_pct": 24.3,
       "side": "resistance"
     },
     {
       "level": 70000,
-      "mentions": 8,
-      "dist_pct": 9.4,
+      "mentions": 7,
+      "dist_pct": 8.8,
       "side": "resistance"
     },
     {
       "level": 65000,
-      "mentions": 14,
-      "dist_pct": 1.6,
+      "mentions": 13,
+      "dist_pct": 1.0,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 12,
-      "dist_pct": 0.1,
-      "side": "resistance"
+      "dist_pct": -0.6,
+      "side": "support"
     },
     {
       "level": 60000,
       "mentions": 31,
-      "dist_pct": -6.2,
+      "dist_pct": -6.8,
       "side": "support"
     },
     {
       "level": 54000,
       "mentions": 8,
-      "dist_pct": -15.6,
+      "dist_pct": -16.1,
       "side": "support"
     },
     {
       "level": 50000,
       "mentions": 7,
-      "dist_pct": -21.8,
+      "dist_pct": -22.3,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (17 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $80K, $70K, $65K. Latest: \"$BTC   As always, market follows liquidity \u2705 https://t.co/UL1G6l3eH3\"",
+  "stance": "Recent tone is bullish (17 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $80K, $70K, $65K. Latest: \"I'm just the messenger.  750-1000D mark... $BTC https://t.co/2XdCEeDLLE\"",
   "high_conviction_count": 70
 }
