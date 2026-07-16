@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-16T17:51:46.446374+00:00",
-  "last_price": 64057.25,
+  "generated": "2026-07-16T19:02:11.714665+00:00",
+  "last_price": 64236.98,
   "last_price_time": 1784160000,
   "positions": [],
   "equity_curve": [
@@ -280,75 +280,75 @@
     {
       "time": 1783697618,
       "date": "Fri Jul 10 15:33",
-      "equity": 0.9015,
+      "equity": 0.904,
       "dir": "long",
-      "ret_pct": -0.11
+      "ret_pct": 0.17
     },
     {
       "time": 1783865276,
       "date": "Sun Jul 12 14:07",
-      "equity": 0.906,
+      "equity": 0.9111,
       "dir": "long",
-      "ret_pct": 0.5
+      "ret_pct": 0.78
     },
     {
       "time": 1783947189,
       "date": "Mon Jul 13 12:53",
-      "equity": 0.932,
+      "equity": 0.9399,
       "dir": "long",
-      "ret_pct": 2.88
+      "ret_pct": 3.17
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 9,
-      "dist_pct": 56.1,
+      "dist_pct": 55.7,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 6,
-      "dist_pct": 24.9,
+      "dist_pct": 24.5,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 7,
-      "dist_pct": 9.3,
+      "dist_pct": 9.0,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 13,
-      "dist_pct": 1.5,
+      "dist_pct": 1.2,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 12,
-      "dist_pct": -0.1,
+      "dist_pct": -0.4,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 31,
-      "dist_pct": -6.3,
+      "dist_pct": -6.6,
       "side": "support"
     },
     {
       "level": 54000,
       "mentions": 8,
-      "dist_pct": -15.7,
+      "dist_pct": -15.9,
       "side": "support"
     },
     {
       "level": 50000,
       "mentions": 7,
-      "dist_pct": -21.9,
+      "dist_pct": -22.2,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (16 bullish / 7 bearish of last 25). Key levels he's citing: $100K, $80K, $70K, $65K. Latest: \"$BTC   The script continues to play out.  Since the 14th, Bitcoin has already dropped about 2%.   11 out of 12 times, we\u2019ve seen a 5% drop after the 14th. If th\"",
+  "stance": "Recent tone is bullish (16 bullish / 8 bearish of last 25). Key levels he's citing: $100K, $80K, $70K, $65K. Latest: \"$SOL  They refuse to accept that their favorite altcoin will never hit ATHs again.    This was the perfect exit pump FTX needed to offload.   Do the homework on\"",
   "high_conviction_count": 70
 }
