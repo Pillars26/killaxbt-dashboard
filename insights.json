@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-16T21:15:05.059951+00:00",
-  "last_price": 64133.72,
+  "generated": "2026-07-16T22:16:56.482844+00:00",
+  "last_price": 64113.75,
   "last_price_time": 1784160000,
   "positions": [],
   "equity_curve": [
@@ -280,42 +280,36 @@
     {
       "time": 1783697618,
       "date": "Fri Jul 10 15:33",
-      "equity": 0.9026,
+      "equity": 0.9023,
       "dir": "long",
-      "ret_pct": 0.01
+      "ret_pct": -0.02
     },
     {
       "time": 1783865276,
       "date": "Sun Jul 12 14:07",
-      "equity": 0.9081,
+      "equity": 0.9076,
       "dir": "long",
-      "ret_pct": 0.62
+      "ret_pct": 0.59
     },
     {
       "time": 1783947189,
       "date": "Mon Jul 13 12:53",
-      "equity": 0.9354,
+      "equity": 0.9345,
       "dir": "long",
-      "ret_pct": 3.0
+      "ret_pct": 2.97
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 9,
-      "dist_pct": 55.9,
-      "side": "resistance"
-    },
-    {
-      "level": 80000,
-      "mentions": 6,
-      "dist_pct": 24.7,
+      "dist_pct": 56.0,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 7,
-      "dist_pct": 9.1,
+      "dist_pct": 9.2,
       "side": "resistance"
     },
     {
@@ -328,6 +322,12 @@
       "level": 64000,
       "mentions": 12,
       "dist_pct": -0.2,
+      "side": "support"
+    },
+    {
+      "level": 62000,
+      "mentions": 6,
+      "dist_pct": -3.3,
       "side": "support"
     },
     {
@@ -349,6 +349,6 @@
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (16 bullish / 8 bearish of last 25). Key levels he's citing: $100K, $80K, $70K, $65K. Latest: \"$SOL  They refuse to accept that their favorite altcoin will never hit ATHs again.    This was the perfect exit pump FTX needed to offload.   Do the homework on\"",
+  "stance": "Recent tone is bullish (15 bullish / 9 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"If $BTC fails to flip this, we\u2019re likely heading to 60-62K. https://t.co/RCY28FPjbH\"",
   "high_conviction_count": 70
 }
