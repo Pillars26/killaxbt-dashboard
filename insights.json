@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-16T23:23:51.107898+00:00",
-  "last_price": 63747.49,
-  "last_price_time": 1784160000,
+  "generated": "2026-07-17T00:58:32.634117+00:00",
+  "last_price": 63785,
+  "last_price_time": 1784246400,
   "positions": [],
   "equity_curve": [
     {
@@ -280,54 +280,54 @@
     {
       "time": 1783697618,
       "date": "Fri Jul 10 15:33",
-      "equity": 0.8971,
+      "equity": 0.8977,
       "dir": "long",
-      "ret_pct": -0.59
+      "ret_pct": -0.54
     },
     {
       "time": 1783865276,
       "date": "Sun Jul 12 14:07",
-      "equity": 0.8972,
+      "equity": 0.8983,
       "dir": "long",
-      "ret_pct": 0.01
+      "ret_pct": 0.07
     },
     {
       "time": 1783947189,
       "date": "Mon Jul 13 12:53",
-      "equity": 0.9186,
+      "equity": 0.9202,
       "dir": "long",
-      "ret_pct": 2.38
+      "ret_pct": 2.44
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 9,
-      "dist_pct": 56.9,
+      "dist_pct": 56.8,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 7,
-      "dist_pct": 9.8,
+      "dist_pct": 9.7,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 13,
-      "dist_pct": 2.0,
+      "dist_pct": 1.9,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 12,
-      "dist_pct": 0.4,
+      "dist_pct": 0.3,
       "side": "resistance"
     },
     {
       "level": 62000,
       "mentions": 6,
-      "dist_pct": -2.7,
+      "dist_pct": -2.8,
       "side": "support"
     },
     {
