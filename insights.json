@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-17T13:16:46.606991+00:00",
-  "last_price": 62819.99,
+  "generated": "2026-07-17T14:56:37.096720+00:00",
+  "last_price": 63134.07,
   "last_price_time": 1784246400,
   "positions": [],
   "equity_curve": [
@@ -280,75 +280,75 @@
     {
       "time": 1783697618,
       "date": "Fri Jul 10 15:33",
-      "equity": 0.8841,
+      "equity": 0.8885,
       "dir": "long",
-      "ret_pct": -2.04
+      "ret_pct": -1.55
     },
     {
       "time": 1783865276,
       "date": "Sun Jul 12 14:07",
-      "equity": 0.8713,
+      "equity": 0.88,
       "dir": "long",
-      "ret_pct": -1.44
+      "ret_pct": -0.95
     },
     {
       "time": 1783947189,
       "date": "Mon Jul 13 12:53",
-      "equity": 0.8791,
+      "equity": 0.8923,
       "dir": "long",
-      "ret_pct": 0.89
+      "ret_pct": 1.4
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 9,
-      "dist_pct": 59.2,
+      "dist_pct": 58.4,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 7,
-      "dist_pct": 11.4,
+      "dist_pct": 10.9,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 13,
-      "dist_pct": 3.5,
+      "dist_pct": 3.0,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 12,
-      "dist_pct": 1.9,
+      "dist_pct": 1.4,
       "side": "resistance"
     },
     {
       "level": 62000,
       "mentions": 6,
-      "dist_pct": -1.3,
+      "dist_pct": -1.8,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 31,
-      "dist_pct": -4.5,
+      "dist_pct": -5.0,
       "side": "support"
     },
     {
       "level": 54000,
       "mentions": 8,
-      "dist_pct": -14.0,
+      "dist_pct": -14.5,
       "side": "support"
     },
     {
       "level": 50000,
       "mentions": 7,
-      "dist_pct": -20.4,
+      "dist_pct": -20.8,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (13 bullish / 10 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"I don't post every scalp on X to avoid confusing people with multiple positions.  I share them in Discord instead, completely free. No paid calls or signals.  I\"",
+  "stance": "Recent tone is bullish (13 bullish / 9 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"bitcoin:native   \"Structure currently suggests that we take the highs before any decisive movement back down.\"  Pretty textbook for a range bound market. We had\"",
   "high_conviction_count": 70
 }
