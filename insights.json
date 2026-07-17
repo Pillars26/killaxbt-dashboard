@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-17T17:31:47.978522+00:00",
-  "last_price": 64021.72,
+  "generated": "2026-07-17T18:39:55.979944+00:00",
+  "last_price": 64023.77,
   "last_price_time": 1784246400,
   "positions": [],
   "equity_curve": [
@@ -282,7 +282,7 @@
       "date": "Fri Jul 10 15:33",
       "equity": 0.901,
       "dir": "long",
-      "ret_pct": -0.17
+      "ret_pct": -0.16
     },
     {
       "time": 1783865276,
@@ -294,7 +294,7 @@
     {
       "time": 1783947189,
       "date": "Mon Jul 13 12:53",
-      "equity": 0.9305,
+      "equity": 0.9306,
       "dir": "long",
       "ret_pct": 2.82
     }
@@ -349,6 +349,6 @@
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (12 bullish / 9 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"If $BTC fails to reclaim the 63.6\u201363.8K region, a corrective move towards 61K becomes likely.  Quite the important barrier to observe as it aligns with the week\"",
+  "stance": "Recent tone is bullish (13 bullish / 8 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"If $BTC sees one final flush, it'll likely be driven by a correction in legacy markets.   It's happened in all 3 previous cycles.  Shortly after, it marked the \"",
   "high_conviction_count": 70
 }
