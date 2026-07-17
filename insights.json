@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-17T20:47:51.741051+00:00",
-  "last_price": 64035.67,
+  "generated": "2026-07-17T21:46:16.635525+00:00",
+  "last_price": 64060.52,
   "last_price_time": 1784246400,
   "positions": [],
   "equity_curve": [
@@ -280,30 +280,30 @@
     {
       "time": 1783697618,
       "date": "Fri Jul 10 15:33",
-      "equity": 0.9012,
+      "equity": 0.9015,
       "dir": "long",
-      "ret_pct": -0.14
+      "ret_pct": -0.11
     },
     {
       "time": 1783865276,
       "date": "Sun Jul 12 14:07",
-      "equity": 0.9054,
+      "equity": 0.9061,
       "dir": "long",
-      "ret_pct": 0.46
+      "ret_pct": 0.5
     },
     {
       "time": 1783947189,
       "date": "Mon Jul 13 12:53",
-      "equity": 0.9311,
+      "equity": 0.9322,
       "dir": "long",
-      "ret_pct": 2.84
+      "ret_pct": 2.88
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 9,
-      "dist_pct": 56.2,
+      "dist_pct": 56.1,
       "side": "resistance"
     },
     {
@@ -349,6 +349,6 @@
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (13 bullish / 8 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"If $BTC sees one final flush, it'll likely be driven by a correction in legacy markets.   It's happened in all 3 previous cycles.  Shortly after, it marked the \"",
+  "stance": "Recent tone is bullish (12 bullish / 9 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"Next key date for $BTC is July 28.    8 of the last 9 times, price has reacted more bearishly than bullishly after approaching these pivots.  Narrative + contex\"",
   "high_conviction_count": 70
 }
