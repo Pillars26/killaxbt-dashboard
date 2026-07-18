@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-18T18:36:03.645785+00:00",
-  "last_price": 64458.47,
+  "generated": "2026-07-18T19:50:04.499478+00:00",
+  "last_price": 64510.39,
   "last_price_time": 1784332800,
   "positions": [],
   "equity_curve": [
@@ -287,29 +287,36 @@
     {
       "time": 1783865276,
       "date": "Sun Jul 12 14:07",
-      "equity": 0.9093,
+      "equity": 0.9101,
       "dir": "long",
-      "ret_pct": 1.13
+      "ret_pct": 1.21
     },
     {
       "time": 1783947189,
       "date": "Mon Jul 13 12:53",
-      "equity": 0.9414,
+      "equity": 0.9429,
       "dir": "long",
-      "ret_pct": 3.52
+      "ret_pct": 3.61
+    },
+    {
+      "time": 1784391477,
+      "date": "Sat Jul 18 16:17",
+      "equity": 0.9429,
+      "dir": "long",
+      "ret_pct": 0.0
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 9,
-      "dist_pct": 55.1,
+      "dist_pct": 55.0,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 7,
-      "dist_pct": 8.6,
+      "dist_pct": 8.5,
       "side": "resistance"
     },
     {
@@ -321,13 +328,13 @@
     {
       "level": 64000,
       "mentions": 12,
-      "dist_pct": -0.7,
+      "dist_pct": -0.8,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 30,
-      "dist_pct": -6.9,
+      "dist_pct": -7.0,
       "side": "support"
     },
     {
@@ -339,16 +346,16 @@
     {
       "level": 54000,
       "mentions": 8,
-      "dist_pct": -16.2,
+      "dist_pct": -16.3,
       "side": "support"
     },
     {
       "level": 50000,
       "mentions": 7,
-      "dist_pct": -22.4,
+      "dist_pct": -22.5,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (13 bullish / 8 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"There seems to be some confusion around what I mean by \"major cycle low.\"  I'm not saying $BTC can never trade below 59K again.  What I mean is that the move fr\"",
-  "high_conviction_count": 70
+  "stance": "Recent tone is bullish (12 bullish / 8 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"$BTC   We're seeing liquidity stack up again around the recent highs at 65.9\u201366.3K.  BTC has been incredibly choppy, so I wouldn't rule out another sweep if we \"",
+  "high_conviction_count": 71
 }
