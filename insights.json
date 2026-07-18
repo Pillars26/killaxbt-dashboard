@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-18T21:33:17.178855+00:00",
-  "last_price": 64664.96,
+  "generated": "2026-07-18T22:31:35.580596+00:00",
+  "last_price": 64668.65,
   "last_price_time": 1784332800,
   "positions": [],
   "equity_curve": [
@@ -287,21 +287,21 @@
     {
       "time": 1783865276,
       "date": "Sun Jul 12 14:07",
-      "equity": 0.9122,
+      "equity": 0.9123,
       "dir": "long",
-      "ret_pct": 1.45
+      "ret_pct": 1.46
     },
     {
       "time": 1783947189,
       "date": "Mon Jul 13 12:53",
-      "equity": 0.9474,
+      "equity": 0.9475,
       "dir": "long",
-      "ret_pct": 3.85
+      "ret_pct": 3.86
     },
     {
       "time": 1784391477,
       "date": "Sat Jul 18 16:17",
-      "equity": 0.9474,
+      "equity": 0.9475,
       "dir": "long",
       "ret_pct": 0.0
     }
@@ -315,13 +315,13 @@
     },
     {
       "level": 70000,
-      "mentions": 7,
-      "dist_pct": 8.3,
+      "mentions": 8,
+      "dist_pct": 8.2,
       "side": "resistance"
     },
     {
       "level": 65000,
-      "mentions": 11,
+      "mentions": 10,
       "dist_pct": 0.5,
       "side": "resistance"
     },
@@ -333,7 +333,7 @@
     },
     {
       "level": 60000,
-      "mentions": 30,
+      "mentions": 29,
       "dist_pct": -7.2,
       "side": "support"
     },
@@ -356,6 +356,6 @@
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (12 bullish / 8 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"$BTC   We're seeing liquidity stack up again around the recent highs at 65.9\u201366.3K.  BTC has been incredibly choppy, so I wouldn't rule out another sweep if we \"",
+  "stance": "Recent tone is bullish (13 bullish / 7 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"Publicly shorted $BTC at $123K  Flipped long at $62,600  Aggressively accumulated spot below $70K  This will age like fine wine in the next 2-3 years, and they\u2019\"",
   "high_conviction_count": 71
 }
