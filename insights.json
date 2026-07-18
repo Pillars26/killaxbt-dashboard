@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-18T15:36:49.481423+00:00",
-  "last_price": 64031.99,
+  "generated": "2026-07-18T16:35:30.169824+00:00",
+  "last_price": 64103.42,
   "last_price_time": 1784332800,
   "positions": [],
   "equity_curve": [
@@ -287,68 +287,68 @@
     {
       "time": 1783865276,
       "date": "Sun Jul 12 14:07",
-      "equity": 0.9033,
+      "equity": 0.9043,
       "dir": "long",
-      "ret_pct": 0.46
+      "ret_pct": 0.57
     },
     {
       "time": 1783947189,
       "date": "Mon Jul 13 12:53",
-      "equity": 0.9289,
+      "equity": 0.931,
       "dir": "long",
-      "ret_pct": 2.84
+      "ret_pct": 2.95
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 9,
-      "dist_pct": 56.2,
+      "dist_pct": 56.0,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 7,
-      "dist_pct": 9.3,
+      "dist_pct": 9.2,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 11,
-      "dist_pct": 1.5,
+      "dist_pct": 1.4,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 12,
-      "dist_pct": -0.0,
+      "dist_pct": -0.2,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 30,
-      "dist_pct": -6.3,
+      "dist_pct": -6.4,
       "side": "support"
     },
     {
       "level": 59000,
-      "mentions": 7,
-      "dist_pct": -7.9,
+      "mentions": 12,
+      "dist_pct": -8.0,
       "side": "support"
     },
     {
       "level": 54000,
       "mentions": 8,
-      "dist_pct": -15.7,
+      "dist_pct": -15.8,
       "side": "support"
     },
     {
       "level": 50000,
       "mentions": 7,
-      "dist_pct": -21.9,
+      "dist_pct": -22.0,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (13 bullish / 8 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"$BTC has already established its major cycle low.  The move from 97K to 59K was the final major correction.  59K is the base low. Could we wick below it? Yes. H\"",
+  "stance": "Recent tone is bullish (13 bullish / 8 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"There seems to be some confusion around what I mean by \"major cycle low.\"  I'm not saying $BTC can never trade below 59K again.  What I mean is that the move fr\"",
   "high_conviction_count": 70
 }
