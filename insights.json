@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-18T13:02:04.248623+00:00",
-  "last_price": 64147.51,
+  "generated": "2026-07-18T14:31:13.752376+00:00",
+  "last_price": 64143.95,
   "last_price_time": 1784332800,
   "positions": [],
   "equity_curve": [
@@ -289,12 +289,12 @@
       "date": "Sun Jul 12 14:07",
       "equity": 0.9049,
       "dir": "long",
-      "ret_pct": 0.64
+      "ret_pct": 0.63
     },
     {
       "time": 1783947189,
       "date": "Mon Jul 13 12:53",
-      "equity": 0.9323,
+      "equity": 0.9322,
       "dir": "long",
       "ret_pct": 3.02
     }
@@ -314,7 +314,7 @@
     },
     {
       "level": 65000,
-      "mentions": 12,
+      "mentions": 11,
       "dist_pct": 1.3,
       "side": "resistance"
     },
@@ -325,15 +325,15 @@
       "side": "support"
     },
     {
-      "level": 62000,
-      "mentions": 6,
-      "dist_pct": -3.3,
-      "side": "support"
-    },
-    {
       "level": 60000,
       "mentions": 30,
       "dist_pct": -6.5,
+      "side": "support"
+    },
+    {
+      "level": 59000,
+      "mentions": 7,
+      "dist_pct": -8.0,
       "side": "support"
     },
     {
@@ -349,6 +349,6 @@
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (12 bullish / 9 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"People call this \u201ctypical\u201d weekend price action, but it\u2019s more illiquid than we\u2019ve seen in a while.   This exact kind of price action tends to show up during bo\"",
+  "stance": "Recent tone is bullish (13 bullish / 8 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"$BTC has already established its major cycle low.  The move from 97K to 59K was the final major correction.  59K is the base low. Could we wick below it? Yes. H\"",
   "high_conviction_count": 70
 }
