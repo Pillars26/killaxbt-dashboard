@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-19T13:04:48.901170+00:00",
-  "last_price": 64359.51,
+  "generated": "2026-07-19T14:34:25.477342+00:00",
+  "last_price": 64455.2,
   "last_price_time": 1784419200,
   "positions": [],
   "equity_curve": [
@@ -287,75 +287,75 @@
     {
       "time": 1783865276,
       "date": "Sun Jul 12 14:07",
-      "equity": 0.9079,
+      "equity": 0.9093,
       "dir": "long",
-      "ret_pct": 0.97
+      "ret_pct": 1.12
     },
     {
       "time": 1783947189,
       "date": "Mon Jul 13 12:53",
-      "equity": 0.9385,
+      "equity": 0.9413,
       "dir": "long",
-      "ret_pct": 3.36
+      "ret_pct": 3.52
     },
     {
       "time": 1784391477,
       "date": "Sat Jul 18 16:17",
-      "equity": 0.9321,
+      "equity": 0.9363,
       "dir": "long",
-      "ret_pct": -0.67
+      "ret_pct": -0.53
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 9,
-      "dist_pct": 55.4,
+      "dist_pct": 55.1,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 8,
-      "dist_pct": 8.8,
+      "dist_pct": 8.6,
       "side": "resistance"
     },
     {
       "level": 65000,
-      "mentions": 10,
-      "dist_pct": 1.0,
+      "mentions": 9,
+      "dist_pct": 0.8,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 12,
-      "dist_pct": -0.6,
+      "dist_pct": -0.7,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 28,
-      "dist_pct": -6.8,
+      "dist_pct": -6.9,
       "side": "support"
     },
     {
       "level": 59000,
       "mentions": 12,
-      "dist_pct": -8.3,
+      "dist_pct": -8.5,
       "side": "support"
     },
     {
       "level": 54000,
       "mentions": 8,
-      "dist_pct": -16.1,
+      "dist_pct": -16.2,
       "side": "support"
     },
     {
       "level": 50000,
       "mentions": 7,
-      "dist_pct": -22.3,
+      "dist_pct": -22.4,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (13 bullish / 7 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"The sooner you realize that holders outperform traders, the less you\u2019ll obsess over finding the \u201cperfect\u201d entry.  You\u2019ll start focusing more on simply being pos\"",
+  "stance": "Recent tone is bullish (13 bullish / 7 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"You are simply not fucking ready... $BTC   The Final Phase. Plan posted from Feb 10th. 2026.  95% of the market got completely rekt on the retrace from 83K down\"",
   "high_conviction_count": 71
 }
