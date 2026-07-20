@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-20T15:19:56.679521+00:00",
-  "last_price": 64915.25,
+  "generated": "2026-07-20T16:52:53.253093+00:00",
+  "last_price": 65388.75,
   "last_price_time": 1784505600,
   "positions": [],
   "equity_curve": [
@@ -294,68 +294,68 @@
     {
       "time": 1783947189,
       "date": "Mon Jul 13 12:53",
-      "equity": 0.9513,
+      "equity": 0.9583,
       "dir": "long",
-      "ret_pct": 4.26
+      "ret_pct": 5.02
     },
     {
       "time": 1784391477,
       "date": "Sat Jul 18 16:17",
-      "equity": 0.9531,
+      "equity": 0.967,
       "dir": "long",
-      "ret_pct": 0.18
+      "ret_pct": 0.91
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 9,
-      "dist_pct": 54.0,
+      "dist_pct": 52.9,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 8,
-      "dist_pct": 7.8,
+      "dist_pct": 7.1,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 9,
-      "dist_pct": 0.1,
-      "side": "resistance"
+      "dist_pct": -0.6,
+      "side": "support"
     },
     {
       "level": 64000,
       "mentions": 12,
-      "dist_pct": -1.4,
+      "dist_pct": -2.1,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 28,
-      "dist_pct": -7.6,
+      "dist_pct": -8.2,
       "side": "support"
     },
     {
       "level": 59000,
       "mentions": 12,
-      "dist_pct": -9.1,
+      "dist_pct": -9.8,
       "side": "support"
     },
     {
       "level": 54000,
       "mentions": 8,
-      "dist_pct": -16.8,
+      "dist_pct": -17.4,
       "side": "support"
     },
     {
       "level": 50000,
       "mentions": 7,
-      "dist_pct": -23.0,
+      "dist_pct": -23.5,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (12 bullish / 5 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"$BTC  It's exciting to finally be bullish after 9 months of downside. I've been waiting a long time for this moment.  Bull markets are far more enjoyable than b\"",
+  "stance": "Recent tone is bullish (11 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"$BTC   It's time to start observing the LTF.  We're heading into Monday and a fresh weekly open by pushing above the recent highs.   You do not want to see pric\"",
   "high_conviction_count": 71
 }
