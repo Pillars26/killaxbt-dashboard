@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-20T18:50:32.700115+00:00",
-  "last_price": 65244.1,
+  "generated": "2026-07-20T20:17:30.004639+00:00",
+  "last_price": 65192.12,
   "last_price_time": 1784505600,
   "positions": [],
   "equity_curve": [
@@ -294,41 +294,41 @@
     {
       "time": 1783947189,
       "date": "Mon Jul 13 12:53",
-      "equity": 0.9561,
+      "equity": 0.9554,
       "dir": "long",
-      "ret_pct": 4.78
+      "ret_pct": 4.7
     },
     {
       "time": 1784391477,
       "date": "Sat Jul 18 16:17",
-      "equity": 0.9627,
+      "equity": 0.9612,
       "dir": "long",
-      "ret_pct": 0.69
+      "ret_pct": 0.61
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 9,
-      "dist_pct": 53.3,
+      "dist_pct": 53.4,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 8,
-      "dist_pct": 7.3,
+      "dist_pct": 7.4,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 9,
-      "dist_pct": -0.4,
+      "dist_pct": -0.3,
       "side": "support"
     },
     {
       "level": 64000,
       "mentions": 12,
-      "dist_pct": -1.9,
+      "dist_pct": -1.8,
       "side": "support"
     },
     {
@@ -340,7 +340,7 @@
     {
       "level": 59000,
       "mentions": 12,
-      "dist_pct": -9.6,
+      "dist_pct": -9.5,
       "side": "support"
     },
     {
@@ -352,10 +352,10 @@
     {
       "level": 50000,
       "mentions": 7,
-      "dist_pct": -23.4,
+      "dist_pct": -23.3,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (12 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"I decided to buy some $SPCX shares here at $123.38.   I think a reasonable estimate is that this will be sitting around $250\u2013$300 within the next 5 years.  So I\"",
+  "stance": "Recent tone is bullish (12 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"I posted this when $BTC was at $122K  This is the reality of where we are in the cycle.  90% of the bear market is completed.  I never wait for the perfect entr\"",
   "high_conviction_count": 71
 }
