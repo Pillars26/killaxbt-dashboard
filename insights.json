@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-20T10:46:09.875558+00:00",
-  "last_price": 64252.3,
+  "generated": "2026-07-20T13:02:12.016877+00:00",
+  "last_price": 64605.99,
   "last_price_time": 1784505600,
   "positions": [],
   "equity_curve": [
@@ -294,68 +294,68 @@
     {
       "time": 1783947189,
       "date": "Mon Jul 13 12:53",
-      "equity": 0.9416,
+      "equity": 0.9468,
       "dir": "long",
-      "ret_pct": 3.19
+      "ret_pct": 3.76
     },
     {
       "time": 1784391477,
       "date": "Sat Jul 18 16:17",
-      "equity": 0.9337,
+      "equity": 0.944,
       "dir": "long",
-      "ret_pct": -0.84
+      "ret_pct": -0.29
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 9,
-      "dist_pct": 55.6,
+      "dist_pct": 54.8,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 8,
-      "dist_pct": 8.9,
+      "dist_pct": 8.3,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 9,
-      "dist_pct": 1.2,
+      "dist_pct": 0.6,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 12,
-      "dist_pct": -0.4,
+      "dist_pct": -0.9,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 28,
-      "dist_pct": -6.6,
+      "dist_pct": -7.1,
       "side": "support"
     },
     {
       "level": 59000,
       "mentions": 12,
-      "dist_pct": -8.2,
+      "dist_pct": -8.7,
       "side": "support"
     },
     {
       "level": 54000,
       "mentions": 8,
-      "dist_pct": -16.0,
+      "dist_pct": -16.4,
       "side": "support"
     },
     {
       "level": 50000,
       "mentions": 7,
-      "dist_pct": -22.2,
+      "dist_pct": -22.6,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (12 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"Let\u2019s look at $BTC from a different perspective, fully inverted.  It doesn\u2019t look like a long, does it?  Vice versa, when it's not inverted, it doesn't look lik\"",
+  "stance": "Recent tone is bullish (12 bullish / 5 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"$BTC  It's exciting to finally be bullish after 9 months of downside. I've been waiting a long time for this moment.  Bull markets are far more enjoyable than b\"",
   "high_conviction_count": 71
 }
