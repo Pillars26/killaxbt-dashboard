@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-21T15:22:30.443123+00:00",
-  "last_price": 66695.33,
+  "generated": "2026-07-21T16:53:09.017855+00:00",
+  "last_price": 66514.43,
   "last_price_time": 1784592000,
   "positions": [],
   "equity_curve": [
@@ -301,68 +301,68 @@
     {
       "time": 1784391477,
       "date": "Sat Jul 18 16:17",
-      "equity": 0.9837,
+      "equity": 0.981,
       "dir": "long",
-      "ret_pct": 2.93
+      "ret_pct": 2.65
     },
     {
       "time": 1784636410,
       "date": "Tue Jul 21 12:20",
-      "equity": 0.9837,
+      "equity": 0.981,
       "dir": "long",
       "ret_pct": 0.0
     }
   ],
   "levels": [
     {
-      "level": 126000,
-      "mentions": 7,
-      "dist_pct": 88.9,
-      "side": "resistance"
-    },
-    {
       "level": 100000,
       "mentions": 11,
-      "dist_pct": 49.9,
+      "dist_pct": 50.3,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 8,
-      "dist_pct": 5.0,
+      "dist_pct": 5.2,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 10,
-      "dist_pct": -2.5,
+      "dist_pct": -2.3,
       "side": "support"
     },
     {
       "level": 64000,
       "mentions": 12,
-      "dist_pct": -4.0,
+      "dist_pct": -3.8,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 27,
-      "dist_pct": -10.0,
+      "dist_pct": -9.8,
       "side": "support"
     },
     {
       "level": 59000,
-      "mentions": 12,
-      "dist_pct": -11.5,
+      "mentions": 11,
+      "dist_pct": -11.3,
       "side": "support"
     },
     {
       "level": 54000,
       "mentions": 8,
-      "dist_pct": -19.0,
+      "dist_pct": -18.8,
+      "side": "support"
+    },
+    {
+      "level": 50000,
+      "mentions": 7,
+      "dist_pct": -24.8,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (16 bullish / 2 bearish of last 25). Key levels he's citing: $126K, $100K, $70K, $65K. Latest: \"My current $BTC plan.   Above 80K Q1 2027. Above 110K Q4 2027.  Bull market tops June-July 2028. (160-180K)  We are not hitting 100K this year. Next year is a d\"",
+  "stance": "Recent tone is bullish (16 bullish / 2 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"My current $BTC plan.   Above 80K Q1 2027. Above 110K Q4 2027.  Bull market tops June-July 2028. (160-180K)  We are not hitting 100K this year. Next year is a d\"",
   "high_conviction_count": 73
 }
