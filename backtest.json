@@ -1,70 +1,70 @@
 {
   "summary": {
-    "total_scored": 1170,
+    "total_scored": 1173,
     "by_horizon": {
       "1": {
         "accuracy_pct": 50.0,
-        "n": 1143
+        "n": 1144
       },
       "3": {
         "accuracy_pct": 52.1,
-        "n": 1145
+        "n": 1148
       },
       "7": {
         "accuracy_pct": 51.0,
-        "n": 1148
+        "n": 1150
       },
       "14": {
-        "accuracy_pct": 51.8,
-        "n": 1155
+        "accuracy_pct": 51.9,
+        "n": 1157
       },
       "30": {
-        "accuracy_pct": 50.9,
-        "n": 1170
+        "accuracy_pct": 50.8,
+        "n": 1173
       }
     },
     "by_direction": {
       "long": {
-        "1": 49.5,
-        "3": 54.0,
-        "7": 50.7,
-        "14": 50.4,
+        "1": 49.6,
+        "3": 54.1,
+        "7": 50.8,
+        "14": 50.5,
         "30": 49.6,
-        "n": 655
+        "n": 657
       },
       "short": {
         "1": 50.5,
-        "3": 49.6,
-        "7": 51.3,
+        "3": 49.5,
+        "7": 51.2,
         "14": 53.5,
-        "30": 52.4,
-        "n": 515
+        "30": 52.3,
+        "n": 516
       }
     },
     "by_kind": {
-      "level_call": {
-        "1": 52.5,
-        "3": 51.9,
-        "7": 51.9,
-        "14": 51.4,
-        "30": 48.3,
-        "n": 315
+      "entry": {
+        "1": 51.4,
+        "3": 50.7,
+        "7": 48.6,
+        "14": 48.0,
+        "30": 49.1,
+        "n": 165
+      },
+      "bias": {
+        "1": 48.8,
+        "3": 52.6,
+        "7": 48.3,
+        "14": 51.0,
+        "30": 51.1,
+        "n": 444
       },
       "exit": {
         "1": 49.0,
         "3": 55.0,
         "7": 57.4,
-        "14": 57.6,
-        "30": 56.8,
+        "14": 57.8,
+        "30": 56.3,
         "n": 206
-      },
-      "bias": {
-        "1": 48.4,
-        "3": 52.4,
-        "7": 48.1,
-        "14": 50.8,
-        "30": 50.9,
-        "n": 442
       },
       "accumulation": {
         "1": 45.2,
@@ -74,13 +74,13 @@
         "30": 47.6,
         "n": 42
       },
-      "entry": {
-        "1": 51.7,
-        "3": 50.7,
-        "7": 49.0,
-        "14": 48.0,
-        "30": 49.1,
-        "n": 165
+      "level_call": {
+        "1": 52.4,
+        "3": 51.7,
+        "7": 51.7,
+        "14": 51.3,
+        "30": 48.1,
+        "n": 316
       }
     },
     "self_reported": {
@@ -94,10 +94,10 @@
       "date": "Tue Sep 24 07:26",
       "direction": "long",
       "kind": "entry",
-      "entry_px": 68363.73,
+      "entry_px": 69014.86,
       "moves": {
         "30": {
-          "ret_pct": -2.63,
+          "ret_pct": -3.55,
           "correct": false
         }
       }
@@ -107,10 +107,10 @@
       "date": "Wed Sep 25 09:40",
       "direction": "long",
       "kind": "entry",
-      "entry_px": 68363.73,
+      "entry_px": 69014.86,
       "moves": {
         "30": {
-          "ret_pct": -1.98,
+          "ret_pct": -2.9,
           "correct": false
         }
       }
@@ -120,10 +120,10 @@
       "date": "Wed Sep 25 21:15",
       "direction": "short",
       "kind": "entry",
-      "entry_px": 68363.73,
+      "entry_px": 69014.86,
       "moves": {
         "30": {
-          "ret_pct": -1.98,
+          "ret_pct": -2.9,
           "correct": true
         }
       }
@@ -133,10 +133,10 @@
       "date": "Fri Sep 27 04:16",
       "direction": "long",
       "kind": "entry",
-      "entry_px": 68363.73,
+      "entry_px": 69014.86,
       "moves": {
         "30": {
-          "ret_pct": 2.28,
+          "ret_pct": 1.32,
           "correct": true
         }
       }
@@ -146,10 +146,10 @@
       "date": "Fri Sep 27 23:12",
       "direction": "short",
       "kind": "entry",
-      "entry_px": 68363.73,
+      "entry_px": 69014.86,
       "moves": {
         "30": {
-          "ret_pct": 2.28,
+          "ret_pct": 1.32,
           "correct": false
         }
       }
@@ -159,10 +159,10 @@
       "date": "Sat Sep 28 12:17",
       "direction": "long",
       "kind": "entry",
-      "entry_px": 68363.73,
+      "entry_px": 69014.86,
       "moves": {
         "30": {
-          "ret_pct": 6.38,
+          "ret_pct": 5.37,
           "correct": true
         }
       }
@@ -172,10 +172,10 @@
       "date": "Sun Sep 29 08:45",
       "direction": "long",
       "kind": "entry",
-      "entry_px": 68363.73,
+      "entry_px": 69014.86,
       "moves": {
         "30": {
-          "ret_pct": 5.79,
+          "ret_pct": 4.79,
           "correct": true
         }
       }
@@ -185,10 +185,10 @@
       "date": "Mon Sep 30 06:25",
       "direction": "short",
       "kind": "entry",
-      "entry_px": 68363.73,
+      "entry_px": 69014.86,
       "moves": {
         "30": {
-          "ret_pct": 2.68,
+          "ret_pct": 1.71,
           "correct": false
         }
       }
@@ -198,10 +198,10 @@
       "date": "Mon Sep 30 13:35",
       "direction": "short",
       "kind": "entry",
-      "entry_px": 68363.73,
+      "entry_px": 69014.86,
       "moves": {
         "30": {
-          "ret_pct": 2.68,
+          "ret_pct": 1.71,
           "correct": false
         }
       }
@@ -211,10 +211,10 @@
       "date": "Tue Oct 01 09:01",
       "direction": "long",
       "kind": "bias",
-      "entry_px": 68363.73,
+      "entry_px": 69014.86,
       "moves": {
         "30": {
-          "ret_pct": 1.61,
+          "ret_pct": 0.66,
           "correct": true
         }
       }
@@ -224,10 +224,10 @@
       "date": "Tue Oct 01 11:48",
       "direction": "long",
       "kind": "entry",
-      "entry_px": 68363.73,
+      "entry_px": 69014.86,
       "moves": {
         "30": {
-          "ret_pct": 1.61,
+          "ret_pct": 0.66,
           "correct": true
         }
       }
@@ -237,10 +237,10 @@
       "date": "Tue Oct 01 19:54",
       "direction": "long",
       "kind": "entry",
-      "entry_px": 68363.73,
+      "entry_px": 69014.86,
       "moves": {
         "30": {
-          "ret_pct": 1.61,
+          "ret_pct": 0.66,
           "correct": true
         }
       }
@@ -250,10 +250,10 @@
       "date": "Wed Oct 02 15:18",
       "direction": "long",
       "kind": "entry",
-      "entry_px": 68363.73,
+      "entry_px": 69014.86,
       "moves": {
         "30": {
-          "ret_pct": 1.46,
+          "ret_pct": 0.5,
           "correct": true
         }
       }
@@ -263,11 +263,11 @@
       "date": "Thu Oct 03 15:34",
       "direction": "long",
       "kind": "exit",
-      "entry_px": 68363.73,
+      "entry_px": 69014.86,
       "moves": {
         "30": {
-          "ret_pct": 0.55,
-          "correct": true
+          "ret_pct": -0.4,
+          "correct": false
         }
       }
     },
@@ -276,10 +276,10 @@
       "date": "Fri Oct 04 13:42",
       "direction": "short",
       "kind": "entry",
-      "entry_px": 68363.73,
+      "entry_px": 69014.86,
       "moves": {
         "30": {
-          "ret_pct": -0.81,
+          "ret_pct": -1.75,
           "correct": true
         }
       }
@@ -289,14 +289,10 @@
       "date": "Sat Oct 05 17:04",
       "direction": "short",
       "kind": "exit",
-      "entry_px": 68363.73,
+      "entry_px": 69014.86,
       "moves": {
-        "14": {
-          "ret_pct": 0.95,
-          "correct": false
-        },
         "30": {
-          "ret_pct": 1.49,
+          "ret_pct": 0.53,
           "correct": false
         }
       }
@@ -306,14 +302,14 @@
       "date": "Mon Oct 07 11:57",
       "direction": "long",
       "kind": "entry",
-      "entry_px": 68363.73,
+      "entry_px": 69014.86,
       "moves": {
         "14": {
-          "ret_pct": -1.44,
+          "ret_pct": -2.37,
           "correct": false
         },
         "30": {
-          "ret_pct": 11.05,
+          "ret_pct": 10.01,
           "correct": true
         }
       }
@@ -323,14 +319,14 @@
       "date": "Tue Oct 08 13:16",
       "direction": "long",
       "kind": "exit",
-      "entry_px": 68363.73,
+      "entry_px": 69014.86,
       "moves": {
         "14": {
-          "ret_pct": -2.58,
+          "ret_pct": -3.5,
           "correct": false
         },
         "30": {
-          "ret_pct": 12.0,
+          "ret_pct": 10.94,
           "correct": true
         }
       }
@@ -340,14 +336,14 @@
       "date": "Tue Oct 08 22:48",
       "direction": "long",
       "kind": "exit",
-      "entry_px": 68363.73,
+      "entry_px": 69014.86,
       "moves": {
         "14": {
-          "ret_pct": -2.58,
+          "ret_pct": -3.5,
           "correct": false
         },
         "30": {
-          "ret_pct": 12.0,
+          "ret_pct": 10.94,
           "correct": true
         }
       }
@@ -357,14 +353,14 @@
       "date": "Wed Oct 09 16:44",
       "direction": "short",
       "kind": "level_call",
-      "entry_px": 68363.73,
+      "entry_px": 69014.86,
       "moves": {
         "14": {
-          "ret_pct": -0.3,
+          "ret_pct": -1.24,
           "correct": true
         },
         "30": {
-          "ret_pct": 12.22,
+          "ret_pct": 11.16,
           "correct": false
         }
       }
@@ -374,14 +370,14 @@
       "date": "Thu Oct 10 13:44",
       "direction": "long",
       "kind": "entry",
-      "entry_px": 68363.73,
+      "entry_px": 69014.86,
       "moves": {
         "14": {
-          "ret_pct": -2.63,
+          "ret_pct": -3.55,
           "correct": false
         },
         "30": {
-          "ret_pct": 17.65,
+          "ret_pct": 16.54,
           "correct": true
         }
       }
@@ -391,14 +387,14 @@
       "date": "Fri Oct 11 16:19",
       "direction": "short",
       "kind": "entry",
-      "entry_px": 68363.73,
+      "entry_px": 69014.86,
       "moves": {
         "14": {
-          "ret_pct": -1.98,
+          "ret_pct": -2.9,
           "correct": true
         },
         "30": {
-          "ret_pct": 29.85,
+          "ret_pct": 28.63,
           "correct": false
         }
       }
@@ -408,18 +404,14 @@
       "date": "Sat Oct 12 13:29",
       "direction": "long",
       "kind": "entry",
-      "entry_px": 68363.73,
+      "entry_px": 69014.86,
       "moves": {
-        "7": {
-          "ret_pct": 0.95,
-          "correct": true
-        },
         "14": {
-          "ret_pct": -0.62,
+          "ret_pct": -1.55,
           "correct": false
         },
         "30": {
-          "ret_pct": 28.78,
+          "ret_pct": 27.56,
           "correct": true
         }
       }
@@ -429,18 +421,18 @@
       "date": "Sun Oct 13 14:26",
       "direction": "long",
       "kind": "entry",
-      "entry_px": 68363.73,
+      "entry_px": 69014.86,
       "moves": {
         "7": {
-          "ret_pct": -1.49,
+          "ret_pct": -2.42,
           "correct": false
         },
         "14": {
-          "ret_pct": 2.28,
+          "ret_pct": 1.32,
           "correct": true
         },
         "30": {
-          "ret_pct": 32.37,
+          "ret_pct": 31.12,
           "correct": true
         }
       }
@@ -450,18 +442,18 @@
       "date": "Mon Oct 14 22:15",
       "direction": "short",
       "kind": "entry",
-      "entry_px": 68363.73,
+      "entry_px": 69014.86,
       "moves": {
         "7": {
-          "ret_pct": -1.44,
+          "ret_pct": -2.37,
           "correct": true
         },
         "14": {
-          "ret_pct": 6.38,
+          "ret_pct": 5.37,
           "correct": false
         },
         "30": {
-          "ret_pct": 27.76,
+          "ret_pct": 26.55,
           "correct": false
         }
       }
@@ -471,22 +463,22 @@
       "date": "Thu Oct 17 01:38",
       "direction": "long",
       "kind": "bias",
-      "entry_px": 68363.73,
+      "entry_px": 69014.86,
       "moves": {
         "3": {
-          "ret_pct": -1.49,
+          "ret_pct": -2.42,
           "correct": false
         },
         "7": {
-          "ret_pct": -2.63,
+          "ret_pct": -3.55,
           "correct": false
         },
         "14": {
-          "ret_pct": 1.61,
+          "ret_pct": 0.66,
           "correct": true
         },
         "30": {
-          "ret_pct": 31.48,
+          "ret_pct": 30.24,
           "correct": true
         }
       }
@@ -496,22 +488,22 @@
       "date": "Thu Oct 17 08:09",
       "direction": "short",
       "kind": "entry",
-      "entry_px": 68363.73,
+      "entry_px": 69014.86,
       "moves": {
         "3": {
-          "ret_pct": -1.49,
+          "ret_pct": -2.42,
           "correct": true
         },
         "7": {
-          "ret_pct": -2.63,
+          "ret_pct": -3.55,
           "correct": true
         },
         "14": {
-          "ret_pct": 1.61,
+          "ret_pct": 0.66,
           "correct": false
         },
         "30": {
-          "ret_pct": 31.48,
+          "ret_pct": 30.24,
           "correct": false
         }
       }
@@ -521,26 +513,22 @@
       "date": "Fri Oct 18 06:22",
       "direction": "long",
       "kind": "entry",
-      "entry_px": 68363.73,
+      "entry_px": 69014.86,
       "moves": {
-        "1": {
-          "ret_pct": 0.95,
-          "correct": true
-        },
         "3": {
-          "ret_pct": -1.44,
+          "ret_pct": -2.37,
           "correct": false
         },
         "7": {
-          "ret_pct": -1.98,
+          "ret_pct": -2.9,
           "correct": false
         },
         "14": {
-          "ret_pct": 1.46,
+          "ret_pct": 0.5,
           "correct": true
         },
         "30": {
-          "ret_pct": 32.41,
+          "ret_pct": 31.16,
           "correct": true
         }
       }
@@ -550,26 +538,22 @@
       "date": "Fri Oct 18 19:23",
       "direction": "short",
       "kind": "bias",
-      "entry_px": 68363.73,
+      "entry_px": 69014.86,
       "moves": {
-        "1": {
-          "ret_pct": 0.95,
-          "correct": false
-        },
         "3": {
-          "ret_pct": -1.44,
+          "ret_pct": -2.37,
           "correct": true
         },
         "7": {
-          "ret_pct": -1.98,
+          "ret_pct": -2.9,
           "correct": true
         },
         "14": {
-          "ret_pct": 1.46,
+          "ret_pct": 0.5,
           "correct": false
         },
         "30": {
-          "ret_pct": 32.41,
+          "ret_pct": 31.16,
           "correct": false
         }
       }
@@ -31425,7 +31409,7 @@
           "correct": false
         },
         "30": {
-          "ret_pct": 2.7,
+          "ret_pct": 2.74,
           "correct": true
         }
       }
@@ -31454,7 +31438,7 @@
           "correct": true
         },
         "30": {
-          "ret_pct": 2.7,
+          "ret_pct": 2.74,
           "correct": false
         }
       }
@@ -31483,7 +31467,7 @@
           "correct": false
         },
         "30": {
-          "ret_pct": 1.51,
+          "ret_pct": 2.04,
           "correct": true
         }
       }
@@ -31512,7 +31496,7 @@
           "correct": true
         },
         "30": {
-          "ret_pct": 1.51,
+          "ret_pct": 2.04,
           "correct": false
         }
       }
@@ -31541,7 +31525,7 @@
           "correct": false
         },
         "30": {
-          "ret_pct": 1.51,
+          "ret_pct": 2.04,
           "correct": true
         }
       }
@@ -31570,7 +31554,7 @@
           "correct": false
         },
         "30": {
-          "ret_pct": 1.51,
+          "ret_pct": 2.04,
           "correct": true
         }
       }
@@ -31599,7 +31583,7 @@
           "correct": true
         },
         "30": {
-          "ret_pct": 3.09,
+          "ret_pct": 3.63,
           "correct": true
         }
       }
@@ -31628,7 +31612,7 @@
           "correct": false
         },
         "30": {
-          "ret_pct": 3.09,
+          "ret_pct": 3.63,
           "correct": false
         }
       }
@@ -31657,7 +31641,7 @@
           "correct": false
         },
         "30": {
-          "ret_pct": 3.09,
+          "ret_pct": 3.63,
           "correct": false
         }
       }
@@ -31686,7 +31670,7 @@
           "correct": false
         },
         "30": {
-          "ret_pct": 3.09,
+          "ret_pct": 3.63,
           "correct": false
         }
       }
@@ -31715,7 +31699,7 @@
           "correct": false
         },
         "30": {
-          "ret_pct": 1.94,
+          "ret_pct": 2.48,
           "correct": true
         }
       }
@@ -31744,7 +31728,7 @@
           "correct": false
         },
         "30": {
-          "ret_pct": 1.94,
+          "ret_pct": 2.48,
           "correct": true
         }
       }
@@ -31773,7 +31757,7 @@
           "correct": false
         },
         "30": {
-          "ret_pct": 1.94,
+          "ret_pct": 2.48,
           "correct": true
         }
       }
@@ -31802,7 +31786,7 @@
           "correct": true
         },
         "30": {
-          "ret_pct": 4.06,
+          "ret_pct": 4.61,
           "correct": false
         }
       }
@@ -31831,7 +31815,7 @@
           "correct": true
         },
         "30": {
-          "ret_pct": 4.06,
+          "ret_pct": 4.61,
           "correct": false
         }
       }
@@ -31860,7 +31844,7 @@
           "correct": false
         },
         "30": {
-          "ret_pct": 4.06,
+          "ret_pct": 4.61,
           "correct": true
         }
       }
@@ -31889,7 +31873,7 @@
           "correct": false
         },
         "30": {
-          "ret_pct": 4.06,
+          "ret_pct": 4.61,
           "correct": true
         }
       }
@@ -31918,7 +31902,7 @@
           "correct": false
         },
         "30": {
-          "ret_pct": 6.9,
+          "ret_pct": 7.46,
           "correct": false
         }
       }
@@ -31947,7 +31931,7 @@
           "correct": true
         },
         "30": {
-          "ret_pct": 6.9,
+          "ret_pct": 7.46,
           "correct": true
         }
       }
@@ -31976,7 +31960,7 @@
           "correct": false
         },
         "30": {
-          "ret_pct": 6.9,
+          "ret_pct": 7.46,
           "correct": false
         }
       }
@@ -32005,7 +31989,7 @@
           "correct": true
         },
         "30": {
-          "ret_pct": 6.9,
+          "ret_pct": 7.46,
           "correct": true
         }
       }
@@ -32034,7 +32018,7 @@
           "correct": true
         },
         "30": {
-          "ret_pct": 6.9,
+          "ret_pct": 7.46,
           "correct": true
         }
       }
@@ -32063,7 +32047,7 @@
           "correct": false
         },
         "30": {
-          "ret_pct": 9.19,
+          "ret_pct": 9.76,
           "correct": false
         }
       }
@@ -32092,7 +32076,7 @@
           "correct": true
         },
         "30": {
-          "ret_pct": 8.64,
+          "ret_pct": 9.22,
           "correct": true
         }
       }
@@ -32121,7 +32105,7 @@
           "correct": false
         },
         "30": {
-          "ret_pct": 8.64,
+          "ret_pct": 9.22,
           "correct": false
         }
       }
@@ -32150,7 +32134,7 @@
           "correct": true
         },
         "30": {
-          "ret_pct": 8.77,
+          "ret_pct": 9.34,
           "correct": true
         }
       }
@@ -32179,7 +32163,7 @@
           "correct": true
         },
         "30": {
-          "ret_pct": 8.77,
+          "ret_pct": 9.34,
           "correct": true
         }
       }
@@ -32208,7 +32192,7 @@
           "correct": false
         },
         "30": {
-          "ret_pct": 8.77,
+          "ret_pct": 9.34,
           "correct": false
         }
       }
@@ -32237,7 +32221,7 @@
           "correct": false
         },
         "30": {
-          "ret_pct": 9.61,
+          "ret_pct": 10.19,
           "correct": false
         }
       }
@@ -32266,7 +32250,7 @@
           "correct": true
         },
         "30": {
-          "ret_pct": 9.61,
+          "ret_pct": 10.19,
           "correct": true
         }
       }
@@ -32295,7 +32279,7 @@
           "correct": false
         },
         "30": {
-          "ret_pct": 9.61,
+          "ret_pct": 10.19,
           "correct": false
         }
       }
@@ -32324,7 +32308,7 @@
           "correct": false
         },
         "30": {
-          "ret_pct": 9.61,
+          "ret_pct": 10.19,
           "correct": false
         }
       }
@@ -32353,7 +32337,7 @@
           "correct": true
         },
         "30": {
-          "ret_pct": 8.36,
+          "ret_pct": 8.93,
           "correct": true
         }
       }
@@ -32382,7 +32366,7 @@
           "correct": true
         },
         "30": {
-          "ret_pct": 11.39,
+          "ret_pct": 11.98,
           "correct": true
         }
       }
@@ -32411,7 +32395,7 @@
           "correct": true
         },
         "30": {
-          "ret_pct": 11.39,
+          "ret_pct": 11.98,
           "correct": true
         }
       }
@@ -32440,7 +32424,7 @@
           "correct": false
         },
         "30": {
-          "ret_pct": 8.72,
+          "ret_pct": 9.29,
           "correct": false
         }
       }
@@ -32469,7 +32453,7 @@
           "correct": false
         },
         "30": {
-          "ret_pct": 8.72,
+          "ret_pct": 9.29,
           "correct": false
         }
       }
@@ -32498,7 +32482,7 @@
           "correct": true
         },
         "30": {
-          "ret_pct": 8.72,
+          "ret_pct": 9.29,
           "correct": true
         }
       }
@@ -32527,7 +32511,7 @@
           "correct": false
         },
         "30": {
-          "ret_pct": 8.72,
+          "ret_pct": 9.29,
           "correct": false
         }
       }
@@ -32556,7 +32540,7 @@
           "correct": true
         },
         "30": {
-          "ret_pct": 6.03,
+          "ret_pct": 6.59,
           "correct": true
         }
       }
@@ -32585,7 +32569,7 @@
           "correct": true
         },
         "30": {
-          "ret_pct": 6.03,
+          "ret_pct": 6.59,
           "correct": true
         }
       }
@@ -32614,7 +32598,7 @@
           "correct": true
         },
         "30": {
-          "ret_pct": 6.03,
+          "ret_pct": 6.59,
           "correct": true
         }
       }
@@ -32643,7 +32627,7 @@
           "correct": false
         },
         "30": {
-          "ret_pct": 4.27,
+          "ret_pct": 4.82,
           "correct": false
         }
       }
@@ -32672,7 +32656,7 @@
           "correct": false
         },
         "30": {
-          "ret_pct": 3.33,
+          "ret_pct": 3.88,
           "correct": false
         }
       }
@@ -32701,7 +32685,7 @@
           "correct": true
         },
         "30": {
-          "ret_pct": 3.33,
+          "ret_pct": 3.88,
           "correct": true
         }
       }
@@ -32730,7 +32714,7 @@
           "correct": true
         },
         "30": {
-          "ret_pct": 3.33,
+          "ret_pct": 3.88,
           "correct": true
         }
       }
@@ -32755,11 +32739,11 @@
           "correct": false
         },
         "14": {
-          "ret_pct": 1.86,
+          "ret_pct": 2.39,
           "correct": false
         },
         "30": {
-          "ret_pct": 1.86,
+          "ret_pct": 2.39,
           "correct": false
         }
       }
@@ -32784,11 +32768,11 @@
           "correct": false
         },
         "14": {
-          "ret_pct": 1.86,
+          "ret_pct": 2.39,
           "correct": false
         },
         "30": {
-          "ret_pct": 1.86,
+          "ret_pct": 2.39,
           "correct": false
         }
       }
@@ -32813,11 +32797,11 @@
           "correct": true
         },
         "14": {
-          "ret_pct": 2.95,
+          "ret_pct": 3.49,
           "correct": true
         },
         "30": {
-          "ret_pct": 2.95,
+          "ret_pct": 3.49,
           "correct": true
         }
       }
@@ -32842,11 +32826,11 @@
           "correct": true
         },
         "14": {
-          "ret_pct": 2.95,
+          "ret_pct": 3.49,
           "correct": true
         },
         "30": {
-          "ret_pct": 2.95,
+          "ret_pct": 3.49,
           "correct": true
         }
       }
@@ -32871,11 +32855,11 @@
           "correct": true
         },
         "14": {
-          "ret_pct": 4.74,
+          "ret_pct": 5.3,
           "correct": true
         },
         "30": {
-          "ret_pct": 4.74,
+          "ret_pct": 5.3,
           "correct": true
         }
       }
@@ -32900,11 +32884,11 @@
           "correct": false
         },
         "14": {
-          "ret_pct": 3.19,
+          "ret_pct": 3.73,
           "correct": false
         },
         "30": {
-          "ret_pct": 3.19,
+          "ret_pct": 3.73,
           "correct": false
         }
       }
@@ -32929,11 +32913,11 @@
           "correct": true
         },
         "14": {
-          "ret_pct": 3.19,
+          "ret_pct": 3.73,
           "correct": true
         },
         "30": {
-          "ret_pct": 3.19,
+          "ret_pct": 3.73,
           "correct": true
         }
       }
@@ -32958,11 +32942,11 @@
           "correct": false
         },
         "14": {
-          "ret_pct": 3.19,
+          "ret_pct": 3.73,
           "correct": false
         },
         "30": {
-          "ret_pct": 3.19,
+          "ret_pct": 3.73,
           "correct": false
         }
       }
@@ -32987,11 +32971,11 @@
           "correct": true
         },
         "14": {
-          "ret_pct": 1.65,
+          "ret_pct": 2.19,
           "correct": true
         },
         "30": {
-          "ret_pct": 1.65,
+          "ret_pct": 2.19,
           "correct": true
         }
       }
@@ -33016,11 +33000,11 @@
           "correct": true
         },
         "14": {
-          "ret_pct": 1.65,
+          "ret_pct": 2.19,
           "correct": true
         },
         "30": {
-          "ret_pct": 1.65,
+          "ret_pct": 2.19,
           "correct": true
         }
       }
@@ -33045,11 +33029,11 @@
           "correct": false
         },
         "14": {
-          "ret_pct": 1.65,
+          "ret_pct": 2.19,
           "correct": false
         },
         "30": {
-          "ret_pct": 1.65,
+          "ret_pct": 2.19,
           "correct": false
         }
       }
@@ -33074,11 +33058,11 @@
           "correct": true
         },
         "14": {
-          "ret_pct": 1.65,
+          "ret_pct": 2.19,
           "correct": true
         },
         "30": {
-          "ret_pct": 1.65,
+          "ret_pct": 2.19,
           "correct": true
         }
       }
@@ -33103,11 +33087,11 @@
           "correct": true
         },
         "14": {
-          "ret_pct": 2.22,
+          "ret_pct": 2.76,
           "correct": true
         },
         "30": {
-          "ret_pct": 2.22,
+          "ret_pct": 2.76,
           "correct": true
         }
       }
@@ -33128,15 +33112,15 @@
           "correct": true
         },
         "7": {
-          "ret_pct": 2.27,
+          "ret_pct": 2.31,
           "correct": true
         },
         "14": {
-          "ret_pct": 2.27,
+          "ret_pct": 2.81,
           "correct": true
         },
         "30": {
-          "ret_pct": 2.27,
+          "ret_pct": 2.81,
           "correct": true
         }
       }
@@ -33157,15 +33141,15 @@
           "correct": true
         },
         "7": {
-          "ret_pct": 4.7,
+          "ret_pct": 5.25,
           "correct": true
         },
         "14": {
-          "ret_pct": 4.7,
+          "ret_pct": 5.25,
           "correct": true
         },
         "30": {
-          "ret_pct": 4.7,
+          "ret_pct": 5.25,
           "correct": true
         }
       }
@@ -33186,15 +33170,15 @@
           "correct": false
         },
         "7": {
-          "ret_pct": 4.7,
+          "ret_pct": 5.25,
           "correct": false
         },
         "14": {
-          "ret_pct": 4.7,
+          "ret_pct": 5.25,
           "correct": false
         },
         "30": {
-          "ret_pct": 4.7,
+          "ret_pct": 5.25,
           "correct": false
         }
       }
@@ -33215,15 +33199,15 @@
           "correct": true
         },
         "7": {
-          "ret_pct": 4.7,
+          "ret_pct": 5.25,
           "correct": true
         },
         "14": {
-          "ret_pct": 4.7,
+          "ret_pct": 5.25,
           "correct": true
         },
         "30": {
-          "ret_pct": 4.7,
+          "ret_pct": 5.25,
           "correct": true
         }
       }
@@ -33244,15 +33228,15 @@
           "correct": false
         },
         "7": {
-          "ret_pct": 0.31,
+          "ret_pct": 0.84,
           "correct": true
         },
         "14": {
-          "ret_pct": 0.31,
+          "ret_pct": 0.84,
           "correct": true
         },
         "30": {
-          "ret_pct": 0.31,
+          "ret_pct": 0.84,
           "correct": true
         }
       }
@@ -33273,15 +33257,15 @@
           "correct": true
         },
         "7": {
-          "ret_pct": 0.31,
+          "ret_pct": 0.84,
           "correct": false
         },
         "14": {
-          "ret_pct": 0.31,
+          "ret_pct": 0.84,
           "correct": false
         },
         "30": {
-          "ret_pct": 0.31,
+          "ret_pct": 0.84,
           "correct": false
         }
       }
@@ -33302,15 +33286,15 @@
           "correct": true
         },
         "7": {
-          "ret_pct": 0.31,
+          "ret_pct": 0.84,
           "correct": false
         },
         "14": {
-          "ret_pct": 0.31,
+          "ret_pct": 0.84,
           "correct": false
         },
         "30": {
-          "ret_pct": 0.31,
+          "ret_pct": 0.84,
           "correct": false
         }
       }
@@ -33331,15 +33315,15 @@
           "correct": false
         },
         "7": {
-          "ret_pct": 0.31,
+          "ret_pct": 0.84,
           "correct": true
         },
         "14": {
-          "ret_pct": 0.31,
+          "ret_pct": 0.84,
           "correct": true
         },
         "30": {
-          "ret_pct": 0.31,
+          "ret_pct": 0.84,
           "correct": true
         }
       }
@@ -33360,15 +33344,15 @@
           "correct": true
         },
         "7": {
-          "ret_pct": 0.73,
+          "ret_pct": 1.26,
           "correct": false
         },
         "14": {
-          "ret_pct": 0.73,
+          "ret_pct": 1.26,
           "correct": false
         },
         "30": {
-          "ret_pct": 0.73,
+          "ret_pct": 1.26,
           "correct": false
         }
       }
@@ -33385,19 +33369,19 @@
           "correct": true
         },
         "3": {
-          "ret_pct": 2.23,
+          "ret_pct": 2.26,
           "correct": true
         },
         "7": {
-          "ret_pct": 2.23,
+          "ret_pct": 2.76,
           "correct": true
         },
         "14": {
-          "ret_pct": 2.23,
+          "ret_pct": 2.76,
           "correct": true
         },
         "30": {
-          "ret_pct": 2.23,
+          "ret_pct": 2.76,
           "correct": true
         }
       }
@@ -33414,19 +33398,19 @@
           "correct": true
         },
         "3": {
-          "ret_pct": 2.03,
+          "ret_pct": 2.57,
           "correct": true
         },
         "7": {
-          "ret_pct": 2.03,
+          "ret_pct": 2.57,
           "correct": true
         },
         "14": {
-          "ret_pct": 2.03,
+          "ret_pct": 2.57,
           "correct": true
         },
         "30": {
-          "ret_pct": 2.03,
+          "ret_pct": 2.57,
           "correct": true
         }
       }
@@ -33443,19 +33427,19 @@
           "correct": true
         },
         "3": {
-          "ret_pct": 2.03,
+          "ret_pct": 2.57,
           "correct": true
         },
         "7": {
-          "ret_pct": 2.03,
+          "ret_pct": 2.57,
           "correct": true
         },
         "14": {
-          "ret_pct": 2.03,
+          "ret_pct": 2.57,
           "correct": true
         },
         "30": {
-          "ret_pct": 2.03,
+          "ret_pct": 2.57,
           "correct": true
         }
       }
@@ -33472,19 +33456,19 @@
           "correct": true
         },
         "3": {
-          "ret_pct": 2.03,
+          "ret_pct": 2.57,
           "correct": true
         },
         "7": {
-          "ret_pct": 2.03,
+          "ret_pct": 2.57,
           "correct": true
         },
         "14": {
-          "ret_pct": 2.03,
+          "ret_pct": 2.57,
           "correct": true
         },
         "30": {
-          "ret_pct": 2.03,
+          "ret_pct": 2.57,
           "correct": true
         }
       }
@@ -33497,23 +33481,23 @@
       "entry_px": 64796.36,
       "moves": {
         "1": {
-          "ret_pct": 0.61,
+          "ret_pct": 0.64,
           "correct": true
         },
         "3": {
-          "ret_pct": 0.61,
+          "ret_pct": 1.14,
           "correct": true
         },
         "7": {
-          "ret_pct": 0.61,
+          "ret_pct": 1.14,
           "correct": true
         },
         "14": {
-          "ret_pct": 0.61,
+          "ret_pct": 1.14,
           "correct": true
         },
         "30": {
-          "ret_pct": 0.61,
+          "ret_pct": 1.14,
           "correct": true
         }
       }
@@ -33526,23 +33510,23 @@
       "entry_px": 64796.36,
       "moves": {
         "1": {
-          "ret_pct": 0.61,
+          "ret_pct": 0.64,
           "correct": false
         },
         "3": {
-          "ret_pct": 0.61,
+          "ret_pct": 1.14,
           "correct": false
         },
         "7": {
-          "ret_pct": 0.61,
+          "ret_pct": 1.14,
           "correct": false
         },
         "14": {
-          "ret_pct": 0.61,
+          "ret_pct": 1.14,
           "correct": false
         },
         "30": {
-          "ret_pct": 0.61,
+          "ret_pct": 1.14,
           "correct": false
         }
       }
@@ -33555,23 +33539,23 @@
       "entry_px": 64796.36,
       "moves": {
         "1": {
-          "ret_pct": 0.61,
+          "ret_pct": 0.64,
           "correct": true
         },
         "3": {
-          "ret_pct": 0.61,
+          "ret_pct": 1.14,
           "correct": true
         },
         "7": {
-          "ret_pct": 0.61,
+          "ret_pct": 1.14,
           "correct": true
         },
         "14": {
-          "ret_pct": 0.61,
+          "ret_pct": 1.14,
           "correct": true
         },
         "30": {
-          "ret_pct": 0.61,
+          "ret_pct": 1.14,
           "correct": true
         }
       }
@@ -33584,23 +33568,23 @@
       "entry_px": 64796.36,
       "moves": {
         "1": {
-          "ret_pct": 0.61,
+          "ret_pct": 0.64,
           "correct": true
         },
         "3": {
-          "ret_pct": 0.61,
+          "ret_pct": 1.14,
           "correct": true
         },
         "7": {
-          "ret_pct": 0.61,
+          "ret_pct": 1.14,
           "correct": true
         },
         "14": {
-          "ret_pct": 0.61,
+          "ret_pct": 1.14,
           "correct": true
         },
         "30": {
-          "ret_pct": 0.61,
+          "ret_pct": 1.14,
           "correct": true
         }
       }
@@ -33613,23 +33597,23 @@
       "entry_px": 64681.78,
       "moves": {
         "1": {
-          "ret_pct": 0.79,
+          "ret_pct": 1.32,
           "correct": true
         },
         "3": {
-          "ret_pct": 0.79,
+          "ret_pct": 1.32,
           "correct": true
         },
         "7": {
-          "ret_pct": 0.79,
+          "ret_pct": 1.32,
           "correct": true
         },
         "14": {
-          "ret_pct": 0.79,
+          "ret_pct": 1.32,
           "correct": true
         },
         "30": {
-          "ret_pct": 0.79,
+          "ret_pct": 1.32,
           "correct": true
         }
       }
@@ -33642,23 +33626,110 @@
       "entry_px": 64681.78,
       "moves": {
         "1": {
-          "ret_pct": 0.79,
+          "ret_pct": 1.32,
           "correct": true
         },
         "3": {
-          "ret_pct": 0.79,
+          "ret_pct": 1.32,
           "correct": true
         },
         "7": {
-          "ret_pct": 0.79,
+          "ret_pct": 1.32,
           "correct": true
         },
         "14": {
-          "ret_pct": 0.79,
+          "ret_pct": 1.32,
           "correct": true
         },
         "30": {
-          "ret_pct": 0.79,
+          "ret_pct": 1.32,
+          "correct": true
+        }
+      }
+    },
+    {
+      "id": "2079188424083267684",
+      "date": "Mon Jul 20 12:55",
+      "direction": "long",
+      "kind": "bias",
+      "entry_px": 65213.05,
+      "moves": {
+        "1": {
+          "ret_pct": 0.49,
+          "correct": true
+        },
+        "3": {
+          "ret_pct": 0.49,
+          "correct": true
+        },
+        "7": {
+          "ret_pct": 0.49,
+          "correct": true
+        },
+        "14": {
+          "ret_pct": 0.49,
+          "correct": true
+        },
+        "30": {
+          "ret_pct": 0.49,
+          "correct": true
+        }
+      }
+    },
+    {
+      "id": "2079226657785708581",
+      "date": "Mon Jul 20 15:27",
+      "direction": "short",
+      "kind": "level_call",
+      "entry_px": 65213.05,
+      "moves": {
+        "1": {
+          "ret_pct": 0.49,
+          "correct": false
+        },
+        "3": {
+          "ret_pct": 0.49,
+          "correct": false
+        },
+        "7": {
+          "ret_pct": 0.49,
+          "correct": false
+        },
+        "14": {
+          "ret_pct": 0.49,
+          "correct": false
+        },
+        "30": {
+          "ret_pct": 0.49,
+          "correct": false
+        }
+      }
+    },
+    {
+      "id": "2079270011420463414",
+      "date": "Mon Jul 20 18:19",
+      "direction": "long",
+      "kind": "bias",
+      "entry_px": 65213.05,
+      "moves": {
+        "1": {
+          "ret_pct": 0.49,
+          "correct": true
+        },
+        "3": {
+          "ret_pct": 0.49,
+          "correct": true
+        },
+        "7": {
+          "ret_pct": 0.49,
+          "correct": true
+        },
+        "14": {
+          "ret_pct": 0.49,
+          "correct": true
+        },
+        "30": {
+          "ret_pct": 0.49,
           "correct": true
         }
       }
