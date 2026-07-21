@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-21T11:49:55.743833+00:00",
-  "last_price": 66310.26,
+  "generated": "2026-07-21T13:26:39.541034+00:00",
+  "last_price": 66413.32,
   "last_price_time": 1784592000,
   "positions": [],
   "equity_curve": [
@@ -301,61 +301,61 @@
     {
       "time": 1784391477,
       "date": "Sat Jul 18 16:17",
-      "equity": 0.978,
+      "equity": 0.9795,
       "dir": "long",
-      "ret_pct": 2.34
+      "ret_pct": 2.5
     }
   ],
   "levels": [
     {
+      "level": 126000,
+      "mentions": 7,
+      "dist_pct": 89.7,
+      "side": "resistance"
+    },
+    {
       "level": 100000,
       "mentions": 9,
-      "dist_pct": 50.8,
+      "dist_pct": 50.6,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 8,
-      "dist_pct": 5.6,
+      "dist_pct": 5.4,
       "side": "resistance"
     },
     {
       "level": 65000,
-      "mentions": 9,
-      "dist_pct": -2.0,
+      "mentions": 10,
+      "dist_pct": -2.1,
       "side": "support"
     },
     {
       "level": 64000,
       "mentions": 12,
-      "dist_pct": -3.5,
+      "dist_pct": -3.6,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 27,
-      "dist_pct": -9.5,
+      "dist_pct": -9.7,
       "side": "support"
     },
     {
       "level": 59000,
       "mentions": 12,
-      "dist_pct": -11.0,
+      "dist_pct": -11.2,
       "side": "support"
     },
     {
       "level": 54000,
       "mentions": 8,
-      "dist_pct": -18.6,
-      "side": "support"
-    },
-    {
-      "level": 50000,
-      "mentions": 7,
-      "dist_pct": -24.6,
+      "dist_pct": -18.7,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (13 bullish / 4 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"Well well well... $BTC  \"So, based on this theory, the next 6 month candle should be green, meaning the move down we're seeing right now could actually be the c\"",
+  "stance": "Recent tone is bullish (14 bullish / 3 bearish of last 25). Key levels he's citing: $126K, $100K, $70K, $65K. Latest: \"Nobody knows exactly where $BTC will bottom with precision.  I\u2019m just being completely honest here.    While I consider myself very consistent with my swing tra\"",
   "high_conviction_count": 72
 }
