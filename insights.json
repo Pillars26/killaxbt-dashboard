@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-21T09:59:00.449581+00:00",
-  "last_price": 66235.4,
+  "generated": "2026-07-21T11:49:55.743833+00:00",
+  "last_price": 66310.26,
   "last_price_time": 1784592000,
   "positions": [],
   "equity_curve": [
@@ -301,61 +301,61 @@
     {
       "time": 1784391477,
       "date": "Sat Jul 18 16:17",
-      "equity": 0.9769,
+      "equity": 0.978,
       "dir": "long",
-      "ret_pct": 2.22
+      "ret_pct": 2.34
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 9,
-      "dist_pct": 51.0,
+      "dist_pct": 50.8,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 8,
-      "dist_pct": 5.7,
+      "dist_pct": 5.6,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 9,
-      "dist_pct": -1.9,
+      "dist_pct": -2.0,
       "side": "support"
     },
     {
       "level": 64000,
       "mentions": 12,
-      "dist_pct": -3.4,
+      "dist_pct": -3.5,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 27,
-      "dist_pct": -9.4,
+      "dist_pct": -9.5,
       "side": "support"
     },
     {
       "level": 59000,
       "mentions": 12,
-      "dist_pct": -10.9,
+      "dist_pct": -11.0,
       "side": "support"
     },
     {
       "level": 54000,
       "mentions": 8,
-      "dist_pct": -18.5,
+      "dist_pct": -18.6,
       "side": "support"
     },
     {
       "level": 50000,
       "mentions": 7,
-      "dist_pct": -24.5,
+      "dist_pct": -24.6,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (12 bullish / 5 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"The journey is always more fun than the destination.\"",
+  "stance": "Recent tone is bullish (13 bullish / 4 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"Well well well... $BTC  \"So, based on this theory, the next 6 month candle should be green, meaning the move down we're seeing right now could actually be the c\"",
   "high_conviction_count": 72
 }
