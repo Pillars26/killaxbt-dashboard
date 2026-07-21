@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-21T18:13:29.503852+00:00",
-  "last_price": 66269.83,
+  "generated": "2026-07-21T19:52:04.293281+00:00",
+  "last_price": 66470.12,
   "last_price_time": 1784592000,
   "positions": [],
   "equity_curve": [
@@ -301,14 +301,14 @@
     {
       "time": 1784391477,
       "date": "Sat Jul 18 16:17",
-      "equity": 0.9774,
+      "equity": 0.9804,
       "dir": "long",
-      "ret_pct": 2.27
+      "ret_pct": 2.58
     },
     {
       "time": 1784636410,
       "date": "Tue Jul 21 12:20",
-      "equity": 0.9774,
+      "equity": 0.9804,
       "dir": "long",
       "ret_pct": 0.0
     }
@@ -317,52 +317,52 @@
     {
       "level": 100000,
       "mentions": 11,
-      "dist_pct": 50.9,
+      "dist_pct": 50.4,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 6,
-      "dist_pct": 20.7,
+      "dist_pct": 20.4,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 8,
-      "dist_pct": 5.6,
+      "dist_pct": 5.3,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 10,
-      "dist_pct": -1.9,
+      "dist_pct": -2.2,
       "side": "support"
     },
     {
       "level": 64000,
       "mentions": 12,
-      "dist_pct": -3.4,
+      "dist_pct": -3.7,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 27,
-      "dist_pct": -9.5,
+      "dist_pct": -9.7,
       "side": "support"
     },
     {
       "level": 59000,
       "mentions": 11,
-      "dist_pct": -11.0,
+      "dist_pct": -11.2,
       "side": "support"
     },
     {
       "level": 54000,
       "mentions": 8,
-      "dist_pct": -18.5,
+      "dist_pct": -18.8,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (17 bullish / 2 bearish of last 25). Key levels he's citing: $100K, $80K, $70K, $65K. Latest: \"It really is simple.   You just have to buy $BTC below the 50D MA on the monthly.  But mfs will still fuck up by chasing lower. Cope. https://t.co/p1q3TnnOJl\"",
+  "stance": "Recent tone is bullish (17 bullish / 2 bearish of last 25). Key levels he's citing: $100K, $80K, $70K, $65K. Latest: \"All I am going to say is study... $BTC  We formed a significant cycle high in January this cycle.     In 2022, it formed in April. https://t.co/qBIaWpxaj9\"",
   "high_conviction_count": 73
 }
