@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-22T22:39:49.819165+00:00",
-  "last_price": 65927.32,
+  "generated": "2026-07-22T23:39:37.253220+00:00",
+  "last_price": 65957.29,
   "last_price_time": 1784678400,
   "positions": [],
   "equity_curve": [
@@ -301,41 +301,41 @@
     {
       "time": 1784391477,
       "date": "Sat Jul 18 16:17",
-      "equity": 0.9724,
+      "equity": 0.9728,
       "dir": "long",
-      "ret_pct": 1.75
+      "ret_pct": 1.79
     },
     {
       "time": 1784636410,
       "date": "Tue Jul 21 12:20",
-      "equity": 0.9637,
+      "equity": 0.9646,
       "dir": "long",
-      "ret_pct": -0.89
+      "ret_pct": -0.84
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 11,
-      "dist_pct": 51.7,
+      "dist_pct": 51.6,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 9,
-      "dist_pct": 6.2,
+      "dist_pct": 6.1,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 10,
-      "dist_pct": -1.4,
+      "dist_pct": -1.5,
       "side": "support"
     },
     {
       "level": 64000,
       "mentions": 12,
-      "dist_pct": -2.9,
+      "dist_pct": -3.0,
       "side": "support"
     },
     {
@@ -363,6 +363,6 @@
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (15 bullish / 2 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"Being flamed for being bullish after a 54% drop.   Ight. Bet.\"",
+  "stance": "Recent tone is bullish (15 bullish / 2 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"If my $BTC swing long from 62.6K gets stopped out,   I'll delete my X account.\"",
   "high_conviction_count": 73
 }
