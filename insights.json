@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-22T15:00:42.958277+00:00",
-  "last_price": 65767.69,
+  "generated": "2026-07-22T16:43:34.173935+00:00",
+  "last_price": 66285.43,
   "last_price_time": 1784678400,
   "positions": [],
   "equity_curve": [
@@ -301,68 +301,68 @@
     {
       "time": 1784391477,
       "date": "Sat Jul 18 16:17",
-      "equity": 0.97,
+      "equity": 0.9776,
       "dir": "long",
-      "ret_pct": 1.5
+      "ret_pct": 2.3
     },
     {
       "time": 1784636410,
       "date": "Tue Jul 21 12:20",
-      "equity": 0.9591,
+      "equity": 0.9742,
       "dir": "long",
-      "ret_pct": -1.13
+      "ret_pct": -0.35
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 11,
-      "dist_pct": 52.1,
+      "dist_pct": 50.9,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 6,
-      "dist_pct": 21.6,
+      "dist_pct": 20.7,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 9,
-      "dist_pct": 6.4,
+      "dist_pct": 5.6,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 10,
-      "dist_pct": -1.2,
+      "dist_pct": -1.9,
       "side": "support"
     },
     {
       "level": 64000,
       "mentions": 12,
-      "dist_pct": -2.7,
+      "dist_pct": -3.4,
       "side": "support"
     },
     {
       "level": 60000,
-      "mentions": 27,
-      "dist_pct": -8.8,
+      "mentions": 26,
+      "dist_pct": -9.5,
       "side": "support"
     },
     {
       "level": 59000,
-      "mentions": 11,
-      "dist_pct": -10.3,
+      "mentions": 12,
+      "dist_pct": -11.0,
       "side": "support"
     },
     {
       "level": 54000,
       "mentions": 8,
-      "dist_pct": -17.9,
+      "dist_pct": -18.5,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (16 bullish / 2 bearish of last 25). Key levels he's citing: $100K, $80K, $70K, $65K. Latest: \"I observed every single $BTC bear cycle.   Key update:  Practically every single cycle, we complete a 5-wave correction. We also tend to form two significant be\"",
+  "stance": "Recent tone is bullish (15 bullish / 2 bearish of last 25). Key levels he's citing: $100K, $80K, $70K, $65K. Latest: \"Now, let's look at something different.  Every cycle, $BTC has only formed 3 significant lows after the complacency high and final retest.  The third low has al\"",
   "high_conviction_count": 73
 }
