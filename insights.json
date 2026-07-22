@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-22T08:46:31.714560+00:00",
-  "last_price": 65945.21,
+  "generated": "2026-07-22T11:03:46.515442+00:00",
+  "last_price": 66004.51,
   "last_price_time": 1784678400,
   "positions": [],
   "equity_curve": [
@@ -301,29 +301,29 @@
     {
       "time": 1784391477,
       "date": "Sat Jul 18 16:17",
-      "equity": 0.9726,
+      "equity": 0.9735,
       "dir": "long",
-      "ret_pct": 1.77
+      "ret_pct": 1.86
     },
     {
       "time": 1784636410,
       "date": "Tue Jul 21 12:20",
-      "equity": 0.9643,
+      "equity": 0.966,
       "dir": "long",
-      "ret_pct": -0.86
+      "ret_pct": -0.77
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 11,
-      "dist_pct": 51.6,
+      "dist_pct": 51.5,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 6,
-      "dist_pct": 21.3,
+      "dist_pct": 21.2,
       "side": "resistance"
     },
     {
@@ -335,34 +335,34 @@
     {
       "level": 65000,
       "mentions": 10,
-      "dist_pct": -1.4,
+      "dist_pct": -1.5,
       "side": "support"
     },
     {
       "level": 64000,
       "mentions": 12,
-      "dist_pct": -2.9,
+      "dist_pct": -3.0,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 27,
-      "dist_pct": -9.0,
+      "dist_pct": -9.1,
       "side": "support"
     },
     {
       "level": 59000,
       "mentions": 11,
-      "dist_pct": -10.5,
+      "dist_pct": -10.6,
       "side": "support"
     },
     {
       "level": 54000,
       "mentions": 8,
-      "dist_pct": -18.1,
+      "dist_pct": -18.2,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (16 bullish / 2 bearish of last 25). Key levels he's citing: $100K, $80K, $70K, $65K. Latest: \"Holy. F*cking. Shit... $BTC   Just got sent this. https://t.co/hEkdEkcd70\"",
+  "stance": "Recent tone is bullish (17 bullish / 1 bearish of last 25). Key levels he's citing: $100K, $80K, $70K, $65K. Latest: \"Timing has always mattered more to me than patterns or fractals.  So let's see what wins this time around.   The historical timing of the cycles, or the fractal\"",
   "high_conviction_count": 73
 }
