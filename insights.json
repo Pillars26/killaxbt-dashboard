@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-22T16:43:34.173935+00:00",
-  "last_price": 66285.43,
+  "generated": "2026-07-22T17:54:23.181558+00:00",
+  "last_price": 66057.08,
   "last_price_time": 1784678400,
   "positions": [],
   "equity_curve": [
@@ -301,68 +301,68 @@
     {
       "time": 1784391477,
       "date": "Sat Jul 18 16:17",
-      "equity": 0.9776,
+      "equity": 0.9743,
       "dir": "long",
-      "ret_pct": 2.3
+      "ret_pct": 1.95
     },
     {
       "time": 1784636410,
       "date": "Tue Jul 21 12:20",
-      "equity": 0.9742,
+      "equity": 0.9675,
       "dir": "long",
-      "ret_pct": -0.35
+      "ret_pct": -0.69
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 11,
-      "dist_pct": 50.9,
-      "side": "resistance"
-    },
-    {
-      "level": 80000,
-      "mentions": 6,
-      "dist_pct": 20.7,
+      "dist_pct": 51.4,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 9,
-      "dist_pct": 5.6,
+      "dist_pct": 6.0,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 10,
-      "dist_pct": -1.9,
+      "dist_pct": -1.6,
       "side": "support"
     },
     {
       "level": 64000,
       "mentions": 12,
-      "dist_pct": -3.4,
+      "dist_pct": -3.1,
+      "side": "support"
+    },
+    {
+      "level": 62000,
+      "mentions": 6,
+      "dist_pct": -6.1,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 26,
-      "dist_pct": -9.5,
+      "dist_pct": -9.2,
       "side": "support"
     },
     {
       "level": 59000,
       "mentions": 12,
-      "dist_pct": -11.0,
+      "dist_pct": -10.7,
       "side": "support"
     },
     {
       "level": 54000,
       "mentions": 8,
-      "dist_pct": -18.5,
+      "dist_pct": -18.3,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (15 bullish / 2 bearish of last 25). Key levels he's citing: $100K, $80K, $70K, $65K. Latest: \"Now, let's look at something different.  Every cycle, $BTC has only formed 3 significant lows after the complacency high and final retest.  The third low has al\"",
+  "stance": "Recent tone is bullish (15 bullish / 2 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"$BTC   I believe the base low is already in.  I\u2019m looking for an external sweep above the range highs, followed by deviation back into the current range.   Afte\"",
   "high_conviction_count": 73
 }
