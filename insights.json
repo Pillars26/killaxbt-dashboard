@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-23T17:04:40.630503+00:00",
-  "last_price": 64729.98,
+  "generated": "2026-07-23T18:37:15.000099+00:00",
+  "last_price": 64790.1,
   "last_price_time": 1784764800,
   "positions": [],
   "equity_curve": [
@@ -301,53 +301,53 @@
     {
       "time": 1784391477,
       "date": "Sat Jul 18 16:17",
-      "equity": 0.9547,
+      "equity": 0.9556,
       "dir": "long",
-      "ret_pct": -0.1
+      "ret_pct": -0.01
     },
     {
       "time": 1784636410,
       "date": "Tue Jul 21 12:20",
-      "equity": 0.9291,
+      "equity": 0.9308,
       "dir": "long",
-      "ret_pct": -2.69
+      "ret_pct": -2.59
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 11,
-      "dist_pct": 54.5,
+      "dist_pct": 54.3,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 7,
-      "dist_pct": 23.6,
+      "dist_pct": 23.5,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 9,
-      "dist_pct": 8.1,
+      "dist_pct": 8.0,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 10,
-      "dist_pct": 0.4,
+      "dist_pct": 0.3,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 12,
-      "dist_pct": -1.1,
+      "dist_pct": -1.2,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 26,
-      "dist_pct": -7.3,
+      "dist_pct": -7.4,
       "side": "support"
     },
     {
@@ -359,10 +359,10 @@
     {
       "level": 54000,
       "mentions": 8,
-      "dist_pct": -16.6,
+      "dist_pct": -16.7,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (16 bullish / 3 bearish of last 25). Key levels he's citing: $100K, $80K, $70K, $65K. Latest: \"Buying $BTC now is like buying it at $19K last cycle.  I can assure you, no billionaire or multi millionaire is trying to catch the peak bottom.   These fuckers\"",
+  "stance": "Recent tone is bullish (17 bullish / 3 bearish of last 25). Key levels he's citing: $100K, $80K, $70K, $65K. Latest: \"Very. Interesting. Indeed.   \"Every single time OIL nukes, $BTC ends up forming a macro bottom\"  OIL is up 25% since my post. BTC is up 11%. https://t.co/RWTsCa\"",
   "high_conviction_count": 73
 }
