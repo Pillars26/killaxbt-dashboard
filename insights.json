@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-23T13:44:07.452240+00:00",
-  "last_price": 65033.74,
+  "generated": "2026-07-23T15:44:48.060956+00:00",
+  "last_price": 64869.6,
   "last_price_time": 1784764800,
   "positions": [],
   "equity_curve": [
@@ -301,68 +301,68 @@
     {
       "time": 1784391477,
       "date": "Sat Jul 18 16:17",
-      "equity": 0.9592,
+      "equity": 0.9568,
       "dir": "long",
-      "ret_pct": 0.37
+      "ret_pct": 0.11
     },
     {
       "time": 1784636410,
       "date": "Tue Jul 21 12:20",
-      "equity": 0.9378,
+      "equity": 0.9331,
       "dir": "long",
-      "ret_pct": -2.23
+      "ret_pct": -2.48
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 11,
-      "dist_pct": 53.8,
+      "dist_pct": 54.2,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 7,
-      "dist_pct": 23.0,
+      "dist_pct": 23.3,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 9,
-      "dist_pct": 7.6,
+      "dist_pct": 7.9,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 10,
-      "dist_pct": -0.1,
-      "side": "support"
+      "dist_pct": 0.2,
+      "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 12,
-      "dist_pct": -1.6,
+      "dist_pct": -1.3,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 26,
-      "dist_pct": -7.7,
+      "dist_pct": -7.5,
       "side": "support"
     },
     {
       "level": 59000,
       "mentions": 12,
-      "dist_pct": -9.3,
+      "dist_pct": -9.0,
       "side": "support"
     },
     {
       "level": 54000,
       "mentions": 8,
-      "dist_pct": -17.0,
+      "dist_pct": -16.8,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (15 bullish / 2 bearish of last 25). Key levels he's citing: $100K, $80K, $70K, $65K. Latest: \"So, the real question is.   Was it @BitMEX that blew up during 10/10?\"",
+  "stance": "Recent tone is bullish (15 bullish / 3 bearish of last 25). Key levels he's citing: $100K, $80K, $70K, $65K. Latest: \"Just the $BTC messenger.   Picasso. 2022 &amp; 2026.  Fakeout above the weekly downtrend, with the broken trendline never being retested.  But yeah, seems like \"",
   "high_conviction_count": 73
 }
