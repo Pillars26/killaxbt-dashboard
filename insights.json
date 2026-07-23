@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-23T19:59:54.848009+00:00",
-  "last_price": 64784,
+  "generated": "2026-07-23T21:12:01.862579+00:00",
+  "last_price": 65023.99,
   "last_price_time": 1784764800,
   "positions": [],
   "equity_curve": [
@@ -301,68 +301,68 @@
     {
       "time": 1784391477,
       "date": "Sat Jul 18 16:17",
-      "equity": 0.9555,
+      "equity": 0.959,
       "dir": "long",
-      "ret_pct": -0.02
+      "ret_pct": 0.35
     },
     {
       "time": 1784636410,
       "date": "Tue Jul 21 12:20",
-      "equity": 0.9306,
+      "equity": 0.9375,
       "dir": "long",
-      "ret_pct": -2.6
+      "ret_pct": -2.24
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 11,
-      "dist_pct": 54.4,
+      "dist_pct": 53.8,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 7,
-      "dist_pct": 23.5,
+      "dist_pct": 23.0,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 9,
-      "dist_pct": 8.1,
+      "dist_pct": 7.7,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 10,
-      "dist_pct": 0.3,
-      "side": "resistance"
+      "dist_pct": -0.0,
+      "side": "support"
     },
     {
       "level": 64000,
       "mentions": 12,
-      "dist_pct": -1.2,
+      "dist_pct": -1.6,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 26,
-      "dist_pct": -7.4,
+      "dist_pct": -7.7,
       "side": "support"
     },
     {
       "level": 59000,
       "mentions": 12,
-      "dist_pct": -8.9,
+      "dist_pct": -9.3,
       "side": "support"
     },
     {
       "level": 54000,
       "mentions": 8,
-      "dist_pct": -16.6,
+      "dist_pct": -17.0,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (17 bullish / 3 bearish of last 25). Key levels he's citing: $100K, $80K, $70K, $65K. Latest: \"Pay attention to the accounts that are actually buying with receipts to prove it.    Those are the only ones worth watching.    The savage bastards with the bal\"",
+  "stance": "Recent tone is bullish (17 bullish / 3 bearish of last 25). Key levels he's citing: $100K, $80K, $70K, $65K. Latest: \"$BTC   On February 12th, the BTC Fear &amp; Greed Index dropped to 5.  That's lower than the COVID crash (8) and even lower than the 2018 bear market bottom (11\"",
   "high_conviction_count": 73
 }
