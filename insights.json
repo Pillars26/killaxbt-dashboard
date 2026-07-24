@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-24T20:17:05.125394+00:00",
-  "last_price": 64163.74,
+  "generated": "2026-07-24T21:35:30.096067+00:00",
+  "last_price": 64113.12,
   "last_price_time": 1784851200,
   "positions": [],
   "equity_curve": [
@@ -301,53 +301,53 @@
     {
       "time": 1784391477,
       "date": "Sat Jul 18 16:17",
-      "equity": 0.9463,
+      "equity": 0.9456,
       "dir": "long",
-      "ret_pct": -0.98
+      "ret_pct": -1.05
     },
     {
       "time": 1784636410,
       "date": "Tue Jul 21 12:20",
-      "equity": 0.9129,
+      "equity": 0.9114,
       "dir": "long",
-      "ret_pct": -3.54
+      "ret_pct": -3.61
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 11,
-      "dist_pct": 55.9,
+      "dist_pct": 56.0,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 7,
-      "dist_pct": 24.7,
+      "dist_pct": 24.8,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 9,
-      "dist_pct": 9.1,
+      "dist_pct": 9.2,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 10,
-      "dist_pct": 1.3,
+      "dist_pct": 1.4,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 12,
-      "dist_pct": -0.3,
+      "dist_pct": -0.2,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 28,
-      "dist_pct": -6.5,
+      "dist_pct": -6.4,
       "side": "support"
     },
     {
@@ -359,10 +359,10 @@
     {
       "level": 50000,
       "mentions": 7,
-      "dist_pct": -22.1,
+      "dist_pct": -22.0,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (14 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $80K, $70K, $65K. Latest: \"$BTC   The monthly open pivot approaches next week.  A dump into the MO while ranging is typically bullish. A nuke from the MO signals a trend shift before anot\"",
+  "stance": "Recent tone is bullish (13 bullish / 7 bearish of last 25). Key levels he's citing: $100K, $80K, $70K, $65K. Latest: \"Not surprised to see that pile of trash is already down 60%.  Classic liquidity extraction\u2026 solana:9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump   You\u2019ll never s\"",
   "high_conviction_count": 73
 }
