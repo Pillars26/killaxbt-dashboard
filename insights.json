@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-24T15:52:59.518423+00:00",
-  "last_price": 63998.09,
+  "generated": "2026-07-24T17:24:55.662054+00:00",
+  "last_price": 64001.88,
   "last_price_time": 1784851200,
   "positions": [],
   "equity_curve": [
@@ -301,23 +301,23 @@
     {
       "time": 1784391477,
       "date": "Sat Jul 18 16:17",
-      "equity": 0.9439,
+      "equity": 0.944,
       "dir": "long",
       "ret_pct": -1.23
     },
     {
       "time": 1784636410,
       "date": "Tue Jul 21 12:20",
-      "equity": 0.9082,
+      "equity": 0.9083,
       "dir": "long",
-      "ret_pct": -3.79
+      "ret_pct": -3.78
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 11,
-      "dist_pct": 56.3,
+      "dist_pct": 56.2,
       "side": "resistance"
     },
     {
@@ -341,13 +341,13 @@
     {
       "level": 64000,
       "mentions": 12,
-      "dist_pct": 0.0,
-      "side": "resistance"
+      "dist_pct": -0.0,
+      "side": "support"
     },
     {
       "level": 60000,
       "mentions": 27,
-      "dist_pct": -6.2,
+      "dist_pct": -6.3,
       "side": "support"
     },
     {
@@ -363,6 +363,6 @@
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (16 bullish / 4 bearish of last 25). Key levels he's citing: $100K, $80K, $70K, $65K. Latest: \"They will say they are going to by sub 60K then they will lower their targets to 50s, 40s &amp; 30s.   Pussy mentality.\"",
+  "stance": "Recent tone is bullish (16 bullish / 5 bearish of last 25). Key levels he's citing: $100K, $80K, $70K, $65K. Latest: \"Words genuinely cannot describe how excited I am for the next 2 years.  Swing longs. Continuation longs. Range longs... $BTC  After spending the last 9 months p\"",
   "high_conviction_count": 73
 }
