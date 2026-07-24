@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-24T18:56:09.780412+00:00",
-  "last_price": 64210.74,
+  "generated": "2026-07-24T20:17:05.125394+00:00",
+  "last_price": 64163.74,
   "last_price_time": 1784851200,
   "positions": [],
   "equity_curve": [
@@ -301,41 +301,41 @@
     {
       "time": 1784391477,
       "date": "Sat Jul 18 16:17",
-      "equity": 0.947,
+      "equity": 0.9463,
       "dir": "long",
-      "ret_pct": -0.9
+      "ret_pct": -0.98
     },
     {
       "time": 1784636410,
       "date": "Tue Jul 21 12:20",
-      "equity": 0.9142,
+      "equity": 0.9129,
       "dir": "long",
-      "ret_pct": -3.47
+      "ret_pct": -3.54
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 11,
-      "dist_pct": 55.7,
+      "dist_pct": 55.9,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 7,
-      "dist_pct": 24.6,
+      "dist_pct": 24.7,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 9,
-      "dist_pct": 9.0,
+      "dist_pct": 9.1,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 10,
-      "dist_pct": 1.2,
+      "dist_pct": 1.3,
       "side": "resistance"
     },
     {
@@ -346,23 +346,23 @@
     },
     {
       "level": 60000,
-      "mentions": 27,
-      "dist_pct": -6.6,
+      "mentions": 28,
+      "dist_pct": -6.5,
       "side": "support"
     },
     {
       "level": 59000,
       "mentions": 12,
-      "dist_pct": -8.1,
+      "dist_pct": -8.0,
       "side": "support"
     },
     {
-      "level": 54000,
+      "level": 50000,
       "mentions": 7,
-      "dist_pct": -15.9,
+      "dist_pct": -22.1,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (16 bullish / 5 bearish of last 25). Key levels he's citing: $100K, $80K, $70K, $65K. Latest: \"Words genuinely cannot describe how excited I am for the next 2 years.  Swing longs. Continuation longs. Range longs... $BTC  After spending the last 9 months p\"",
+  "stance": "Recent tone is bullish (14 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $80K, $70K, $65K. Latest: \"$BTC   The monthly open pivot approaches next week.  A dump into the MO while ranging is typically bullish. A nuke from the MO signals a trend shift before anot\"",
   "high_conviction_count": 73
 }
