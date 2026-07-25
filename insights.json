@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-25T16:33:15.731025+00:00",
-  "last_price": 64099.47,
+  "generated": "2026-07-25T17:41:09.713758+00:00",
+  "last_price": 64221.01,
   "last_price_time": 1784937600,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2080921042600464621",
       "text": "Let me tell you a story, \n\nYou might see why I come across as \u201cimpulsive\u201d with my bullish view. It\u2019s not impulsiveness, it\u2019s the result of e",
-      "pnl_pct": 73.24,
-      "pnl_leveraged_pct": 73.24,
+      "pnl_pct": 73.57,
+      "pnl_leveraged_pct": 73.57,
       "stale": false
     }
   ],
@@ -314,21 +314,21 @@
     {
       "time": 1784391477,
       "date": "Sat Jul 18 16:17",
-      "equity": 0.9454,
+      "equity": 0.9472,
       "dir": "long",
-      "ret_pct": -1.08
+      "ret_pct": -0.89
     },
     {
       "time": 1784636410,
       "date": "Tue Jul 21 12:20",
-      "equity": 0.911,
+      "equity": 0.9145,
       "dir": "long",
-      "ret_pct": -3.63
+      "ret_pct": -3.45
     },
     {
       "time": 1784965212,
       "date": "Sat Jul 25 07:40",
-      "equity": 0.911,
+      "equity": 0.9145,
       "dir": "long",
       "ret_pct": 0.0
     }
@@ -337,52 +337,52 @@
     {
       "level": 100000,
       "mentions": 10,
-      "dist_pct": 56.0,
+      "dist_pct": 55.7,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 7,
-      "dist_pct": 24.8,
+      "dist_pct": 24.6,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 9,
-      "dist_pct": 9.2,
+      "dist_pct": 9.0,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 10,
-      "dist_pct": 1.4,
+      "dist_pct": 1.2,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 12,
-      "dist_pct": -0.2,
+      "dist_pct": -0.3,
       "side": "support"
     },
     {
       "level": 60000,
-      "mentions": 28,
-      "dist_pct": -6.4,
+      "mentions": 27,
+      "dist_pct": -6.6,
       "side": "support"
     },
     {
       "level": 59000,
       "mentions": 12,
-      "dist_pct": -8.0,
+      "dist_pct": -8.1,
       "side": "support"
     },
     {
       "level": 50000,
       "mentions": 7,
-      "dist_pct": -22.0,
+      "dist_pct": -22.1,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (11 bullish / 9 bearish of last 25). He appears long from $37,000 (+73.2% vs entry). Key levels he's citing: $100K, $80K, $70K, $65K. Latest: \"The $BTC bear market is nearly over.  New video is out:  https://t.co/ARPcAdLp6o https://t.co/BhsIg8wpOa\"",
+  "stance": "Recent tone is bullish (11 bullish / 9 bearish of last 25). He appears long from $37,000 (+73.6% vs entry). Key levels he's citing: $100K, $80K, $70K, $65K. Latest: \"The $BTC bear market is nearly over.  New video is out:  https://t.co/ARPcAdLp6o https://t.co/BhsIg8wpOa\"",
   "high_conviction_count": 74
 }
