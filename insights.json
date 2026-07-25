@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-25T12:44:20.238403+00:00",
-  "last_price": 64033.57,
+  "generated": "2026-07-25T14:19:28.252950+00:00",
+  "last_price": 64101.15,
   "last_price_time": 1784937600,
   "positions": [
     {
@@ -11,8 +11,8 @@
       "leverage": null,
       "url": "https://x.com/KillaXBT/status/2080921042600464621",
       "text": "Let me tell you a story, \n\nYou might see why I come across as \u201cimpulsive\u201d with my bullish view. It\u2019s not impulsiveness, it\u2019s the result of e",
-      "pnl_pct": 73.06,
-      "pnl_leveraged_pct": 73.06,
+      "pnl_pct": 73.25,
+      "pnl_leveraged_pct": 73.25,
       "stale": false
     }
   ],
@@ -314,68 +314,75 @@
     {
       "time": 1784391477,
       "date": "Sat Jul 18 16:17",
-      "equity": 0.9444,
+      "equity": 0.9454,
       "dir": "long",
-      "ret_pct": -1.18
+      "ret_pct": -1.07
     },
     {
       "time": 1784636410,
       "date": "Tue Jul 21 12:20",
-      "equity": 0.9092,
+      "equity": 0.9111,
       "dir": "long",
-      "ret_pct": -3.73
+      "ret_pct": -3.63
+    },
+    {
+      "time": 1784965212,
+      "date": "Sat Jul 25 07:40",
+      "equity": 0.9111,
+      "dir": "long",
+      "ret_pct": 0.0
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 11,
-      "dist_pct": 56.2,
+      "dist_pct": 56.0,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 7,
-      "dist_pct": 24.9,
+      "dist_pct": 24.8,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 9,
-      "dist_pct": 9.3,
+      "dist_pct": 9.2,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 10,
-      "dist_pct": 1.5,
+      "dist_pct": 1.4,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 12,
-      "dist_pct": -0.1,
+      "dist_pct": -0.2,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 28,
-      "dist_pct": -6.3,
+      "dist_pct": -6.4,
       "side": "support"
     },
     {
       "level": 59000,
       "mentions": 12,
-      "dist_pct": -7.9,
+      "dist_pct": -8.0,
       "side": "support"
     },
     {
       "level": 50000,
       "mentions": 7,
-      "dist_pct": -21.9,
+      "dist_pct": -22.0,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (12 bullish / 8 bearish of last 25). He appears long from $37,000 (+73.1% vs entry). Key levels he's citing: $100K, $80K, $70K, $65K. Latest: \"$BTC   If we're being completely objective, if Bitcoin loses it's daily uptrend, there's a strong chance we revisit the 61.3K region and sweep the liquidity bel\"",
-  "high_conviction_count": 73
+  "stance": "Recent tone is bullish (12 bullish / 8 bearish of last 25). He appears long from $37,000 (+73.2% vs entry). Key levels he's citing: $100K, $80K, $70K, $65K. Latest: \"There are only 2 places $BTC can be right now. https://t.co/bhS1Lu8gvJ\"",
+  "high_conviction_count": 74
 }
