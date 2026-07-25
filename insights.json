@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-25T18:39:22.293574+00:00",
-  "last_price": 64328.32,
+  "generated": "2026-07-25T19:55:40.507912+00:00",
+  "last_price": 64364.17,
   "last_price_time": 1784937600,
   "positions": [],
   "equity_curve": [
@@ -301,21 +301,21 @@
     {
       "time": 1784391477,
       "date": "Sat Jul 18 16:17",
-      "equity": 0.9488,
+      "equity": 0.9493,
       "dir": "long",
-      "ret_pct": -0.72
+      "ret_pct": -0.67
     },
     {
       "time": 1784636410,
       "date": "Tue Jul 21 12:20",
-      "equity": 0.9176,
+      "equity": 0.9186,
       "dir": "long",
-      "ret_pct": -3.29
+      "ret_pct": -3.24
     },
     {
       "time": 1784965212,
       "date": "Sat Jul 25 07:40",
-      "equity": 0.9176,
+      "equity": 0.9186,
       "dir": "long",
       "ret_pct": 0.0
     }
@@ -324,13 +324,13 @@
     {
       "level": 100000,
       "mentions": 10,
-      "dist_pct": 55.5,
+      "dist_pct": 55.4,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 7,
-      "dist_pct": 24.4,
+      "dist_pct": 24.3,
       "side": "resistance"
     },
     {
@@ -348,13 +348,13 @@
     {
       "level": 64000,
       "mentions": 12,
-      "dist_pct": -0.5,
+      "dist_pct": -0.6,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 27,
-      "dist_pct": -6.7,
+      "dist_pct": -6.8,
       "side": "support"
     },
     {
@@ -370,6 +370,6 @@
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (12 bullish / 8 bearish of last 25). Key levels he's citing: $100K, $80K, $70K, $65K. Latest: \"$BTC   Last bull cycle, 80% of peak metrics were never hit. I believe we could see something similar with the bottom metrics aswell.  The Long term holder suppl\"",
+  "stance": "Recent tone is bullish (11 bullish / 9 bearish of last 25). Key levels he's citing: $100K, $80K, $70K, $65K. Latest: \"$BTC   The market is relatively slow at the moment.   It's worth paying attention to the liquidity below us, as we could see a sweep into it next week.   Other \"",
   "high_conviction_count": 74
 }
