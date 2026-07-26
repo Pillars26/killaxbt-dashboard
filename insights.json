@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-26T18:41:16.757955+00:00",
-  "last_price": 64655.52,
+  "generated": "2026-07-26T19:52:55.037980+00:00",
+  "last_price": 64648.34,
   "last_price_time": 1785024000,
   "positions": [],
   "equity_curve": [
@@ -308,22 +308,22 @@
     {
       "time": 1784636410,
       "date": "Tue Jul 21 12:20",
-      "equity": 0.9218,
+      "equity": 0.9217,
       "dir": "long",
-      "ret_pct": -2.8
+      "ret_pct": -2.81
     },
     {
       "time": 1784965212,
       "date": "Sat Jul 25 07:40",
-      "equity": 0.9269,
+      "equity": 0.9267,
       "dir": "long",
-      "ret_pct": 0.56
+      "ret_pct": 0.55
     }
   ],
   "levels": [
     {
       "level": 100000,
-      "mentions": 10,
+      "mentions": 11,
       "dist_pct": 54.7,
       "side": "resistance"
     },
@@ -353,7 +353,7 @@
     },
     {
       "level": 60000,
-      "mentions": 27,
+      "mentions": 28,
       "dist_pct": -7.2,
       "side": "support"
     },
@@ -370,6 +370,6 @@
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bearish (8 bullish / 11 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"$BTC miners are capitulating.   It's worse than 2014, 2018 &amp; 2022.  This cycle so far has been the worst in history for miners. https://t.co/B8Lbzru16z\"",
+  "stance": "Recent tone is bearish (7 bullish / 11 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"In 432 days, $BTC will be trading above 100K.  In 250 days, BTC will never trade in the 60K region again.  Bear markets never come close to the previous cycle\u2019s\"",
   "high_conviction_count": 74
 }
