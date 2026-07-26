@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-26T21:54:36.684729+00:00",
-  "last_price": 64810.1,
+  "generated": "2026-07-26T22:55:12.559901+00:00",
+  "last_price": 65362.95,
   "last_price_time": 1785024000,
   "positions": [],
   "equity_curve": [
@@ -308,68 +308,68 @@
     {
       "time": 1784636410,
       "date": "Tue Jul 21 12:20",
-      "equity": 0.924,
+      "equity": 0.9318,
       "dir": "long",
-      "ret_pct": -2.56
+      "ret_pct": -1.73
     },
     {
       "time": 1784965212,
       "date": "Sat Jul 25 07:40",
-      "equity": 0.9314,
+      "equity": 0.9473,
       "dir": "long",
-      "ret_pct": 0.8
+      "ret_pct": 1.66
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 11,
-      "dist_pct": 54.3,
+      "dist_pct": 53.0,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 9,
-      "dist_pct": 8.0,
+      "dist_pct": 7.1,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 9,
-      "dist_pct": 0.3,
-      "side": "resistance"
+      "dist_pct": -0.6,
+      "side": "support"
     },
     {
       "level": 64000,
       "mentions": 11,
-      "dist_pct": -1.2,
+      "dist_pct": -2.1,
       "side": "support"
     },
     {
       "level": 62000,
       "mentions": 7,
-      "dist_pct": -4.3,
+      "dist_pct": -5.1,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 28,
-      "dist_pct": -7.4,
+      "dist_pct": -8.2,
       "side": "support"
     },
     {
       "level": 59000,
       "mentions": 12,
-      "dist_pct": -9.0,
+      "dist_pct": -9.7,
       "side": "support"
     },
     {
       "level": 50000,
       "mentions": 8,
-      "dist_pct": -22.9,
+      "dist_pct": -23.5,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bearish (8 bullish / 10 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"$BTC  I rarely take 2-3x swing positions.     The last time I did was right before a major -50% correction at 123K.      Everything is documented publicly on X.\"",
+  "stance": "Recent tone is bearish (7 bullish / 11 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"Everyone\u2019s out here suddenly preaching that CEXes are dead and DEXes are the future.   Just cause @BitMEX & @BitMartExchange are shutting operations.      Just \"",
   "high_conviction_count": 74
 }
