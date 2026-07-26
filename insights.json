@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-26T16:28:51.619265+00:00",
-  "last_price": 64719.84,
+  "generated": "2026-07-26T17:34:09.682909+00:00",
+  "last_price": 64693.39,
   "last_price_time": 1785024000,
   "positions": [],
   "equity_curve": [
@@ -308,23 +308,23 @@
     {
       "time": 1784636410,
       "date": "Tue Jul 21 12:20",
-      "equity": 0.9227,
+      "equity": 0.9223,
       "dir": "long",
-      "ret_pct": -2.7
+      "ret_pct": -2.74
     },
     {
       "time": 1784965212,
       "date": "Sat Jul 25 07:40",
-      "equity": 0.9288,
+      "equity": 0.928,
       "dir": "long",
-      "ret_pct": 0.66
+      "ret_pct": 0.62
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 10,
-      "dist_pct": 54.5,
+      "dist_pct": 54.6,
       "side": "resistance"
     },
     {
@@ -336,7 +336,7 @@
     {
       "level": 65000,
       "mentions": 9,
-      "dist_pct": 0.4,
+      "dist_pct": 0.5,
       "side": "resistance"
     },
     {
@@ -370,6 +370,6 @@
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bearish (9 bullish / 11 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"$BTC   We have our next key date: the 29th.  6/7 times, we\u2019ve seen a negative reaction following this period, so it\u2019s worth paying close attention to.  Observe \"",
+  "stance": "Recent tone is bearish (8 bullish / 11 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"$BTC miners are capitulating.   It's worse than 2014, 2018 &amp; 2022.  This cycle so far has been the worst in history for miners. https://t.co/B8Lbzru16z\"",
   "high_conviction_count": 74
 }
