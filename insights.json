@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-26T15:19:53.673175+00:00",
-  "last_price": 64718.75,
+  "generated": "2026-07-26T16:28:51.619265+00:00",
+  "last_price": 64719.84,
   "last_price_time": 1785024000,
   "positions": [],
   "equity_curve": [
@@ -315,7 +315,7 @@
     {
       "time": 1784965212,
       "date": "Sat Jul 25 07:40",
-      "equity": 0.9287,
+      "equity": 0.9288,
       "dir": "long",
       "ret_pct": 0.66
     }
