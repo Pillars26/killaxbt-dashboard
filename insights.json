@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-26T04:44:45.290359+00:00",
-  "last_price": 64499.35,
+  "generated": "2026-07-26T07:23:18.942099+00:00",
+  "last_price": 64312.1,
   "last_price_time": 1785024000,
   "positions": [],
   "equity_curve": [
@@ -308,68 +308,68 @@
     {
       "time": 1784636410,
       "date": "Tue Jul 21 12:20",
-      "equity": 0.9195,
+      "equity": 0.9169,
       "dir": "long",
-      "ret_pct": -3.03
+      "ret_pct": -3.31
     },
     {
       "time": 1784965212,
       "date": "Sat Jul 25 07:40",
-      "equity": 0.9225,
+      "equity": 0.9171,
       "dir": "long",
-      "ret_pct": 0.32
+      "ret_pct": 0.03
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 10,
-      "dist_pct": 55.0,
+      "dist_pct": 55.5,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 7,
-      "dist_pct": 24.0,
+      "dist_pct": 24.4,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 9,
-      "dist_pct": 8.5,
+      "dist_pct": 8.8,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 10,
-      "dist_pct": 0.8,
+      "dist_pct": 1.1,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 12,
-      "dist_pct": -0.8,
+      "dist_pct": -0.5,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 27,
-      "dist_pct": -7.0,
+      "dist_pct": -6.7,
       "side": "support"
     },
     {
       "level": 59000,
       "mentions": 12,
-      "dist_pct": -8.5,
+      "dist_pct": -8.3,
       "side": "support"
     },
     {
       "level": 50000,
       "mentions": 8,
-      "dist_pct": -22.5,
+      "dist_pct": -22.3,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (11 bullish / 9 bearish of last 25). Key levels he's citing: $100K, $80K, $70K, $65K. Latest: \"Oh, you thought I was joking?   I hope you are enjoying the shitty $BTC PA while it lasts. https://t.co/h2f3t4LtZg\"",
+  "stance": "Recent tone is bullish (11 bullish / 10 bearish of last 25). Key levels he's citing: $100K, $80K, $70K, $65K. Latest: \"My $BTC Plan, crystal clear from the start of the year.  Sell me all your BTC at 69-48K &amp; Fuck off. https://t.co/mLQQy3J7Ny\"",
   "high_conviction_count": 74
 }
