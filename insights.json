@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-27T15:58:13.237281+00:00",
-  "last_price": 64519.99,
+  "generated": "2026-07-27T17:43:17.247318+00:00",
+  "last_price": 64971.01,
   "last_price_time": 1785110400,
   "positions": [],
   "equity_curve": [
@@ -308,75 +308,75 @@
     {
       "time": 1784636410,
       "date": "Tue Jul 21 12:20",
-      "equity": 0.9198,
+      "equity": 0.9263,
       "dir": "long",
-      "ret_pct": -3.0
+      "ret_pct": -2.32
     },
     {
       "time": 1784965212,
       "date": "Sat Jul 25 07:40",
-      "equity": 0.923,
+      "equity": 0.936,
       "dir": "long",
-      "ret_pct": 0.35
+      "ret_pct": 1.05
     },
     {
       "time": 1785098629,
       "date": "Sun Jul 26 20:43",
-      "equity": 0.9114,
+      "equity": 0.9307,
       "dir": "long",
-      "ret_pct": -1.26
+      "ret_pct": -0.57
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 11,
-      "dist_pct": 55.0,
+      "dist_pct": 53.9,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 8,
-      "dist_pct": 8.5,
+      "dist_pct": 7.7,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 8,
-      "dist_pct": 0.7,
+      "dist_pct": 0.0,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 11,
-      "dist_pct": -0.8,
+      "dist_pct": -1.5,
       "side": "support"
     },
     {
       "level": 62000,
       "mentions": 7,
-      "dist_pct": -3.9,
+      "dist_pct": -4.6,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 27,
-      "dist_pct": -7.0,
+      "dist_pct": -7.7,
       "side": "support"
     },
     {
       "level": 59000,
       "mentions": 11,
-      "dist_pct": -8.6,
+      "dist_pct": -9.2,
       "side": "support"
     },
     {
       "level": 50000,
       "mentions": 7,
-      "dist_pct": -22.5,
+      "dist_pct": -23.0,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bearish (6 bullish / 11 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"$BTC   To keep things relatively simple,  If we are unable to flip Monday\u2019s high at 65.7K and reclaim the weekly open, we can easily trend back toward 63.7K.  W\"",
+  "stance": "Recent tone is bearish (7 bullish / 10 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"$BTC   Not particularly bullish PA to start the week.  We formed a LH and respected below the range. I think a sweep of the 63.6K low is quite likely, especiall\"",
   "high_conviction_count": 75
 }
