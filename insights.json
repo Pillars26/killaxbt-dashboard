@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-27T10:08:03.301994+00:00",
-  "last_price": 65195.43,
+  "generated": "2026-07-27T13:21:32.212232+00:00",
+  "last_price": 64926.25,
   "last_price_time": 1785110400,
   "positions": [],
   "equity_curve": [
@@ -308,75 +308,75 @@
     {
       "time": 1784636410,
       "date": "Tue Jul 21 12:20",
-      "equity": 0.9295,
+      "equity": 0.9256,
       "dir": "long",
-      "ret_pct": -1.99
+      "ret_pct": -2.39
     },
     {
       "time": 1784965212,
       "date": "Sat Jul 25 07:40",
-      "equity": 0.9425,
+      "equity": 0.9347,
       "dir": "long",
-      "ret_pct": 1.4
+      "ret_pct": 0.98
     },
     {
       "time": 1785098629,
       "date": "Sun Jul 26 20:43",
-      "equity": 0.9404,
+      "equity": 0.9288,
       "dir": "long",
-      "ret_pct": -0.22
+      "ret_pct": -0.63
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 11,
-      "dist_pct": 53.4,
+      "dist_pct": 54.0,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 9,
-      "dist_pct": 7.4,
+      "dist_pct": 7.8,
       "side": "resistance"
     },
     {
       "level": 65000,
-      "mentions": 9,
-      "dist_pct": -0.3,
-      "side": "support"
+      "mentions": 8,
+      "dist_pct": 0.1,
+      "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 11,
-      "dist_pct": -1.8,
+      "dist_pct": -1.4,
       "side": "support"
     },
     {
       "level": 62000,
       "mentions": 7,
-      "dist_pct": -4.9,
+      "dist_pct": -4.5,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 28,
-      "dist_pct": -8.0,
+      "dist_pct": -7.6,
       "side": "support"
     },
     {
       "level": 59000,
-      "mentions": 12,
-      "dist_pct": -9.5,
+      "mentions": 11,
+      "dist_pct": -9.1,
       "side": "support"
     },
     {
       "level": 50000,
       "mentions": 8,
-      "dist_pct": -23.3,
+      "dist_pct": -23.0,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bearish (7 bullish / 11 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"Everyone\u2019s out here suddenly preaching that CEXes are dead and DEXes are the future.   Just cause @BitMEX & @BitMartExchange are shutting operations.      Just \"",
+  "stance": "Recent tone is bearish (6 bullish / 11 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"GM \ud83c\udf05\"",
   "high_conviction_count": 75
 }
