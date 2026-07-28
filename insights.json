@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-28T12:26:26.073363+00:00",
-  "last_price": 63397.58,
+  "generated": "2026-07-28T14:58:28.173922+00:00",
+  "last_price": 63350.43,
   "last_price_time": 1785196800,
   "positions": [],
   "equity_curve": [
@@ -308,42 +308,42 @@
     {
       "time": 1784636410,
       "date": "Tue Jul 21 12:20",
-      "equity": 0.9038,
+      "equity": 0.9032,
       "dir": "long",
-      "ret_pct": -4.69
+      "ret_pct": -4.76
     },
     {
       "time": 1784965212,
       "date": "Sat Jul 25 07:40",
-      "equity": 0.8912,
+      "equity": 0.8899,
       "dir": "long",
-      "ret_pct": -1.4
+      "ret_pct": -1.47
     },
     {
       "time": 1785098629,
       "date": "Sun Jul 26 20:43",
-      "equity": 0.8647,
+      "equity": 0.8628,
       "dir": "long",
-      "ret_pct": -2.97
+      "ret_pct": -3.05
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 11,
-      "dist_pct": 57.7,
+      "dist_pct": 57.9,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 8,
-      "dist_pct": 10.4,
+      "dist_pct": 10.5,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 8,
-      "dist_pct": 2.5,
+      "dist_pct": 2.6,
       "side": "resistance"
     },
     {
@@ -355,13 +355,13 @@
     {
       "level": 62000,
       "mentions": 7,
-      "dist_pct": -2.2,
+      "dist_pct": -2.1,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 27,
-      "dist_pct": -5.4,
+      "dist_pct": -5.3,
       "side": "support"
     },
     {
@@ -377,6 +377,6 @@
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bearish (5 bullish / 11 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"I remember when people wanted to sell 140K during Q4.  That worked out well didn't it. \ud83e\udd2a  Sometimes, the market doesn't care what you want.   Trade the market f\"",
+  "stance": "Recent tone is bearish (6 bullish / 10 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"$BTC   We have a significant buildup of low leverage longs below us.  With Monday's high now established and BTC trading below the weekly open, there's a strong\"",
   "high_conviction_count": 75
 }
