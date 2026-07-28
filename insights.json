@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-28T19:51:58.485998+00:00",
-  "last_price": 63685.86,
+  "generated": "2026-07-28T21:03:25.122244+00:00",
+  "last_price": 63864.81,
   "last_price_time": 1785196800,
   "positions": [],
   "equity_curve": [
@@ -308,75 +308,75 @@
     {
       "time": 1784636410,
       "date": "Tue Jul 21 12:20",
-      "equity": 0.9079,
+      "equity": 0.9105,
       "dir": "long",
-      "ret_pct": -4.26
+      "ret_pct": -3.99
     },
     {
       "time": 1784965212,
       "date": "Sat Jul 25 07:40",
-      "equity": 0.8993,
+      "equity": 0.9044,
       "dir": "long",
-      "ret_pct": -0.95
+      "ret_pct": -0.67
     },
     {
       "time": 1785098629,
       "date": "Sun Jul 26 20:43",
-      "equity": 0.8765,
+      "equity": 0.884,
       "dir": "long",
-      "ret_pct": -2.53
+      "ret_pct": -2.26
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 11,
-      "dist_pct": 57.0,
+      "dist_pct": 56.6,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 8,
-      "dist_pct": 9.9,
+      "dist_pct": 9.6,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 8,
-      "dist_pct": 2.1,
+      "dist_pct": 1.8,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 11,
-      "dist_pct": 0.5,
+      "dist_pct": 0.2,
       "side": "resistance"
     },
     {
       "level": 62000,
       "mentions": 7,
-      "dist_pct": -2.6,
+      "dist_pct": -2.9,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 27,
-      "dist_pct": -5.8,
+      "dist_pct": -6.1,
       "side": "support"
     },
     {
       "level": 59000,
       "mentions": 11,
-      "dist_pct": -7.4,
+      "dist_pct": -7.6,
       "side": "support"
     },
     {
       "level": 50000,
       "mentions": 8,
-      "dist_pct": -21.5,
+      "dist_pct": -21.7,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bearish (7 bullish / 10 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"We\u2019re in one of the most boring phases, $BTC  This is when patience pays the most. Instead of getting chopped up trading the internal range, the best approach i\"",
+  "stance": "Recent tone is bearish (8 bullish / 9 bearish of last 25). Key levels he's citing: $100K, $70K, $65K, $64K. Latest: \"If $HYPE gives 51.54, I will take a long.   Until then, waiting game for me. https://t.co/HwOzfm1mQx\"",
   "high_conviction_count": 75
 }
