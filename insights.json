@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-29T13:56:50.926201+00:00",
-  "last_price": 64281.6,
+  "generated": "2026-07-29T15:48:29.768187+00:00",
+  "last_price": 63904.44,
   "last_price_time": 1785283200,
   "positions": [],
   "equity_curve": [
@@ -315,68 +315,68 @@
     {
       "time": 1784965212,
       "date": "Sat Jul 25 07:40",
-      "equity": 0.91,
+      "equity": 0.9047,
       "dir": "long",
-      "ret_pct": -0.02
+      "ret_pct": -0.61
     },
     {
       "time": 1785098629,
       "date": "Sun Jul 26 20:43",
-      "equity": 0.8953,
+      "equity": 0.8848,
       "dir": "long",
-      "ret_pct": -1.62
+      "ret_pct": -2.2
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 11,
-      "dist_pct": 55.6,
+      "dist_pct": 56.5,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 7,
-      "dist_pct": 24.5,
+      "dist_pct": 25.2,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 8,
-      "dist_pct": 8.9,
+      "dist_pct": 9.5,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 11,
-      "dist_pct": -0.4,
-      "side": "support"
+      "dist_pct": 0.1,
+      "side": "resistance"
     },
     {
       "level": 62000,
       "mentions": 7,
-      "dist_pct": -3.5,
+      "dist_pct": -3.0,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 27,
-      "dist_pct": -6.7,
+      "dist_pct": -6.1,
       "side": "support"
     },
     {
       "level": 59000,
       "mentions": 11,
-      "dist_pct": -8.2,
+      "dist_pct": -7.7,
       "side": "support"
     },
     {
       "level": 50000,
       "mentions": 8,
-      "dist_pct": -22.2,
+      "dist_pct": -21.8,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (10 bullish / 8 bearish of last 25). Key levels he's citing: $100K, $80K, $70K, $64K. Latest: \"Every time $BTC has printed a golden cross close to the bottom, it has marked the beginning of a major trend shift.  Once the 50 MA crosses above the 200 MA and\"",
+  "stance": "Recent tone is bullish (9 bullish / 8 bearish of last 25). Key levels he's citing: $100K, $80K, $70K, $64K. Latest: \"$BTC pumping into FOMC.   This should be interesting....  More often than not, the first move is the false move.  Priced in.\"",
   "high_conviction_count": 75
 }
