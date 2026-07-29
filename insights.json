@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-29T19:46:12.997059+00:00",
-  "last_price": 63722.36,
+  "generated": "2026-07-29T20:48:51.924547+00:00",
+  "last_price": 63512.82,
   "last_price_time": 1785283200,
   "positions": [],
   "equity_curve": [
@@ -315,68 +315,68 @@
     {
       "time": 1784965212,
       "date": "Sat Jul 25 07:40",
-      "equity": 0.9021,
+      "equity": 0.8992,
       "dir": "long",
-      "ret_pct": -0.89
+      "ret_pct": -1.22
     },
     {
       "time": 1785098629,
       "date": "Sun Jul 26 20:43",
-      "equity": 0.8798,
+      "equity": 0.874,
       "dir": "long",
-      "ret_pct": -2.48
+      "ret_pct": -2.8
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 11,
-      "dist_pct": 56.9,
+      "dist_pct": 57.4,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 7,
-      "dist_pct": 25.5,
+      "dist_pct": 26.0,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 7,
-      "dist_pct": 9.9,
+      "dist_pct": 10.2,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 11,
-      "dist_pct": 0.4,
+      "dist_pct": 0.8,
       "side": "resistance"
     },
     {
       "level": 62000,
       "mentions": 7,
-      "dist_pct": -2.7,
+      "dist_pct": -2.4,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 27,
-      "dist_pct": -5.8,
+      "dist_pct": -5.5,
       "side": "support"
     },
     {
       "level": 59000,
       "mentions": 11,
-      "dist_pct": -7.4,
+      "dist_pct": -7.1,
       "side": "support"
     },
     {
       "level": 50000,
       "mentions": 10,
-      "dist_pct": -21.5,
+      "dist_pct": -21.3,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (9 bullish / 8 bearish of last 25). Key levels he's citing: $100K, $80K, $70K, $64K. Latest: \"If I'm being perfectly reasonable, unbiased, and objective,  A -10%+ correction in Legacy from the highs this year will likely mark the HTF macro bottom for $BT\"",
+  "stance": "Recent tone is bullish (9 bullish / 7 bearish of last 25). Key levels he's citing: $100K, $80K, $70K, $64K. Latest: \"Well... it was pretty textbook.   $BTC pumping straight into news almost always leads to the same outcome afterwards.  -2% since\u2705 https://t.co/KXQsRSgF9M\"",
   "high_conviction_count": 75
 }
