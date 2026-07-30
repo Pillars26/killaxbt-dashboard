@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-30T21:48:37.148871+00:00",
-  "last_price": 64700.56,
+  "generated": "2026-07-30T23:00:20.774606+00:00",
+  "last_price": 64788.79,
   "last_price_time": 1785369600,
   "positions": [],
   "equity_curve": [
@@ -315,68 +315,68 @@
     {
       "time": 1784965212,
       "date": "Sat Jul 25 07:40",
-      "equity": 0.916,
+      "equity": 0.9172,
       "dir": "long",
-      "ret_pct": 0.63
+      "ret_pct": 0.77
     },
     {
       "time": 1785098629,
       "date": "Sun Jul 26 20:43",
-      "equity": 0.907,
+      "equity": 0.9095,
       "dir": "long",
-      "ret_pct": -0.98
+      "ret_pct": -0.85
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 11,
-      "dist_pct": 54.6,
+      "dist_pct": 54.3,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 7,
-      "dist_pct": 23.6,
+      "dist_pct": 23.5,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 7,
-      "dist_pct": 0.5,
+      "dist_pct": 0.3,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 8,
-      "dist_pct": -1.1,
+      "dist_pct": -1.2,
       "side": "support"
     },
     {
       "level": 62000,
       "mentions": 7,
-      "dist_pct": -4.2,
+      "dist_pct": -4.3,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 27,
-      "dist_pct": -7.3,
+      "dist_pct": -7.4,
       "side": "support"
     },
     {
       "level": 59000,
       "mentions": 12,
-      "dist_pct": -8.8,
+      "dist_pct": -8.9,
       "side": "support"
     },
     {
       "level": 50000,
       "mentions": 10,
-      "dist_pct": -22.7,
+      "dist_pct": -22.8,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (10 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $80K, $65K, $64K. Latest: \"You can tell....  A lot of people didn\u2019t expect $BTC to bounce after that major rejection from 83K down to 59K.  You\u2019d think it would extend lower from that can\"",
+  "stance": "Recent tone is bullish (11 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $80K, $65K, $64K. Latest: \"$BTC  The bull market begins when nobody expects it to begin.   The funny thing is, we have been in a bull market for 17 years. https://t.co/V4RYfIWjxj\"",
   "high_conviction_count": 75
 }
