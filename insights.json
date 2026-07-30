@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-30T10:19:45.054006+00:00",
-  "last_price": 64525.42,
+  "generated": "2026-07-30T12:11:20.183884+00:00",
+  "last_price": 64825,
   "last_price_time": 1785369600,
   "positions": [],
   "equity_curve": [
@@ -315,68 +315,68 @@
     {
       "time": 1784965212,
       "date": "Sat Jul 25 07:40",
-      "equity": 0.9135,
+      "equity": 0.9177,
       "dir": "long",
-      "ret_pct": 0.36
+      "ret_pct": 0.82
     },
     {
       "time": 1785098629,
       "date": "Sun Jul 26 20:43",
-      "equity": 0.9021,
+      "equity": 0.9105,
       "dir": "long",
-      "ret_pct": -1.25
+      "ret_pct": -0.79
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 11,
-      "dist_pct": 55.0,
+      "dist_pct": 54.3,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 7,
-      "dist_pct": 24.0,
+      "dist_pct": 23.4,
       "side": "resistance"
     },
     {
       "level": 70000,
       "mentions": 7,
-      "dist_pct": 8.5,
+      "dist_pct": 8.0,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 8,
-      "dist_pct": -0.8,
+      "dist_pct": -1.3,
       "side": "support"
     },
     {
       "level": 62000,
       "mentions": 7,
-      "dist_pct": -3.9,
+      "dist_pct": -4.4,
       "side": "support"
     },
     {
       "level": 60000,
-      "mentions": 26,
-      "dist_pct": -7.0,
+      "mentions": 27,
+      "dist_pct": -7.4,
       "side": "support"
     },
     {
       "level": 59000,
       "mentions": 11,
-      "dist_pct": -8.6,
+      "dist_pct": -9.0,
       "side": "support"
     },
     {
       "level": 50000,
       "mentions": 10,
-      "dist_pct": -22.5,
+      "dist_pct": -22.9,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (9 bullish / 7 bearish of last 25). Key levels he's citing: $100K, $80K, $70K, $64K. Latest: \"Well... it was pretty textbook.   $BTC pumping straight into news almost always leads to the same outcome afterwards.  -2% since\u2705 https://t.co/KXQsRSgF9M\"",
+  "stance": "Recent tone is mixed (8 bullish / 8 bearish of last 25). Key levels he's citing: $100K, $80K, $70K, $64K. Latest: \"$BTC  Monthly close is in 2 days, and so far it doesn't look like a particularly bearish close. We've already established both the monthly high and monthly low.\"",
   "high_conviction_count": 75
 }
