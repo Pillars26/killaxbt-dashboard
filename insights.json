@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-31T11:47:44.796441+00:00",
-  "last_price": 63770,
+  "generated": "2026-07-31T13:51:15.061797+00:00",
+  "last_price": 63285.68,
   "last_price_time": 1785456000,
   "positions": [],
   "equity_curve": [
@@ -315,68 +315,68 @@
     {
       "time": 1784965212,
       "date": "Sat Jul 25 07:40",
-      "equity": 0.9028,
+      "equity": 0.8959,
       "dir": "long",
-      "ret_pct": -0.82
+      "ret_pct": -1.57
     },
     {
       "time": 1785098629,
       "date": "Sun Jul 26 20:43",
-      "equity": 0.8811,
+      "equity": 0.8678,
       "dir": "long",
-      "ret_pct": -2.4
+      "ret_pct": -3.15
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 11,
-      "dist_pct": 56.8,
+      "dist_pct": 58.0,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 7,
-      "dist_pct": 25.5,
+      "dist_pct": 26.4,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 7,
-      "dist_pct": 1.9,
+      "dist_pct": 2.7,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 8,
-      "dist_pct": 0.4,
+      "dist_pct": 1.1,
       "side": "resistance"
     },
     {
       "level": 62000,
       "mentions": 7,
-      "dist_pct": -2.8,
+      "dist_pct": -2.0,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 27,
-      "dist_pct": -5.9,
+      "dist_pct": -5.2,
       "side": "support"
     },
     {
       "level": 59000,
-      "mentions": 12,
-      "dist_pct": -7.5,
+      "mentions": 13,
+      "dist_pct": -6.8,
       "side": "support"
     },
     {
       "level": 50000,
       "mentions": 10,
-      "dist_pct": -21.6,
+      "dist_pct": -21.0,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (11 bullish / 5 bearish of last 25). Key levels he's citing: $100K, $80K, $65K, $64K. Latest: \"The scene is just as dry as it was when we were at 16K last cycle.   Bored beyond disbelief &amp; I know you all feel the same.   We are close, $BTC\"",
+  "stance": "Recent tone is bullish (11 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $80K, $65K, $64K. Latest: \"This was my plan from months ago\u2026 $BTC  The big capitulation wick everyone is hunting for is unlikely to extend us significantly lower (36-48K)  In every bear c\"",
   "high_conviction_count": 75
 }
