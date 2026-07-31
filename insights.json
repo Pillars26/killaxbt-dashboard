@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-31T17:42:50.845649+00:00",
-  "last_price": 62976.09,
+  "generated": "2026-07-31T18:58:26.374039+00:00",
+  "last_price": 63036.5,
   "last_price_time": 1785456000,
   "positions": [],
   "equity_curve": [
@@ -315,68 +315,68 @@
     {
       "time": 1784965212,
       "date": "Sat Jul 25 07:40",
-      "equity": 0.8916,
+      "equity": 0.8924,
       "dir": "long",
-      "ret_pct": -2.05
+      "ret_pct": -1.96
     },
     {
       "time": 1785098629,
       "date": "Sun Jul 26 20:43",
-      "equity": 0.8593,
+      "equity": 0.8609,
       "dir": "long",
-      "ret_pct": -3.62
+      "ret_pct": -3.53
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 11,
-      "dist_pct": 58.8,
+      "dist_pct": 58.6,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 7,
-      "dist_pct": 27.0,
+      "dist_pct": 26.9,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 7,
-      "dist_pct": 3.2,
+      "dist_pct": 3.1,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 7,
-      "dist_pct": 1.6,
+      "dist_pct": 1.5,
       "side": "resistance"
     },
     {
       "level": 62000,
       "mentions": 7,
-      "dist_pct": -1.5,
+      "dist_pct": -1.6,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 27,
-      "dist_pct": -4.7,
+      "dist_pct": -4.8,
       "side": "support"
     },
     {
       "level": 59000,
       "mentions": 13,
-      "dist_pct": -6.3,
+      "dist_pct": -6.4,
       "side": "support"
     },
     {
       "level": 50000,
       "mentions": 10,
-      "dist_pct": -20.6,
+      "dist_pct": -20.7,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (11 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $80K, $65K, $64K. Latest: \"No surprise so far\u2026  $BTC is down 2.8% since FOMC.    In 6 of the last 7 cases, we saw average drops of 4-5%.   If this reaction mimics the past, we could test \"",
+  "stance": "Recent tone is bullish (12 bullish / 5 bearish of last 25). Key levels he's citing: $100K, $80K, $65K, $64K. Latest: \"Would be peak irony if the people who ignored the 4 year cycle at the top end up using it to call the bottom, only for it to stop working.  Then again, it'd be \"",
   "high_conviction_count": 75
 }
