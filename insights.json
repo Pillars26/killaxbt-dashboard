@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-31T13:51:15.061797+00:00",
-  "last_price": 63285.68,
+  "generated": "2026-07-31T15:59:24.812008+00:00",
+  "last_price": 62640.84,
   "last_price_time": 1785456000,
   "positions": [],
   "equity_curve": [
@@ -315,68 +315,68 @@
     {
       "time": 1784965212,
       "date": "Sat Jul 25 07:40",
-      "equity": 0.8959,
+      "equity": 0.8868,
       "dir": "long",
-      "ret_pct": -1.57
+      "ret_pct": -2.57
     },
     {
       "time": 1785098629,
       "date": "Sun Jul 26 20:43",
-      "equity": 0.8678,
+      "equity": 0.8502,
       "dir": "long",
-      "ret_pct": -3.15
+      "ret_pct": -4.13
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 11,
-      "dist_pct": 58.0,
+      "dist_pct": 59.6,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 7,
-      "dist_pct": 26.4,
+      "dist_pct": 27.7,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 7,
-      "dist_pct": 2.7,
+      "dist_pct": 3.8,
       "side": "resistance"
     },
     {
       "level": 64000,
-      "mentions": 8,
-      "dist_pct": 1.1,
+      "mentions": 7,
+      "dist_pct": 2.2,
       "side": "resistance"
     },
     {
       "level": 62000,
       "mentions": 7,
-      "dist_pct": -2.0,
+      "dist_pct": -1.0,
       "side": "support"
     },
     {
       "level": 60000,
-      "mentions": 27,
-      "dist_pct": -5.2,
+      "mentions": 26,
+      "dist_pct": -4.2,
       "side": "support"
     },
     {
       "level": 59000,
       "mentions": 13,
-      "dist_pct": -6.8,
+      "dist_pct": -5.8,
       "side": "support"
     },
     {
       "level": 50000,
       "mentions": 10,
-      "dist_pct": -21.0,
+      "dist_pct": -20.2,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (11 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $80K, $65K, $64K. Latest: \"This was my plan from months ago\u2026 $BTC  The big capitulation wick everyone is hunting for is unlikely to extend us significantly lower (36-48K)  In every bear c\"",
+  "stance": "Recent tone is bullish (11 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $80K, $65K, $64K. Latest: \"$BTC  Come get me, my invalidation sits at 31K.  Looks like everyone's gambling on prices 15% away.  I'll post the outcome either way, PnL at 160K, or the loss \"",
   "high_conviction_count": 75
 }
