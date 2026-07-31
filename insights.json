@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-31T09:32:01.468211+00:00",
-  "last_price": 63605.39,
+  "generated": "2026-07-31T11:47:44.796441+00:00",
+  "last_price": 63770,
   "last_price_time": 1785456000,
   "positions": [],
   "equity_curve": [
@@ -315,68 +315,68 @@
     {
       "time": 1784965212,
       "date": "Sat Jul 25 07:40",
-      "equity": 0.9005,
+      "equity": 0.9028,
       "dir": "long",
-      "ret_pct": -1.07
+      "ret_pct": -0.82
     },
     {
       "time": 1785098629,
       "date": "Sun Jul 26 20:43",
-      "equity": 0.8765,
+      "equity": 0.8811,
       "dir": "long",
-      "ret_pct": -2.66
+      "ret_pct": -2.4
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 11,
-      "dist_pct": 57.2,
+      "dist_pct": 56.8,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 7,
-      "dist_pct": 25.8,
+      "dist_pct": 25.5,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 7,
-      "dist_pct": 2.2,
+      "dist_pct": 1.9,
       "side": "resistance"
     },
     {
       "level": 64000,
       "mentions": 8,
-      "dist_pct": 0.6,
+      "dist_pct": 0.4,
       "side": "resistance"
     },
     {
       "level": 62000,
       "mentions": 7,
-      "dist_pct": -2.5,
+      "dist_pct": -2.8,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 27,
-      "dist_pct": -5.7,
+      "dist_pct": -5.9,
       "side": "support"
     },
     {
       "level": 59000,
       "mentions": 12,
-      "dist_pct": -7.2,
+      "dist_pct": -7.5,
       "side": "support"
     },
     {
       "level": 50000,
       "mentions": 10,
-      "dist_pct": -21.4,
+      "dist_pct": -21.6,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (11 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $80K, $65K, $64K. Latest: \"$BTC  The bull market begins when nobody expects it to begin.   The funny thing is, we have been in a bull market for 17 years. https://t.co/V4RYfIWjxj\"",
+  "stance": "Recent tone is bullish (11 bullish / 5 bearish of last 25). Key levels he's citing: $100K, $80K, $65K, $64K. Latest: \"The scene is just as dry as it was when we were at 16K last cycle.   Bored beyond disbelief &amp; I know you all feel the same.   We are close, $BTC\"",
   "high_conviction_count": 75
 }
