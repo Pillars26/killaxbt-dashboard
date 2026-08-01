@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-01T19:32:06.867349+00:00",
-  "last_price": 62529.27,
+  "generated": "2026-08-01T20:31:52.168171+00:00",
+  "last_price": 62553.96,
   "last_price_time": 1785542400,
   "positions": [],
   "equity_curve": [
@@ -315,16 +315,16 @@
     {
       "time": 1784965212,
       "date": "Sat Jul 25 07:40",
-      "equity": 0.8852,
+      "equity": 0.8856,
       "dir": "long",
-      "ret_pct": -2.75
+      "ret_pct": -2.71
     },
     {
       "time": 1785098629,
       "date": "Sun Jul 26 20:43",
-      "equity": 0.8471,
+      "equity": 0.8478,
       "dir": "long",
-      "ret_pct": -4.3
+      "ret_pct": -4.27
     }
   ],
   "levels": [
@@ -343,40 +343,40 @@
     {
       "level": 65000,
       "mentions": 7,
-      "dist_pct": 4.0,
+      "dist_pct": 3.9,
       "side": "resistance"
     },
     {
       "level": 62000,
       "mentions": 7,
-      "dist_pct": -0.8,
+      "dist_pct": -0.9,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 22,
-      "dist_pct": -4.0,
+      "dist_pct": -4.1,
       "side": "support"
     },
     {
       "level": 59000,
       "mentions": 13,
-      "dist_pct": -5.6,
+      "dist_pct": -5.7,
       "side": "support"
     },
     {
       "level": 57000,
-      "mentions": 7,
-      "dist_pct": -8.8,
+      "mentions": 8,
+      "dist_pct": -8.9,
       "side": "support"
     },
     {
       "level": 50000,
       "mentions": 10,
-      "dist_pct": -20.0,
+      "dist_pct": -20.1,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (10 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $80K, $65K, $62K. Latest: \"New monthly open for $BTC.  We\u2019ve formed quite a bearish narrative going into this new monthly candle. Because of that, there\u2019s a good chance we see a bullish r\"",
+  "stance": "Recent tone is bullish (11 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $80K, $65K, $62K. Latest: \"Time to fuck around and find out.  If bitcoin:native ends up mirroring the 2022 price action, it would imply that BTC never trades below 57K again.  That's a BI\"",
   "high_conviction_count": 75
 }
