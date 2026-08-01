@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-01T22:37:45.175058+00:00",
-  "last_price": 62785.31,
+  "generated": "2026-08-01T23:40:11.342307+00:00",
+  "last_price": 62761.24,
   "last_price_time": 1785542400,
   "positions": [],
   "equity_curve": [
@@ -315,16 +315,16 @@
     {
       "time": 1784965212,
       "date": "Sat Jul 25 07:40",
-      "equity": 0.8889,
+      "equity": 0.8885,
       "dir": "long",
-      "ret_pct": -2.35
+      "ret_pct": -2.39
     },
     {
       "time": 1785098629,
       "date": "Sun Jul 26 20:43",
-      "equity": 0.8541,
+      "equity": 0.8534,
       "dir": "long",
-      "ret_pct": -3.91
+      "ret_pct": -3.95
     }
   ],
   "levels": [
@@ -337,19 +337,19 @@
     {
       "level": 80000,
       "mentions": 7,
-      "dist_pct": 27.4,
+      "dist_pct": 27.5,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 7,
-      "dist_pct": 3.5,
+      "dist_pct": 3.6,
       "side": "resistance"
     },
     {
       "level": 62000,
       "mentions": 7,
-      "dist_pct": -1.3,
+      "dist_pct": -1.2,
       "side": "support"
     },
     {
@@ -373,10 +373,10 @@
     {
       "level": 50000,
       "mentions": 10,
-      "dist_pct": -20.4,
+      "dist_pct": -20.3,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (11 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $80K, $65K, $62K. Latest: \"Time to fuck around and find out.  If bitcoin:native ends up mirroring the 2022 price action, it would imply that BTC never trades below 57K again.  That's a BI\"",
+  "stance": "Recent tone is bullish (11 bullish / 5 bearish of last 25). Key levels he's citing: $100K, $80K, $65K, $62K. Latest: \"It was obvious for $BTC in hindsight.    \"People just didn't want to believe it.\"     Likewise, market bottoms are only obvious in hindsight, by the time everyo\"",
   "high_conviction_count": 75
 }
