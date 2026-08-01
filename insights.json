@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-01T16:58:51.911800+00:00",
-  "last_price": 62852.54,
+  "generated": "2026-08-01T19:32:06.867349+00:00",
+  "last_price": 62529.27,
   "last_price_time": 1785542400,
   "positions": [],
   "equity_curve": [
@@ -315,68 +315,68 @@
     {
       "time": 1784965212,
       "date": "Sat Jul 25 07:40",
-      "equity": 0.8898,
+      "equity": 0.8852,
       "dir": "long",
-      "ret_pct": -2.24
+      "ret_pct": -2.75
     },
     {
       "time": 1785098629,
       "date": "Sun Jul 26 20:43",
-      "equity": 0.8559,
+      "equity": 0.8471,
       "dir": "long",
-      "ret_pct": -3.81
+      "ret_pct": -4.3
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 11,
-      "dist_pct": 59.1,
+      "dist_pct": 59.9,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 7,
-      "dist_pct": 27.3,
+      "dist_pct": 27.9,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 7,
-      "dist_pct": 3.4,
+      "dist_pct": 4.0,
       "side": "resistance"
     },
     {
       "level": 62000,
       "mentions": 7,
-      "dist_pct": -1.4,
+      "dist_pct": -0.8,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 22,
-      "dist_pct": -4.5,
+      "dist_pct": -4.0,
       "side": "support"
     },
     {
       "level": 59000,
       "mentions": 13,
-      "dist_pct": -6.1,
+      "dist_pct": -5.6,
       "side": "support"
     },
     {
       "level": 57000,
-      "mentions": 6,
-      "dist_pct": -9.3,
+      "mentions": 7,
+      "dist_pct": -8.8,
       "side": "support"
     },
     {
       "level": 50000,
       "mentions": 10,
-      "dist_pct": -20.4,
+      "dist_pct": -20.0,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (10 bullish / 7 bearish of last 25). Key levels he's citing: $100K, $80K, $65K, $62K. Latest: \"Filled on $HYPE at 51.55.   Searching for 55-57.   Structure is still corrective so playing the bearish retest. https://t.co/aDmIq70iBG\"",
+  "stance": "Recent tone is bullish (10 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $80K, $65K, $62K. Latest: \"New monthly open for $BTC.  We\u2019ve formed quite a bearish narrative going into this new monthly candle. Because of that, there\u2019s a good chance we see a bullish r\"",
   "high_conviction_count": 75
 }
