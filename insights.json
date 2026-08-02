@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-02T19:34:30.334602+00:00",
-  "last_price": 63253.66,
+  "generated": "2026-08-02T20:34:17.627401+00:00",
+  "last_price": 63379.67,
   "last_price_time": 1785628800,
   "positions": [],
   "equity_curve": [
@@ -322,61 +322,61 @@
     {
       "time": 1785098629,
       "date": "Sun Jul 26 20:43",
-      "equity": 0.8602,
+      "equity": 0.8619,
       "dir": "long",
-      "ret_pct": -3.19
+      "ret_pct": -3.0
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 11,
-      "dist_pct": 58.1,
+      "dist_pct": 57.8,
       "side": "resistance"
     },
     {
       "level": 83000,
       "mentions": 6,
-      "dist_pct": 31.2,
+      "dist_pct": 31.0,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 7,
-      "dist_pct": 26.5,
+      "dist_pct": 26.2,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 7,
-      "dist_pct": 2.8,
+      "dist_pct": 2.6,
       "side": "resistance"
     },
     {
       "level": 60000,
       "mentions": 21,
-      "dist_pct": -5.1,
+      "dist_pct": -5.3,
       "side": "support"
     },
     {
       "level": 59000,
       "mentions": 13,
-      "dist_pct": -6.7,
+      "dist_pct": -6.9,
       "side": "support"
     },
     {
       "level": 57000,
       "mentions": 8,
-      "dist_pct": -9.9,
+      "dist_pct": -10.1,
       "side": "support"
     },
     {
       "level": 50000,
       "mentions": 11,
-      "dist_pct": -21.0,
+      "dist_pct": -21.1,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (9 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $83K, $80K, $65K. Latest: \"$BTC is already down 53%.  A test of 50K is a 60% drawdown, and with 1.5 months still left, it\u2019s definitely possible based on prior cycles.  But just stop obses\"",
+  "stance": "Recent tone is bullish (9 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $83K, $80K, $65K. Latest: \"$BTC  The only problem you're gonna have is that you didn't buy more. https://t.co/gPxaYcZU27\"",
   "high_conviction_count": 75
 }
