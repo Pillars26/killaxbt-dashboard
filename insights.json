@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-02T12:14:53.060843+00:00",
-  "last_price": 63088.19,
+  "generated": "2026-08-02T13:58:17.393187+00:00",
+  "last_price": 63047.09,
   "last_price_time": 1785628800,
   "positions": [],
   "equity_curve": [
@@ -322,16 +322,16 @@
     {
       "time": 1785098629,
       "date": "Sun Jul 26 20:43",
-      "equity": 0.8579,
+      "equity": 0.8574,
       "dir": "long",
-      "ret_pct": -3.45
+      "ret_pct": -3.51
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 11,
-      "dist_pct": 58.5,
+      "dist_pct": 58.6,
       "side": "resistance"
     },
     {
@@ -343,31 +343,31 @@
     {
       "level": 80000,
       "mentions": 7,
-      "dist_pct": 26.8,
+      "dist_pct": 26.9,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 7,
-      "dist_pct": 3.0,
+      "dist_pct": 3.1,
       "side": "resistance"
     },
     {
       "level": 60000,
       "mentions": 21,
-      "dist_pct": -4.9,
+      "dist_pct": -4.8,
       "side": "support"
     },
     {
       "level": 59000,
       "mentions": 13,
-      "dist_pct": -6.5,
+      "dist_pct": -6.4,
       "side": "support"
     },
     {
       "level": 57000,
       "mentions": 8,
-      "dist_pct": -9.7,
+      "dist_pct": -9.6,
       "side": "support"
     },
     {
@@ -377,6 +377,6 @@
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (11 bullish / 5 bearish of last 25). Key levels he's citing: $100K, $83K, $80K, $65K. Latest: \"It was obvious for $BTC in hindsight.    \"People just didn't want to believe it.\"     Likewise, market bottoms are only obvious in hindsight, by the time everyo\"",
+  "stance": "Recent tone is bullish (10 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $83K, $80K, $65K. Latest: \"Every Bitcoin bear market has had its defining Q4 FUD event.   Let's see what this cycle's headline is for $BTC.  Something bad will most likely happen. Simulat\"",
   "high_conviction_count": 75
 }
