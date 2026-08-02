@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-02T13:58:17.393187+00:00",
-  "last_price": 63047.09,
+  "generated": "2026-08-02T16:11:37.307186+00:00",
+  "last_price": 63072.92,
   "last_price_time": 1785628800,
   "positions": [],
   "equity_curve": [
@@ -322,16 +322,16 @@
     {
       "time": 1785098629,
       "date": "Sun Jul 26 20:43",
-      "equity": 0.8574,
+      "equity": 0.8577,
       "dir": "long",
-      "ret_pct": -3.51
+      "ret_pct": -3.47
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 11,
-      "dist_pct": 58.6,
+      "dist_pct": 58.5,
       "side": "resistance"
     },
     {
@@ -343,7 +343,7 @@
     {
       "level": 80000,
       "mentions": 7,
-      "dist_pct": 26.9,
+      "dist_pct": 26.8,
       "side": "resistance"
     },
     {
@@ -355,13 +355,13 @@
     {
       "level": 60000,
       "mentions": 21,
-      "dist_pct": -4.8,
+      "dist_pct": -4.9,
       "side": "support"
     },
     {
       "level": 59000,
       "mentions": 13,
-      "dist_pct": -6.4,
+      "dist_pct": -6.5,
       "side": "support"
     },
     {
@@ -377,6 +377,6 @@
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (10 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $83K, $80K, $65K. Latest: \"Every Bitcoin bear market has had its defining Q4 FUD event.   Let's see what this cycle's headline is for $BTC.  Something bad will most likely happen. Simulat\"",
+  "stance": "Recent tone is bullish (10 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $83K, $80K, $65K. Latest: \"$BTC   Positions are more net negative this bear cycle than in any previous bear market.  Exchange volume has fallen off a cliff. Sentiment is at peak despair, \"",
   "high_conviction_count": 75
 }
