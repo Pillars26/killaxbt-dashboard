@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-03T16:56:30.896502+00:00",
-  "last_price": 63690,
+  "generated": "2026-08-03T18:48:16.509930+00:00",
+  "last_price": 63758.75,
   "last_price_time": 1785715200,
   "positions": [],
   "equity_curve": [
@@ -331,52 +331,52 @@
     {
       "level": 100000,
       "mentions": 11,
-      "dist_pct": 57.0,
+      "dist_pct": 56.8,
       "side": "resistance"
     },
     {
       "level": 83000,
       "mentions": 6,
-      "dist_pct": 30.3,
+      "dist_pct": 30.2,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 7,
-      "dist_pct": 25.6,
+      "dist_pct": 25.5,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 7,
-      "dist_pct": 2.1,
+      "dist_pct": 1.9,
       "side": "resistance"
     },
     {
       "level": 60000,
       "mentions": 19,
-      "dist_pct": -5.8,
+      "dist_pct": -5.9,
       "side": "support"
     },
     {
       "level": 59000,
       "mentions": 13,
-      "dist_pct": -7.4,
+      "dist_pct": -7.5,
       "side": "support"
     },
     {
       "level": 57000,
       "mentions": 9,
-      "dist_pct": -10.5,
+      "dist_pct": -10.6,
       "side": "support"
     },
     {
       "level": 50000,
       "mentions": 11,
-      "dist_pct": -21.5,
+      "dist_pct": -21.6,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is mixed (7 bullish / 7 bearish of last 25). Key levels he's citing: $100K, $83K, $80K, $65K. Latest: \"$BTC   Quite an aggressive amount of leverage opening currently.  Seems like a lot of late shorts are piling in.  If spot selling slows down, we likely see a sq\"",
+  "stance": "Recent tone is mixed (7 bullish / 7 bearish of last 25). Key levels he's citing: $100K, $83K, $80K, $65K. Latest: \"$BTC   Pretty textbook short squeeze.  Leverage has been completely flushed out, while funding remains low.  Looks like a lot of people got caught on the wrong \"",
   "high_conviction_count": 75
 }
