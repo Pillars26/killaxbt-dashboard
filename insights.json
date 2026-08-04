@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-03T18:48:16.509930+00:00",
-  "last_price": 63758.75,
-  "last_price_time": 1785715200,
+  "generated": "2026-08-04T02:00:10.090219+00:00",
+  "last_price": 63782.29,
+  "last_price_time": 1785801600,
   "positions": [],
   "equity_curve": [
     {
@@ -337,13 +337,13 @@
     {
       "level": 83000,
       "mentions": 6,
-      "dist_pct": 30.2,
+      "dist_pct": 30.1,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 7,
-      "dist_pct": 25.5,
+      "dist_pct": 25.4,
       "side": "resistance"
     },
     {
@@ -377,6 +377,6 @@
       "side": "support"
     }
   ],
-  "stance": "Recent tone is mixed (7 bullish / 7 bearish of last 25). Key levels he's citing: $100K, $83K, $80K, $65K. Latest: \"$BTC   Pretty textbook short squeeze.  Leverage has been completely flushed out, while funding remains low.  Looks like a lot of people got caught on the wrong \"",
+  "stance": "Recent tone is bullish (8 bullish / 7 bearish of last 25). Key levels he's citing: $100K, $83K, $80K, $65K. Latest: \"So far, $BTC is up 2.5% from the monthly open.  I was leaning to the upside at the start of the month, mainly due to the bearish narrative into the monthly clos\"",
   "high_conviction_count": 75
 }
