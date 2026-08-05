@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-05T15:26:22.606001+00:00",
-  "last_price": 64456.51,
+  "generated": "2026-08-05T17:00:55.675648+00:00",
+  "last_price": 64625.01,
   "last_price_time": 1785888000,
   "positions": [],
   "equity_curve": [
@@ -331,52 +331,52 @@
     {
       "level": 100000,
       "mentions": 11,
-      "dist_pct": 55.1,
+      "dist_pct": 54.7,
       "side": "resistance"
     },
     {
       "level": 83000,
       "mentions": 6,
-      "dist_pct": 28.8,
+      "dist_pct": 28.4,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 6,
-      "dist_pct": 24.1,
+      "dist_pct": 23.8,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 7,
-      "dist_pct": 0.8,
+      "dist_pct": 0.6,
       "side": "resistance"
     },
     {
       "level": 60000,
-      "mentions": 15,
-      "dist_pct": -6.9,
+      "mentions": 17,
+      "dist_pct": -7.2,
       "side": "support"
     },
     {
       "level": 59000,
       "mentions": 12,
-      "dist_pct": -8.5,
+      "dist_pct": -8.7,
       "side": "support"
     },
     {
       "level": 57000,
       "mentions": 9,
-      "dist_pct": -11.6,
+      "dist_pct": -11.8,
       "side": "support"
     },
     {
       "level": 50000,
-      "mentions": 10,
-      "dist_pct": -22.4,
+      "mentions": 11,
+      "dist_pct": -22.6,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (13 bullish / 5 bearish of last 25). Key levels he's citing: $100K, $83K, $80K, $65K. Latest: \"$BTC   We're seeing the exact same bullish divergence on the daily that we saw back in 2022.  Almost every major confluence is suggesting the bottom could alrea\"",
+  "stance": "Recent tone is bullish (12 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $83K, $80K, $65K. Latest: \"If $BTC doesn't break 60K in the next month or so, you can kiss 50K goodbye.  I did mention the MO pivot & that we could see upside at the start of August.   So\"",
   "high_conviction_count": 75
 }
