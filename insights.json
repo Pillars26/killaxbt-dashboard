@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-05T21:34:00.977431+00:00",
-  "last_price": 64635.7,
+  "generated": "2026-08-05T22:42:55.152560+00:00",
+  "last_price": 64639.48,
   "last_price_time": 1785888000,
   "positions": [],
   "equity_curve": [
@@ -335,12 +335,6 @@
       "side": "resistance"
     },
     {
-      "level": 83000,
-      "mentions": 6,
-      "dist_pct": 28.4,
-      "side": "resistance"
-    },
-    {
       "level": 80000,
       "mentions": 7,
       "dist_pct": 23.8,
@@ -360,7 +354,7 @@
     },
     {
       "level": 59000,
-      "mentions": 12,
+      "mentions": 11,
       "dist_pct": -8.7,
       "side": "support"
     },
@@ -371,12 +365,18 @@
       "side": "support"
     },
     {
+      "level": 54000,
+      "mentions": 6,
+      "dist_pct": -16.5,
+      "side": "support"
+    },
+    {
       "level": 50000,
       "mentions": 11,
       "dist_pct": -22.6,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (12 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $83K, $80K, $65K. Latest: \"$BTC  The quoted post will probably be one of the most important posts you read in 2026.  Take the time to study it. Look beyond the price action and focus on t\"",
+  "stance": "Recent tone is bullish (12 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $80K, $65K, $60K. Latest: \"$BTC  The quoted post will probably be one of the most important posts you read in 2026.  Take the time to study it. Look beyond the price action and focus on t\"",
   "high_conviction_count": 75
 }
