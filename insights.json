@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-04T22:57:39.857825+00:00",
-  "last_price": 64208.6,
-  "last_price_time": 1785801600,
+  "generated": "2026-08-05T03:30:44.790373+00:00",
+  "last_price": 64007.42,
+  "last_price_time": 1785888000,
   "positions": [],
   "equity_curve": [
     {
@@ -331,52 +331,52 @@
     {
       "level": 100000,
       "mentions": 11,
-      "dist_pct": 55.7,
+      "dist_pct": 56.2,
       "side": "resistance"
     },
     {
       "level": 83000,
       "mentions": 6,
-      "dist_pct": 29.3,
+      "dist_pct": 29.7,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 6,
-      "dist_pct": 24.6,
+      "dist_pct": 25.0,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 7,
-      "dist_pct": 1.2,
+      "dist_pct": 1.6,
       "side": "resistance"
     },
     {
       "level": 60000,
       "mentions": 16,
-      "dist_pct": -6.6,
+      "dist_pct": -6.3,
       "side": "support"
     },
     {
       "level": 59000,
       "mentions": 12,
-      "dist_pct": -8.1,
+      "dist_pct": -7.8,
       "side": "support"
     },
     {
       "level": 57000,
       "mentions": 9,
-      "dist_pct": -11.2,
+      "dist_pct": -10.9,
       "side": "support"
     },
     {
       "level": 50000,
       "mentions": 10,
-      "dist_pct": -22.1,
+      "dist_pct": -21.9,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (10 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $83K, $80K, $65K. Latest: \"\"I'm going to buy $BTC bottom in Q4\"  People are cutting it a bit close, aren't they?  Hopefully this puts things into perspective as to why I'd rather be bulli\"",
+  "stance": "Recent tone is bullish (11 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $83K, $80K, $65K. Latest: \"$BTC   The moment we reclaim 67.4K and start trading in the mid-70Ks, holding above the STH cost basis, the bottom is in.  You can already see the price compres\"",
   "high_conviction_count": 75
 }
