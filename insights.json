@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-05T17:00:55.675648+00:00",
-  "last_price": 64625.01,
+  "generated": "2026-08-05T18:40:37.007531+00:00",
+  "last_price": 64729.51,
   "last_price_time": 1785888000,
   "positions": [],
   "equity_curve": [
@@ -331,52 +331,52 @@
     {
       "level": 100000,
       "mentions": 11,
-      "dist_pct": 54.7,
+      "dist_pct": 54.5,
       "side": "resistance"
     },
     {
       "level": 83000,
       "mentions": 6,
-      "dist_pct": 28.4,
+      "dist_pct": 28.2,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 6,
-      "dist_pct": 23.8,
+      "dist_pct": 23.6,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 7,
-      "dist_pct": 0.6,
+      "dist_pct": 0.4,
       "side": "resistance"
     },
     {
       "level": 60000,
       "mentions": 17,
-      "dist_pct": -7.2,
+      "dist_pct": -7.3,
       "side": "support"
     },
     {
       "level": 59000,
       "mentions": 12,
-      "dist_pct": -8.7,
+      "dist_pct": -8.9,
       "side": "support"
     },
     {
       "level": 57000,
       "mentions": 9,
-      "dist_pct": -11.8,
+      "dist_pct": -11.9,
       "side": "support"
     },
     {
       "level": 50000,
       "mentions": 11,
-      "dist_pct": -22.6,
+      "dist_pct": -22.8,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (12 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $83K, $80K, $65K. Latest: \"If $BTC doesn't break 60K in the next month or so, you can kiss 50K goodbye.  I did mention the MO pivot & that we could see upside at the start of August.   So\"",
+  "stance": "Recent tone is bullish (12 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $83K, $80K, $65K. Latest: \"$BTC  And just like that... we're up 4% since the start of the month.  \"Personally, I think a 2-4% move higher at the start of the month makes the most sense, e\"",
   "high_conviction_count": 75
 }
