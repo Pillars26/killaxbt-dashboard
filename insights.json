@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-06T10:07:07.311694+00:00",
-  "last_price": 64565.69,
+  "generated": "2026-08-06T12:17:49.022460+00:00",
+  "last_price": 64394.81,
   "last_price_time": 1785974400,
   "positions": [],
   "equity_curve": [
@@ -331,52 +331,52 @@
     {
       "level": 100000,
       "mentions": 11,
-      "dist_pct": 54.9,
+      "dist_pct": 55.3,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 7,
-      "dist_pct": 23.9,
+      "dist_pct": 24.2,
       "side": "resistance"
     },
     {
       "level": 65000,
       "mentions": 7,
-      "dist_pct": 0.7,
+      "dist_pct": 0.9,
       "side": "resistance"
     },
     {
       "level": 60000,
-      "mentions": 17,
-      "dist_pct": -7.1,
+      "mentions": 16,
+      "dist_pct": -6.8,
       "side": "support"
     },
     {
       "level": 59000,
       "mentions": 11,
-      "dist_pct": -8.6,
+      "dist_pct": -8.4,
       "side": "support"
     },
     {
       "level": 57000,
       "mentions": 9,
-      "dist_pct": -11.7,
+      "dist_pct": -11.5,
       "side": "support"
     },
     {
       "level": 54000,
       "mentions": 6,
-      "dist_pct": -16.4,
+      "dist_pct": -16.1,
       "side": "support"
     },
     {
       "level": 50000,
       "mentions": 11,
-      "dist_pct": -22.6,
+      "dist_pct": -22.4,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (12 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $80K, $65K, $60K. Latest: \"$BTC  The quoted post will probably be one of the most important posts you read in 2026.  Take the time to study it. Look beyond the price action and focus on t\"",
+  "stance": "Recent tone is bullish (12 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $80K, $65K, $60K. Latest: \"$BTC   The 5th Pivot  As mentioned in my monthly open pivot post, we saw the expected pump at the start of the month, which played out as anticipated.  Now, we'\"",
   "high_conviction_count": 75
 }
