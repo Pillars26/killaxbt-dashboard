@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-08T09:09:44.268749+00:00",
-  "last_price": 64963.48,
+  "generated": "2026-08-08T09:53:46.827572+00:00",
+  "last_price": 64949.74,
   "last_price_time": 1786147200,
   "positions": [],
   "equity_curve": [
@@ -329,22 +329,22 @@
     {
       "time": 1786033077,
       "date": "Thu Aug 06 16:17",
-      "equity": 0.8729,
+      "equity": 0.8727,
       "dir": "long",
-      "ret_pct": 1.08
+      "ret_pct": 1.06
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 7,
-      "dist_pct": 53.9,
+      "dist_pct": 54.0,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 7,
-      "dist_pct": 23.1,
+      "dist_pct": 23.2,
       "side": "resistance"
     },
     {
@@ -368,7 +368,7 @@
     {
       "level": 57000,
       "mentions": 9,
-      "dist_pct": -12.3,
+      "dist_pct": -12.2,
       "side": "support"
     },
     {
@@ -384,6 +384,6 @@
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (13 bullish / 5 bearish of last 25). Key levels he's citing: $100K, $80K, $65K, $60K. Latest: \"They will say, \u201cKilla won\u2019t hold a $BTC long for 2 years.\u201d  Hold my beer.  APR on Binance, Bybit & many other exchanges averages around 0.01% every 8H reset, wh\"",
+  "stance": "Recent tone is bullish (14 bullish / 5 bearish of last 25). Key levels he's citing: $100K, $80K, $65K, $60K. Latest: \"$BTC   Pretty textbook if you understand candle range theory and volume.  A close above 65.7K opens the door to 68-71K, which lines up with a key LVN (Low Volum\"",
   "high_conviction_count": 77
 }
