@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-08T12:01:13.543887+00:00",
-  "last_price": 64921.87,
+  "generated": "2026-08-08T13:11:23.309364+00:00",
+  "last_price": 64962.14,
   "last_price_time": 1786147200,
   "positions": [],
   "equity_curve": [
@@ -329,22 +329,22 @@
     {
       "time": 1786033077,
       "date": "Thu Aug 06 16:17",
-      "equity": 0.8723,
+      "equity": 0.8729,
       "dir": "long",
-      "ret_pct": 1.02
+      "ret_pct": 1.08
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 7,
-      "dist_pct": 54.0,
+      "dist_pct": 53.9,
       "side": "resistance"
     },
     {
       "level": 80000,
       "mentions": 7,
-      "dist_pct": 23.2,
+      "dist_pct": 23.1,
       "side": "resistance"
     },
     {
@@ -362,19 +362,19 @@
     {
       "level": 59000,
       "mentions": 11,
-      "dist_pct": -9.1,
+      "dist_pct": -9.2,
       "side": "support"
     },
     {
       "level": 57000,
       "mentions": 9,
-      "dist_pct": -12.2,
+      "dist_pct": -12.3,
       "side": "support"
     },
     {
       "level": 54000,
       "mentions": 6,
-      "dist_pct": -16.8,
+      "dist_pct": -16.9,
       "side": "support"
     },
     {
@@ -384,6 +384,6 @@
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (14 bullish / 5 bearish of last 25). Key levels he's citing: $100K, $80K, $65K, $60K. Latest: \"$BTC   Pretty textbook if you understand candle range theory and volume.  A close above 65.7K opens the door to 68-71K, which lines up with a key LVN (Low Volum\"",
+  "stance": "Recent tone is bullish (13 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $80K, $65K, $60K. Latest: \"Imagine still being bearish after a 54% drop.  Really goes to show just how greedy some people are with entries.\"",
   "high_conviction_count": 77
 }
