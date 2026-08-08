@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-08T16:50:22.303990+00:00",
-  "last_price": 65014.33,
+  "generated": "2026-08-08T17:24:02.371052+00:00",
+  "last_price": 65063.03,
   "last_price_time": 1786147200,
   "positions": [],
   "equity_curve": [
@@ -329,16 +329,16 @@
     {
       "time": 1786033077,
       "date": "Thu Aug 06 16:17",
-      "equity": 0.8736,
+      "equity": 0.8742,
       "dir": "long",
-      "ret_pct": 1.16
+      "ret_pct": 1.24
     }
   ],
   "levels": [
     {
       "level": 100000,
       "mentions": 7,
-      "dist_pct": 53.8,
+      "dist_pct": 53.7,
       "side": "resistance"
     },
     {
@@ -350,40 +350,40 @@
     {
       "level": 65000,
       "mentions": 7,
-      "dist_pct": -0.0,
+      "dist_pct": -0.1,
       "side": "support"
     },
     {
       "level": 60000,
       "mentions": 16,
-      "dist_pct": -7.7,
+      "dist_pct": -7.8,
       "side": "support"
     },
     {
       "level": 59000,
-      "mentions": 11,
+      "mentions": 10,
       "dist_pct": -9.3,
       "side": "support"
     },
     {
       "level": 57000,
       "mentions": 9,
-      "dist_pct": -12.3,
+      "dist_pct": -12.4,
       "side": "support"
     },
     {
       "level": 54000,
       "mentions": 6,
-      "dist_pct": -16.9,
+      "dist_pct": -17.0,
       "side": "support"
     },
     {
       "level": 50000,
       "mentions": 11,
-      "dist_pct": -23.1,
+      "dist_pct": -23.2,
       "side": "support"
     }
   ],
-  "stance": "Recent tone is bullish (13 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $80K, $65K, $60K. Latest: \"Imagine still being bearish after a 54% drop.  Really goes to show just how greedy some people are with entries.\"",
+  "stance": "Recent tone is bullish (12 bullish / 6 bearish of last 25). Key levels he's citing: $100K, $80K, $65K, $60K. Latest: \"$BTC   If we respect below the current weekly high, we will retest the monthly open at 62.7K.   On the flip side, if we are able to regain 65.3K with force, a m\"",
   "high_conviction_count": 77
 }
